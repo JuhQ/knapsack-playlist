@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1595259984310" clover="3.2.0">
-  <project timestamp="1595259984310" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
-    <file name="App.tsx" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Components/App/App.tsx">
+<coverage generated="1595276347742" clover="3.2.0">
+  <project timestamp="1595276347742" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="23" coveredelements="23" complexity="0" loc="15" ncloc="15" packages="4" files="4" classes="4"/>
+    <package name="src">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="types.ts" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/types.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.Algorithms.knapsack">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="knapsack.ts" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Algorithms/knapsack/knapsack.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.App">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-    </file>
+      <file name="App.tsx" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Components/App/App.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Models.Youtube">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Youtube.ts" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Models/Youtube/Youtube.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="673" count="1" type="stmt"/>
+        <line num="1043" count="1" type="stmt"/>
+        <line num="1044" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

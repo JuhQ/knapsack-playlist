@@ -1,13 +1,5 @@
 # Viikko 1
 
-Vastaa kirjoituksessa esimerkiksi seuraaviin kysymyksiin:
-
-- Mitä olen tehnyt tällä viikolla?
-- Miten ohjelma on edistynyt?
-- Mitä opin tällä viikolla / tänään?
-- Mikä jäi epäselväksi tai tuottanut vaikeuksia? Vastaa tähän kohtaan rehellisesti, koska saat tarvittaessa apua tämän kohdan perusteella.
-- Mitä teen seuraavaksi?
-
 ## Mitä saatu aikaiseksi
 
 Projektin ideaksi muodostui soittolistan luominen Knapsack -algoritmia käyttäen. Idean lisäksi github repositorio on luotu ja ohjelmakoodin toteutus on aloitettu. Dokumentaatio on aloitettu.

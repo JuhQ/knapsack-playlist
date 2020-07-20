@@ -16,6 +16,10 @@ Ennen kuin mitään alla olevaa komentoa voi ajaa, ajathan ensin `npm install` k
 Käynnistää ohjelman kehitysmoodissa.<br />
 Kehitysympäristö toimii selaimessa osoitteessa [http://localhost:3000](http://localhost:3000) ja päivittyy automaattisesti kun lähdekoodiin tehdään muutoksia.
 
+### `npm test`
+
+Tämä komento ajaa testit interaktiivisessa moodissa.
+
 ### `npm run test-coverage`
 
 Tämä komento ajaa testit sekä generoi kattavuusraportin. Raportin löytää [coverage](/coverage/lcov-report) hakemistosta. Githubissa generoitu kattavuusraportti ei ole helposti luettavissa, kannattaakin kloonata projekti omalle koneelle ja avata raportit selaimessa.
