@@ -1,0 +1,1115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YouTube model should return list of audiobooks 1`] = `
+Array [
+  Object {
+    "id": "SRdeTrTKGMk",
+    "seconds": 26816,
+    "title": "Brian Cox Andrew Cohen Human Universe Audiobook",
+  },
+  Object {
+    "id": "w0Wmc8C0Eq0",
+    "seconds": 2820,
+    "title": "History of Russia (PARTS 1-5) - Rurik to Revolution",
+  },
+  Object {
+    "id": "ADbgztDCqzY",
+    "seconds": 36008,
+    "title": "Marcus Chown What a Wonderful World One Man's Attempt to Explain the Big Stuff Audiobook",
+  },
+  Object {
+    "id": "vedycfT3-S8",
+    "seconds": 3017,
+    "title": "Egypt - Episode 1 - Chaos and Kings - Full Episode",
+  },
+  Object {
+    "id": "ISdBAf-ysI0",
+    "seconds": 3536,
+    "title": "The Secrets Of Quantum Physics (Jim Al-Khalili) | Spark",
+  },
+  Object {
+    "id": "LKOoPcHxPhU",
+    "seconds": 10994,
+    "title": "History of the Christianity's first 1000 years",
+  },
+  Object {
+    "id": "9EcKjYQDqJc",
+    "seconds": 5804,
+    "title": "The Big Fat Quiz of Everything (6th January 2017)",
+  },
+  Object {
+    "id": "bRcu-ysocX4",
+    "seconds": 4218,
+    "title": "1177 BC: The Year Civilization Collapsed (Eric Cline, PhD)",
+  },
+  Object {
+    "id": "5x0HAUxAT7Y",
+    "seconds": 9951,
+    "title": "History of the Japanese Empire",
+  },
+  Object {
+    "id": "v1_WqVguRJg",
+    "seconds": 3000,
+    "title": "Engineering Connections (Richard Hammond) - Space Shuttle | Science Documentary | Reel Truth Science",
+  },
+  Object {
+    "id": "3tn1AF0rOiw",
+    "seconds": 13272,
+    "title": "Astrophysics for People in a Hurry - Neil deGrasse Tyson Bestseller Science Audiobook",
+  },
+  Object {
+    "id": "hsd5GkSPBNg",
+    "seconds": 37536,
+    "title": "Lawrence M. Krauss The Greatest Story Ever Told So Far Why Are We Here Audiobook",
+  },
+  Object {
+    "id": "rKPv8zApee0",
+    "seconds": 3547,
+    "title": "Everything and Nothing: What is Nothing? (Jim Al-Khalili) | Science Documentary | Science",
+  },
+  Object {
+    "id": "M22MEShcyx8",
+    "seconds": 3509,
+    "title": "The Nature of Space and Time | Brian Greene",
+  },
+  Object {
+    "id": "qj7HH0PCqIE",
+    "seconds": 3526,
+    "title": "The Story Of Information With Professor Jim Al-Khalili | Order and Disorder | Spark",
+  },
+  Object {
+    "id": "mmcc6HL9Ekk",
+    "seconds": 37596,
+    "title": "Carl Sagan : Pale blue dot - A Vision of the Human Future in Space [audiobook]",
+  },
+  Object {
+    "id": "SvaG0xDdP8g",
+    "seconds": 4844,
+    "title": "The Space Shuttle (Narrated by William Shatner)",
+  },
+  Object {
+    "id": "q4ONRJ1kTdA",
+    "seconds": 3530,
+    "title": "The Secrets Of Quantum Physics: Let There Be Life (Jim Al-Khalili) | Spark",
+  },
+  Object {
+    "id": "vHYQxhj2ndk",
+    "seconds": 19893,
+    "title": "A Universe from Nothing   Why There is Something Rather Than Nothing by Lawrence Krauss Audiobook",
+  },
+  Object {
+    "id": "1C0sFXU0SLo",
+    "seconds": 3554,
+    "title": "Michael Wood - In search of Beowulf",
+  },
+  Object {
+    "id": "86aBBuehHPU",
+    "seconds": 3690,
+    "title": "The Devil's Brood - Episode 1  | Plantagenets |  BBC Documentary",
+  },
+  Object {
+    "id": "0NbBjNiw4tk",
+    "seconds": 2534,
+    "title": "Michio Kaku: The Universe in a Nutshell (Full Presentation) | Big Think",
+  },
+  Object {
+    "id": "cyvDG8qjt-M",
+    "seconds": 3526,
+    "title": "BBC Magic Numbers Mysterious World of Maths 1of3 720p HDTV x264 AAC MVGroup org",
+  },
+  Object {
+    "id": "zJUtklGG0dk",
+    "seconds": 42553,
+    "title": "Physics of the impossible || Quantum physics - Michio Kaku #audio-book",
+  },
+  Object {
+    "id": "enSXh4YY9Ws",
+    "seconds": 4545,
+    "title": "Brian Cox Lecture - GCSE Science brought down to Earth",
+  },
+  Object {
+    "id": "9RExQFZzHXQ",
+    "seconds": 4633,
+    "title": "The Poetry of Science: Richard Dawkins and Neil deGrasse Tyson",
+  },
+  Object {
+    "id": "zNVQfWC_evg",
+    "seconds": 3618,
+    "title": "Quantum Fields: The Real Building Blocks of the Universe - with David Tong",
+  },
+  Object {
+    "id": "gXbIzc3bcT8",
+    "seconds": 3548,
+    "title": "Everything and Nothing: What is Everything? (Jim Al-Khalili) | Science Documentary | Science",
+  },
+  Object {
+    "id": "X_m1mPtYzTk",
+    "seconds": 4792,
+    "title": "The Future of Colonizing Space- Neil deGrasse Tyson- WGS 2018",
+  },
+  Object {
+    "id": "5hVmeOCJjOU",
+    "seconds": 3371,
+    "title": "A Brief History of Quantum Mechanics - with Sean Carroll",
+  },
+  Object {
+    "id": "0g8lANs6zpQ",
+    "seconds": 4942,
+    "title": "The Magic of Chemistry - with Andrew Szydlo",
+  },
+  Object {
+    "id": "t6m49vNjEGs",
+    "seconds": 2545,
+    "title": "How the rich get richer – money in the world economy | DW Documentary",
+  },
+  Object {
+    "id": "KFS4oiVDeBI",
+    "seconds": 2930,
+    "title": "Atom: The Illusion Of Reality (Jim Al-Khalili) | Science Documentary | Reel Truth Science",
+  },
+  Object {
+    "id": "Gtp51eZkwoI",
+    "seconds": 10495,
+    "title": "Shock and Awe: The Story of Electricity -- Jim Al-Khalili  BBC Horizon",
+  },
+  Object {
+    "id": "qMMgsjnI1is",
+    "seconds": 5961,
+    "title": "The Matter Of Antimatter: Answering The Cosmic Riddle Of Existence",
+  },
+  Object {
+    "id": "VLDel3aZSxM",
+    "seconds": 9417,
+    "title": "ANOTHER EARTH: Alien Planet  - Space Documentary HD",
+  },
+  Object {
+    "id": "aUW7patpm9s",
+    "seconds": 4955,
+    "title": "Multiverse: One Universe or Many?",
+  },
+  Object {
+    "id": "0lLv58zwGhU",
+    "seconds": 13086,
+    "title": "A Symposium on Haremhab: General and King of Egypt",
+  },
+  Object {
+    "id": "BFrBr8oUVXU",
+    "seconds": 5569,
+    "title": "Quantum Reality: Space, Time, and Entanglement",
+  },
+  Object {
+    "id": "s0dMTAQM4cw",
+    "seconds": 2546,
+    "title": "Artificial intelligence & algorithms: pros & cons | DW Documentary (AI documentary)",
+  },
+  Object {
+    "id": "VzWTyufdkug",
+    "seconds": 3001,
+    "title": "Monster BLACK HOLE | Full Documentary",
+  },
+  Object {
+    "id": "2_p2ELD7npw",
+    "seconds": 2657,
+    "title": "The Amazing World Of Gravity (Jim Al-Khalili) | Spark",
+  },
+  Object {
+    "id": "CYQwrAhT7HA",
+    "seconds": 2979,
+    "title": "Atom: The Key To The Cosmos (Jim Al-Khalili) | Science Documentary | Reel Truth Science",
+  },
+  Object {
+    "id": "q0mljE9K-gY",
+    "seconds": 5537,
+    "title": "Richard Dawkins & Lawrence Krauss: Something from Nothing",
+  },
+  Object {
+    "id": "xPmUjobCfhE",
+    "seconds": 2578,
+    "title": "The Inventors That Are Following In Nikola Tesla's Footsteps | Tesla's Children | Spark",
+  },
+  Object {
+    "id": "p_yOueFMe7c",
+    "seconds": 3599,
+    "title": "The Secret Life Of Chaos: Chaos Theory (Jim Al-Khalili) | Science Documentary | Science",
+  },
+  Object {
+    "id": "SRdeTrTKGMks",
+    "seconds": 26816,
+    "title": "Brian Cox Andrew Cohen Human Universe Audiobook",
+  },
+  Object {
+    "id": "vsMydMDi3rI",
+    "seconds": 3789,
+    "title": "Catch Me If You Can | Frank Abagnale | Talks at Google",
+  },
+  Object {
+    "id": "uegOUmgKB4E",
+    "seconds": 3791,
+    "title": "PandoMonthly: Fireside Chat With Elon Musk",
+  },
+  Object {
+    "id": "3tn1AF0rOiws",
+    "seconds": 13272,
+    "title": "Astrophysics for People in a Hurry - Neil deGrasse Tyson Bestseller Science Audiobook",
+  },
+  Object {
+    "id": "KnpY46lOTX4",
+    "seconds": 4620,
+    "title": "John Cleese in conversation with Eric Idle at Live Talks Los Angeles",
+  },
+  Object {
+    "id": "fORZASxZMEQs",
+    "seconds": 13271,
+    "title": "Astrophysics for People in a Hurry - Neil deGrasse Tyson Bestseller Science Audiobook",
+  },
+  Object {
+    "id": "NNnIGh9g6fA",
+    "seconds": 3435,
+    "title": "1. Introduction to Human Behavioral Biology",
+  },
+  Object {
+    "id": "0tYm41hb48o",
+    "seconds": 8863,
+    "title": "Does God Exist? William Lane Craig vs. Christopher Hitchens - Full Debate [HD]",
+  },
+  Object {
+    "id": "0jjFjC30-4A",
+    "seconds": 475,
+    "title": "Brian Greene Explains That Whole General Relativity Thing",
+  },
+  Object {
+    "id": "-AS6rQtiEh8",
+    "seconds": 4003,
+    "title": "Richard Dawkins Interviews Creationist Wendy Wright (Complete)",
+  },
+  Object {
+    "id": "JcI8yn7xQWo",
+    "seconds": 628,
+    "title": "Neil deGrasse Tyson Answers Science Questions From Twitter | Tech Support | WIRED",
+  },
+  Object {
+    "id": "AyAK3QBnMGQ",
+    "seconds": 4962,
+    "title": "A mind-expanding tour of the cosmos with Neil deGrasse Tyson and Robert Krulwich",
+  },
+  Object {
+    "id": "Dj7g7TKqjII",
+    "seconds": 13271,
+    "title": "Astrophysics for People in a Hurry - Neil deGrasse Tyson Bestseller Science Audiobook",
+  },
+  Object {
+    "id": "OV5J6BfToSw",
+    "seconds": 3221,
+    "title": "Linguistics, Style and Writing in the 21st Century - with Steven Pinker",
+  },
+  Object {
+    "id": "TgA2y-Bgi3c",
+    "seconds": 541,
+    "title": "The Mystery That Keeps Neil deGrasse Tyson Up At Night",
+  },
+  Object {
+    "id": "lmbY-GrM8pI",
+    "seconds": 4923,
+    "title": "4. The Greenland Vikings - Land of the Midnight Sun",
+  },
+  Object {
+    "id": "yNntDhr2n4g",
+    "seconds": 3574,
+    "title": "Light and Dark 1 of 2 - Light",
+  },
+  Object {
+    "id": "ubNmT8FzHLo",
+    "seconds": 621,
+    "title": "Daniel Radcliffe Answers the Web's Most Searched Questions | WIRED",
+  },
+  Object {
+    "id": "tby0AhJ_pUg",
+    "seconds": 8184,
+    "title": "The Wonderful Story of Henry Sugar - Roald Dahl (FULL AUDIOBOOK)",
+  },
+  Object {
+    "id": "Tehlt1P-NM0",
+    "seconds": 5157,
+    "title": "Jimmy Carr: In Concert (2008) FULL SHOW | Jimmy Carr",
+  },
+  Object {
+    "id": "BYZ8NL2Wxs8",
+    "seconds": 20121,
+    "title": "Patrick Rothfuss - The Name of the Wind - The Kingkiller Chronicle, Book 1- clip1",
+  },
+  Object {
+    "id": "v8sPFOsmxHI",
+    "seconds": 283,
+    "title": "Family Guy - BEST DARK HUMOR COMPILATION 4",
+  },
+  Object {
+    "id": "d-DbCi039qs",
+    "seconds": 43185,
+    "title": "Wizard's First Rule (Sword of Truth #1) by Terry Goodkind Audiobook Full 2/3",
+  },
+  Object {
+    "id": "YOLbE8frMrM",
+    "seconds": 2883,
+    "title": "Catastrophe - Episode 2 - Snowball Earth",
+  },
+  Object {
+    "id": "DXBvjPU2kLA",
+    "seconds": 33123,
+    "title": "Temple of the Winds (Sword of Truth 4) Audiobook Part 1",
+  },
+  Object {
+    "id": "i3jv6zUTgpw",
+    "seconds": 1329,
+    "title": "BLACK BOOKS  S1 • E2
+Manny's First Day | Black Books | Season 1 Episode 2 | Dead Parrot",
+  },
+  Object {
+    "id": "N0FIoXo0aWw",
+    "seconds": 5299,
+    "title": "Asmongold Reacts To \\"The Decline of Blizzard\\" | By The Act Man",
+  },
+  Object {
+    "id": "z44fd4OsfXw",
+    "seconds": 39868,
+    "title": "Awaken The Mortal Mage Audiobook 1",
+  },
+  Object {
+    "id": "euuaEdgijFo",
+    "seconds": 1623,
+    "title": "Piff the Magic Dragon on America's Got Talent | Magicians Got Talent",
+  },
+  Object {
+    "id": "BqwCnGApsd4",
+    "seconds": 18149,
+    "title": "The Demon King Seven Realms #1 p1",
+  },
+  Object {
+    "id": "pjY7injkwLA",
+    "seconds": 42569,
+    "title": "Battle Mage Peter A Flannery Audiobook Part 1",
+  },
+  Object {
+    "id": "uUh17kv8OwU",
+    "seconds": 2766,
+    "title": "8 Out of 10 Cats Does Countdown S16E06",
+  },
+  Object {
+    "id": "ux8GZAtCN-M",
+    "seconds": 1613,
+    "title": "Fluffy Goes To India | Gabriel Iglesias",
+  },
+  Object {
+    "id": "K7lb6KWBanI",
+    "seconds": 3193,
+    "title": "Alexander the Great (All Parts)",
+  },
+  Object {
+    "id": "uaotkHlHJwo",
+    "seconds": 6827,
+    "title": "LA 92 (Full Documentary) | National Geographic",
+  },
+  Object {
+    "id": "LAOoF2gyQaA",
+    "seconds": 739,
+    "title": "The Harshest Burns from the Roast of Justin Bieber",
+  },
+  Object {
+    "id": "97iOxxH_64s",
+    "seconds": 10757,
+    "title": "Soviet Storm. Documentaries. All episodes from 1 to 4. History of Russia. War Film. StarMediaEN",
+  },
+  Object {
+    "id": "0JLvRJzvOic",
+    "seconds": 1125,
+    "title": "The Revolutionary War: Animated Battle Map",
+  },
+  Object {
+    "id": "7BdVHWz1DPU",
+    "seconds": 3184,
+    "title": "A Conversation between JK Rowling and Daniel Radcliffe",
+  },
+  Object {
+    "id": "skB04clNj_Q",
+    "seconds": 137,
+    "title": "KEY AND PEELE LOW-KEY DRUG DEAL",
+  },
+  Object {
+    "id": "C-Wlj2JkEec",
+    "seconds": 12464,
+    "title": "The Stranger (novel) Albert Camus (audiobook)",
+  },
+  Object {
+    "id": "gUon2o3ykHQs",
+    "seconds": 35922,
+    "title": "The Greatest Story ever told so far - Lawrence Krauss (Full Audiobook)",
+  },
+  Object {
+    "id": "CCJAi5mpK2s",
+    "seconds": 183,
+    "title": "THE ASSASSIN'S BLADE",
+  },
+  Object {
+    "id": "KaOzsEawyHg",
+    "seconds": 1786,
+    "title": "Running Netscape Navigator on Windows 10?",
+  },
+  Object {
+    "id": "Gg1SGA3zYx8",
+    "seconds": 5285,
+    "title": "China's First Emperor - Qin Shi Huang The Dragon Emperor",
+  },
+  Object {
+    "id": "Er0vIqzgkW0",
+    "seconds": 41039,
+    "title": "Graceling (Graceling Realm #1) by Kristin Cashore Audiobook Full 1/2",
+  },
+  Object {
+    "id": "L4L675hROFE",
+    "seconds": 3294,
+    "title": "Monarchy USA Version Episode 1 The Early Kings - Host David Starkey",
+  },
+  Object {
+    "id": "SF9zaXQCJqQ",
+    "seconds": 126,
+    "title": "Throne of Glass Trailer (Sarah J.Maas)",
+  },
+  Object {
+    "id": "CsFuBdYYV2s",
+    "seconds": 26007,
+    "title": "Brian Cox Andrew Cohen Forces of Nature Audiobook",
+  },
+  Object {
+    "id": "SB_OThWd-eA",
+    "seconds": 2710,
+    "title": "BRITAIN'S BLOODY CROWN  S1 • E1
+Britain's Bloody Crown: The Mad King Ep 1 of 4 (Wars of the Roses Documentary) | Timeline",
+  },
+  Object {
+    "id": "6pLuqBzsNpE",
+    "seconds": 313,
+    "title": "throne of glass vines",
+  },
+  Object {
+    "id": "a-RFkEuiNT0",
+    "seconds": 7411,
+    "title": "Benedict Cumberbatch Reads Sherlock Holmes",
+  },
+  Object {
+    "id": "qO_IkNfT3Iw",
+    "seconds": 13195,
+    "title": "History of the Indian wars",
+  },
+  Object {
+    "id": "EGfxyeuy8u8s",
+    "seconds": 6906,
+    "title": "Andrew Jackson - Good Evil & The Presidency - PBS Documentary",
+  },
+  Object {
+    "id": "BmaZ_sxRh0k",
+    "seconds": 31160,
+    "title": "Carl Sagan The Demon Haunted World Sciene as a Candle in the Dark Part 01 Audiobook",
+  },
+  Object {
+    "id": "fegBQMYmfxM",
+    "seconds": 2686,
+    "title": "BRITAIN'S BLOODIEST DYNASTY  S1 • E2
+Britain's Bloodiest Dynasty: Hatred - Part 2 of 4 (The Real Game Of Thrones) | Timeline",
+  },
+  Object {
+    "id": "UNEx9Dry3rk",
+    "seconds": 5510,
+    "title": "History of Napoleon Bonaparte",
+  },
+  Object {
+    "id": "9U8OMq9mXPE",
+    "seconds": 36279,
+    "title": "Edward Dolnick - The Clockwork Universe Audiobook",
+  },
+  Object {
+    "id": "2OE1LpvINas",
+    "seconds": 38610,
+    "title": "Steven Weinberg - To Explain the World Audiobook",
+  },
+  Object {
+    "id": "ev1nR0ChRnc",
+    "seconds": 10391,
+    "title": "Peter Pan – Audiobook in English",
+  },
+  Object {
+    "id": "NrtVrddtdVE",
+    "seconds": 500,
+    "title": "Top 10 YA Novels That NEED Movie Adaptations",
+  },
+  Object {
+    "id": "0bBamxwboy4",
+    "seconds": 4441,
+    "title": "Crown of Midnight (Part 1 Audiobook) by Sarah J Maas",
+  },
+  Object {
+    "id": "m9MBbN9Ebow",
+    "seconds": 3352,
+    "title": "Who Was The Real Mary Poppins? | Absolute History",
+  },
+  Object {
+    "id": "dVNRChcQJaE",
+    "seconds": 2904,
+    "title": "Solar Superstorms (Full Astronomy Documentary) | Spark",
+  },
+  Object {
+    "id": "fkiATu7c_yA",
+    "seconds": 422,
+    "title": "ACoTaR Crack",
+  },
+  Object {
+    "id": "hjujTTRB01E",
+    "seconds": 2206,
+    "title": "The Hidden Nature of Korea 🇰🇷 - BBC Documentary (1080p)",
+  },
+  Object {
+    "id": "dQf_vE7tOlws",
+    "seconds": 2999,
+    "title": "Engineering Connections: Earthquake Proof Bridge (Richard Hammond) | Science Documentary",
+  },
+  Object {
+    "id": "7eOYzyo0ATA",
+    "seconds": 10603,
+    "title": "The Charles K. Wilkinson Lecture Series: Rulers in Times of Transition",
+  },
+  Object {
+    "id": "va_NXwxSoSw",
+    "seconds": 5222,
+    "title": "MARCH OF THE DINOSAURS | FULL MOVIE | EN",
+  },
+  Object {
+    "id": "Wo6OO992ywI",
+    "seconds": 3528,
+    "title": "IMMORTAL EGYPT  S1 • E1
+Immortal Egypt: The Road To The Pyramids (Ancient Egypt Documentary) | Timeline",
+  },
+  Object {
+    "id": "NcreTTI9Rew",
+    "seconds": 4250,
+    "title": "Supervolcanoes in the Pacific Northwest",
+  },
+  Object {
+    "id": "We2pP1yu960",
+    "seconds": 3113,
+    "title": "Japan The Way of Zen : Zen Buddhism Documentary",
+  },
+  Object {
+    "id": "rhUtnOw7uLI",
+    "seconds": 3553,
+    "title": "Use Epoxy To Coat Existing Countertops To Make Them Look Like Real Stone Step By Step Explained",
+  },
+  Object {
+    "id": "KWEW2GH2_xg",
+    "seconds": 1233,
+    "title": "Live In New York (2005) - FULL SET | Jimmy Carr",
+  },
+  Object {
+    "id": "nkZB6zrhvLM",
+    "seconds": 882,
+    "title": "ACOTAR as vines part 2",
+  },
+  Object {
+    "id": "OZUAtUNs8Gk",
+    "seconds": 5756,
+    "title": "StarTalk Live Podcast: Science Is Everywhere with Neil deGrasse Tyson & Brian Greene -StarTalk @ BAM",
+  },
+  Object {
+    "id": "BCFWwxIt40Y",
+    "seconds": 39976,
+    "title": "Michael Connelly Audiobook FULL #ABF",
+  },
+  Object {
+    "id": "xuVHe-0r-BE",
+    "seconds": 717,
+    "title": "Civil War 1864: A Virtual Reality Experience, Full Version",
+  },
+  Object {
+    "id": "rYzBxo3hbYQ",
+    "seconds": 6017,
+    "title": "Neil DeGrasse Tyson: Blackholes and Other Cosmic Quandries",
+  },
+  Object {
+    "id": "qfnUq2_0FOY",
+    "seconds": 1535,
+    "title": "[Shakespeare: The Animated Tales] Macbeth",
+  },
+  Object {
+    "id": "4nmkrLSf3UU",
+    "seconds": 487,
+    "title": "40 Fun Facts From Queen's Shadow - References, Easter Eggs, Legends Connections, and More!",
+  },
+  Object {
+    "id": "DGDJH6GA_bM",
+    "seconds": 12611,
+    "title": "The Theory of Everything: Origin and Fate of the Universe - Stephen Hawking - Unabridged Audiobook",
+  },
+  Object {
+    "id": "8BfkIz6cEFA",
+    "seconds": 15372,
+    "title": "Throne of Glass Throne of Glass, #1 by Sarah J Maas Audiobook 1",
+  },
+  Object {
+    "id": "vqIxCqayQok",
+    "seconds": 5516,
+    "title": "Call of Cthulhu HP Lovecraft - Audio Book - With Words / Closed Captions",
+  },
+  Object {
+    "id": "wgSZA3NPpBs",
+    "seconds": 7259,
+    "title": "2016 Isaac Asimov Memorial Debate: Is the Universe a Simulation?",
+  },
+]
+`;
+
+exports[`YouTube model should return list of music 1`] = `
+Array [
+  Object {
+    "id": "gAjR4_CbPpQ",
+    "seconds": 223,
+    "title": "Daft Punk - Harder Better Faster (Official Video)",
+  },
+  Object {
+    "id": "SRdeTrTKGMks",
+    "seconds": 26816,
+    "title": "Brian Cox Andrew Cohen Human Universe Audiobook",
+  },
+  Object {
+    "id": "HhZaHf8RP6g",
+    "seconds": 407,
+    "title": "Daft Punk - Veridis Quo",
+  },
+  Object {
+    "id": "sOS9aOIXPEk",
+    "seconds": 229,
+    "title": "Daft Punk - Something About Us (Official Video)",
+  },
+  Object {
+    "id": "3MteSlpxCpo",
+    "seconds": 296,
+    "title": "[Official Video] Daft Punk - Pentatonix",
+  },
+  Object {
+    "id": "FxzBvqY5PP0",
+    "seconds": 265,
+    "title": "Daft Punk - Digital Love",
+  },
+  Object {
+    "id": "1V_xRb0x9aw",
+    "seconds": 269,
+    "title": "Gorillaz - Clint Eastwood (Official Video)",
+  },
+  Object {
+    "id": "djV11Xbc914",
+    "seconds": 244,
+    "title": "a-ha - Take On Me (Official 4K Music Video)",
+  },
+  Object {
+    "id": "ub747pprmJ8",
+    "seconds": 229,
+    "title": "Right Here, Right Now by Fatboy Slim [Official Video]",
+  },
+  Object {
+    "id": "wCDIYvFmgW8",
+    "seconds": 232,
+    "title": "Fatboy Slim - Weapon Of Choice [Official Video]",
+  },
+  Object {
+    "id": "D8K90hX4PrE",
+    "seconds": 176,
+    "title": "Daft Punk - Technologic",
+  },
+  Object {
+    "id": "UclCCFNG9q4",
+    "seconds": 275,
+    "title": "Gorillaz - Clint Eastwood",
+  },
+  Object {
+    "id": "sFZjqVnWBhc",
+    "seconds": 197,
+    "title": "Daft Punk - Robot Rock (Official Video)",
+  },
+  Object {
+    "id": "bRt5z880CFY",
+    "seconds": 235,
+    "title": "Daft Punk - Superheroes",
+  },
+  Object {
+    "id": "HyHNuVaZJ-k",
+    "seconds": 254,
+    "title": "Gorillaz - Feel Good Inc. (Official Video)",
+  },
+  Object {
+    "id": "fPO76Jlnz6c",
+    "seconds": 257,
+    "title": "Coolio - Gangsta's Paradise (feat. L.V.) [Official Music Video]",
+  },
+  Object {
+    "id": "FQlAEiCb8m0",
+    "seconds": 264,
+    "title": "Stardust - Music Sounds Better With You (Official Music Video)",
+  },
+  Object {
+    "id": "L93-7vRfxNs",
+    "seconds": 213,
+    "title": "Daft Punk - Aerodynamic",
+  },
+  Object {
+    "id": "KQ6zr6kCPj8",
+    "seconds": 376,
+    "title": "LMFAO ft. Lauren Bennett, GoonRock - Party Rock Anthem (Official Video)",
+  },
+  Object {
+    "id": "mmi60Bd4jSs",
+    "seconds": 335,
+    "title": "Daft Punk - Da Funk",
+  },
+  Object {
+    "id": "mMfxI3r_LyA",
+    "seconds": 222,
+    "title": "Modjo - Lady (Hear Me Tonight) (Official Video)",
+  },
+  Object {
+    "id": "04mfKJWDSzI",
+    "seconds": 267,
+    "title": "Gorillaz - On Melancholy Hill (Official Video)",
+  },
+  Object {
+    "id": "8UVNT4wvIGY",
+    "seconds": 244,
+    "title": "Gotye - Somebody That I Used To Know (feat. Kimbra) - official music video",
+  },
+  Object {
+    "id": "HCfPhZQz2CE",
+    "seconds": 600,
+    "title": "Daft Punk - 'Get Lucky' (10 min loop)",
+  },
+  Object {
+    "id": "Hy8kmNEo1i8",
+    "seconds": 211,
+    "title": "Scatman (ski-ba-bop-ba-dop-bop) Official Video HD -Scatman John",
+  },
+  Object {
+    "id": "MV_3Dpw-BRY",
+    "seconds": 257,
+    "title": "Kavinsky - Nightcall (Drive Original Movie Soundtrack) (Official Audio)",
+  },
+  Object {
+    "id": "dKJfJMMsqX4",
+    "seconds": 239,
+    "title": "Daft Punk - Face To Face",
+  },
+  Object {
+    "id": "nhPaWIeULKk",
+    "seconds": 303,
+    "title": "Gorillaz - Stylo (Official Video)",
+  },
+  Object {
+    "id": "cLnkQAeMbIM",
+    "seconds": 301,
+    "title": "Gorillaz - Dirty Harry (Official Video)",
+  },
+  Object {
+    "id": "a5uQMwRMHcs",
+    "seconds": 340,
+    "title": "Daft Punk ft. Julian Casablancas - Instant Crush (Official Video)",
+  },
+  Object {
+    "id": "NF-kLy44Hls",
+    "seconds": 251,
+    "title": "Daft Punk - Lose Yourself to Dance (Official Version)",
+  },
+  Object {
+    "id": "PwILkY9gRrc",
+    "seconds": 329,
+    "title": "Daft Punk - Da Funk (Official audio)",
+  },
+  Object {
+    "id": "uAOR6ib95kQ",
+    "seconds": 288,
+    "title": "Gorillaz - DARE (Official Video)",
+  },
+  Object {
+    "id": "pMyG_H6sHlM",
+    "seconds": 370,
+    "title": "Get lucky",
+  },
+  Object {
+    "id": "VFZNvj-HfBU",
+    "seconds": 246,
+    "title": "Daði Freyr (Daði & Gagnamagnið) – Think About Things (Official Video)",
+  },
+  Object {
+    "id": "QK8mJJJvaes",
+    "seconds": 233,
+    "title": "MACKLEMORE & RYAN LEWIS - THRIFT SHOP FEAT. WANZ (OFFICIAL VIDEO)",
+  },
+  Object {
+    "id": "iU7oF4OXZSE",
+    "seconds": 354,
+    "title": "Lose Yourself to Dance",
+  },
+  Object {
+    "id": "pXRviuL6vMY",
+    "seconds": 226,
+    "title": "twenty one pilots: Stressed Out [OFFICIAL VIDEO]",
+  },
+  Object {
+    "id": "4JkIs37a2JE",
+    "seconds": 237,
+    "title": "Jamiroquai - Virtual Insanity (Official Video)",
+  },
+  Object {
+    "id": "EDwb9jOVRtU",
+    "seconds": 327,
+    "title": "Madonna - Hung Up (Official Music Video)",
+  },
+  Object {
+    "id": "XgztfRBc2jM",
+    "seconds": 229,
+    "title": "Eiffel 65 - Blue [Official Video]",
+  },
+  Object {
+    "id": "5qJp6xlKEug",
+    "seconds": 374,
+    "title": "Gorillaz - Saturnz Barz (Spirit House)",
+  },
+  Object {
+    "id": "dQw4w9WgXcQ",
+    "seconds": 213,
+    "title": "Rick Astley - Never Gonna Give You Up (Video)",
+  },
+  Object {
+    "id": "FAD_5NWzM5g",
+    "seconds": 242,
+    "title": "Estelle - American Boy (feat. Kanye West) [Official Video]",
+  },
+  Object {
+    "id": "qmsbP13xu6k",
+    "seconds": 187,
+    "title": "Mr Oizo - Flat beat (Official Video with Flat Eric - 1999 - F Communications)",
+  },
+  Object {
+    "id": "YlUKcNNmywk",
+    "seconds": 322,
+    "title": "Red Hot Chili Peppers - Californication [Official Music Video]",
+  },
+  Object {
+    "id": "h61QG4s0I3U",
+    "seconds": 238,
+    "title": "The Supermen Lovers (feat. Mani Hoffman) · Starlight (Official Video)",
+  },
+  Object {
+    "id": "9Dz6hK585HM",
+    "seconds": 594,
+    "title": "I Remember",
+  },
+  Object {
+    "id": "NI6aOFI7hms",
+    "seconds": 203,
+    "title": "The Cardigans - Lovefool",
+  },
+  Object {
+    "id": "zK1mLIeXwsQ",
+    "seconds": 594,
+    "title": "deadmau5 & Kaskade - I Remember (HQ)",
+  },
+  Object {
+    "id": "CJinWua98NA",
+    "seconds": 283,
+    "title": "Capital Cities - Kangaroo Court (Official Music Video)",
+  },
+  Object {
+    "id": "QtXby3twMmI",
+    "seconds": 316,
+    "title": "Coldplay - Adventure Of A Lifetime (Official Video)",
+  },
+  Object {
+    "id": "em0MknB6wFo",
+    "seconds": 233,
+    "title": "Daft Punk - Something About Us (Official audio)",
+  },
+  Object {
+    "id": "JtYa0rb_jGQ",
+    "seconds": 250,
+    "title": "Night Club - \\"Show It 2 Me\\" (Official 360 Video)",
+  },
+  Object {
+    "id": "v0NSeysrDYw",
+    "seconds": 219,
+    "title": "Bob Sinclar - Love Generation",
+  },
+  Object {
+    "id": "y6120QOlsfU",
+    "seconds": 233,
+    "title": "Darude - Sandstorm",
+  },
+  Object {
+    "id": "pT68FS3YbQ4",
+    "seconds": 192,
+    "title": "The Strokes - You Only Live Once (Official Music Video)",
+  },
+  Object {
+    "id": "A2VpR8HahKc",
+    "seconds": 321,
+    "title": "Daft Punk - One more time (Official audio)",
+  },
+  Object {
+    "id": "5NV6Rdv1a3I",
+    "seconds": 249,
+    "title": "Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers",
+  },
+  Object {
+    "id": "2zNSgSzhBfM",
+    "seconds": 424,
+    "title": "MACKLEMORE & RYAN LEWIS - CAN'T HOLD US FEAT. RAY DALTON (OFFICIAL MUSIC VIDEO)",
+  },
+  Object {
+    "id": "qO_IkNfT3Iw",
+    "seconds": 13195,
+    "title": "History of the Indian wars",
+  },
+  Object {
+    "id": "LL-gyhZVvx0",
+    "seconds": 261,
+    "title": "Daft Punk ft. Panda Bear - Doin' it Right (Official Audio)",
+  },
+  Object {
+    "id": "qTsaS1Tm-Ic",
+    "seconds": 236,
+    "title": "Basshunter DotA (Offical Video)",
+  },
+  Object {
+    "id": "Q0oIoR9mLwc",
+    "seconds": 304,
+    "title": "Red Hot Chili Peppers - Dark Necessities [OFFICIAL VIDEO]",
+  },
+  Object {
+    "id": "PWgvGjAhvIw",
+    "seconds": 303,
+    "title": "OutKast - Hey Ya! (Official Music Video)",
+  },
+  Object {
+    "id": "uGMqAcLFtuI",
+    "seconds": 370,
+    "title": "Get Lucky",
+  },
+  Object {
+    "id": "9W44NWYwa1g",
+    "seconds": 198,
+    "title": "Gorillaz - Andromeda (Official Audio)",
+  },
+  Object {
+    "id": "qFLhGq0060w",
+    "seconds": 298,
+    "title": "The Weeknd - I Feel It Coming ft. Daft Punk (Official Video)",
+  },
+  Object {
+    "id": "6NXnxTNIWkc",
+    "seconds": 299,
+    "title": "4 Non Blondes - What's Up (Official Video)",
+  },
+  Object {
+    "id": "h_D3VFfhvs4",
+    "seconds": 566,
+    "title": "Michael Jackson - Smooth Criminal (Official Video)",
+  },
+  Object {
+    "id": "HpZvM1BaV3U",
+    "seconds": 238,
+    "title": "Colonel Bagshot - Six Day War - YouTube 360 video",
+  },
+  Object {
+    "id": "-e_3Cg9GZFU",
+    "seconds": 371,
+    "title": "Skrillex - Summit (feat. Ellie Goulding) [Video by Pilerats]",
+  },
+  Object {
+    "id": "yURRmWtbTbo",
+    "seconds": 254,
+    "title": "Michael Jackson - Don’t Stop 'Til You Get Enough (Official Video)",
+  },
+  Object {
+    "id": "iTFrCbQGyvM",
+    "seconds": 585,
+    "title": "Underworld - Born Slippy",
+  },
+  Object {
+    "id": "4D7u5KF7SP8",
+    "seconds": 370,
+    "title": "Get Lucky",
+  },
+  Object {
+    "id": "lVaBvyzuypw",
+    "seconds": 358,
+    "title": "Gorillaz - Saturnz Barz (Spirit House) 360",
+  },
+  Object {
+    "id": "iArXv64tCJA",
+    "seconds": 278,
+    "title": "Peter Bjorn And John - Young Folks",
+  },
+  Object {
+    "id": "hsd5GkSPBNg",
+    "seconds": 37536,
+    "title": "Lawrence M. Krauss The Greatest Story Ever Told So Far Why Are We Here Audiobook",
+  },
+  Object {
+    "id": "19WUwZYM7bM",
+    "seconds": 286,
+    "title": "Ida Corr vs Fedde Le Grand Let Me Think About It (Extended)",
+  },
+  Object {
+    "id": "Gs069dndIYk",
+    "seconds": 216,
+    "title": "Earth, Wind & Fire - September",
+  },
+  Object {
+    "id": "QSwilU0kJF0",
+    "seconds": 371,
+    "title": "David Guetta - The World Is Mine",
+  },
+  Object {
+    "id": "GAly0cOLMc8",
+    "seconds": 620,
+    "title": "The Weeknd - Blinding Lights (Extended 10 Minute Loop)",
+  },
+  Object {
+    "id": "MaO-PvokDMw",
+    "seconds": 473,
+    "title": "Don't Stop the Music",
+  },
+  Object {
+    "id": "ADbgztDCqzY",
+    "seconds": 36008,
+    "title": "Marcus Chown What a Wonderful World One Man's Attempt to Explain the Big Stuff Audiobook",
+  },
+  Object {
+    "id": "qL7zrWcv6XY",
+    "seconds": 244,
+    "title": "Drake - One Dance",
+  },
+  Object {
+    "id": "fHI8X4OXluQ",
+    "seconds": 204,
+    "title": "The Weeknd - Blinding Lights (Official Audio)",
+  },
+  Object {
+    "id": "hAx6mYeC6pY",
+    "seconds": 244,
+    "title": "Sophie Ellis-Bextor - Murder On The Dancefloor",
+  },
+  Object {
+    "id": "N0f-QkEVU7U",
+    "seconds": 123,
+    "title": "6 NASA Technologies to Get Humans to Mars",
+  },
+  Object {
+    "id": "I7HahVwYpwo",
+    "seconds": 290,
+    "title": "The Black Eyed Peas - Meet Me Halfway (Official Music Video)",
+  },
+]
+`;
