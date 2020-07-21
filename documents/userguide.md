@@ -2,6 +2,10 @@
 
 Projektin käyttöohjeet
 
+## Sovelluksen käyttöohjeet
+
+Tulee myöhemmin.
+
 ## Kehityksen tukena olevat komennot
 
 ### `npm install`
@@ -13,7 +17,7 @@ Ennen kuin mitään alla olevaa komentoa voi ajaa, ajathan ensin `npm install` k
 
 ### `npm start`
 
-Käynnistää ohjelman kehitysmoodissa.<br />
+Tämä komento käynnistää ohjelman kehitysmoodissa.<br />
 Kehitysympäristö toimii selaimessa osoitteessa [http://localhost:3000](http://localhost:3000) ja päivittyy automaattisesti kun lähdekoodiin tehdään muutoksia.
 
 ### `npm test`
@@ -40,6 +44,7 @@ Mikäli käytössä on vscode editori, voidaan editori määritellä niin, että
 ```
 
 Tämä asetus kuitenkin vaatii [`esbenp.prettier-vscode`](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) laajennuksen käyttöönottoa.
+Typescriptiä työstäessä vscodeen voi asentaa muitakin hyödyllisiä laajennuksia kuten [`dbaeumer.vscode-eslint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) ja [`ms-vscode.vscode-typescript-tslint-plugin`](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin).
 
 
 ### `npm run build`

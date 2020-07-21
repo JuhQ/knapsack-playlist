@@ -6,6 +6,7 @@ Projekti on TKT:n kurssille [`TKT20010, Aineopintojen harjoitustyö: Tietorakent
 ## Dokumentit
 - [Määrittelydokumentti](/documents/specifications.md)
 - [Käyttöohjeet](/documents/userguide.md)
+- [Testausdokumentti](/documents/testplan.md)
 
 
 ## Viikkoraportit
