@@ -6,11 +6,6 @@ const music: YoutubeItem[] = [
     title: "Daft Punk - Harder Better Faster (Official Video)",
     seconds: 223,
   },
-  {
-    id: "SRdeTrTKGMks",
-    title: "Brian Cox Andrew Cohen Human Universe Audiobook",
-    seconds: 26816,
-  },
   { id: "HhZaHf8RP6g", title: "Daft Punk - Veridis Quo", seconds: 407 },
   {
     id: "sOS9aOIXPEk",

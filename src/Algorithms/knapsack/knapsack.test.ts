@@ -167,11 +167,11 @@ describe("knapsack algorithm", () => {
       });
       it("should return one hour long playlist, on a slice fom 20 to 40 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(20, 40), 3600);
-        expect(sumSeconds(playlist)).toBe(3564);
+        expect(sumSeconds(playlist)).toBe(3588);
       });
       it("should return one hour long playlist, on a slice fom 40 to 60 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(40, 60), 3600);
-        expect(sumSeconds(playlist)).toBe(3479);
+        expect(sumSeconds(playlist)).toBe(3566);
       });
       it("should return one hour long playlist, on a slice fom 60 to 80 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(60, 80), 3600);
@@ -182,19 +182,19 @@ describe("knapsack algorithm", () => {
     describe("two hour playlist", () => {
       it("should return two hour long playlist, on a slice fom 0 to 20 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(0, 20), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(4976);
+        expect(sumSeconds(playlist)).toBe(5198);
       });
       it("should return two hour long playlist, on a slice fom 20 to 40 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(20, 40), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(5845);
+        expect(sumSeconds(playlist)).toBe(5852);
       });
       it("should return two hour long playlist, on a slice fom 40 to 60 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(40, 60), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(5916);
+        expect(sumSeconds(playlist)).toBe(5687);
       });
       it("should return two hour long playlist, on a slice fom 60 to 80 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(60, 80), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(5791);
+        expect(sumSeconds(playlist)).toBe(6162);
       });
     });
   });
