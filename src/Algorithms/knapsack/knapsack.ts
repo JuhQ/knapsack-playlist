@@ -1,19 +1,38 @@
 import { YoutubeItem } from "../../types";
+import sumSeconds from "../../Utils/math";
 
-const knapsack = (list: YoutubeItem[], weight: number): YoutubeItem[] => {
-  const result = [];
-  let accumulatedWeight = 0;
-  // eslint-disable-next-line no-plusplus
-  for (let index = 0; index < list.length; index++) {
-    const element = list[index];
-
-    if (element.seconds <= weight && accumulatedWeight + weight <= weight) {
-      accumulatedWeight += element.seconds;
-      result.push(element);
-    }
+const recursiveKnapsack = (
+  list: YoutubeItem[],
+  maxLength: number,
+  index: number
+): YoutubeItem[] => {
+  if (index === -1) {
+    return [];
   }
 
-  return result;
+  const nextVideoWithSameLength = recursiveKnapsack(list, maxLength, index - 1);
+  if (maxLength < list[index].seconds) {
+    return nextVideoWithSameLength;
+  }
+
+  const nextVideoWithSmallerLength = recursiveKnapsack(
+    list,
+    maxLength - list[index].seconds,
+    index - 1
+  );
+
+  return sumSeconds(nextVideoWithSameLength) >
+    sumSeconds(nextVideoWithSmallerLength)
+    ? nextVideoWithSameLength
+    : [...nextVideoWithSmallerLength, list[index]];
+};
+
+const knapsack = (list: YoutubeItem[], maxLength: number): YoutubeItem[] => {
+  if (maxLength <= 0 || list.length === 0) {
+    return [];
+  }
+
+  return recursiveKnapsack(list, maxLength, list.length - 1);
 };
 
 export default knapsack;

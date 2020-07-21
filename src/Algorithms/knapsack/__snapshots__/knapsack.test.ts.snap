@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`knapsack algorithm should return one hour long playlist 1`] = `
+Array [
+  Object {
+    "id": "M_Db0fefkEM",
+    "seconds": 887,
+    "title": "Rammstein Deutschland Reaction - With English Lyric Translation",
+  },
+  Object {
+    "id": "EOnSh3QlpbQ",
+    "seconds": 246,
+    "title": "Rammstein - Ich Will (Official Video)",
+  },
+  Object {
+    "id": "sR6UeVptzRg",
+    "seconds": 647,
+    "title": "Ricky Gervais at the Golden Globes 2020 - All of his bits chained",
+  },
+  Object {
+    "id": "CSvFpBOe8eY",
+    "seconds": 207,
+    "title": "System Of A Down - Chop Suey! (Official Video)",
+  },
+  Object {
+    "id": "U7IUA8W8xuM",
+    "seconds": 331,
+    "title": "RAGE AGAINST THE MACHINE - KILLING IN THE NAME - HARDCORE WORLDWIDE (OFFICIAL VERSION HCWW)",
+  },
+  Object {
+    "id": "gNdnVVHfseA",
+    "seconds": 228,
+    "title": "Rammstein - Mutter (Official Video)",
+  },
+  Object {
+    "id": "uT3SBzmDxGk",
+    "seconds": 299,
+    "title": "2CELLOS - Thunderstruck [OFFICIAL VIDEO]",
+  },
+  Object {
+    "id": "B9FzVhw8_bY",
+    "seconds": 250,
+    "title": "The Dead South - In Hell I'll Be In Good Company [Official Music Video]",
+  },
+  Object {
+    "id": "jM8dCGIm6yc",
+    "seconds": 397,
+    "title": "The HU - Wolf Totem (Official Music Video)",
+  },
+  Object {
+    "id": "cTCXDdHUFE8",
+    "seconds": 18,
+    "title": "The Passion for Music – Short",
+  },
+]
+`;
