@@ -8,6 +8,9 @@ Projekti on TKT:n kurssille [`TKT20010, Aineopintojen harjoitustyö: Tietorakent
 - [Käyttöohjeet](/documents/userguide.md)
 - [Testausdokumentti](/documents/testplan.md)
 
+## Github Pages
+- [Testikattavuusraportti Github Pagesissa](https://juhq.github.io/knapsack-playlist/coverage/lcov-report/)
+- [Sovelluksen online demo Github Pagesissa](https://juhq.github.io/knapsack-playlist/)
 
 ## Viikkoraportit
 

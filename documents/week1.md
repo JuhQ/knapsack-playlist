@@ -9,6 +9,8 @@ Testityökaluihin on nyt määritelty optimisesti 100% testikattavuus tavoitteek
 
 Algoritmista muodostui ensimmäinen versio, joka pohjautuu osittain `Koodarin käsikirjasta` löytyvään esimerkkitoteutukseen.
 
+Github actions konfiguroitu niin, että se generoi testikattavuusraportin sekä buildaa lähdekoodit automaattisesti joka kerta, kun master haara päivittyy Githubissa. Sovellus julkaistaan automaattisesti osoitteeseen [https://juhq.github.io/knapsack-playlist/](https://juhq.github.io/knapsack-playlist/), josta löytyy myös [testikattavuusraportti](https://juhq.github.io/knapsack-playlist/coverage/lcov-report/).
+
 ## Mikä jäi epäselväksi tai tuotti vaikeuksia
 
 Luentomateriaalissa mainittiin että valmiita tietorakenteita ei saisi käyttää. Materiaalissa mainittiin myös että valmiita tietorakenteita voi kuitenkin alkuun käyttää, ja korvata ne omalla toteutuksella, kun algoritmi toimii. Koska teen labraa typescriptillä, joka kääntyy javaskriptiksi, niin mietinkin mitkä tietorakenteista on sallittuja ja mitkä ei? Lista ja objekti ei taida siis olla sallittu?

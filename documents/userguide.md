@@ -4,7 +4,8 @@ Projektin käyttöohjeet
 
 ## Sovelluksen käyttöohjeet
 
-Tulee myöhemmin.
+Tarkemmat käyttöohjeet tulee myöhemmin.
+Sovellusta voi käyttää verkossa osoitteesta [https://juhq.github.io/knapsack-playlist/](https://juhq.github.io/knapsack-playlist/).
 
 ## Kehityksen tukena olevat komennot
 
