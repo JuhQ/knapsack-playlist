@@ -1,6 +1,6 @@
 import YoutubeMusic from "../../Models/Youtube/Youtube";
 import { YoutubeItem } from "../../types";
-import sumSeconds from "../../Utils/math";
+import { sumSeconds } from "../../Utils/math";
 import knapsack from "./knapsack";
 
 // This helper will generate n-length array of test data

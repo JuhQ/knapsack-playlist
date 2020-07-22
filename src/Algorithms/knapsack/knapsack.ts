@@ -1,5 +1,5 @@
 import { YoutubeItem } from "../../types";
-import sumSeconds from "../../Utils/math";
+import { sumSeconds } from "../../Utils/math";
 
 const recursiveKnapsack = (
   list: YoutubeItem[],
