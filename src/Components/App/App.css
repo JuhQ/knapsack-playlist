@@ -1,31 +1,50 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
+    display: inline-block;
+    font-size: 2rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+.security {
+  background-image: linear-gradient(
+    69deg,
+    var(--color-three),
+    var(--color-four),
+    var(--color-two),
+    var(--color-one)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  transform: all 0.3s ease;
+  display: inline-block;
+  margin: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+h1::after {
+  text-shadow: 0px 0px 100px cyan;
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: all 2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+h1:hover::after {
+  text-shadow: 0px 0px 100px rgb(250, 104, 255);
+}
+
+.security {
+  -webkit-text-security: square;
+  transition: all 0.2s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+.security:hover {
+  -webkit-text-security: square;
+  font-size: 2rem;
 }
 
 @keyframes App-logo-spin {

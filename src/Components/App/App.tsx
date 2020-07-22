@@ -2,25 +2,24 @@ import "./App.css";
 
 import React from "react";
 
-import logo from "../../logo.svg";
+import knapsack from "../../Algorithms/knapsack/knapsack";
+import YoutubeMusic from "../../Models/Youtube/Youtube";
+import sample from "../../Utils/utils";
+import EntertainmentSystem from "../EntertainmentSystem/EntertainmentSystem";
 
 const App = (): JSX.Element => (
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        <code>src/App.tsx</code>
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>
+  <>
+    <h1 data-text="Playlist Generator">Playlist Generator</h1>
+    <span className="App-logo" role="img" aria-label="rock on!">
+      🎸
+    </span>
+    <span className="App-logo" role="img" aria-label="rock on!">
+      🤘
+    </span>
+
+    <EntertainmentSystem list={knapsack(sample(YoutubeMusic(), 20), 3600)} />
+    <span className="security">Knapsack generated playlists rule!</span>
+  </>
 );
 
 export default App;
