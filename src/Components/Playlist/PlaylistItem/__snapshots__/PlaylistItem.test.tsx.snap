@@ -1,18 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PlaylistItem should render 1`] = `
-<button
+<a
+  className="item"
   onClick={[Function]}
-  type="button"
 >
-  <span>
-    test
-  </span>
-  <span>
-     - Length: 
-  </span>
-  <span>
-    60
-  </span>
-</button>
+  <div
+    className="image"
+  >
+    <img
+      src="https://i.ytimg.com/vi/1/hqdefault.jpg"
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      test
+    </div>
+    <div
+      className="meta"
+    >
+      60
+       seconds
+    </div>
+  </div>
+</a>
 `;

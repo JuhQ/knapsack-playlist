@@ -1,0 +1,4 @@
+.playlist .ui.items > .item div,
+.playlist .ui.items > .item > .content > .header:not(.ui) {
+  color: white;
+}

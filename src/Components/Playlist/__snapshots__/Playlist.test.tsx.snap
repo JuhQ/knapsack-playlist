@@ -1,34 +1,66 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Playlist should render list of songs 1`] = `
-Array [
-  <button
-    onClick={[Function]}
-    type="button"
+<div
+  className="playlist"
+>
+  <div
+    className="ui items"
   >
-    <span>
-      test
-    </span>
-    <span>
-       - Length: 
-    </span>
-    <span>
-      60
-    </span>
-  </button>,
-  <button
-    onClick={[Function]}
-    type="button"
-  >
-    <span>
-      test 2
-    </span>
-    <span>
-       - Length: 
-    </span>
-    <span>
-      60
-    </span>
-  </button>,
-]
+    <a
+      className="item"
+      onClick={[Function]}
+    >
+      <div
+        className="image"
+      >
+        <img
+          src="https://i.ytimg.com/vi/1/hqdefault.jpg"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="header"
+        >
+          test
+        </div>
+        <div
+          className="meta"
+        >
+          60
+           seconds
+        </div>
+      </div>
+    </a>
+    <a
+      className="item"
+      onClick={[Function]}
+    >
+      <div
+        className="image"
+      >
+        <img
+          src="https://i.ytimg.com/vi/2/hqdefault.jpg"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="header"
+        >
+          test 2
+        </div>
+        <div
+          className="meta"
+        >
+          60
+           seconds
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
 `;

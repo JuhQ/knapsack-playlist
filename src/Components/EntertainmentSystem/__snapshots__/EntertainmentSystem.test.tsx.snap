@@ -83,11 +83,6 @@ Array [
                 60
                  seconds
               </div>
-              <div
-                className="extra"
-              >
-                Additional Details
-              </div>
             </div>
           </a>
         </div>
@@ -183,11 +178,6 @@ Array [
               >
                 60
                  seconds
-              </div>
-              <div
-                className="extra"
-              >
-                Additional Details
               </div>
             </div>
           </a>
