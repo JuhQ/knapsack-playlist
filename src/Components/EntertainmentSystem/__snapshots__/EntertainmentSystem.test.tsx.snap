@@ -1,44 +1,207 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`EntertainmentSystem should render 1`] = `
-<div>
-  <span>
-    Playlist length: 
-    120
-     seconds
-  </span>
-  <br />
-  <span>
-    Queue length: 
-    60
-     seconds
-  </span>
-  <br />
-  <span>
-    Now playing: 
-    test
-  </span>
+Array [
   <div
-    className=""
+    className="ui grid"
   >
     <div
-      className={null}
-      id={null}
-    />
-  </div>
-  <button
-    onClick={[Function]}
-    type="button"
+      className="right aligned ten wide column"
+    >
+      <h2>
+        test
+      </h2>
+    </div>
+    <div
+      className="center aligned five wide column"
+    >
+      <span>
+        Playlist length: 
+        120
+         seconds
+      </span>
+      <br />
+      <span>
+        Tried to generate 
+        120
+         seconds
+      </span>
+      <br />
+      <span>
+        Queue length: 
+        60
+         seconds
+      </span>
+    </div>
+  </div>,
+  <div
+    className="ui grid"
   >
-    <span>
-      test 2
-    </span>
-    <span>
-       - Length: 
-    </span>
-    <span>
-      60
-    </span>
-  </button>
-</div>
+    <div
+      className="right aligned ten wide column"
+    >
+      <div
+        className=""
+      >
+        <div
+          className={null}
+          id={null}
+        />
+      </div>
+    </div>
+    <div
+      className="five wide column"
+    >
+      <div
+        className="playlist"
+      >
+        <div
+          className="ui items"
+        >
+          <a
+            className="item"
+            onClick={[Function]}
+          >
+            <div
+              className="image"
+            >
+              <img
+                src="https://i.ytimg.com/vi/2/hqdefault.jpg"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                test 2
+              </div>
+              <div
+                className="meta"
+              >
+                60
+                 seconds
+              </div>
+              <div
+                className="extra"
+              >
+                Additional Details
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`EntertainmentSystem should render difference 1`] = `
+Array [
+  <div
+    className="ui grid"
+  >
+    <div
+      className="right aligned ten wide column"
+    >
+      <h2>
+        test
+      </h2>
+    </div>
+    <div
+      className="center aligned five wide column"
+    >
+      <span>
+        Playlist length: 
+        120
+         seconds
+      </span>
+      <br />
+      <span>
+        Tried to generate 
+        130
+         seconds
+      </span>
+      <br />
+      Difference: 
+      10
+       seconds
+      <br />
+      <span>
+        Queue length: 
+        60
+         seconds
+      </span>
+    </div>
+  </div>,
+  <div
+    className="ui grid"
+  >
+    <div
+      className="right aligned ten wide column"
+    >
+      <div
+        className=""
+      >
+        <div
+          className={null}
+          id={null}
+        />
+      </div>
+    </div>
+    <div
+      className="five wide column"
+    >
+      <div
+        className="playlist"
+      >
+        <div
+          className="ui items"
+        >
+          <a
+            className="item"
+            onClick={[Function]}
+          >
+            <div
+              className="image"
+            >
+              <img
+                src="https://i.ytimg.com/vi/2/hqdefault.jpg"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                test 2
+              </div>
+              <div
+                className="meta"
+              >
+                60
+                 seconds
+              </div>
+              <div
+                className="extra"
+              >
+                Additional Details
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`EntertainmentSystem should render playlist ended message once all the songs have been played 1`] = `
+<h2
+  className="done"
+>
+  Playlist has been played, please reload the page to generate a new playlist
+</h2>
 `;

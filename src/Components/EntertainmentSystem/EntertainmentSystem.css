@@ -1,0 +1,17 @@
+h2 {
+  background-image: linear-gradient(
+    69deg,
+    var(--color-three),
+    var(--color-four),
+    var(--color-two),
+    var(--color-one)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: all 0.3s ease;
+  margin: 2rem;
+}
+
+.done {
+  font-size: 3rem;
+}
