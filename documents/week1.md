@@ -17,10 +17,11 @@ Luentomateriaalissa mainittiin että valmiita tietorakenteita ei saisi käyttä�
 
 ## Mitä teen seuraavaksi
 
-Algoritmin jatkokehittäminen, tarkastelu ja validointi, sekä testien järkevyyden validointi. Kun algoritmi toimii testeissä, alan kehittämään sen ympärille käyttöliittymää, josta voi alkuun kovakoodatulla datalla luoda halutun pituisia listoja. Kun listan generointi toimii, luon käyttöliittymän sekä soittolistalle että YouTube -soittimelle.
+Algoritmin jatkokehittäminen, tarkastelu ja validointi, sekä testien järkevyyden validointi. Algoritmista puuttuu myös painotus, se valitsee itemit tällä hetkellä pelkästään niiden pituuksien mukaan. Kun algoritmi toimii testeissä, alan kehittämään sen ympärille käyttöliittymää, josta voi alkuun kovakoodatulla datalla luoda halutun pituisia listoja. Kun listan generointi toimii, luon käyttöliittymän sekä soittolistalle että YouTube -soittimelle.
 
 Youtuben hakurajapinta tarjoaa videolistan, mutta listan tuloksista puuttuu videoiden pituudet. Näin ollen kurssin aikana kerään manuaalisesti youtuben sivuilta tätä tietoa. Tavoitteenani on kerätä noin tuhannen videon tietokanta.
 
+Riippuen annetun datan laadusta, tunnin soittolistasta saattaa jäädä uupumaan minuutteja. Näin ollen kehitän algoritmia siihen suuntaan, että se ajaa itseään useamman kerran, mikäli jäljelle jäävä aika on suurempi kuin jokin raja. Kuitenkin niin että joka ajokerralla datasta poistetaan jo soittolistalle valitut videot. Näin voin varmistua siitä, että soittolistan pituus on mahdollisimman lähellä haluttua pituutta. Tai vaihtoehtoisesti algoritmia ajetaan samaan aikaan n-kappaletta (5?) eri datasetille, josta valitaan se tulos, joka on suurin?
 
 
 ## Ajanseuranta
