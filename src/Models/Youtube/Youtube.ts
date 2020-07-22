@@ -314,12 +314,6 @@ const music: YoutubeItem[] = [
     seconds: 278,
   },
   {
-    id: "hsd5GkSPBNg",
-    title:
-      "Lawrence M. Krauss The Greatest Story Ever Told So Far Why Are We Here Audiobook",
-    seconds: 37536,
-  },
-  {
     id: "19WUwZYM7bM",
     title: "Ida Corr vs Fedde Le Grand Let Me Think About It (Extended)",
     seconds: 286,
@@ -501,19 +495,9 @@ const music: YoutubeItem[] = [
     seconds: 202,
   },
   {
-    id: "M_Db0fefkEM",
-    title: "Rammstein Deutschland Reaction - With English Lyric Translation",
-    seconds: 887,
-  },
-  {
     id: "EOnSh3QlpbQ",
     title: "Rammstein - Ich Will (Official Video)",
     seconds: 246,
-  },
-  {
-    id: "sR6UeVptzRg",
-    title: "Ricky Gervais at the Golden Globes 2020 - All of his bits chained",
-    seconds: 647,
   },
   {
     id: "CSvFpBOe8eY",
