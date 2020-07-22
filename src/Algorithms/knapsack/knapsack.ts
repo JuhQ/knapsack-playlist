@@ -32,6 +32,11 @@ const knapsack = (list: YoutubeItem[], maxLength: number): YoutubeItem[] => {
     return [];
   }
 
+  // if the given list already fits into the desired playlist length, just return the list
+  if (sumSeconds(list) <= maxLength) {
+    return list;
+  }
+
   return recursiveKnapsack(list, maxLength, list.length - 1);
 };
 

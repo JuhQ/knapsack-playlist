@@ -153,7 +153,7 @@ describe("knapsack algorithm", () => {
     // take 20 videos from the list and try to generate one hour of music
     const playlist = knapsack(YoutubeMusic().slice(-20), 3600);
 
-    expect(sumSeconds(playlist)).toBe(3590);
+    expect(sumSeconds(playlist)).toBe(3554);
     expect(playlist).toMatchSnapshot();
   });
 
@@ -194,7 +194,7 @@ describe("knapsack algorithm", () => {
       });
       it("should return two hour long playlist, on a slice fom 60 to 80 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(60, 80), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(6162);
+        expect(sumSeconds(playlist)).toBe(6782);
       });
     });
   });
