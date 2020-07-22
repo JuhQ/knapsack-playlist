@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1595349145610" clover="3.2.0">
-  <project timestamp="1595349145610" name="All files">
-    <metrics statements="18" coveredstatements="18" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6" elements="34" coveredelements="34" complexity="0" loc="18" ncloc="18" packages="5" files="5" classes="5"/>
+<coverage generated="1595433476122" clover="3.2.0">
+  <project timestamp="1595433476122" name="All files">
+    <metrics statements="42" coveredstatements="42" conditionals="10" coveredconditionals="10" methods="20" coveredmethods="20" elements="72" coveredelements="72" complexity="0" loc="42" ncloc="42" packages="9" files="10" classes="10"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="types.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/types.ts">
@@ -12,42 +12,93 @@
       <metrics statements="12" coveredstatements="12" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
       <file name="knapsack.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Algorithms/knapsack/knapsack.ts">
         <metrics statements="12" coveredstatements="12" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="9" count="13603855" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="6558152" type="stmt"/>
-        <line num="13" count="7045703" type="stmt"/>
-        <line num="14" count="7045703" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="487577" type="stmt"/>
-        <line num="18" count="6558126" type="stmt"/>
-        <line num="24" count="6558126" type="cond" truecount="2" falsecount="0"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="33" type="cond" truecount="4" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="9" count="15399033" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="7417592" type="stmt"/>
+        <line num="13" count="7981441" type="stmt"/>
+        <line num="14" count="7981441" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="563876" type="stmt"/>
+        <line num="18" count="7417565" type="stmt"/>
+        <line num="24" count="7417565" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="34" type="cond" truecount="4" falsecount="0"/>
         <line num="32" count="7" type="stmt"/>
-        <line num="35" count="26" type="stmt"/>
+        <line num="35" count="27" type="stmt"/>
       </file>
     </package>
     <package name="src.Components.App">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Components/App/App.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.EntertainmentSystem">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="EntertainmentSystem.tsx" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Components/EntertainmentSystem/EntertainmentSystem.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.Player">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Player.tsx" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Components/Player/Player.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.Playlist">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Playlist.tsx" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Components/Playlist/Playlist.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.Playlist.PlaylistItem">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="PlaylistItem.tsx" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Components/Playlist/PlaylistItem/PlaylistItem.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="16" type="stmt"/>
       </file>
     </package>
     <package name="src.Models.Youtube">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Youtube.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Models/Youtube/Youtube.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="619" count="11" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="608" count="12" type="stmt"/>
       </file>
     </package>
     <package name="src.Utils">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
       <file name="math.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Utils/math.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="3" count="12578530" type="stmt"/>
-        <line num="5" count="13116275" type="stmt"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="14203327" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="14835169" type="stmt"/>
+        <line num="8" count="154" type="stmt"/>
+      </file>
+      <file name="utils.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Utils/utils.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="153" type="stmt"/>
+        <line num="7" count="826" type="stmt"/>
+        <line num="9" count="153" type="stmt"/>
       </file>
     </package>
   </project>
