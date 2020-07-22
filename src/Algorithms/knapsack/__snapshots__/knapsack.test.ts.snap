@@ -3,6 +3,11 @@
 exports[`knapsack algorithm should return one hour long playlist 1`] = `
 Array [
   Object {
+    "id": "xkEju-deJsE",
+    "seconds": 202,
+    "title": "LINDEMANN - Ach so gern (One Shot Video)",
+  },
+  Object {
     "id": "M_Db0fefkEM",
     "seconds": 887,
     "title": "Rammstein Deutschland Reaction - With English Lyric Translation",
@@ -43,14 +48,9 @@ Array [
     "title": "The Dead South - In Hell I'll Be In Good Company [Official Music Video]",
   },
   Object {
-    "id": "jM8dCGIm6yc",
-    "seconds": 397,
-    "title": "The HU - Wolf Totem (Official Music Video)",
-  },
-  Object {
-    "id": "cTCXDdHUFE8",
-    "seconds": 18,
-    "title": "The Passion for Music – Short",
+    "id": "v2AC41dglnM",
+    "seconds": 293,
+    "title": "AC/DC - Thunderstruck (Official Video)",
   },
 ]
 `;

@@ -501,11 +501,6 @@ const music: YoutubeItem[] = [
     seconds: 202,
   },
   {
-    id: "Erg0LUViHL4",
-    title: "Rammstein - Radio (Official Making Of)",
-    seconds: 507,
-  },
-  {
     id: "M_Db0fefkEM",
     title: "Rammstein Deutschland Reaction - With English Lyric Translation",
     seconds: 887,
@@ -586,11 +581,6 @@ const music: YoutubeItem[] = [
     id: "6fVE8kSM43I",
     title: "Slipknot - Duality [OFFICIAL VIDEO]",
     seconds: 214,
-  },
-  {
-    id: "DOXpYc47Mb8",
-    title: "Rammstein - Ausländer (Official Making Of)",
-    seconds: 609,
   },
   {
     id: "iywaBOMvYLI",
