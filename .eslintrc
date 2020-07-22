@@ -21,6 +21,8 @@
     }
   },
   "rules": {
+    "react/jsx-one-expression-per-line": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "react/jsx-filename-extension": [
       2,
       { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
