@@ -1,6 +1,6 @@
 import "./EntertainmentSystem.css";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Grid } from "semantic-ui-react";
 
 import { YoutubeItem } from "../../types";
@@ -14,10 +14,19 @@ interface Props {
 }
 
 const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
-  const [firstSong, ...initialPlaylist] = list;
-  const [playlist, setPlaylist] = useState<YoutubeItem[]>(initialPlaylist);
-  const [currentSong, setCurrentSong] = useState<YoutubeItem>(firstSong);
+  const [playlist, setPlaylist] = useState<YoutubeItem[] | null>(null);
+  const [currentSong, setCurrentSong] = useState<YoutubeItem | null>(null);
   const [lastSongPlayed, setLastSongPlayed] = useState<boolean>(false);
+
+  useEffect(() => {
+    const [firstSong, ...initialPlaylist] = list;
+    setPlaylist(initialPlaylist);
+    setCurrentSong(firstSong);
+  }, [list]);
+
+  if (playlist === null || currentSong === null) {
+    return null;
+  }
 
   const playlistLength = sumSeconds(list);
   const diff = length - playlistLength;
@@ -33,12 +42,14 @@ const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
 
   return (
     <>
-      <Grid>
-        <Grid.Column width={10} textAlign="right">
+      <Grid verticalAlign="bottom">
+        <Grid.Column computer={10} mobile={16} textAlign="right">
           <h2>{currentSong.title}</h2>
         </Grid.Column>
-        <Grid.Column width={5} textAlign="center">
+        <Grid.Column computer={5} mobile={16} textAlign="center">
           <span>Playlist length: {playlistLength} seconds</span>
+          <br />
+          <span>Playlist size: {list.length} songs</span>
           <br />
           <span>Tried to generate {length} seconds</span>
           <br />
@@ -49,10 +60,12 @@ const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
             </>
           )}
           <span>Queue length: {sumSeconds(playlist)} seconds</span>
+          <br />
+          <span>Queue size: {playlist.length} songs</span>
         </Grid.Column>
       </Grid>
       <Grid>
-        <Grid.Column width={10} textAlign="right">
+        <Grid.Column computer={10} mobile={16} textAlign="right">
           <Player
             id={currentSong.id}
             onEnd={() => {
@@ -66,7 +79,7 @@ const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
             }}
           />
         </Grid.Column>
-        <Grid.Column width={5}>
+        <Grid.Column computer={5} mobile={16}>
           <Playlist
             list={playlist}
             onChange={(song) => {
