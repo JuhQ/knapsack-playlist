@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Playlist should render list of songs 1`] = `
+Array [
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      test
+    </span>
+    <span>
+       - Length: 
+    </span>
+    <span>
+      60
+    </span>
+  </button>,
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      test 2
+    </span>
+    <span>
+       - Length: 
+    </span>
+    <span>
+      60
+    </span>
+  </button>,
+]
+`;
