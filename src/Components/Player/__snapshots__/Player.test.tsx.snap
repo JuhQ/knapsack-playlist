@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Player should render 1`] = `
+<div
+  className=""
+>
+  <div
+    className={null}
+    id={null}
+  />
+</div>
+`;
