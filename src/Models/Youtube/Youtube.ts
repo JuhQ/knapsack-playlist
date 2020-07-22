@@ -336,12 +336,6 @@ const music: YoutubeItem[] = [
     seconds: 620,
   },
   { id: "MaO-PvokDMw", title: "Don't Stop the Music", seconds: 473 },
-  {
-    id: "ADbgztDCqzY",
-    title:
-      "Marcus Chown What a Wonderful World One Man's Attempt to Explain the Big Stuff Audiobook",
-    seconds: 36008,
-  },
   { id: "qL7zrWcv6XY", title: "Drake - One Dance", seconds: 244 },
   {
     id: "fHI8X4OXluQ",
@@ -495,11 +489,6 @@ const music: YoutubeItem[] = [
     id: "VJboSby7nW0",
     title: "Russian Rammstein - Du Riechst So Gut",
     seconds: 297,
-  },
-  {
-    id: "mFBoCQaoPEk",
-    title: "Stanley Kubrick's Napoleon - The Movie That Almost Was",
-    seconds: 1032,
   },
   {
     id: "10JDA8SvwX8",
