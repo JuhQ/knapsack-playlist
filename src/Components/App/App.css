@@ -6,6 +6,10 @@
   }
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 h1,
 .security {
   background-image: linear-gradient(
