@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EntertainmentSystem should render 1`] = `
+<div>
+  <span>
+    Playlist length: 
+    120
+     seconds
+  </span>
+  <br />
+  <span>
+    Queue length: 
+    60
+     seconds
+  </span>
+  <br />
+  <span>
+    Now playing: 
+    test
+  </span>
+  <div
+    className=""
+  >
+    <div
+      className={null}
+      id={null}
+    />
+  </div>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      test 2
+    </span>
+    <span>
+       - Length: 
+    </span>
+    <span>
+      60
+    </span>
+  </button>
+</div>
+`;
