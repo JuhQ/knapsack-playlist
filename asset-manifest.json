@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/knapsack-playlist/static/css/main.b13fea55.chunk.css",
-    "main.js": "/knapsack-playlist/static/js/main.fbf82d14.chunk.js",
-    "main.js.map": "/knapsack-playlist/static/js/main.fbf82d14.chunk.js.map",
+    "main.css": "/knapsack-playlist/static/css/main.23649355.chunk.css",
+    "main.js": "/knapsack-playlist/static/js/main.892a3bc7.chunk.js",
+    "main.js.map": "/knapsack-playlist/static/js/main.892a3bc7.chunk.js.map",
     "runtime-main.js": "/knapsack-playlist/static/js/runtime-main.7d9f4440.js",
     "runtime-main.js.map": "/knapsack-playlist/static/js/runtime-main.7d9f4440.js.map",
-    "static/js/2.07216bf3.chunk.js": "/knapsack-playlist/static/js/2.07216bf3.chunk.js",
-    "static/js/2.07216bf3.chunk.js.map": "/knapsack-playlist/static/js/2.07216bf3.chunk.js.map",
+    "static/css/2.30dca90c.chunk.css": "/knapsack-playlist/static/css/2.30dca90c.chunk.css",
+    "static/js/2.c8412bf1.chunk.js": "/knapsack-playlist/static/js/2.c8412bf1.chunk.js",
+    "static/js/2.c8412bf1.chunk.js.map": "/knapsack-playlist/static/js/2.c8412bf1.chunk.js.map",
     "index.html": "/knapsack-playlist/index.html",
-    "precache-manifest.ccee72af7c6c007f395ad7f3a44eca7b.js": "/knapsack-playlist/precache-manifest.ccee72af7c6c007f395ad7f3a44eca7b.js",
+    "precache-manifest.ca808cabf53e45263a6f1d2362c828a1.js": "/knapsack-playlist/precache-manifest.ca808cabf53e45263a6f1d2362c828a1.js",
     "service-worker.js": "/knapsack-playlist/service-worker.js",
-    "static/css/main.b13fea55.chunk.css.map": "/knapsack-playlist/static/css/main.b13fea55.chunk.css.map",
-    "static/js/2.07216bf3.chunk.js.LICENSE.txt": "/knapsack-playlist/static/js/2.07216bf3.chunk.js.LICENSE.txt"
+    "static/css/2.30dca90c.chunk.css.map": "/knapsack-playlist/static/css/2.30dca90c.chunk.css.map",
+    "static/css/main.23649355.chunk.css.map": "/knapsack-playlist/static/css/main.23649355.chunk.css.map",
+    "static/js/2.c8412bf1.chunk.js.LICENSE.txt": "/knapsack-playlist/static/js/2.c8412bf1.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/knapsack-playlist/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.7d9f4440.js",
-    "static/js/2.07216bf3.chunk.js",
-    "static/css/main.b13fea55.chunk.css",
-    "static/js/main.fbf82d14.chunk.js"
+    "static/css/2.30dca90c.chunk.css",
+    "static/js/2.c8412bf1.chunk.js",
+    "static/css/main.23649355.chunk.css",
+    "static/js/main.892a3bc7.chunk.js"
   ]
 }
