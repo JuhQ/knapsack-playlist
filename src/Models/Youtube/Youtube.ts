@@ -425,12 +425,6 @@ const music: YoutubeItem[] = [
     seconds: 392,
   },
   {
-    id: "2YNEJUN7Xyk",
-    title:
-      "RAMMSTEIN - DEUTSCHLAND 🔥 Detailed History Explanation & Review Of Historic Scenes By A German",
-    seconds: 1037,
-  },
-  {
     id: "7TBYwpQtl5M",
     title:
       "Rammstein - Engel (Hurricane Festival 2016) PROSHOT HD [GER/ENG/RU/ES/FR]",
@@ -576,6 +570,22 @@ const music: YoutubeItem[] = [
     seconds: 321,
   },
   { id: "cTCXDdHUFE8", title: "The Passion for Music – Short", seconds: 18 },
+  { id: "_S85d4MX7-I", title: "Worldburn - Sense of Security", seconds: 181 },
+  { id: "SDH-Nywqka0", title: "Worldburn - Shortcut", seconds: 224 },
+  { id: "nYIFe8NuIfQ", title: "Worldburn - Oblivious", seconds: 292 },
+  { id: "h0hnpLj6yn0", title: "Worldburn - Era of Consumption", seconds: 244 },
+  { id: "WSiDCsEKMFw", title: "Worldburn - Shortcut", seconds: 227 },
+  { id: "ZbV0eR9lNuw", title: "Worldburn - Era of Consumption", seconds: 251 },
+  { id: "ZUVyRCrmRSU", title: "Worldburn - A.I.", seconds: 254 },
+  { id: "WKX07TdqhWs", title: "Worldburn - Gluttony", seconds: 376 },
+  { id: "-hdn4980H0g", title: "Worldburn - Process", seconds: 462 },
+  { id: "ZzUMrfu1rPY", title: "Worldburn - Velkavaltio", seconds: 173 },
+  { id: "8PLjvuJgD1Y", title: "Worldburn - Refuse to Suffer", seconds: 258 },
+  { id: "1qK4Igowpzg", title: "Worldburn - Babylonian kahleet", seconds: 174 },
+  { id: "GpQRE-hLqQs", title: "Worldburn - Steroid Penis", seconds: 43 },
+  { id: "F2fnsrGCTPk", title: "Worldburn - Nuclear Flatulence", seconds: 293 },
+  { id: "snz37PD6Vms", title: "Worldburn - Rise", seconds: 227 },
+  { id: "EEgUKii2ycM", title: "Worldburn - Crush the Faithless", seconds: 243 },
 ];
 
 const YoutubeMusic = (): YoutubeItem[] => music;
