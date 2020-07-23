@@ -1,0 +1,405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render 1`] = `
+<div
+  className="ui grid"
+>
+  <div
+    className="sixteen wide column"
+  >
+    <div
+      className="ui center aligned container"
+    >
+      <h1
+        data-text="Playlist Generator"
+      >
+        Playlist Generator
+      </h1>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🎸
+      </span>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🤘
+      </span>
+    </div>
+    <div
+      className="ui container"
+    >
+      <form
+        className="ui form"
+        onSubmit={[Function]}
+      >
+        <div
+          className="ui bottom aligned grid"
+        >
+          <div
+            className="six wide computer sixteen wide mobile column"
+          >
+            Size of data set:
+            <br />
+            <small>
+              This is the amount of random items to be selected from the database for the knapsack algorithm
+            </small>
+            <br />
+            <div
+              className="ui large right labeled input"
+            >
+              <input
+                onChange={[Function]}
+                placeholder="Enter desired data set size"
+                type="number"
+                value={20}
+              />
+              <div
+                className="ui basic label label"
+                onClick={[Function]}
+              >
+                videos
+              </div>
+            </div>
+          </div>
+          <div
+            className="ten wide computer sixteen wide mobile column"
+          >
+            <button
+              className="preset dataset"
+              onClick={[Function]}
+              type="button"
+            >
+              20
+            </button>
+            <button
+              className="preset dataset"
+              onClick={[Function]}
+              type="button"
+            >
+              25
+            </button>
+            <button
+              className="preset dataset"
+              onClick={[Function]}
+              type="button"
+            >
+              30
+            </button>
+            <button
+              className="preset dataset"
+              onClick={[Function]}
+              type="button"
+            >
+              35
+            </button>
+            <button
+              className="preset dataset"
+              onClick={[Function]}
+              type="button"
+            >
+              40
+            </button>
+            <button
+              className="preset dataset"
+              onClick={[Function]}
+              type="button"
+            >
+              50
+            </button>
+          </div>
+        </div>
+        <div
+          className="ui bottom aligned grid"
+        >
+          <div
+            className="six wide computer sixteen wide mobile column"
+          >
+            Length of playlist:
+            <br />
+            <div
+              className="ui large right labeled input"
+            >
+              <input
+                onChange={[Function]}
+                placeholder="Enter desired playlist length"
+                type="number"
+                value={3600}
+              />
+              <div
+                className="ui basic label label"
+                onClick={[Function]}
+              >
+                seconds
+              </div>
+            </div>
+          </div>
+          <div
+            className="ten wide computer sixteen wide mobile column"
+          >
+            <button
+              className="preset length"
+              onClick={[Function]}
+              type="button"
+            >
+              300
+            </button>
+            <button
+              className="preset length"
+              onClick={[Function]}
+              type="button"
+            >
+              600
+            </button>
+            <button
+              className="preset length"
+              onClick={[Function]}
+              type="button"
+            >
+              1800
+            </button>
+            <button
+              className="preset length"
+              onClick={[Function]}
+              type="button"
+            >
+              3600
+            </button>
+            <button
+              className="preset length"
+              onClick={[Function]}
+              type="button"
+            >
+              7200
+            </button>
+          </div>
+        </div>
+        <button
+          className="submit"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+  <div
+    className="sixteen wide column"
+  >
+    <div
+      className="ui container"
+    >
+      Select dataset size
+    </div>
+  </div>
+  <div
+    className="sixteen wide column"
+  >
+    <span
+      className="security"
+    >
+      Knapsack generated playlists rule!
+    </span>
+  </div>
+</div>
+`;
+
+exports[`App should submit empty dataset size and playlist length 1`] = `
+<Grid>
+  <GridColumn
+    width={16}
+  >
+    <Container
+      textAlign="center"
+    >
+      <h1
+        data-text="Playlist Generator"
+      >
+        Playlist Generator
+      </h1>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🎸
+      </span>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🤘
+      </span>
+    </Container>
+    <Generator
+      onSubmit={[Function]}
+    />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <Container />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <span
+      className="security"
+    >
+      Knapsack generated playlists rule!
+    </span>
+  </GridColumn>
+</Grid>
+`;
+
+exports[`App should submit only dataset size 1`] = `
+<Grid>
+  <GridColumn
+    width={16}
+  >
+    <Container
+      textAlign="center"
+    >
+      <h1
+        data-text="Playlist Generator"
+      >
+        Playlist Generator
+      </h1>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🎸
+      </span>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🤘
+      </span>
+    </Container>
+    <Generator
+      onSubmit={[Function]}
+    />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <Container />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <span
+      className="security"
+    >
+      Knapsack generated playlists rule!
+    </span>
+  </GridColumn>
+</Grid>
+`;
+
+exports[`App should submit only length 1`] = `
+<Grid>
+  <GridColumn
+    width={16}
+  >
+    <Container
+      textAlign="center"
+    >
+      <h1
+        data-text="Playlist Generator"
+      >
+        Playlist Generator
+      </h1>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🎸
+      </span>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🤘
+      </span>
+    </Container>
+    <Generator
+      onSubmit={[Function]}
+    />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <Container />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <span
+      className="security"
+    >
+      Knapsack generated playlists rule!
+    </span>
+  </GridColumn>
+</Grid>
+`;
+
+exports[`App should submit proper dataset size and playlist length 1`] = `
+<Grid>
+  <GridColumn
+    width={16}
+  >
+    <Container
+      textAlign="center"
+    >
+      <h1
+        data-text="Playlist Generator"
+      >
+        Playlist Generator
+      </h1>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🎸
+      </span>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🤘
+      </span>
+    </Container>
+    <Generator
+      onSubmit={[Function]}
+    />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <Container />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <span
+      className="security"
+    >
+      Knapsack generated playlists rule!
+    </span>
+  </GridColumn>
+</Grid>
+`;
