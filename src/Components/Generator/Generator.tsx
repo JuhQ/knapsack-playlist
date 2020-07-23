@@ -4,15 +4,30 @@ import React, { useState } from "react";
 import { Container, Form, Grid, Input } from "semantic-ui-react";
 
 interface Props {
+  totalDataset: number;
+  totalLength: number;
   onSubmit: (value: { dataSetSize: number; playlistLength: number }) => void;
 }
 
-const Generator: React.FC<Props> = ({ onSubmit }: Props) => {
+const Generator: React.FC<Props> = ({
+  totalDataset,
+  totalLength,
+  onSubmit,
+}: Props) => {
   const [dataSetSize, setDataSetSize] = useState<number>(20);
   const [playlistLength, setPlaylistLength] = useState<number>(3600);
 
-  const predefinedDataSetSizes = [20, 25, 30, 35, 40, 50];
-  const predefinedPlaylistLength = [300, 600, 1800, 3600, 7200];
+  const predefinedDataSetSizes = [10, 15, 20, 25, 30, 35, 40, 50, totalDataset];
+  const predefinedPlaylistLength = [
+    60,
+    120,
+    300,
+    600,
+    1800,
+    3600,
+    7200,
+    totalLength,
+  ];
 
   return (
     <Container>
@@ -26,14 +41,14 @@ const Generator: React.FC<Props> = ({ onSubmit }: Props) => {
             Size of data set:
             <br />
             <small>
-              This is the amount of random items to be selected from the
+              This is the amount of random songs to be selected from the
               database for the knapsack algorithm
             </small>
             <br />
             <Input
               size="large"
               type="number"
-              label={{ basic: true, content: "videos" }}
+              label={{ basic: true, content: "songs" }}
               labelPosition="right"
               placeholder="Enter desired data set size"
               value={dataSetSize}
@@ -91,7 +106,7 @@ const Generator: React.FC<Props> = ({ onSubmit }: Props) => {
           </Grid.Column>
         </Grid>
         <button type="submit" className="submit">
-          Submit
+          Generate playlist
         </button>
       </Form>
     </Container>

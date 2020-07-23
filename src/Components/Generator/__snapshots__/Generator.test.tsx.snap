@@ -17,7 +17,7 @@ exports[`Generator should render 1`] = `
         Size of data set:
         <br />
         <small>
-          This is the amount of random items to be selected from the database for the knapsack algorithm
+          This is the amount of random songs to be selected from the database for the knapsack algorithm
         </small>
         <br />
         <div
@@ -33,13 +33,27 @@ exports[`Generator should render 1`] = `
             className="ui basic label label"
             onClick={[Function]}
           >
-            videos
+            songs
           </div>
         </div>
       </div>
       <div
         className="ten wide computer sixteen wide mobile column"
       >
+        <button
+          className="preset dataset"
+          onClick={[Function]}
+          type="button"
+        >
+          10
+        </button>
+        <button
+          className="preset dataset"
+          onClick={[Function]}
+          type="button"
+        >
+          15
+        </button>
         <button
           className="preset dataset"
           onClick={[Function]}
@@ -82,6 +96,13 @@ exports[`Generator should render 1`] = `
         >
           50
         </button>
+        <button
+          className="preset dataset"
+          onClick={[Function]}
+          type="button"
+        >
+          1200
+        </button>
       </div>
     </div>
     <div
@@ -117,6 +138,20 @@ exports[`Generator should render 1`] = `
           onClick={[Function]}
           type="button"
         >
+          60
+        </button>
+        <button
+          className="preset length"
+          onClick={[Function]}
+          type="button"
+        >
+          120
+        </button>
+        <button
+          className="preset length"
+          onClick={[Function]}
+          type="button"
+        >
           300
         </button>
         <button
@@ -147,13 +182,20 @@ exports[`Generator should render 1`] = `
         >
           7200
         </button>
+        <button
+          className="preset length"
+          onClick={[Function]}
+          type="button"
+        >
+          100000
+        </button>
       </div>
     </div>
     <button
       className="submit"
       type="submit"
     >
-      Submit
+      Generate playlist
     </button>
   </form>
 </div>
