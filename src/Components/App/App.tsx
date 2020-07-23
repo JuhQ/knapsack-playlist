@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import "./App.css";
 
 import React, { useEffect, useState } from "react";
@@ -10,15 +11,35 @@ import sample from "../../Utils/utils";
 import EntertainmentSystem from "../EntertainmentSystem/EntertainmentSystem";
 import Generator from "../Generator/Generator";
 
-const App = (): JSX.Element => {
-  const [dataSetSize, setDataSetSize] = useState<number>(0);
-  const [playlistLength, setPlaylistLength] = useState<number>(0);
-  const [playlist, setPlaylist] = useState<YoutubeItem[] | null>(null);
-  const [creating, setCreating] = useState<boolean>(false);
-  const [generatorSubmitted, setGeneratorSubmitted] = useState<boolean>(false);
+interface Props {
+  initialSetSize?: number;
+  initialPlaylistLength?: number;
+  initialCreating?: boolean;
+  initialPlaylist?: YoutubeItem[] | null;
+  initialGeneratorSubmitted?: boolean;
+}
+
+const App: React.FC<Props> = ({
+  initialSetSize = 0,
+  initialPlaylistLength = 0,
+  initialCreating = false,
+  initialPlaylist = null,
+  initialGeneratorSubmitted = false,
+}: Props) => {
+  const [dataSetSize, setDataSetSize] = useState<number>(initialSetSize);
+  const [playlistLength, setPlaylistLength] = useState<number>(
+    initialPlaylistLength
+  );
+  const [playlist, setPlaylist] = useState<YoutubeItem[] | null>(
+    initialPlaylist
+  );
+  const [creating, setCreating] = useState<boolean>(initialCreating);
+  const [generatorSubmitted, setGeneratorSubmitted] = useState<boolean>(
+    initialGeneratorSubmitted
+  );
 
   useEffect(() => {
-    if (dataSetSize && playlistLength && generatorSubmitted) {
+    if (generatorSubmitted) {
       setCreating(true);
       setTimeout(() => {
         setPlaylist(

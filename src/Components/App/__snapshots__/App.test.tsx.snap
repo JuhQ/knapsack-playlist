@@ -1,5 +1,171 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`App initial values should submit only dataset size 1`] = `
+<Grid>
+  <GridColumn
+    width={16}
+  >
+    <Container
+      textAlign="center"
+    >
+      <h1
+        data-text="Playlist Generator"
+      >
+        Playlist Generator
+      </h1>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🎸
+      </span>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🤘
+      </span>
+    </Container>
+    <Generator
+      onSubmit={[Function]}
+    />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <Container>
+      Generating playlist. Depending on input size and desired playlist length, this might take a while.
+    </Container>
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <EntertainmentSystem
+      length={0}
+      list={
+        Array [
+          Object {
+            "id": "1",
+            "seconds": 2,
+            "title": "test",
+          },
+        ]
+      }
+    />
+    <span
+      className="security"
+    >
+      Knapsack generated playlists rule!
+    </span>
+  </GridColumn>
+</Grid>
+`;
+
+exports[`App initial values should submit only length 1`] = `
+<Grid>
+  <GridColumn
+    width={16}
+  >
+    <Container
+      textAlign="center"
+    >
+      <h1
+        data-text="Playlist Generator"
+      >
+        Playlist Generator
+      </h1>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🎸
+      </span>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🤘
+      </span>
+    </Container>
+    <Generator
+      onSubmit={[Function]}
+    />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <Container>
+      Select dataset size
+      Generating playlist. Depending on input size and desired playlist length, this might take a while.
+    </Container>
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <span
+      className="security"
+    >
+      Knapsack generated playlists rule!
+    </span>
+  </GridColumn>
+</Grid>
+`;
+
+exports[`App initial values should submit proper dataset size and playlist length 1`] = `
+<Grid>
+  <GridColumn
+    width={16}
+  >
+    <Container
+      textAlign="center"
+    >
+      <h1
+        data-text="Playlist Generator"
+      >
+        Playlist Generator
+      </h1>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🎸
+      </span>
+      <span
+        aria-label="rock on!"
+        className="App-logo"
+        role="img"
+      >
+        🤘
+      </span>
+    </Container>
+    <Generator
+      onSubmit={[Function]}
+    />
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <Container>
+      Generating playlist. Depending on input size and desired playlist length, this might take a while.
+    </Container>
+  </GridColumn>
+  <GridColumn
+    width={16}
+  >
+    <span
+      className="security"
+    >
+      Knapsack generated playlists rule!
+    </span>
+  </GridColumn>
+</Grid>
+`;
+
 exports[`App should render 1`] = `
 <div
   className="ui grid"
@@ -243,7 +409,9 @@ exports[`App should submit empty dataset size and playlist length 1`] = `
   <GridColumn
     width={16}
   >
-    <Container />
+    <Container>
+      Select dataset size
+    </Container>
   </GridColumn>
   <GridColumn
     width={16}
@@ -292,7 +460,9 @@ exports[`App should submit only dataset size 1`] = `
   <GridColumn
     width={16}
   >
-    <Container />
+    <Container>
+      Playlist generated but no songs were found
+    </Container>
   </GridColumn>
   <GridColumn
     width={16}
@@ -341,7 +511,10 @@ exports[`App should submit only length 1`] = `
   <GridColumn
     width={16}
   >
-    <Container />
+    <Container>
+      Select dataset size
+      Playlist generated but no songs were found
+    </Container>
   </GridColumn>
   <GridColumn
     width={16}
@@ -390,7 +563,9 @@ exports[`App should submit proper dataset size and playlist length 1`] = `
   <GridColumn
     width={16}
   >
-    <Container />
+    <Container>
+      Playlist generated but no songs were found
+    </Container>
   </GridColumn>
   <GridColumn
     width={16}

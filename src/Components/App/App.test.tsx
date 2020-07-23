@@ -16,7 +16,7 @@ describe("App", () => {
     const wrapper = shallow(<App />);
     wrapper
       .find("Generator")
-      .simulate("submit", { value: { dataSetSize: 0, playlistLength: 0 } });
+      .simulate("submit", { dataSetSize: 0, playlistLength: 0 });
 
     act(() => {
       expect(shallowToJson(wrapper)).toMatchSnapshot();
@@ -27,7 +27,7 @@ describe("App", () => {
     const wrapper = shallow(<App />);
     wrapper
       .find("Generator")
-      .simulate("submit", { value: { dataSetSize: 0, playlistLength: 10 } });
+      .simulate("submit", { dataSetSize: 0, playlistLength: 10 });
 
     act(() => {
       expect(shallowToJson(wrapper)).toMatchSnapshot();
@@ -38,7 +38,7 @@ describe("App", () => {
     const wrapper = shallow(<App />);
     wrapper
       .find("Generator")
-      .simulate("submit", { value: { dataSetSize: 10, playlistLength: 0 } });
+      .simulate("submit", { dataSetSize: 10, playlistLength: 0 });
 
     act(() => {
       expect(shallowToJson(wrapper)).toMatchSnapshot();
@@ -49,10 +49,69 @@ describe("App", () => {
     const wrapper = shallow(<App />);
     wrapper
       .find("Generator")
-      .simulate("submit", { value: { dataSetSize: 5, playlistLength: 3600 } });
+      .simulate("submit", { dataSetSize: 5, playlistLength: 3600 });
 
     act(() => {
       expect(shallowToJson(wrapper)).toMatchSnapshot();
+    });
+  });
+
+  describe("initial values", () => {
+    it("should submit only length", () => {
+      const wrapper = shallow(
+        <App
+          initialPlaylistLength={100}
+          initialSetSize={100}
+          initialPlaylist={[{ id: "1", title: "test", seconds: 2 }]}
+          initialGeneratorSubmitted
+          initialCreating
+        />
+      );
+      wrapper
+        .find("Generator")
+        .simulate("submit", { dataSetSize: 0, playlistLength: 10 });
+
+      act(() => {
+        expect(shallowToJson(wrapper)).toMatchSnapshot();
+      });
+    });
+
+    it("should submit only dataset size", () => {
+      const wrapper = shallow(
+        <App
+          initialPlaylistLength={100}
+          initialSetSize={100}
+          initialPlaylist={[{ id: "1", title: "test", seconds: 2 }]}
+          initialGeneratorSubmitted
+          initialCreating
+        />
+      );
+      wrapper
+        .find("Generator")
+        .simulate("submit", { dataSetSize: 10, playlistLength: 0 });
+
+      act(() => {
+        expect(shallowToJson(wrapper)).toMatchSnapshot();
+      });
+    });
+
+    it("should submit proper dataset size and playlist length", () => {
+      const wrapper = shallow(
+        <App
+          initialPlaylistLength={100}
+          initialSetSize={100}
+          initialPlaylist={[{ id: "1", title: "test", seconds: 2 }]}
+          initialGeneratorSubmitted
+          initialCreating
+        />
+      );
+      wrapper.find("Generator").simulate("submit", {
+        value: { dataSetSize: 5, playlistLength: 3600 },
+      });
+
+      act(() => {
+        expect(shallowToJson(wrapper)).toMatchSnapshot();
+      });
     });
   });
 });
