@@ -30,6 +30,7 @@
     "test": "react-scripts test",
     "lint": "eslint .",
     "test-coverage": "rm -rf coverage && CI=true npm test -- --coverage",
+    "test-coverage-open": "npm run test-coverage && open ./coverage/lcov-report/index.html",
     "eject": "react-scripts eject",
     "copy-coverage-to-build": "cp -R coverage build/coverage"
   },
@@ -43,9 +44,9 @@
     ],
     "coverageThreshold": {
       "global": {
-        "branches": 97,
-        "functions": 97,
-        "lines": 94,
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
         "statements": 0
       }
     }
