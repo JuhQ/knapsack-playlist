@@ -157,7 +157,24 @@
 <a name='L99'></a><a href='#L99'>99</a>
 <a name='L100'></a><a href='#L100'>100</a>
 <a name='L101'></a><a href='#L101'>101</a>
-<a name='L102'></a><a href='#L102'>102</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a>
+<a name='L107'></a><a href='#L107'>107</a>
+<a name='L108'></a><a href='#L108'>108</a>
+<a name='L109'></a><a href='#L109'>109</a>
+<a name='L110'></a><a href='#L110'>110</a>
+<a name='L111'></a><a href='#L111'>111</a>
+<a name='L112'></a><a href='#L112'>112</a>
+<a name='L113'></a><a href='#L113'>113</a>
+<a name='L114'></a><a href='#L114'>114</a>
+<a name='L115'></a><a href='#L115'>115</a>
+<a name='L116'></a><a href='#L116'>116</a>
+<a name='L117'></a><a href='#L117'>117</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -167,13 +184,26 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-yes">14x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-yes">14x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -203,7 +233,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">84x</span>
+<span class="cline-any cline-yes">162x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -235,7 +265,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">70x</span>
+<span class="cline-any cline-yes">144x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -264,15 +294,30 @@ import React, { useState } from "react";
 import { Container, Form, Grid, Input } from "semantic-ui-react";
 &nbsp;
 interface Props {
+  totalDataset: number;
+  totalLength: number;
   onSubmit: (value: { dataSetSize: number; playlistLength: number }) =&gt; void;
 }
 &nbsp;
-const Generator: React.FC&lt;Props&gt; = ({ onSubmit }: Props) =&gt; {
+const Generator: React.FC&lt;Props&gt; = ({
+  totalDataset,
+  totalLength,
+  onSubmit,
+}: Props) =&gt; {
   const [dataSetSize, setDataSetSize] = useState&lt;number&gt;(20);
   const [playlistLength, setPlaylistLength] = useState&lt;number&gt;(3600);
 &nbsp;
-  const predefinedDataSetSizes = [20, 25, 30, 35, 40, 50];
-  const predefinedPlaylistLength = [300, 600, 1800, 3600, 7200];
+  const predefinedDataSetSizes = [10, 15, 20, 25, 30, 35, 40, 50, totalDataset];
+  const predefinedPlaylistLength = [
+    60,
+    120,
+    300,
+    600,
+    1800,
+    3600,
+    7200,
+    totalLength,
+  ];
 &nbsp;
   return (
     &lt;Container&gt;
@@ -286,14 +331,14 @@ const Generator: React.FC&lt;Props&gt; = ({ onSubmit }: Props) =&gt; {
             Size of data set:
             &lt;br /&gt;
             &lt;small&gt;
-              This is the amount of random items to be selected from the
+              This is the amount of random songs to be selected from the
               database for the knapsack algorithm
             &lt;/small&gt;
             &lt;br /&gt;
             &lt;Input
               size="large"
               type="number"
-              label={{ basic: true, content: "videos" }}
+              label={{ basic: true, content: "songs" }}
               labelPosition="right"
               placeholder="Enter desired data set size"
               value={dataSetSize}
@@ -351,7 +396,7 @@ const Generator: React.FC&lt;Props&gt; = ({ onSubmit }: Props) =&gt; {
           &lt;/Grid.Column&gt;
         &lt;/Grid&gt;
         &lt;button type="submit" className="submit"&gt;
-          Submit
+          Generate playlist
         &lt;/button&gt;
       &lt;/Form&gt;
     &lt;/Container&gt;
@@ -366,7 +411,7 @@ export default Generator;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Thu Jul 23 2020 16:01:57 GMT+0000 (Coordinated Universal Time)
+                at Thu Jul 23 2020 21:00:34 GMT+0000 (Coordinated Universal Time)
             </div>
         </div>
         <script src="../../../prettify.js"></script>
