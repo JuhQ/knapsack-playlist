@@ -3,74 +3,79 @@
 exports[`knapsack algorithm should return one hour long playlist 1`] = `
 Array [
   Object {
-    "id": "VJboSby7nW0",
-    "seconds": 297,
-    "title": "Russian Rammstein - Du Riechst So Gut",
+    "id": "6fVE8kSM43I",
+    "seconds": 214,
+    "title": "Slipknot - Duality [OFFICIAL VIDEO]",
   },
   Object {
-    "id": "10JDA8SvwX8",
-    "seconds": 235,
-    "title": "Rammstein - Stripped (Official Video)",
+    "id": "iywaBOMvYLI",
+    "seconds": 224,
+    "title": "System Of A Down - Toxicity (Official Video)",
   },
   Object {
-    "id": "xkEju-deJsE",
-    "seconds": 202,
-    "title": "LINDEMANN - Ach so gern (One Shot Video)",
-  },
-  Object {
-    "id": "EOnSh3QlpbQ",
-    "seconds": 246,
-    "title": "Rammstein - Ich Will (Official Video)",
-  },
-  Object {
-    "id": "CSvFpBOe8eY",
-    "seconds": 207,
-    "title": "System Of A Down - Chop Suey! (Official Video)",
-  },
-  Object {
-    "id": "U7IUA8W8xuM",
-    "seconds": 331,
-    "title": "RAGE AGAINST THE MACHINE - KILLING IN THE NAME - HARDCORE WORLDWIDE (OFFICIAL VERSION HCWW)",
-  },
-  Object {
-    "id": "gNdnVVHfseA",
-    "seconds": 228,
-    "title": "Rammstein - Mutter (Official Video)",
-  },
-  Object {
-    "id": "uT3SBzmDxGk",
-    "seconds": 299,
-    "title": "2CELLOS - Thunderstruck [OFFICIAL VIDEO]",
-  },
-  Object {
-    "id": "B9FzVhw8_bY",
-    "seconds": 250,
-    "title": "The Dead South - In Hell I'll Be In Good Company [Official Music Video]",
-  },
-  Object {
-    "id": "jM8dCGIm6yc",
-    "seconds": 397,
-    "title": "The HU - Wolf Totem (Official Music Video)",
-  },
-  Object {
-    "id": "cegdR0GiJl4",
-    "seconds": 313,
-    "title": "Die Antwoord - Enter The Ninja (Explicit Version) (Official Video)",
-  },
-  Object {
-    "id": "v2AC41dglnM",
-    "seconds": 293,
-    "title": "AC/DC - Thunderstruck (Official Video)",
-  },
-  Object {
-    "id": "IxuEtL7gxoM",
-    "seconds": 238,
-    "title": "Rammstein - Ich Tu Dir Weh (Official Video)",
+    "id": "i0VtTMs6Mz4",
+    "seconds": 321,
+    "title": "Great Big White World - Marilyn Manson",
   },
   Object {
     "id": "cTCXDdHUFE8",
     "seconds": 18,
     "title": "The Passion for Music – Short",
+  },
+  Object {
+    "id": "_S85d4MX7-I",
+    "seconds": 181,
+    "title": "Worldburn - Sense of Security",
+  },
+  Object {
+    "id": "SDH-Nywqka0",
+    "seconds": 224,
+    "title": "Worldburn - Shortcut",
+  },
+  Object {
+    "id": "nYIFe8NuIfQ",
+    "seconds": 292,
+    "title": "Worldburn - Oblivious",
+  },
+  Object {
+    "id": "h0hnpLj6yn0",
+    "seconds": 244,
+    "title": "Worldburn - Era of Consumption",
+  },
+  Object {
+    "id": "WSiDCsEKMFw",
+    "seconds": 227,
+    "title": "Worldburn - Shortcut",
+  },
+  Object {
+    "id": "ZbV0eR9lNuw",
+    "seconds": 251,
+    "title": "Worldburn - Era of Consumption",
+  },
+  Object {
+    "id": "ZUVyRCrmRSU",
+    "seconds": 254,
+    "title": "Worldburn - A.I.",
+  },
+  Object {
+    "id": "WKX07TdqhWs",
+    "seconds": 376,
+    "title": "Worldburn - Gluttony",
+  },
+  Object {
+    "id": "-hdn4980H0g",
+    "seconds": 462,
+    "title": "Worldburn - Process",
+  },
+  Object {
+    "id": "ZzUMrfu1rPY",
+    "seconds": 173,
+    "title": "Worldburn - Velkavaltio",
+  },
+  Object {
+    "id": "GpQRE-hLqQs",
+    "seconds": 43,
+    "title": "Worldburn - Steroid Penis",
   },
 ]
 `;

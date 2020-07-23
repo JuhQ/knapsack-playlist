@@ -136,7 +136,7 @@ describe("knapsack algorithm", () => {
       expect(sumSeconds(knapsack(catalog, 60))).toBe(18);
     });
     it("should return a two minute playlist", () => {
-      expect(sumSeconds(knapsack(catalog, 120))).toBe(18);
+      expect(sumSeconds(knapsack(catalog, 120))).toBe(61);
     });
     it("should return a three minute playlist", () => {
       expect(sumSeconds(knapsack(catalog, 180))).toBe(176);
@@ -145,7 +145,7 @@ describe("knapsack algorithm", () => {
       expect(sumSeconds(knapsack(catalog, 240))).toBe(223);
     });
     it("should return a five minute playlist", () => {
-      expect(sumSeconds(knapsack(catalog, 300))).toBe(241);
+      expect(sumSeconds(knapsack(catalog, 300))).toBe(284);
     });
   });
 
@@ -153,7 +153,7 @@ describe("knapsack algorithm", () => {
     // take 20 videos from the list and try to generate one hour of music
     const playlist = knapsack(YoutubeMusic().slice(-20), 3600);
 
-    expect(sumSeconds(playlist)).toBe(3554);
+    expect(sumSeconds(playlist)).toBe(3504);
     expect(playlist).toMatchSnapshot();
   });
 
