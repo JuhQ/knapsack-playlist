@@ -7,3 +7,9 @@ Automaattisesti testit voi ajaa `npm test` komennolla ja testikattavuuden voi ge
 Automaattisia testejä voi ajaa myös komennolla `npm test -- --verbose` (huomaa `--` välissä, tämä on tärkeä), jolloin jokaisen yksikkotestin suoritus näkyy ruudulla. Saman `--verbose` lipun voi antaa myös `test-coverage` komennolle.
 
 Lisään tähän dokumenttiin projektin edetessä kuvakaappauksia testeistä ja testikattavuuksista. Tämän lisäksi lisään myös kuvankaappauksia käyttöliittymästä.
+
+
+### Viikko 1
+
+![Testikattavuusraportti viikko 1](./test-coverage-images/week-1.png)
+![Käyttöliittymä viikko 1](./user-interface-images/week-1.png)
