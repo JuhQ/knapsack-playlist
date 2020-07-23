@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Playlist should render 1`] = `
+<h2
+  className="done"
+>
+  Playlist has been played, please generate a new playlist.
+</h2>
+`;

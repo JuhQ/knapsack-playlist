@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EntertainmentSystem should render 1`] = `
+Array [
+  <div
+    className="ui bottom aligned grid"
+  >
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <h2>
+        test
+      </h2>
+    </div>
+    <div
+      className="center aligned five wide computer sixteen wide mobile column"
+    >
+      <span>
+        Playlist length: 
+        120
+         seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
+      </span>
+      <br />
+      <span>
+        Tried to generate 
+        120
+         seconds
+      </span>
+      <br />
+      <span>
+        Queue length: 
+        60
+         seconds
+      </span>
+      <br />
+      <span>
+        Queue size: 
+        1
+         songs
+      </span>
+    </div>
+  </div>,
+  <div
+    className="ui grid"
+  >
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className=""
+      >
+        <div
+          className={null}
+          id={null}
+        />
+      </div>
+    </div>
+    <div
+      className="five wide computer sixteen wide mobile column"
+    >
+      <div
+        className="playlist"
+      >
+        <div
+          className="ui items"
+        >
+          <a
+            className="item"
+            onClick={[Function]}
+          >
+            <div
+              className="image"
+            >
+              <img
+                src="https://i.ytimg.com/vi/2/hqdefault.jpg"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                test 2
+              </div>
+              <div
+                className="meta"
+              >
+                60
+                 seconds
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`EntertainmentSystem should render diff 1`] = `
+Array [
+  <div
+    className="ui bottom aligned grid"
+  >
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <h2>
+        test
+      </h2>
+    </div>
+    <div
+      className="center aligned five wide computer sixteen wide mobile column"
+    >
+      <span>
+        Playlist length: 
+        115
+         seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
+      </span>
+      <br />
+      <span>
+        Tried to generate 
+        120
+         seconds
+      </span>
+      <br />
+      Difference: 
+      5
+       seconds
+      <br />
+      <span>
+        Queue length: 
+        60
+         seconds
+      </span>
+      <br />
+      <span>
+        Queue size: 
+        1
+         songs
+      </span>
+    </div>
+  </div>,
+  <div
+    className="ui grid"
+  >
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className=""
+      >
+        <div
+          className={null}
+          id={null}
+        />
+      </div>
+    </div>
+    <div
+      className="five wide computer sixteen wide mobile column"
+    >
+      <div
+        className="playlist"
+      >
+        <div
+          className="ui items"
+        >
+          <a
+            className="item"
+            onClick={[Function]}
+          >
+            <div
+              className="image"
+            >
+              <img
+                src="https://i.ytimg.com/vi/2/hqdefault.jpg"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                test 2
+              </div>
+              <div
+                className="meta"
+              >
+                60
+                 seconds
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`EntertainmentSystem should render playlist ended message once all the songs have been played 1`] = `
+<Fragment>
+  <Grid
+    verticalAlign="bottom"
+  >
+    <GridColumn
+      computer={10}
+      mobile={16}
+      textAlign="right"
+    >
+      <h2>
+        test
+      </h2>
+    </GridColumn>
+    <GridColumn
+      computer={5}
+      mobile={16}
+      textAlign="center"
+    >
+      <span>
+        Playlist length: 
+        115
+         seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
+      </span>
+      <br />
+      <span>
+        Tried to generate 
+        120
+         seconds
+      </span>
+      <br />
+      Difference: 
+      5
+       seconds
+      <br />
+      <span>
+        Queue length: 
+        60
+         seconds
+      </span>
+      <br />
+      <span>
+        Queue size: 
+        1
+         songs
+      </span>
+    </GridColumn>
+  </Grid>
+  <Grid>
+    <GridColumn
+      computer={10}
+      mobile={16}
+      textAlign="right"
+    >
+      <Player
+        id="1"
+        onEnd={[Function]}
+      />
+    </GridColumn>
+    <GridColumn
+      computer={5}
+      mobile={16}
+    >
+      <Playlist
+        list={
+          Array [
+            Object {
+              "id": "2",
+              "seconds": 60,
+              "title": "test 2",
+            },
+          ]
+        }
+        onChange={[Function]}
+      />
+    </GridColumn>
+  </Grid>
+</Fragment>
+`;
+
+exports[`EntertainmentSystem should render playlist ended message once all the songs have been played 2`] = `
+<Fragment>
+  <Grid
+    verticalAlign="bottom"
+  >
+    <GridColumn
+      computer={10}
+      mobile={16}
+      textAlign="right"
+    >
+      <h2>
+        test
+      </h2>
+    </GridColumn>
+    <GridColumn
+      computer={5}
+      mobile={16}
+      textAlign="center"
+    >
+      <span>
+        Playlist length: 
+        115
+         seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
+      </span>
+      <br />
+      <span>
+        Tried to generate 
+        120
+         seconds
+      </span>
+      <br />
+      Difference: 
+      5
+       seconds
+      <br />
+      <span>
+        Queue length: 
+        60
+         seconds
+      </span>
+      <br />
+      <span>
+        Queue size: 
+        1
+         songs
+      </span>
+    </GridColumn>
+  </Grid>
+  <Grid>
+    <GridColumn
+      computer={10}
+      mobile={16}
+      textAlign="right"
+    >
+      <Player
+        id="1"
+        onEnd={[Function]}
+      />
+    </GridColumn>
+    <GridColumn
+      computer={5}
+      mobile={16}
+    >
+      <Playlist
+        list={
+          Array [
+            Object {
+              "id": "2",
+              "seconds": 60,
+              "title": "test 2",
+            },
+          ]
+        }
+        onChange={[Function]}
+      />
+    </GridColumn>
+  </Grid>
+</Fragment>
+`;

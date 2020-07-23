@@ -7,87 +7,81 @@ import EntertainmentSystem from "./EntertainmentSystem";
 
 describe("EntertainmentSystem", () => {
   it("should render", () => {
+    const component = create(
+      <EntertainmentSystem
+        list={[
+          { id: "1", title: "test", seconds: 60 },
+          { id: "2", title: "test 2", seconds: 60 },
+        ]}
+        length={120}
+      />
+    );
+    const tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+
     act(() => {
-      const component = create(
-        <EntertainmentSystem
-          list={[
-            { id: "1", title: "test", seconds: 60 },
-            { id: "2", title: "test 2", seconds: 60 },
-          ]}
-          length={120}
-        />
-      );
-      const tree = component.toJSON();
       expect(tree).toMatchSnapshot();
     });
   });
 
-  it("should render difference", () => {
+  it("should end the first song", () => {
+    const wrapper = shallow(
+      <EntertainmentSystem
+        list={[
+          { id: "1", title: "test", seconds: 60 },
+          { id: "2", title: "test 2", seconds: 60 },
+        ]}
+        length={120}
+      />
+    );
+
+    wrapper.find("EntertainmentSystemContent").simulate("end");
+    expect(shallowToJson(wrapper)).toMatchSnapshot();
     act(() => {
-      const component = create(
-        <EntertainmentSystem
-          list={[
-            { id: "1", title: "test", seconds: 60 },
-            { id: "2", title: "test 2", seconds: 60 },
-          ]}
-          length={130}
-        />
-      );
-      const tree = component.toJSON();
-      expect(tree).toMatchSnapshot();
+      expect(shallowToJson(wrapper)).toMatchSnapshot();
     });
   });
 
-  // tests skipped for now because of enzyme shallow testing doesn't act nice with useEffect. Need to come back to this
-  xit("should call song changing function on player when current song ends", () => {
+  it("should end the last song of the list", () => {
     act(() => {
       const wrapper = shallow(
         <EntertainmentSystem
-          list={[
-            { id: "1", title: "test", seconds: 60 },
-            { id: "2", title: "test 2", seconds: 60 },
-          ]}
+          list={[{ id: "1", title: "test", seconds: 60 }]}
           length={120}
         />
       );
 
-      wrapper.find("Player").simulate("end");
+      wrapper.find("EntertainmentSystemContent").simulate("end");
+      act(() => {
+        expect(shallowToJson(wrapper)).toMatchSnapshot();
+      });
     });
   });
 
-  xit("should call song changing function on playlist when changing song in playlist", () => {
-    act(() => {
-      const wrapper = shallow(
-        <EntertainmentSystem
-          list={[
-            { id: "1", title: "test", seconds: 60 },
-            { id: "2", title: "test 2", seconds: 60 },
-          ]}
-          length={120}
-        />
-      );
+  it("should end the song of the empty list", () => {
+    const wrapper = shallow(<EntertainmentSystem list={[]} length={120} />);
 
-      wrapper
-        .find("Playlist")
-        .simulate("change", { id: "2", title: "test 2", seconds: 60 });
+    wrapper.find("EntertainmentSystemContent").simulate("end");
+    act(() => {
+      expect(shallowToJson(wrapper)).toMatchSnapshot();
     });
   });
 
-  xit("should render playlist ended message once all the songs have been played", () => {
-    let wrapper;
-    act(() => {
-      wrapper = shallow(
-        <EntertainmentSystem
-          list={[
-            { id: "1", title: "test", seconds: 60 },
-            { id: "2", title: "test 2", seconds: 60 },
-          ]}
-          length={120}
-        />
-      );
+  it("should change song", () => {
+    const wrapper = shallow(
+      <EntertainmentSystem
+        list={[
+          { id: "1", title: "test", seconds: 60 },
+          { id: "2", title: "test 2", seconds: 60 },
+        ]}
+        length={120}
+      />
+    );
 
-      wrapper.find("Player").simulate("end");
-      wrapper.find("Player").simulate("end");
+    wrapper
+      .find("EntertainmentSystemContent")
+      .simulate("change", { id: "2", title: "test 2", seconds: 60 });
+    act(() => {
       expect(shallowToJson(wrapper)).toMatchSnapshot();
     });
   });
