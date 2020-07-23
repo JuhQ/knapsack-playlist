@@ -31,3 +31,4 @@ Riippuen annetun datan laadusta, tunnin soittolistasta saattaa jäädä uupumaan
 | 20.7.	| 4h		| Projektin alustaminen ja dokumentaation aloittaminen. |
 | 21.7.	| 6h		| Algoritmin kehittäminen ja sille testien kirjoittaminen |
 | 22.7.	| 5h		| Käyttöliittymän kehittelyä |
+| 23.7.	| 2h		| Testien parantamista |
