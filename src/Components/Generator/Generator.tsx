@@ -58,6 +58,11 @@ const Generator: React.FC<Props> = ({
             />
           </Grid.Column>
           <Grid.Column computer={10} mobile={16}>
+            <small>
+              Select randomized sample of songs. Last button selects all songs
+              and may result in a long playlist generation time.
+            </small>
+            <br />
             {predefinedDataSetSizes.map((size) => (
               <button
                 key={size}
