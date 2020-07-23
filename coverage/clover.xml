@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1595537738560" clover="3.2.0">
-  <project timestamp="1595537738561" name="All files">
+<coverage generated="1595540121764" clover="3.2.0">
+  <project timestamp="1595540121764" name="All files">
     <metrics statements="88" coveredstatements="88" conditionals="36" coveredconditionals="36" methods="33" coveredmethods="33" elements="157" coveredelements="157" complexity="0" loc="88" ncloc="88" packages="12" files="13" classes="13"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -13,13 +13,13 @@
       <file name="knapsack.ts" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Algorithms/knapsack/knapsack.ts">
         <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
         <line num="4" count="2" type="stmt"/>
-        <line num="9" count="9355451" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="4515760" type="stmt"/>
-        <line num="13" count="4839691" type="stmt"/>
-        <line num="14" count="4839691" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="323947" type="stmt"/>
-        <line num="18" count="4515744" type="stmt"/>
-        <line num="24" count="4515744" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="9355223" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="4515758" type="stmt"/>
+        <line num="13" count="4839465" type="stmt"/>
+        <line num="14" count="4839465" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="323723" type="stmt"/>
+        <line num="18" count="4515742" type="stmt"/>
+        <line num="24" count="4515742" type="cond" truecount="2" falsecount="0"/>
         <line num="30" count="2" type="stmt"/>
         <line num="31" count="36" type="cond" truecount="4" falsecount="0"/>
         <line num="32" count="8" type="stmt"/>
@@ -105,13 +105,13 @@
         <line num="32" count="18" type="stmt"/>
         <line num="36" count="6" type="stmt"/>
         <line num="56" count="2" type="stmt"/>
-        <line num="62" count="162" type="stmt"/>
-        <line num="67" count="1" type="stmt"/>
-        <line num="68" count="1" type="stmt"/>
-        <line num="88" count="2" type="stmt"/>
-        <line num="94" count="144" type="stmt"/>
-        <line num="99" count="1" type="stmt"/>
-        <line num="100" count="1" type="stmt"/>
+        <line num="67" count="162" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="93" count="2" type="stmt"/>
+        <line num="99" count="144" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.Components.Player">
@@ -128,7 +128,7 @@
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="14" count="4" type="stmt"/>
         <line num="15" count="8" type="stmt"/>
-        <line num="18" count="11" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
       </file>
     </package>
     <package name="src.Components.Playlist.PlaylistItem">
@@ -136,7 +136,7 @@
       <file name="PlaylistItem.tsx" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Components/Playlist/PlaylistItem/PlaylistItem.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="11" count="5" type="stmt"/>
-        <line num="12" count="13" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.Models.Youtube">
@@ -151,9 +151,9 @@
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
       <file name="math.ts" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Utils/math.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="3" count="8669304" type="stmt"/>
+        <line num="3" count="8669299" type="stmt"/>
         <line num="5" count="6" type="stmt"/>
-        <line num="6" count="9031606" type="stmt"/>
+        <line num="6" count="9031602" type="stmt"/>
         <line num="8" count="459" type="stmt"/>
       </file>
       <file name="utils.ts" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Utils/utils.ts">
