@@ -81,4 +81,34 @@ describe("Generator", () => {
       });
     });
   });
+
+  describe("predefined values", () => {
+    it("should be able to set dataset size by clicking button", () => {
+      const handleSubmit = jest.fn();
+      const wrapper = shallow(<Generator onSubmit={handleSubmit} />);
+      expect(handleSubmit).not.toHaveBeenCalled();
+      wrapper.find("button.preset.dataset").last().simulate("click");
+      wrapper.find("Form").simulate("submit");
+
+      expect(handleSubmit).toHaveBeenCalled();
+      expect(handleSubmit).toHaveBeenCalledWith({
+        dataSetSize: 50,
+        playlistLength: 3600,
+      });
+    });
+
+    it("should be able to set playlist length by clicking button", () => {
+      const handleSubmit = jest.fn();
+      const wrapper = shallow(<Generator onSubmit={handleSubmit} />);
+      expect(handleSubmit).not.toHaveBeenCalled();
+      wrapper.find("button.preset.length").last().simulate("click");
+      wrapper.find("Form").simulate("submit");
+
+      expect(handleSubmit).toHaveBeenCalled();
+      expect(handleSubmit).toHaveBeenCalledWith({
+        dataSetSize: 20,
+        playlistLength: 7200,
+      });
+    });
+  });
 });
