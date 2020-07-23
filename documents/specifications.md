@@ -4,13 +4,14 @@ Ohjelman tarkoituksena on luoda halutun pituisia soittolistoja annetusta videoli
 
 Knapsack -algoritmissa on siis ajatuksena, että käytössä on tila, johon mahtuu vain rajallinen määrä asioita ja tila tulisi käyttää mahdollisimman tehokkaasti, niin että hukkatilaa jää mahdollisimman vähän. Tilaan laitettavilla asioilla on tietty arvo, esimerkiksi paino tai pituus, tässä harjoitustyössä pituus, jonka perusteella tilaan sijoitetaan asioita.
 
-Tietorakenteina jono ja hashmap.
-Algoritmi saa arvokseen hashmapin, joka sisältää videon osoitteen, otsikon sekä pituuden. Tästä tiedosta pituus on algoritmin kannalta tärkein.
-Algoritmin palautusarvo on jono, jossa on kaikki soittolistalle mahtuvien videoiden tiedot.
+Tietorakenteina jono ja map.
+Algoritmi saa kaksi arvoa; halutun soittolistan pituuden sekä jonon, jonka jokainen alkio on map muodossa oleva tietorakenne. Tämä rakenne sisältää avain/arvo -pareina videon osoitteen, otsikon sekä pituuden. Tästä tiedosta pituus on algoritmin kannalta tärkein.
+Algoritmin palautusarvo on jono, jossa jokainen alkio on myös map muotoinen tietorakenne.
 
 Algoritmin aika- ja tilavaatimus on `O(nW)`, jossa `W` on halutun soittolistan pituus.
 
-Jonon aika- ja tilavaatimus on `O(n)`. Jonossa lisäys- ja poisto-operaatioiden aika- ja tilavaatimukset on `O(1)` [4].
+Jonon tilavaatimus on `O(n)`. Jonossa lisäys- ja poisto-operaatioiden aikavaatimukset on `O(1)` [4].
+Mapin tilavaatimus on `O(n)`. Lisäysoperaation aikavaatimus on `O(1)`, kun taas poiston aikavaatimus on `O(n)` [5].
 
 Ohjelma kehitetään web-sovelluksena, käyttäen React kirjastoa ja Typescript kieltä.
 
@@ -21,3 +22,4 @@ Koska algoritmi on NP-täydellinen ongelma, on se laskennallisesti vaativa ongel
 - [2] http://www.es.ele.tue.nl/education/5MC10/Solutions/knapsack.pdf Lecture 13: The Knapsack Problem - Ladattu 20.7.2020
 - [3] https://www.cs.helsinki.fi/u/ahslaaks/kkkk.pdf Kisakoodarin käsikirja, Antti Laaksonen - Ladattu 21.7.2020
 - [4] https://en.wikipedia.org/wiki/Queue_(abstract_data_type) Queue (abstract data type) - Ladattu 20.7.2020
+- [5] https://en.wikipedia.org/wiki/Associative_array#Comparison Associative array - Ladattu 24.7.2020
