@@ -57,6 +57,19 @@ describe("App", () => {
   });
 
   describe("initial values", () => {
+    it("should render notice about no playlist generated", () => {
+      const component = create(
+        <App
+          initialPlaylistLength={100}
+          initialSetSize={100}
+          initialPlaylist={[]}
+          initialGeneratorSubmitted
+        />
+      );
+      const tree = component.toJSON();
+      expect(tree).toMatchSnapshot();
+    });
+
     it("should submit only length", () => {
       const wrapper = shallow(
         <App

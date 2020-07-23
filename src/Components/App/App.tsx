@@ -7,6 +7,7 @@ import { Container, Grid } from "semantic-ui-react";
 import knapsack from "../../Algorithms/knapsack/knapsack";
 import YoutubeMusic from "../../Models/Youtube/Youtube";
 import { YoutubeItem } from "../../types";
+import { sumSeconds } from "../../Utils/math";
 import sample from "../../Utils/utils";
 import EntertainmentSystem from "../EntertainmentSystem/EntertainmentSystem";
 import Generator from "../Generator/Generator";
@@ -18,6 +19,8 @@ interface Props {
   initialPlaylist?: YoutubeItem[] | null;
   initialGeneratorSubmitted?: boolean;
 }
+
+const music = YoutubeMusic();
 
 const App: React.FC<Props> = ({
   initialSetSize = 0,
@@ -39,16 +42,9 @@ const App: React.FC<Props> = ({
   );
 
   useEffect(() => {
-    if (generatorSubmitted) {
-      setCreating(true);
-      setTimeout(() => {
-        setPlaylist(
-          knapsack(sample(YoutubeMusic(), dataSetSize), playlistLength)
-        );
-        setCreating(false);
-        setGeneratorSubmitted(false);
-      }, 0);
-    }
+    setPlaylist(knapsack(sample(music, dataSetSize), playlistLength));
+    setCreating(false);
+    setGeneratorSubmitted(false);
   }, [dataSetSize, playlistLength, generatorSubmitted]);
 
   return (
@@ -65,7 +61,10 @@ const App: React.FC<Props> = ({
         </Container>
 
         <Generator
+          totalLength={sumSeconds(music)}
+          totalDataset={music.length}
           onSubmit={(value) => {
+            setCreating(true);
             setDataSetSize(value.dataSetSize);
             setPlaylistLength(value.playlistLength);
             setGeneratorSubmitted(true);
@@ -81,6 +80,7 @@ const App: React.FC<Props> = ({
             !playlist?.length && (
               <>Playlist generated but no songs were found</>
             )}
+
           {creating && (
             <>
               Generating playlist. Depending on input size and desired playlist
@@ -90,7 +90,7 @@ const App: React.FC<Props> = ({
         </Container>
       </Grid.Column>
       <Grid.Column width={16}>
-        {dataSetSize > 0 && playlist?.length && (
+        {dataSetSize > 0 && playlist && playlist.length > 0 && (
           <EntertainmentSystem list={playlist} length={playlistLength} />
         )}
         <span className="security">Knapsack generated playlists rule!</span>
