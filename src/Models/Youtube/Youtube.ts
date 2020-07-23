@@ -446,7 +446,6 @@ const music: YoutubeItem[] = [
     title: "Rammstein - Mein Herz Brennt (Official Video)",
     seconds: 307,
   },
-  { id: "IPfbm9zSgCQ", title: "Why's Rammstein So Popular?", seconds: 468 },
   { id: "_lK4cX5xGiQ", title: "Tenacious D - Tribute (Video)", seconds: 293 },
   {
     id: "QLGG_GD3iPs",
