@@ -171,21 +171,31 @@ Array [
       </span>
       <br />
       <span>
-        Playlist size: 
-        2
-         songs
-      </span>
-      <br />
-      <span>
         Tried to generate 
         120
          seconds
       </span>
       <br />
+      <strong>
+        Great success! Playlist is exactly as long as we wanted!
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          👌
+        </span>
+        <br />
+      </strong>
       <span>
         Queue length: 
         120
          seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
       </span>
       <br />
       <span>
@@ -302,21 +312,31 @@ Array [
       </span>
       <br />
       <span>
-        Playlist size: 
-        2
-         songs
-      </span>
-      <br />
-      <span>
         Tried to generate 
         120
          seconds
       </span>
       <br />
+      <strong>
+        Great success! Playlist is exactly as long as we wanted!
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          👌
+        </span>
+        <br />
+      </strong>
       <span>
         Queue length: 
         120
          seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
       </span>
       <br />
       <span>

@@ -35,10 +35,17 @@ const EntertainmentSystemContent: React.FC<Props> = ({
       <Grid.Column computer={5} mobile={16} textAlign="center">
         <span>Playlist length: {playlistLength} seconds</span>
         <br />
-        <span>Playlist size: {list.length} songs</span>
-        <br />
         <span>Tried to generate {length} seconds</span>
         <br />
+        {diff === 0 && (
+          <strong>
+            Great success! Playlist is exactly as long as we wanted!
+            <span role="img" aria-label="Success">
+              👌
+            </span>
+            <br />
+          </strong>
+        )}
         {diff > 0 && (
           <>
             Difference: {diff} seconds
@@ -46,6 +53,8 @@ const EntertainmentSystemContent: React.FC<Props> = ({
           </>
         )}
         <span>Queue length: {sumSeconds(playlist)} seconds</span>
+        <br />
+        <span>Playlist size: {list.length} songs</span>
         <br />
         <span>Queue size: {playlist.length} songs</span>
       </Grid.Column>

@@ -134,7 +134,7 @@ exports[`App initial values should render notice about no playlist generated 1`]
               onClick={[Function]}
               type="button"
             >
-              148
+              598
             </button>
           </div>
         </div>
@@ -220,7 +220,7 @@ exports[`App initial values should render notice about no playlist generated 1`]
               onClick={[Function]}
               type="button"
             >
-              55600
+              180214
             </button>
           </div>
         </div>
@@ -284,8 +284,8 @@ exports[`App initial values should submit only dataset size 1`] = `
     </Container>
     <Generator
       onSubmit={[Function]}
-      totalDataset={148}
-      totalLength={55600}
+      totalDataset={598}
+      totalLength={180214}
     />
   </GridColumn>
   <GridColumn
@@ -349,8 +349,8 @@ exports[`App initial values should submit only length 1`] = `
     </Container>
     <Generator
       onSubmit={[Function]}
-      totalDataset={148}
-      totalLength={55600}
+      totalDataset={598}
+      totalLength={180214}
     />
   </GridColumn>
   <GridColumn
@@ -403,8 +403,8 @@ exports[`App initial values should submit proper dataset size and playlist lengt
     </Container>
     <Generator
       onSubmit={[Function]}
-      totalDataset={148}
-      totalLength={55600}
+      totalDataset={598}
+      totalLength={180214}
     />
   </GridColumn>
   <GridColumn
@@ -560,7 +560,7 @@ exports[`App should render 1`] = `
               onClick={[Function]}
               type="button"
             >
-              148
+              598
             </button>
           </div>
         </div>
@@ -646,7 +646,7 @@ exports[`App should render 1`] = `
               onClick={[Function]}
               type="button"
             >
-              55600
+              180214
             </button>
           </div>
         </div>
@@ -710,8 +710,8 @@ exports[`App should submit empty dataset size and playlist length 1`] = `
     </Container>
     <Generator
       onSubmit={[Function]}
-      totalDataset={148}
-      totalLength={55600}
+      totalDataset={598}
+      totalLength={180214}
     />
   </GridColumn>
   <GridColumn
@@ -764,8 +764,8 @@ exports[`App should submit only dataset size 1`] = `
     </Container>
     <Generator
       onSubmit={[Function]}
-      totalDataset={148}
-      totalLength={55600}
+      totalDataset={598}
+      totalLength={180214}
     />
   </GridColumn>
   <GridColumn
@@ -817,8 +817,8 @@ exports[`App should submit only length 1`] = `
     </Container>
     <Generator
       onSubmit={[Function]}
-      totalDataset={148}
-      totalLength={55600}
+      totalDataset={598}
+      totalLength={180214}
     />
   </GridColumn>
   <GridColumn
@@ -871,8 +871,8 @@ exports[`App should submit proper dataset size and playlist length 1`] = `
     </Container>
     <Generator
       onSubmit={[Function]}
-      totalDataset={148}
-      totalLength={55600}
+      totalDataset={598}
+      totalLength={180214}
     />
   </GridColumn>
   <GridColumn

@@ -22,21 +22,31 @@ Array [
       </span>
       <br />
       <span>
-        Playlist size: 
-        2
-         songs
-      </span>
-      <br />
-      <span>
         Tried to generate 
         120
          seconds
       </span>
       <br />
+      <strong>
+        Great success! Playlist is exactly as long as we wanted!
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          👌
+        </span>
+        <br />
+      </strong>
       <span>
         Queue length: 
         60
          seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
       </span>
       <br />
       <span>
@@ -126,12 +136,6 @@ Array [
       </span>
       <br />
       <span>
-        Playlist size: 
-        2
-         songs
-      </span>
-      <br />
-      <span>
         Tried to generate 
         120
          seconds
@@ -145,6 +149,12 @@ Array [
         Queue length: 
         60
          seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
       </span>
       <br />
       <span>
@@ -238,12 +248,6 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
       </span>
       <br />
       <span>
-        Playlist size: 
-        2
-         songs
-      </span>
-      <br />
-      <span>
         Tried to generate 
         120
          seconds
@@ -257,6 +261,12 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
         Queue length: 
         60
          seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
       </span>
       <br />
       <span>
@@ -324,12 +334,6 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
       </span>
       <br />
       <span>
-        Playlist size: 
-        2
-         songs
-      </span>
-      <br />
-      <span>
         Tried to generate 
         120
          seconds
@@ -343,6 +347,12 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
         Queue length: 
         60
          seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
       </span>
       <br />
       <span>
