@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1595543146277" clover="3.2.0">
-  <project timestamp="1595543146277" name="All files">
-    <metrics statements="88" coveredstatements="88" conditionals="36" coveredconditionals="36" methods="33" coveredmethods="33" elements="157" coveredelements="157" complexity="0" loc="88" ncloc="88" packages="12" files="13" classes="13"/>
+<coverage generated="1595605913800" clover="3.2.0">
+  <project timestamp="1595605913800" name="All files">
+    <metrics statements="89" coveredstatements="89" conditionals="38" coveredconditionals="38" methods="33" coveredmethods="33" elements="160" coveredelements="160" complexity="0" loc="89" ncloc="89" packages="12" files="13" classes="13"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="types.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/types.ts">
@@ -9,23 +9,24 @@
       </file>
     </package>
     <package name="src.Algorithms.knapsack">
-      <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+      <metrics statements="15" coveredstatements="15" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
       <file name="knapsack.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Algorithms/knapsack/knapsack.ts">
-        <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="9" count="9355309" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="4515757" type="stmt"/>
-        <line num="13" count="4839552" type="stmt"/>
-        <line num="14" count="4839552" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="323811" type="stmt"/>
-        <line num="18" count="4515741" type="stmt"/>
-        <line num="24" count="4515741" type="cond" truecount="2" falsecount="0"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="31" count="36" type="cond" truecount="4" falsecount="0"/>
-        <line num="32" count="8" type="stmt"/>
-        <line num="36" count="28" type="cond" truecount="2" falsecount="0"/>
-        <line num="37" count="12" type="stmt"/>
-        <line num="40" count="16" type="stmt"/>
+        <metrics statements="15" coveredstatements="15" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="15" count="11733303" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="4438883" type="stmt"/>
+        <line num="19" count="7294420" type="stmt"/>
+        <line num="20" count="7294420" type="stmt"/>
+        <line num="22" count="7294420" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="2855553" type="stmt"/>
+        <line num="26" count="4438867" type="stmt"/>
+        <line num="32" count="4438867" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="46" count="36" type="cond" truecount="4" falsecount="0"/>
+        <line num="47" count="8" type="stmt"/>
+        <line num="51" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="12" type="stmt"/>
+        <line num="55" count="16" type="stmt"/>
       </file>
     </package>
     <package name="src.Components.App">
@@ -55,19 +56,19 @@
       <file name="EntertainmentSystem.tsx" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Components/EntertainmentSystem/EntertainmentSystem.tsx">
         <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
         <line num="15" count="2" type="stmt"/>
-        <line num="16" count="14" type="stmt"/>
-        <line num="17" count="14" type="stmt"/>
-        <line num="18" count="14" type="stmt"/>
-        <line num="19" count="14" type="stmt"/>
-        <line num="20" count="14" type="stmt"/>
-        <line num="22" count="14" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="29" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="16" type="stmt"/>
+        <line num="17" count="16" type="stmt"/>
+        <line num="18" count="16" type="stmt"/>
+        <line num="19" count="16" type="stmt"/>
+        <line num="20" count="16" type="stmt"/>
+        <line num="22" count="16" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="29" count="16" type="cond" truecount="2" falsecount="0"/>
         <line num="30" count="1" type="stmt"/>
-        <line num="33" count="13" type="stmt"/>
+        <line num="33" count="15" type="stmt"/>
         <line num="42" count="3" type="stmt"/>
         <line num="43" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="44" count="2" type="stmt"/>
@@ -78,11 +79,11 @@
       </file>
     </package>
     <package name="src.Components.EntertainmentSystem.EntertainmentSystemContent">
-      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="EntertainmentSystemContent.tsx" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Components/EntertainmentSystem/EntertainmentSystemContent/EntertainmentSystemContent.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="20" count="3" type="stmt"/>
-        <line num="30" count="9" type="stmt"/>
+        <line num="30" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.Components.EntertainmentSystem.EntertainmentSystemLastSongPlayed">
@@ -119,7 +120,7 @@
       <file name="Player.tsx" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Components/Player/Player.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="9" count="4" type="stmt"/>
-        <line num="10" count="7" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
       </file>
     </package>
     <package name="src.Components.Playlist">
@@ -127,8 +128,8 @@
       <file name="Playlist.tsx" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Components/Playlist/Playlist.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="14" count="4" type="stmt"/>
-        <line num="15" count="6" type="stmt"/>
-        <line num="18" count="9" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.Components.Playlist.PlaylistItem">
@@ -136,7 +137,7 @@
       <file name="PlaylistItem.tsx" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Components/Playlist/PlaylistItem/PlaylistItem.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="11" count="5" type="stmt"/>
-        <line num="12" count="11" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
       </file>
     </package>
     <package name="src.Models.Youtube">
@@ -144,25 +145,25 @@
       <file name="Youtube.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Models/Youtube/Youtube.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="3" type="stmt"/>
-        <line num="591" count="12" type="stmt"/>
+        <line num="2009" count="12" type="stmt"/>
       </file>
     </package>
     <package name="src.Utils">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
       <file name="math.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Utils/math.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="3" count="8669296" type="stmt"/>
+        <line num="3" count="8388487" type="stmt"/>
         <line num="5" count="6" type="stmt"/>
-        <line num="6" count="9031596" type="stmt"/>
-        <line num="8" count="459" type="stmt"/>
+        <line num="6" count="8877852" type="stmt"/>
+        <line num="8" count="1809" type="stmt"/>
       </file>
       <file name="utils.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Utils/utils.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="5" type="stmt"/>
-        <line num="6" count="458" type="stmt"/>
-        <line num="7" count="2659" type="stmt"/>
-        <line num="9" count="458" type="stmt"/>
+        <line num="6" count="1808" type="stmt"/>
+        <line num="7" count="14232" type="stmt"/>
+        <line num="9" count="1808" type="stmt"/>
       </file>
     </package>
   </project>
