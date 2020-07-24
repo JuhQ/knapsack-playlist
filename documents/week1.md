@@ -32,3 +32,4 @@ Riippuen annetun datan laadusta, tunnin soittolistasta saattaa jäädä uupumaan
 | 21.7.	| 6h		| Algoritmin kehittäminen ja sille testien kirjoittaminen |
 | 22.7.	| 5h		| Käyttöliittymän kehittelyä |
 | 23.7.	| 2h		| Testien parantamista |
+| 24.7.	| 1h		| Algoritmin dokumentointia ja musiikkikatalogin keräämistä |

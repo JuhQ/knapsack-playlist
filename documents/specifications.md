@@ -11,7 +11,7 @@ Algoritmin palautusarvo on jono, jossa jokainen alkio on myös map muotoinen tie
 Algoritmin aika- ja tilavaatimus on `O(nW)`, jossa `W` on halutun soittolistan pituus.
 
 Jonon tilavaatimus on `O(n)`. Jonossa lisäys- ja poisto-operaatioiden aikavaatimukset on `O(1)` [4].
-Mapin tilavaatimus on `O(n)`. Lisäysoperaation aikavaatimus on `O(1)`, kun taas poiston aikavaatimus on `O(n)` [5].
+Mapin tilavaatimus on `O(n)`. Mapissa lisäysoperaation aikavaatimus on `O(1)`, kun taas poiston aikavaatimus on `O(n)` [5].
 
 Ohjelma kehitetään web-sovelluksena, käyttäen React kirjastoa ja Typescript kieltä.
 
