@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Duration should render 0 1`] = `
+Array [
+  "",
+  " ",
+  "",
+]
+`;
+
+exports[`Duration should render 10 1`] = `
+Array [
+  "",
+  " ",
+  "10 seconds",
+]
+`;
+
+exports[`Duration should render 11 1`] = `
+Array [
+  "",
+  " ",
+  "11 seconds",
+]
+`;
+
+exports[`Duration should render 30 1`] = `
+Array [
+  "",
+  " ",
+  "30 seconds",
+]
+`;
+
+exports[`Duration should render 60 1`] = `
+Array [
+  "1 minute",
+  " ",
+  "",
+]
+`;
+
+exports[`Duration should render 61 1`] = `
+Array [
+  "1 minute",
+  " ",
+  "1 second",
+]
+`;
+
+exports[`Duration should render 90 1`] = `
+Array [
+  "1 minute",
+  " ",
+  "30 seconds",
+]
+`;
+
+exports[`Duration should render 100 1`] = `
+Array [
+  "1 minute",
+  " ",
+  "40 seconds",
+]
+`;
+
+exports[`Duration should render 120 1`] = `
+Array [
+  "2 minutes",
+  " ",
+  "",
+]
+`;
+
+exports[`Duration should render 121 1`] = `
+Array [
+  "2 minutes",
+  " ",
+  "1 second",
+]
+`;
+
+exports[`Duration should render 600 1`] = `
+Array [
+  "10 minutes",
+  " ",
+  "",
+]
+`;
+
+exports[`Duration should render 3600 1`] = `
+Array [
+  "60 minutes",
+  " ",
+  "",
+]
+`;
