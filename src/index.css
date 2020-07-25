@@ -18,3 +18,14 @@ body {
   color: white;
   background: transparent;
 }
+
+.ui.grid {
+  margin: 0;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+}
