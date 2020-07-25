@@ -51,6 +51,11 @@ h1:hover::after {
   font-size: 2rem;
 }
 
+.ui.segment.transparent-pane {
+  background: transparent;
+  border-color: transparent;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

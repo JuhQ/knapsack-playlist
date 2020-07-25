@@ -2,100 +2,98 @@
 import "./App.css";
 
 import React, { useEffect, useState } from "react";
-import { Container, Grid } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 
 import knapsack from "../../Algorithms/knapsack/knapsack";
 import YoutubeMusic from "../../Models/Youtube/Youtube";
 import { YoutubeItem } from "../../types";
 import { sumSeconds } from "../../Utils/math";
 import sample from "../../Utils/utils";
-import EntertainmentSystem from "../EntertainmentSystem/EntertainmentSystem";
 import Generator from "../Generator/Generator";
+import Picker from "../Picker/Picker";
+import AppPlayer from "./AppPlayer/AppPlayer";
+import AppTitle from "./AppTitle/AppTitle";
 
 interface Props {
-  initialSetSize?: number;
   initialPlaylistLength?: number;
   initialCreating?: boolean;
-  initialPlaylist?: YoutubeItem[] | null;
+  initialPlaylist?: YoutubeItem[];
   initialGeneratorSubmitted?: boolean;
 }
 
 const music = YoutubeMusic();
 
 const App: React.FC<Props> = ({
-  initialSetSize = 0,
   initialPlaylistLength = 0,
   initialCreating = false,
-  initialPlaylist = null,
+  initialPlaylist = [],
   initialGeneratorSubmitted = false,
 }: Props) => {
-  const [dataSetSize, setDataSetSize] = useState<number>(initialSetSize);
   const [playlistLength, setPlaylistLength] = useState<number>(
     initialPlaylistLength
   );
-  const [playlist, setPlaylist] = useState<YoutubeItem[] | null>(
-    initialPlaylist
-  );
+  const [playlist, setPlaylist] = useState<YoutubeItem[]>(initialPlaylist);
   const [creating, setCreating] = useState<boolean>(initialCreating);
   const [generatorSubmitted, setGeneratorSubmitted] = useState<boolean>(
     initialGeneratorSubmitted
   );
+  const [musicList, setMusicList] = useState<YoutubeItem[]>([]);
+  const [generationTried, setGenerationTried] = useState<boolean>(false);
 
   useEffect(() => {
-    setPlaylist(knapsack(sample(music, dataSetSize), playlistLength));
-    setCreating(false);
-    setGeneratorSubmitted(false);
-  }, [dataSetSize, playlistLength, generatorSubmitted]);
+    if (generatorSubmitted) {
+      setPlaylist(knapsack(musicList, playlistLength));
+      setCreating(false);
+      setGeneratorSubmitted(false);
+      setGenerationTried(true);
+    }
+  }, [generatorSubmitted, musicList, playlistLength]);
 
   return (
     <Grid>
       <Grid.Column width={16}>
-        <Container textAlign="center">
-          <h1 data-text="Playlist Generator">Playlist Generator</h1>
-          <span className="App-logo" role="img" aria-label="rock on!">
-            🎸
-          </span>
-          <span className="App-logo" role="img" aria-label="rock on!">
-            🤘
-          </span>
-        </Container>
-
+        <AppTitle />
+      </Grid.Column>
+      <Grid.Column width={16}>
         <Generator
           totalLength={sumSeconds(music)}
           totalDataset={music.length}
           onSubmit={(value) => {
             setCreating(true);
-            setDataSetSize(value.dataSetSize);
             setPlaylistLength(value.playlistLength);
+            setMusicList(sample(music, value.dataSetSize));
             setGeneratorSubmitted(true);
           }}
         />
       </Grid.Column>
       <Grid.Column width={16}>
-        <Container>
-          {dataSetSize === 0 && <>Select dataset size</>}
-
-          {(dataSetSize > 0 || playlistLength > 0) &&
-            !creating &&
-            !playlist?.length && (
-              <>Playlist generated but no songs were found</>
-            )}
-
-          {creating && (
-            <>
-              Generating playlist. Depending on input size and desired playlist
-              length, this might take a while.
-            </>
-          )}
-        </Container>
+        <Grid>
+          <Grid.Column width={5}>
+            <Picker
+              list={music}
+              onSubmit={({ list, length }) => {
+                setCreating(true);
+                setMusicList(list);
+                setPlaylistLength(length);
+                setGeneratorSubmitted(true);
+              }}
+            />
+          </Grid.Column>
+          <Grid.Column width={11}>
+            <AppPlayer
+              playlistLength={playlistLength}
+              generationTried={generationTried}
+              creating={creating}
+              playlist={playlist}
+            />
+          </Grid.Column>
+        </Grid>
       </Grid.Column>
       <Grid.Column width={16}>
-        {dataSetSize > 0 && playlist && playlist.length > 0 && (
-          <EntertainmentSystem list={playlist} length={playlistLength} />
-        )}
         <span className="security">Knapsack generated playlists rule!</span>
       </Grid.Column>
     </Grid>
   );
 };
+
 export default App;

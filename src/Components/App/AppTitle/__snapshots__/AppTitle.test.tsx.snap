@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppTitle should render 1`] = `
+<div
+  className="ui center aligned container"
+>
+  <h1
+    data-text="Playlist Generator"
+  >
+    Playlist Generator
+  </h1>
+  <span
+    aria-label="rock on!"
+    className="App-logo"
+    role="img"
+  >
+    🎸
+  </span>
+  <span
+    aria-label="rock on!"
+    className="App-logo"
+    role="img"
+  >
+    🤘
+  </span>
+</div>
+`;

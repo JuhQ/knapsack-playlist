@@ -12,6 +12,18 @@ describe("App", () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it("should render second tab", () => {
+    const component = create(<App />);
+    const tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it("should render third tab", () => {
+    const component = create(<App />);
+    const tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it("should submit empty dataset size and playlist length", () => {
     const wrapper = shallow(<App />);
     wrapper
@@ -56,12 +68,23 @@ describe("App", () => {
     });
   });
 
+  it("should be able to use picker to generate custom dataset for playlist generation", () => {
+    const wrapper = shallow(<App />);
+    wrapper.find("Picker").simulate("submit", [
+      { id: "1", title: "test", seconds: 60 },
+      { id: "2", title: "test2", seconds: 60 },
+    ]);
+
+    act(() => {
+      expect(shallowToJson(wrapper)).toMatchSnapshot();
+    });
+  });
+
   describe("initial values", () => {
     it("should render notice about no playlist generated", () => {
       const component = create(
         <App
           initialPlaylistLength={100}
-          initialSetSize={100}
           initialPlaylist={[]}
           initialGeneratorSubmitted
         />
@@ -74,7 +97,6 @@ describe("App", () => {
       const wrapper = shallow(
         <App
           initialPlaylistLength={100}
-          initialSetSize={100}
           initialPlaylist={[{ id: "1", title: "test", seconds: 2 }]}
           initialGeneratorSubmitted
           initialCreating
@@ -93,7 +115,6 @@ describe("App", () => {
       const wrapper = shallow(
         <App
           initialPlaylistLength={100}
-          initialSetSize={100}
           initialPlaylist={[{ id: "1", title: "test", seconds: 2 }]}
           initialGeneratorSubmitted
           initialCreating
@@ -112,7 +133,6 @@ describe("App", () => {
       const wrapper = shallow(
         <App
           initialPlaylistLength={100}
-          initialSetSize={100}
           initialPlaylist={[{ id: "1", title: "test", seconds: 2 }]}
           initialGeneratorSubmitted
           initialCreating
