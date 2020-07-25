@@ -1,7 +1,7 @@
 import "./Generator.css";
 
 import React, { useState } from "react";
-import { Container, Form, Grid, Input } from "semantic-ui-react";
+import { Container, Form, Grid } from "semantic-ui-react";
 
 interface Props {
   totalDataset: number;
@@ -14,8 +14,8 @@ const Generator: React.FC<Props> = ({
   totalLength,
   onSubmit,
 }: Props) => {
-  const [dataSetSize, setDataSetSize] = useState<number>(20);
-  const [playlistLength, setPlaylistLength] = useState<number>(3600);
+  const [dataSetSize, setDataSetSize] = useState<number>(0);
+  const [playlistLength, setPlaylistLength] = useState<number>(0);
 
   const predefinedDataSetSizes = [10, 15, 20, 25, 30, 35, 40, 50, totalDataset];
   const predefinedPlaylistLength = [
@@ -36,29 +36,15 @@ const Generator: React.FC<Props> = ({
           onSubmit({ dataSetSize, playlistLength });
         }}
       >
+        <h3>Generate randomized dataset</h3>
         <Grid verticalAlign="bottom">
-          <Grid.Column computer={6} mobile={16}>
-            Size of data set:
+          <Grid.Column computer={8} mobile={16}>
+            Select dataset size
             <br />
             <small>
               This is the amount of random songs to be selected from the
-              database for the knapsack algorithm
-            </small>
-            <br />
-            <Input
-              size="large"
-              type="number"
-              label={{ basic: true, content: "songs" }}
-              labelPosition="right"
-              placeholder="Enter desired data set size"
-              value={dataSetSize}
-              onChange={({ target }) => {
-                setDataSetSize(Number(target.value));
-              }}
-            />
-          </Grid.Column>
-          <Grid.Column computer={10} mobile={16}>
-            <small>
+              database for the knapsack algorithm.
+              <br />
               Select randomized sample of songs. Last button selects all songs
               and may result in a long playlist generation time.
             </small>
@@ -67,7 +53,9 @@ const Generator: React.FC<Props> = ({
               <button
                 key={size}
                 type="button"
-                className="preset dataset"
+                className={`preset dataset ${
+                  size === dataSetSize ? "selected" : ""
+                }`}
                 onClick={() => {
                   setDataSetSize(size);
                   onSubmit({ dataSetSize: size, playlistLength });
@@ -77,29 +65,21 @@ const Generator: React.FC<Props> = ({
               </button>
             ))}
           </Grid.Column>
-        </Grid>
-        <Grid verticalAlign="bottom">
-          <Grid.Column computer={6} mobile={16}>
-            Length of playlist:
+          <Grid.Column computer={8} mobile={16}>
+            Select desired playlist length
             <br />
-            <Input
-              size="large"
-              type="number"
-              label={{ basic: true, content: "seconds" }}
-              labelPosition="right"
-              placeholder="Enter desired playlist length"
-              value={playlistLength}
-              onChange={({ target }) => {
-                setPlaylistLength(Number(target.value));
-              }}
-            />
-          </Grid.Column>
-          <Grid.Column computer={10} mobile={16}>
+            <small>
+              Last button selects the maximum length of the music catalog and
+              may result in a long playlist generation time.
+            </small>
+            <br />
             {predefinedPlaylistLength.map((length) => (
               <button
                 key={length}
                 type="button"
-                className="preset length"
+                className={`preset length ${
+                  length === playlistLength ? "selected" : ""
+                }`}
                 onClick={() => {
                   setPlaylistLength(length);
                   onSubmit({ dataSetSize, playlistLength: length });
@@ -110,9 +90,6 @@ const Generator: React.FC<Props> = ({
             ))}
           </Grid.Column>
         </Grid>
-        <button type="submit" className="submit">
-          Generate playlist
-        </button>
       </Form>
     </Container>
   );

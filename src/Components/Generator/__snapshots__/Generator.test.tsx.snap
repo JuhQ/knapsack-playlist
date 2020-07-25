@@ -8,186 +8,147 @@ exports[`Generator should render 1`] = `
     className="ui form"
     onSubmit={[Function]}
   >
+    <h3>
+      Generate randomized dataset
+    </h3>
     <div
       className="ui bottom aligned grid"
     >
       <div
-        className="six wide computer sixteen wide mobile column"
+        className="eight wide computer sixteen wide mobile column"
       >
-        Size of data set:
+        Select dataset size
         <br />
         <small>
-          This is the amount of random songs to be selected from the database for the knapsack algorithm
-        </small>
-        <br />
-        <div
-          className="ui large right labeled input"
-        >
-          <input
-            onChange={[Function]}
-            placeholder="Enter desired data set size"
-            type="number"
-            value={20}
-          />
-          <div
-            className="ui basic label label"
-            onClick={[Function]}
-          >
-            songs
-          </div>
-        </div>
-      </div>
-      <div
-        className="ten wide computer sixteen wide mobile column"
-      >
-        <small>
+          This is the amount of random songs to be selected from the database for the knapsack algorithm.
+          <br />
           Select randomized sample of songs. Last button selects all songs and may result in a long playlist generation time.
         </small>
         <br />
         <button
-          className="preset dataset"
+          className="preset dataset "
           onClick={[Function]}
           type="button"
         >
           10
         </button>
         <button
-          className="preset dataset"
+          className="preset dataset "
           onClick={[Function]}
           type="button"
         >
           15
         </button>
         <button
-          className="preset dataset"
+          className="preset dataset "
           onClick={[Function]}
           type="button"
         >
           20
         </button>
         <button
-          className="preset dataset"
+          className="preset dataset "
           onClick={[Function]}
           type="button"
         >
           25
         </button>
         <button
-          className="preset dataset"
+          className="preset dataset "
           onClick={[Function]}
           type="button"
         >
           30
         </button>
         <button
-          className="preset dataset"
+          className="preset dataset "
           onClick={[Function]}
           type="button"
         >
           35
         </button>
         <button
-          className="preset dataset"
+          className="preset dataset "
           onClick={[Function]}
           type="button"
         >
           40
         </button>
         <button
-          className="preset dataset"
+          className="preset dataset "
           onClick={[Function]}
           type="button"
         >
           50
         </button>
         <button
-          className="preset dataset"
+          className="preset dataset "
           onClick={[Function]}
           type="button"
         >
           1200
         </button>
       </div>
-    </div>
-    <div
-      className="ui bottom aligned grid"
-    >
       <div
-        className="six wide computer sixteen wide mobile column"
+        className="eight wide computer sixteen wide mobile column"
       >
-        Length of playlist:
+        Select desired playlist length
         <br />
-        <div
-          className="ui large right labeled input"
-        >
-          <input
-            onChange={[Function]}
-            placeholder="Enter desired playlist length"
-            type="number"
-            value={3600}
-          />
-          <div
-            className="ui basic label label"
-            onClick={[Function]}
-          >
-            seconds
-          </div>
-        </div>
-      </div>
-      <div
-        className="ten wide computer sixteen wide mobile column"
-      >
+        <small>
+          Last button selects the maximum length of the music catalog and may result in a long playlist generation time.
+        </small>
+        <br />
         <button
-          className="preset length"
+          className="preset length "
           onClick={[Function]}
           type="button"
         >
           60
         </button>
         <button
-          className="preset length"
+          className="preset length "
           onClick={[Function]}
           type="button"
         >
           120
         </button>
         <button
-          className="preset length"
+          className="preset length "
           onClick={[Function]}
           type="button"
         >
           300
         </button>
         <button
-          className="preset length"
+          className="preset length "
           onClick={[Function]}
           type="button"
         >
           600
         </button>
         <button
-          className="preset length"
+          className="preset length "
           onClick={[Function]}
           type="button"
         >
           1800
         </button>
         <button
-          className="preset length"
+          className="preset length "
           onClick={[Function]}
           type="button"
         >
           3600
         </button>
         <button
-          className="preset length"
+          className="preset length "
           onClick={[Function]}
           type="button"
         >
           7200
         </button>
         <button
-          className="preset length"
+          className="preset length "
           onClick={[Function]}
           type="button"
         >
@@ -195,12 +156,6 @@ exports[`Generator should render 1`] = `
         </button>
       </div>
     </div>
-    <button
-      className="submit"
-      type="submit"
-    >
-      Generate playlist
-    </button>
   </form>
 </div>
 `;

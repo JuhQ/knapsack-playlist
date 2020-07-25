@@ -30,85 +30,8 @@ describe("Generator", () => {
     wrapper.find("Form").simulate("submit");
     expect(handleSubmit).toHaveBeenCalled();
     expect(handleSubmit).toHaveBeenCalledWith({
-      dataSetSize: 20,
-      playlistLength: 3600,
-    });
-  });
-
-  it("should be able to call onSubmit function with changed values", () => {
-    const handleSubmit = jest.fn();
-    const wrapper = shallow(
-      <Generator
-        totalDataset={1200}
-        totalLength={100000}
-        onSubmit={handleSubmit}
-      />
-    );
-    expect(handleSubmit).not.toHaveBeenCalled();
-
-    wrapper
-      .find("Input")
-      .first()
-      .simulate("change", { target: { value: 200 } });
-    wrapper
-      .find("Input")
-      .last()
-      .simulate("change", { target: { value: 36000 } });
-
-    wrapper.find("Form").simulate("submit");
-
-    expect(handleSubmit).toHaveBeenCalled();
-    expect(handleSubmit).toHaveBeenCalledWith({
-      dataSetSize: 200,
-      playlistLength: 36000,
-    });
-  });
-
-  describe("inputs", () => {
-    it("should be able to call onChange function on the dataset size input", () => {
-      const handleSubmit = jest.fn();
-      const wrapper = shallow(
-        <Generator
-          totalDataset={1200}
-          totalLength={100000}
-          onSubmit={handleSubmit}
-        />
-      );
-      expect(handleSubmit).not.toHaveBeenCalled();
-      wrapper
-        .find("Input")
-        .first()
-        .simulate("change", { target: { value: 200 } });
-      wrapper.find("Form").simulate("submit");
-
-      expect(handleSubmit).toHaveBeenCalled();
-      expect(handleSubmit).toHaveBeenCalledWith({
-        dataSetSize: 200,
-        playlistLength: 3600,
-      });
-    });
-
-    it("should be able to call onChange function on the playlist length input", () => {
-      const handleSubmit = jest.fn();
-      const wrapper = shallow(
-        <Generator
-          totalDataset={1200}
-          totalLength={100000}
-          onSubmit={handleSubmit}
-        />
-      );
-      expect(handleSubmit).not.toHaveBeenCalled();
-      wrapper
-        .find("Input")
-        .last()
-        .simulate("change", { target: { value: 200 } });
-      wrapper.find("Form").simulate("submit");
-
-      expect(handleSubmit).toHaveBeenCalled();
-      expect(handleSubmit).toHaveBeenCalledWith({
-        dataSetSize: 20,
-        playlistLength: 200,
-      });
+      dataSetSize: 0,
+      playlistLength: 0,
     });
   });
 
@@ -129,7 +52,7 @@ describe("Generator", () => {
       expect(handleSubmit).toHaveBeenCalled();
       expect(handleSubmit).toHaveBeenCalledWith({
         dataSetSize: 1200,
-        playlistLength: 3600,
+        playlistLength: 0,
       });
     });
 
@@ -148,7 +71,7 @@ describe("Generator", () => {
 
       expect(handleSubmit).toHaveBeenCalled();
       expect(handleSubmit).toHaveBeenCalledWith({
-        dataSetSize: 20,
+        dataSetSize: 0,
         playlistLength: 100000,
       });
     });

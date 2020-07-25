@@ -1,12 +1,7 @@
 button.preset {
-  padding: 1rem;
-  font-size: 1.2rem;
-  cursor: pointer;
+  margin-right: 3px;
 }
 
-button.submit {
-  margin-top: 1rem;
-  padding: 1rem 3rem;
-  font-size: 1.2rem;
-  cursor: pointer;
+button.preset.selected {
+  background: #f96dce;
 }
