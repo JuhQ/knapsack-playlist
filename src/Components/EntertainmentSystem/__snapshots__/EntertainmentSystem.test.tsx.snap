@@ -177,12 +177,18 @@ Array [
       </span>
       <br />
       <strong>
-        Great success! Playlist is exactly as long as we wanted!
+        Great success! Playlist is exactly as long as you wanted!
         <span
           aria-label="Success"
           role="img"
         >
           👌
+        </span>
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          🤘
         </span>
         <br />
       </strong>
@@ -320,12 +326,18 @@ Array [
       </span>
       <br />
       <strong>
-        Great success! Playlist is exactly as long as we wanted!
+        Great success! Playlist is exactly as long as you wanted!
         <span
           aria-label="Success"
           role="img"
         >
           👌
+        </span>
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          🤘
         </span>
         <br />
       </strong>

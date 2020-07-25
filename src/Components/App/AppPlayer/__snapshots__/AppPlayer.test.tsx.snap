@@ -31,12 +31,18 @@ exports[`AppPlayer should render 1`] = `
       </span>
       <br />
       <strong>
-        Great success! Playlist is exactly as long as we wanted!
+        Great success! Playlist is exactly as long as you wanted!
         <span
           aria-label="Success"
           role="img"
         >
           👌
+        </span>
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          🤘
         </span>
         <br />
       </strong>
@@ -176,12 +182,18 @@ exports[`AppPlayer should render with creating false 1`] = `
       </span>
       <br />
       <strong>
-        Great success! Playlist is exactly as long as we wanted!
+        Great success! Playlist is exactly as long as you wanted!
         <span
           aria-label="Success"
           role="img"
         >
           👌
+        </span>
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          🤘
         </span>
         <br />
       </strong>
@@ -321,12 +333,18 @@ exports[`AppPlayer should render with generation tried and creating false 1`] = 
       </span>
       <br />
       <strong>
-        Great success! Playlist is exactly as long as we wanted!
+        Great success! Playlist is exactly as long as you wanted!
         <span
           aria-label="Success"
           role="img"
         >
           👌
+        </span>
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          🤘
         </span>
         <br />
       </strong>
@@ -439,12 +457,18 @@ exports[`AppPlayer should render with generation tried false 1`] = `
       </span>
       <br />
       <strong>
-        Great success! Playlist is exactly as long as we wanted!
+        Great success! Playlist is exactly as long as you wanted!
         <span
           aria-label="Success"
           role="img"
         >
           👌
+        </span>
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          🤘
         </span>
         <br />
       </strong>
