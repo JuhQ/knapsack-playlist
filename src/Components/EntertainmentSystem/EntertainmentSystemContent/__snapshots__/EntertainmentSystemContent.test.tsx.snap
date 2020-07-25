@@ -16,7 +16,7 @@ Array [
       className="center aligned five wide computer sixteen wide mobile column"
     >
       <span>
-        Playlist length: 
+        Playlist duration: 
         120
          seconds
       </span>
@@ -38,7 +38,7 @@ Array [
         <br />
       </strong>
       <span>
-        Queue length: 
+        Queue duration: 
         60
          seconds
       </span>
@@ -102,8 +102,9 @@ Array [
               <div
                 className="meta"
               >
-                60
-                 seconds
+                1 minute
+                 
+                
               </div>
             </div>
           </a>
@@ -130,7 +131,7 @@ Array [
       className="center aligned five wide computer sixteen wide mobile column"
     >
       <span>
-        Playlist length: 
+        Playlist duration: 
         115
          seconds
       </span>
@@ -146,7 +147,7 @@ Array [
        seconds
       <br />
       <span>
-        Queue length: 
+        Queue duration: 
         60
          seconds
       </span>
@@ -210,8 +211,9 @@ Array [
               <div
                 className="meta"
               >
-                60
-                 seconds
+                1 minute
+                 
+                
               </div>
             </div>
           </a>
@@ -242,7 +244,7 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
       textAlign="center"
     >
       <span>
-        Playlist length: 
+        Playlist duration: 
         115
          seconds
       </span>
@@ -258,7 +260,7 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
        seconds
       <br />
       <span>
-        Queue length: 
+        Queue duration: 
         60
          seconds
       </span>
@@ -328,7 +330,7 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
       textAlign="center"
     >
       <span>
-        Playlist length: 
+        Playlist duration: 
         115
          seconds
       </span>
@@ -344,7 +346,7 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
        seconds
       <br />
       <span>
-        Queue length: 
+        Queue duration: 
         60
          seconds
       </span>

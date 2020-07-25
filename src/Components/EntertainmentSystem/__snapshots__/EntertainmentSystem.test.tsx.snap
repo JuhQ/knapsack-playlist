@@ -165,7 +165,7 @@ Array [
       className="center aligned five wide computer sixteen wide mobile column"
     >
       <span>
-        Playlist length: 
+        Playlist duration: 
         120
          seconds
       </span>
@@ -187,7 +187,7 @@ Array [
         <br />
       </strong>
       <span>
-        Queue length: 
+        Queue duration: 
         120
          seconds
       </span>
@@ -251,8 +251,9 @@ Array [
               <div
                 className="meta"
               >
-                60
-                 seconds
+                1 minute
+                 
+                
               </div>
             </div>
           </a>
@@ -278,8 +279,9 @@ Array [
               <div
                 className="meta"
               >
-                60
-                 seconds
+                1 minute
+                 
+                
               </div>
             </div>
           </a>
@@ -306,7 +308,7 @@ Array [
       className="center aligned five wide computer sixteen wide mobile column"
     >
       <span>
-        Playlist length: 
+        Playlist duration: 
         120
          seconds
       </span>
@@ -328,7 +330,7 @@ Array [
         <br />
       </strong>
       <span>
-        Queue length: 
+        Queue duration: 
         120
          seconds
       </span>
@@ -392,8 +394,9 @@ Array [
               <div
                 className="meta"
               >
-                60
-                 seconds
+                1 minute
+                 
+                
               </div>
             </div>
           </a>
@@ -419,8 +422,9 @@ Array [
               <div
                 className="meta"
               >
-                60
-                 seconds
+                1 minute
+                 
+                
               </div>
             </div>
           </a>
