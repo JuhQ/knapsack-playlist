@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PickerItem should be able to select item 1`] = `
+<Item
+  as="a"
+  className="picker-selected"
+  onClick={[Function]}
+>
+  <ItemImage
+    src="https://i.ytimg.com/vi/2/hqdefault.jpg"
+  />
+  <ItemContent>
+    <ItemHeader>
+      test 2
+    </ItemHeader>
+    <ItemMeta>
+      <Duration
+        seconds={60}
+      />
+    </ItemMeta>
+  </ItemContent>
+</Item>
+`;
+
+exports[`PickerItem should render 1`] = `
+<a
+  className="item"
+  onClick={[Function]}
+>
+  <div
+    className="image"
+  >
+    <img
+      src="https://i.ytimg.com/vi/1/hqdefault.jpg"
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      test
+    </div>
+    <div
+      className="meta"
+    >
+      1 minute
+       
+      
+    </div>
+  </div>
+</a>
+`;

@@ -1,0 +1,21 @@
+.ui.items > .item.picker-selected {
+  background-image: linear-gradient(
+    128deg,
+    var(--color-four),
+    var(--color-one)
+  );
+}
+.ui.items > .item.picker-selected .content {
+  padding-top: 0.3rem;
+}
+.ui.items > .item.picker-selected .content .header,
+.ui.items > .item.picker-selected .content .meta {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1.12rem;
+  color: white;
+  text-shadow: 0 0 8px #000;
+}
+.ui.items > .item.picker-selected:hover .content .header {
+  color: var(--color-one);
+}

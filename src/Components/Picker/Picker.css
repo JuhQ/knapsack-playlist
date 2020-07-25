@@ -1,0 +1,10 @@
+.picker-container {
+  max-height: 700px;
+  overflow: auto;
+  padding-top: 0.125rem;
+}
+
+.picker-submit {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
