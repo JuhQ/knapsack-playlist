@@ -29,8 +29,9 @@ exports[`Playlist should render list of songs 1`] = `
         <div
           className="meta"
         >
-          60
-           seconds
+          1 minute
+           
+          
         </div>
       </div>
     </a>
@@ -56,8 +57,9 @@ exports[`Playlist should render list of songs 1`] = `
         <div
           className="meta"
         >
-          60
-           seconds
+          1 minute
+           
+          
         </div>
       </div>
     </a>

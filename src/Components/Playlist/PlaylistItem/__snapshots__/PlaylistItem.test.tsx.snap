@@ -23,8 +23,9 @@ exports[`PlaylistItem should render 1`] = `
     <div
       className="meta"
     >
-      60
-       seconds
+      1 minute
+       
+      
     </div>
   </div>
 </a>
