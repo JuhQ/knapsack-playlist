@@ -1,14 +1,14 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
 
-import { YoutubeItem } from "../../../types";
+import Queue from "../../../Datastructures/queue/queue";
 import EntertainmentSystem from "../../EntertainmentSystem/EntertainmentSystem";
 
 interface Props {
   playlistLength: number;
   generationTried: boolean;
   creating: boolean;
-  playlist: YoutubeItem[];
+  playlist: Queue;
 }
 
 const AppPlayer: React.FC<Props> = ({
@@ -33,7 +33,7 @@ const AppPlayer: React.FC<Props> = ({
         length, this might take a while.
       </>
     )}
-    {playlistLength > 0 && playlist && playlist.length > 0 && (
+    {playlistLength > 0 && playlist && playlist.length() > 0 && (
       <EntertainmentSystem list={playlist} length={playlistLength} />
     )}
   </Container>

@@ -1,19 +1,22 @@
 import React from "react";
 import { create } from "react-test-renderer";
 
+import Queue from "../../../Datastructures/queue/queue";
 import AppPlayer from "./AppPlayer";
 
 describe("AppPlayer", () => {
   it("should render", () => {
+    const playlist = new Queue();
+    playlist.merge([
+      { id: "1", title: "test", seconds: 60 },
+      { id: "2", title: "test2", seconds: 60 },
+    ]);
     const component = create(
       <AppPlayer
         playlistLength={120}
         generationTried
         creating
-        playlist={[
-          { id: "1", title: "test", seconds: 60 },
-          { id: "2", title: "test2", seconds: 60 },
-        ]}
+        playlist={playlist}
       />
     );
     const tree = component.toJSON();
@@ -21,15 +24,17 @@ describe("AppPlayer", () => {
   });
 
   it("should render with generation tried false", () => {
+    const playlist = new Queue();
+    playlist.merge([
+      { id: "1", title: "test", seconds: 60 },
+      { id: "2", title: "test2", seconds: 60 },
+    ]);
     const component = create(
       <AppPlayer
         playlistLength={120}
         generationTried={false}
         creating
-        playlist={[
-          { id: "1", title: "test", seconds: 60 },
-          { id: "2", title: "test2", seconds: 60 },
-        ]}
+        playlist={playlist}
       />
     );
     const tree = component.toJSON();
@@ -37,15 +42,17 @@ describe("AppPlayer", () => {
   });
 
   it("should render with creating false", () => {
+    const playlist = new Queue();
+    playlist.merge([
+      { id: "1", title: "test", seconds: 60 },
+      { id: "2", title: "test2", seconds: 60 },
+    ]);
     const component = create(
       <AppPlayer
         playlistLength={120}
         generationTried
         creating={false}
-        playlist={[
-          { id: "1", title: "test", seconds: 60 },
-          { id: "2", title: "test2", seconds: 60 },
-        ]}
+        playlist={playlist}
       />
     );
     const tree = component.toJSON();
@@ -53,15 +60,17 @@ describe("AppPlayer", () => {
   });
 
   it("should render with generation tried and creating false", () => {
+    const playlist = new Queue();
+    playlist.merge([
+      { id: "1", title: "test", seconds: 60 },
+      { id: "2", title: "test2", seconds: 60 },
+    ]);
     const component = create(
       <AppPlayer
         playlistLength={120}
         generationTried={false}
         creating={false}
-        playlist={[
-          { id: "1", title: "test", seconds: 60 },
-          { id: "2", title: "test2", seconds: 60 },
-        ]}
+        playlist={playlist}
       />
     );
     const tree = component.toJSON();
