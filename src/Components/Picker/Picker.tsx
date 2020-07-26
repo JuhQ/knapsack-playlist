@@ -3,17 +3,17 @@ import "./Picker.css";
 import React, { useState } from "react";
 import { Input, Item, Pagination } from "semantic-ui-react";
 
+import Queue from "../../Datastructures/queue/queue";
 import { YoutubeItem } from "../../types";
-import { sumSeconds } from "../../Utils/math";
 import PickerItem from "./PickerItem/PickerItem";
 
 interface SubmitReturn {
-  list: YoutubeItem[];
+  list: Queue;
   length: number;
 }
 
 interface Props {
-  list: YoutubeItem[];
+  list: Queue;
   onSubmit: ({ list }: SubmitReturn) => void;
 }
 
@@ -21,23 +21,33 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
   const [playlistLength, setPlaylistLength] = useState<number>(3600);
   const [search, setSearch] = useState<string>("");
   const [currentPage, setCurrentPage] = useState<number>(0);
-  const [selectedList, setSelectedList] = useState<YoutubeItem[]>([]);
+  const [selectedList, setSelectedList] = useState<Queue>(new Queue());
 
   const handleSelection = (item: YoutubeItem) => {
-    const itemFound = selectedList.find(({ id }) => item.id === id);
+    const itemFound = selectedList.all().find(({ id }) => item.id === id);
+    const queue = new Queue();
 
     if (itemFound) {
-      setSelectedList(selectedList.filter(({ id }) => id !== item.id));
+      const filteredList = selectedList
+        .all()
+        .filter(({ id }) => id !== item.id);
+
+      queue.merge(filteredList);
     } else {
-      setSelectedList([...selectedList, item]);
+      queue.merge(selectedList);
+      queue.enqueue(item);
     }
+
+    setSelectedList(queue);
   };
 
-  const filteredList = list.filter((item) =>
-    search.length
-      ? item.title.toLowerCase().includes(search.toLowerCase())
-      : true
-  );
+  const filteredList = list
+    .all()
+    .filter((item) =>
+      search.length
+        ? item.title.toLowerCase().includes(search.toLowerCase())
+        : true
+    );
 
   const itemsPerPage = 10;
 
@@ -71,9 +81,9 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
         songs you picked.
       </small>
       <br />
-      List duration {sumSeconds(selectedList)}
+      List duration {selectedList.seconds()}
       <br />
-      List size {selectedList.length}
+      List size {selectedList.length()}
       <br />
       <Input
         type="search"
