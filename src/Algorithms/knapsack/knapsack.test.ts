@@ -139,8 +139,7 @@ describe("knapsack algorithm", () => {
     // take 20 videos from the list and try to generate one hour of music
 
     const list = new Queue();
-    // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
-    YoutubeMusic().slice(-20).forEach(list.enqueue);
+    list.merge(YoutubeMusic().slice(-20));
 
     const playlist = knapsack(list, 3600);
 
@@ -153,30 +152,26 @@ describe("knapsack algorithm", () => {
   describe("variations on playlist", () => {
     describe("one hour playlist", () => {
       it("should return one hour long playlist, on a slice fom 0 to 20 from music list", () => {
-        const musicList = new Queue();
-        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
-        YoutubeMusic().slice(0, 20).forEach(musicList.enqueue);
-        const playlist = knapsack(musicList, 3600);
+        const list = new Queue();
+        list.merge(YoutubeMusic().slice(0, 20));
+        const playlist = knapsack(list, 3600);
         expect(playlist.seconds()).toBe(3531);
       });
       it("should return one hour long playlist, on a slice fom 20 to 40 from music list", () => {
         const list = new Queue();
-        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
-        YoutubeMusic().slice(20, 40).forEach(list.enqueue);
+        list.merge(YoutubeMusic().slice(20, 40));
         const playlist = knapsack(list, 3600);
         expect(playlist.seconds()).toBe(3588);
       });
       it("should return one hour long playlist, on a slice fom 40 to 60 from music list", () => {
         const list = new Queue();
-        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
-        YoutubeMusic().slice(40, 60).forEach(list.enqueue);
+        list.merge(YoutubeMusic().slice(40, 60));
         const playlist = knapsack(list, 3600);
         expect(playlist.seconds()).toBe(3566);
       });
       it("should return one hour long playlist, on a slice fom 60 to 80 from music list", () => {
         const list = new Queue();
-        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
-        YoutubeMusic().slice(60, 80).forEach(list.enqueue);
+        list.merge(YoutubeMusic().slice(60, 80));
         const playlist = knapsack(list, 3600);
         expect(playlist.seconds()).toBe(3437);
       });
@@ -185,29 +180,25 @@ describe("knapsack algorithm", () => {
     describe("two hour playlist", () => {
       it("should return two hour long playlist, on a slice fom 0 to 20 from music list", () => {
         const list = new Queue();
-        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
-        YoutubeMusic().slice(0, 20).forEach(list.enqueue);
+        list.merge(YoutubeMusic().slice(0, 20));
         const playlist = knapsack(list, 3600 * 2);
         expect(playlist.seconds()).toBe(5198);
       });
       it("should return two hour long playlist, on a slice fom 20 to 40 from music list", () => {
         const list = new Queue();
-        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
-        YoutubeMusic().slice(20, 40).forEach(list.enqueue);
+        list.merge(YoutubeMusic().slice(20, 40));
         const playlist = knapsack(list, 3600 * 2);
         expect(playlist.seconds()).toBe(5852);
       });
       it("should return two hour long playlist, on a slice fom 40 to 60 from music list", () => {
         const list = new Queue();
-        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
-        YoutubeMusic().slice(40, 60).forEach(list.enqueue);
+        list.merge(YoutubeMusic().slice(40, 60));
         const playlist = knapsack(list, 3600 * 2);
         expect(playlist.seconds()).toBe(5948);
       });
       it("should return two hour long playlist, on a slice fom 60 to 80 from music list", () => {
         const list = new Queue();
-        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
-        YoutubeMusic().slice(60, 80).forEach(list.enqueue);
+        list.merge(YoutubeMusic().slice(60, 80));
         const playlist = knapsack(list, 3600 * 2);
         expect(playlist.seconds()).toBe(6994);
       });
@@ -236,8 +227,8 @@ describe("knapsack algorithm", () => {
   // it("should return a two hour long playlist", () => {
   //   // take 30 videos from the list and try to generate two hours of music
   //   const list = new Queue();
-  //   // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
-  //   YoutubeMusic().slice(-30).forEach(list.enqueue);
+
+  //   list.merge(YoutubeMusic().slice(-30));
   //   const playlist = knapsack(list, 3600 * 2);
 
   //   expect(playlist.seconds()).toBe(7167);
