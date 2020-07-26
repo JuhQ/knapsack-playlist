@@ -28,4 +28,85 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   border: none;
+  color: white;
+  text-shadow: 0 0 3px rgb(0, 0, 0);
+
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    122deg,
+    var(--color-five),
+    var(--color-four),
+    var(--color-one)
+  );
+}
+
+button:nth-of-type(2) {
+  background-image: linear-gradient(
+    345deg,
+    var(--color-two),
+    var(--color-one),
+    var(--color-five)
+  );
+}
+
+button:nth-of-type(3) {
+  background-image: linear-gradient(
+    1deg,
+    var(--color-one),
+    var(--color-three),
+    var(--color-four)
+  );
+}
+button:nth-of-type(4) {
+  background-image: linear-gradient(
+    12deg,
+    var(--color-five),
+    var(--color-two),
+    var(--color-three)
+  );
+}
+
+button:nth-of-type(5) {
+  background-image: linear-gradient(
+    64deg,
+    var(--color-three),
+    var(--color-one),
+    var(--color-five)
+  );
+}
+
+button:nth-of-type(6) {
+  background-image: linear-gradient(
+    12deg,
+    var(--color-four),
+    var(--color-two),
+    var(--color-three)
+  );
+}
+
+button:nth-of-type(7) {
+  background-image: linear-gradient(
+    112deg,
+    var(--color-five),
+    var(--color-three),
+    var(--color-one)
+  );
+}
+
+button:nth-of-type(8) {
+  background-image: linear-gradient(
+    42deg,
+    var(--color-one),
+    var(--color-two),
+    var(--color-three)
+  );
+}
+
+button:nth-of-type(9) {
+  background-image: linear-gradient(
+    92deg,
+    var(--color-five),
+    var(--color-four),
+    var(--color-three)
+  );
 }
