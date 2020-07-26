@@ -301,13 +301,16 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
     >
       <Playlist
         list={
-          Array [
-            Object {
-              "id": "2",
-              "seconds": 60,
-              "title": "test 2",
-            },
-          ]
+          Queue {
+            "enqueue": [Function],
+            "list": Array [
+              Object {
+                "id": "2",
+                "seconds": 60,
+                "title": "test 2",
+              },
+            ],
+          }
         }
         onChange={[Function]}
       />
@@ -387,13 +390,16 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
     >
       <Playlist
         list={
-          Array [
-            Object {
-              "id": "2",
-              "seconds": 60,
-              "title": "test 2",
-            },
-          ]
+          Queue {
+            "enqueue": [Function],
+            "list": Array [
+              Object {
+                "id": "2",
+                "seconds": 60,
+                "title": "test 2",
+              },
+            ],
+          }
         }
         onChange={[Function]}
       />

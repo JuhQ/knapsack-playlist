@@ -2,27 +2,33 @@ import "./EntertainmentSystem.css";
 
 import React, { useEffect, useState } from "react";
 
+import Queue from "../../Datastructures/queue/queue";
 import { YoutubeItem } from "../../types";
-import { sumSeconds } from "../../Utils/math";
 import EntertainmentSystemContent from "./EntertainmentSystemContent/EntertainmentSystemContent";
 import EntertainmentSystemLastSongPlayed from "./EntertainmentSystemLastSongPlayed/EntertainmentSystemLastSongPlayed";
 
 interface Props {
-  list: YoutubeItem[];
+  list: Queue;
   length: number;
 }
 
 const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
-  const [playlist, setPlaylist] = useState<YoutubeItem[]>(list);
-  const [currentSong, setCurrentSong] = useState<YoutubeItem>(list[0]);
+  const [playlist, setPlaylist] = useState<Queue>(list);
+  const [currentSong, setCurrentSong] = useState<YoutubeItem>(list.at(0));
   const [lastSongPlayed, setLastSongPlayed] = useState<boolean>(false);
-  const playlistLength = sumSeconds(list);
+  const playlistLength = list.seconds();
   const diff = length - playlistLength;
 
   useEffect(() => {
-    const [firstSong, ...initialPlaylist] = list;
+    const firstSong = list.dequeue();
+    const initialPlaylist = new Queue();
+    initialPlaylist.merge(list);
+
+    if (firstSong) {
+      setCurrentSong(firstSong);
+    }
+
     setPlaylist(initialPlaylist);
-    setCurrentSong(firstSong);
     setLastSongPlayed(false);
   }, [list]);
 
@@ -39,16 +45,20 @@ const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
       diff={diff}
       playlistLength={playlistLength}
       onEnd={() => {
-        const [nextSong, ...rest] = playlist;
+        const nextSong = playlist.dequeue();
         if (nextSong) {
           setCurrentSong(nextSong);
-          setPlaylist(rest);
+          setPlaylist(playlist);
         } else {
           setLastSongPlayed(true);
+          setPlaylist(new Queue());
         }
       }}
       onChange={(song) => {
-        setPlaylist(playlist.filter(({ id }) => id !== song.id));
+        const queue = new Queue();
+        const filteredList = playlist.all().filter(({ id }) => id !== song.id);
+        queue.merge(filteredList);
+        setPlaylist(queue);
         setCurrentSong(song);
       }}
     />

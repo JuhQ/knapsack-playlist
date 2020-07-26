@@ -3,19 +3,17 @@ import { shallowToJson } from "enzyme-to-json";
 import React from "react";
 import { act, create } from "react-test-renderer";
 
+import Queue from "../../Datastructures/queue/queue";
 import EntertainmentSystem from "./EntertainmentSystem";
 
 describe("EntertainmentSystem", () => {
   it("should render", () => {
-    const component = create(
-      <EntertainmentSystem
-        list={[
-          { id: "1", title: "test", seconds: 60 },
-          { id: "2", title: "test 2", seconds: 60 },
-        ]}
-        length={120}
-      />
-    );
+    const list = new Queue();
+    list.merge([
+      { id: "1", title: "test", seconds: 60 },
+      { id: "2", title: "test 2", seconds: 60 },
+    ]);
+    const component = create(<EntertainmentSystem list={list} length={120} />);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
 
@@ -25,15 +23,12 @@ describe("EntertainmentSystem", () => {
   });
 
   it("should end the first song", () => {
-    const wrapper = shallow(
-      <EntertainmentSystem
-        list={[
-          { id: "1", title: "test", seconds: 60 },
-          { id: "2", title: "test 2", seconds: 60 },
-        ]}
-        length={120}
-      />
-    );
+    const list = new Queue();
+    list.merge([
+      { id: "1", title: "test", seconds: 60 },
+      { id: "2", title: "test 2", seconds: 60 },
+    ]);
+    const wrapper = shallow(<EntertainmentSystem list={list} length={120} />);
 
     wrapper.find("EntertainmentSystemContent").simulate("end");
     expect(shallowToJson(wrapper)).toMatchSnapshot();
@@ -43,13 +38,10 @@ describe("EntertainmentSystem", () => {
   });
 
   it("should end the last song of the list", () => {
+    const list = new Queue();
+    list.merge([{ id: "1", title: "test", seconds: 60 }]);
     act(() => {
-      const wrapper = shallow(
-        <EntertainmentSystem
-          list={[{ id: "1", title: "test", seconds: 60 }]}
-          length={120}
-        />
-      );
+      const wrapper = shallow(<EntertainmentSystem list={list} length={120} />);
 
       wrapper.find("EntertainmentSystemContent").simulate("end");
       act(() => {
@@ -59,7 +51,9 @@ describe("EntertainmentSystem", () => {
   });
 
   it("should end the song of the empty list", () => {
-    const wrapper = shallow(<EntertainmentSystem list={[]} length={120} />);
+    const wrapper = shallow(
+      <EntertainmentSystem list={new Queue()} length={120} />
+    );
 
     wrapper.find("EntertainmentSystemContent").simulate("end");
     act(() => {
@@ -68,15 +62,12 @@ describe("EntertainmentSystem", () => {
   });
 
   it("should change song", () => {
-    const wrapper = shallow(
-      <EntertainmentSystem
-        list={[
-          { id: "1", title: "test", seconds: 60 },
-          { id: "2", title: "test 2", seconds: 60 },
-        ]}
-        length={120}
-      />
-    );
+    const list = new Queue();
+    list.merge([
+      { id: "1", title: "test", seconds: 60 },
+      { id: "2", title: "test 2", seconds: 60 },
+    ]);
+    const wrapper = shallow(<EntertainmentSystem list={list} length={120} />);
 
     wrapper
       .find("EntertainmentSystemContent")

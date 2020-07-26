@@ -1,14 +1,14 @@
 import React from "react";
 import { Grid } from "semantic-ui-react";
 
+import Queue from "../../../Datastructures/queue/queue";
 import { YoutubeItem } from "../../../types";
-import { sumSeconds } from "../../../Utils/math";
 import Player from "../../Player/Player";
 import Playlist from "../../Playlist/Playlist";
 
 interface Props {
-  list: YoutubeItem[];
-  playlist: YoutubeItem[];
+  list: Queue;
+  playlist: Queue;
   currentSong: YoutubeItem;
   playlistLength: number;
   length: number;
@@ -55,11 +55,11 @@ const EntertainmentSystemContent: React.FC<Props> = ({
             <br />
           </>
         )}
-        <span>Queue duration: {sumSeconds(playlist)} seconds</span>
+        <span>Queue duration: {playlist.seconds()} seconds</span>
         <br />
-        <span>Playlist size: {list.length} songs</span>
+        <span>Playlist size: {list.length()} songs</span>
         <br />
-        <span>Queue size: {playlist.length} songs</span>
+        <span>Queue size: {playlist.length()} songs</span>
       </Grid.Column>
     </Grid>
     <Grid>
