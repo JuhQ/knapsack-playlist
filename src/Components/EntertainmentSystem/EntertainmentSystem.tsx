@@ -20,9 +20,9 @@ const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
   const diff = length - playlistLength;
 
   useEffect(() => {
-    const firstSong = list.dequeue();
     const initialPlaylist = new Queue();
     initialPlaylist.merge(list);
+    const firstSong = initialPlaylist.dequeue();
 
     if (firstSong) {
       setCurrentSong(firstSong);
