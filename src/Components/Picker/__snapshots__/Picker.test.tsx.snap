@@ -1,5 +1,202 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Picker should be able change page 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h3>
+    Define desired playlist length and pick your music
+  </h3>
+  <Input
+    label={
+      Object {
+        "basic": true,
+        "content": "seconds",
+      }
+    }
+    labelPosition="right"
+    onChange={[Function]}
+    placeholder="Enter desired playlist length"
+    size="large"
+    type="number"
+    value={3600}
+  />
+  <br />
+  <button
+    className="picker-submit"
+    type="submit"
+  >
+    Click here to generate the playlist from music you picked
+  </button>
+  <br />
+  <small>
+    Depending on the size of the set you pick, and the length of the playlist you set, the generated playlist may or may not include all the songs you picked.
+  </small>
+  <br />
+  List duration 
+  0
+  <br />
+  List size 
+  0
+  <br />
+  <Input
+    onChange={[Function]}
+    placeholder="Search"
+    type="search"
+  />
+  <div
+    className="picker-container"
+  >
+    <Pagination
+      activePage={2}
+      aria-label="Pagination Navigation"
+      boundaryRange={1}
+      ellipsisItem="..."
+      firstItem={
+        Object {
+          "aria-label": "First item",
+          "content": "«",
+        }
+      }
+      lastItem={
+        Object {
+          "aria-label": "Last item",
+          "content": "»",
+        }
+      }
+      nextItem={
+        Object {
+          "aria-label": "Next item",
+          "content": "⟩",
+        }
+      }
+      onPageChange={[Function]}
+      pageItem={Object {}}
+      prevItem={
+        Object {
+          "aria-label": "Previous item",
+          "content": "⟨",
+        }
+      }
+      siblingRange={1}
+      totalPages={3}
+    />
+    <ItemGroup>
+      <PickerItem
+        item={
+          Object {
+            "id": "10",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="10"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "11",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="11"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "12",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="12"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "13",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="13"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "14",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="14"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "15",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="15"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "16",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="16"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "17",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="17"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "18",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="18"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "19",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="19"
+        onClick={[Function]}
+      />
+    </ItemGroup>
+  </div>
+</form>
+`;
+
 exports[`Picker should be able to call filter list 1`] = `
 <form
   onSubmit={[Function]}
@@ -47,6 +244,40 @@ exports[`Picker should be able to call filter list 1`] = `
   <div
     className="picker-container"
   >
+    <Pagination
+      activePage={1}
+      aria-label="Pagination Navigation"
+      boundaryRange={1}
+      ellipsisItem="..."
+      firstItem={
+        Object {
+          "aria-label": "First item",
+          "content": "«",
+        }
+      }
+      lastItem={
+        Object {
+          "aria-label": "Last item",
+          "content": "»",
+        }
+      }
+      nextItem={
+        Object {
+          "aria-label": "Next item",
+          "content": "⟩",
+        }
+      }
+      onPageChange={[Function]}
+      pageItem={Object {}}
+      prevItem={
+        Object {
+          "aria-label": "Previous item",
+          "content": "⟨",
+        }
+      }
+      siblingRange={1}
+      totalPages={0}
+    />
     <ItemGroup />
   </div>
 </form>
@@ -99,6 +330,40 @@ exports[`Picker should be able to call onSubmit function and return a list of se
   <div
     className="picker-container"
   >
+    <Pagination
+      activePage={1}
+      aria-label="Pagination Navigation"
+      boundaryRange={1}
+      ellipsisItem="..."
+      firstItem={
+        Object {
+          "aria-label": "First item",
+          "content": "«",
+        }
+      }
+      lastItem={
+        Object {
+          "aria-label": "Last item",
+          "content": "»",
+        }
+      }
+      nextItem={
+        Object {
+          "aria-label": "Next item",
+          "content": "⟩",
+        }
+      }
+      onPageChange={[Function]}
+      pageItem={Object {}}
+      prevItem={
+        Object {
+          "aria-label": "Previous item",
+          "content": "⟨",
+        }
+      }
+      siblingRange={1}
+      totalPages={1}
+    />
     <ItemGroup>
       <PickerItem
         item={
@@ -174,6 +439,40 @@ exports[`Picker should be able to call onSubmit function and return an empty lis
   <div
     className="picker-container"
   >
+    <Pagination
+      activePage={1}
+      aria-label="Pagination Navigation"
+      boundaryRange={1}
+      ellipsisItem="..."
+      firstItem={
+        Object {
+          "aria-label": "First item",
+          "content": "«",
+        }
+      }
+      lastItem={
+        Object {
+          "aria-label": "Last item",
+          "content": "»",
+        }
+      }
+      nextItem={
+        Object {
+          "aria-label": "Next item",
+          "content": "⟩",
+        }
+      }
+      onPageChange={[Function]}
+      pageItem={Object {}}
+      prevItem={
+        Object {
+          "aria-label": "Previous item",
+          "content": "⟨",
+        }
+      }
+      siblingRange={1}
+      totalPages={1}
+    />
     <ItemGroup>
       <PickerItem
         item={
@@ -256,6 +555,76 @@ exports[`Picker should render 1`] = `
     className="picker-container"
   >
     <div
+      aria-label="Pagination Navigation"
+      className="ui pagination menu"
+      role="navigation"
+    >
+      <a
+        aria-current={false}
+        aria-disabled={false}
+        aria-label="First item"
+        className="item"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+        type="firstItem"
+        value={1}
+      >
+        «
+      </a>
+      <a
+        aria-current={false}
+        aria-disabled={false}
+        aria-label="Previous item"
+        className="item"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+        type="prevItem"
+        value={1}
+      >
+        ⟨
+      </a>
+      <a
+        aria-current={true}
+        aria-disabled={false}
+        className="active item"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+        type="pageItem"
+        value={1}
+      >
+        1
+      </a>
+      <a
+        aria-current={false}
+        aria-disabled={false}
+        aria-label="Next item"
+        className="item"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+        type="nextItem"
+        value={1}
+      >
+        ⟩
+      </a>
+      <a
+        aria-current={false}
+        aria-disabled={false}
+        aria-label="Last item"
+        className="item"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+        type="lastItem"
+        value={1}
+      >
+        »
+      </a>
+    </div>
+    <div
       className="ui items"
     >
       <a
@@ -315,6 +684,203 @@ exports[`Picker should render 1`] = `
         </div>
       </a>
     </div>
+  </div>
+</form>
+`;
+
+exports[`Picker should render multiple items with pagination 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h3>
+    Define desired playlist length and pick your music
+  </h3>
+  <Input
+    label={
+      Object {
+        "basic": true,
+        "content": "seconds",
+      }
+    }
+    labelPosition="right"
+    onChange={[Function]}
+    placeholder="Enter desired playlist length"
+    size="large"
+    type="number"
+    value={3600}
+  />
+  <br />
+  <button
+    className="picker-submit"
+    type="submit"
+  >
+    Click here to generate the playlist from music you picked
+  </button>
+  <br />
+  <small>
+    Depending on the size of the set you pick, and the length of the playlist you set, the generated playlist may or may not include all the songs you picked.
+  </small>
+  <br />
+  List duration 
+  0
+  <br />
+  List size 
+  0
+  <br />
+  <Input
+    onChange={[Function]}
+    placeholder="Search"
+    type="search"
+  />
+  <div
+    className="picker-container"
+  >
+    <Pagination
+      activePage={1}
+      aria-label="Pagination Navigation"
+      boundaryRange={1}
+      ellipsisItem="..."
+      firstItem={
+        Object {
+          "aria-label": "First item",
+          "content": "«",
+        }
+      }
+      lastItem={
+        Object {
+          "aria-label": "Last item",
+          "content": "»",
+        }
+      }
+      nextItem={
+        Object {
+          "aria-label": "Next item",
+          "content": "⟩",
+        }
+      }
+      onPageChange={[Function]}
+      pageItem={Object {}}
+      prevItem={
+        Object {
+          "aria-label": "Previous item",
+          "content": "⟨",
+        }
+      }
+      siblingRange={1}
+      totalPages={3}
+    />
+    <ItemGroup>
+      <PickerItem
+        item={
+          Object {
+            "id": "0",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="0"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "1",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="1"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "2",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="2"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "3",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="3"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "4",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="4"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "5",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="5"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "6",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="6"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "7",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="7"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "8",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="8"
+        onClick={[Function]}
+      />
+      <PickerItem
+        item={
+          Object {
+            "id": "9",
+            "seconds": 20,
+            "title": "test",
+          }
+        }
+        key="9"
+        onClick={[Function]}
+      />
+    </ItemGroup>
   </div>
 </form>
 `;

@@ -1,7 +1,7 @@
 import "./Picker.css";
 
 import React, { useState } from "react";
-import { Input, Item } from "semantic-ui-react";
+import { Input, Item, Pagination } from "semantic-ui-react";
 
 import { YoutubeItem } from "../../types";
 import { sumSeconds } from "../../Utils/math";
@@ -20,6 +20,7 @@ interface Props {
 const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
   const [playlistLength, setPlaylistLength] = useState<number>(3600);
   const [search, setSearch] = useState<string>("");
+  const [currentPage, setCurrentPage] = useState<number>(0);
   const [selectedList, setSelectedList] = useState<YoutubeItem[]>([]);
 
   const handleSelection = (item: YoutubeItem) => {
@@ -32,7 +33,13 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
     }
   };
 
-  const length = sumSeconds(selectedList);
+  const filteredList = list.filter((item) =>
+    search.length
+      ? item.title.toLowerCase().includes(search.toLowerCase())
+      : true
+  );
+
+  const itemsPerPage = 10;
 
   return (
     <form
@@ -64,7 +71,7 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
         songs you picked.
       </small>
       <br />
-      List duration {length}
+      List duration {sumSeconds(selectedList)}
       <br />
       List size {selectedList.length}
       <br />
@@ -73,15 +80,22 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
         placeholder="Search"
         onChange={({ target }) => {
           setSearch(target.value);
+          setCurrentPage(0);
         }}
       />
       <div className="picker-container">
+        <Pagination
+          activePage={currentPage + 1}
+          totalPages={Math.ceil(filteredList.length / itemsPerPage)}
+          onPageChange={(event, { activePage }) => {
+            setCurrentPage(Number(activePage) - 1);
+          }}
+        />
         <Item.Group>
-          {list
-            .filter((item) =>
-              search.length
-                ? item.title.toLowerCase().includes(search.toLowerCase())
-                : true
+          {filteredList
+            .slice(
+              currentPage * itemsPerPage,
+              currentPage * itemsPerPage + itemsPerPage
             )
             .map((item) => (
               <PickerItem

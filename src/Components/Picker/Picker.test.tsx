@@ -3,7 +3,17 @@ import { shallowToJson } from "enzyme-to-json";
 import React from "react";
 import renderer, { act } from "react-test-renderer";
 
+import generateTestData from "../../Utils/testHelpers";
 import Picker from "./Picker";
+
+interface PaginationProps {
+  prop: (
+    value: string
+  ) => (
+    event: { preventDefault: () => null },
+    result: { activePage: number }
+  ) => null;
+}
 
 const event = { preventDefault: jest.fn() };
 
@@ -140,6 +150,27 @@ describe("Picker", () => {
     expect(handleSubmit).toHaveBeenCalledWith({
       length: 200,
       list: [{ id: "2", seconds: 60, title: "test 2" }],
+    });
+  });
+
+  it("should render multiple items with pagination", () => {
+    const wrapper = shallow(
+      <Picker list={generateTestData(30, 20)} onSubmit={() => null} />
+    );
+
+    expect(shallowToJson(wrapper)).toMatchSnapshot();
+  });
+
+  it("should be able change page", () => {
+    const wrapper = shallow(
+      <Picker list={generateTestData(30, 20)} onSubmit={() => null} />
+    );
+
+    act(() => {
+      // simulate does not work here :(
+      const pagination: PaginationProps = wrapper.find("Pagination");
+      pagination.prop("onPageChange")(event, { activePage: 2 });
+      expect(shallowToJson(wrapper)).toMatchSnapshot();
     });
   });
 });
