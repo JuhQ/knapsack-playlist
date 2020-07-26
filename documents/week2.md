@@ -7,7 +7,7 @@ Rakensin komponentin jonka avulla voidaan valita halutut videot algoritmille ann
 
 ## Mikä jäi epäselväksi tai tuotti vaikeuksia
 
-Videovalitsin komponentti renderöi kaikki videot sivulle kerralla. Jokaista videota kohti renderöidään useita DOM-elementtejä, ja tämä aiheuttaa hitautta esimerkiksi yksittäisen videon valitsemisen vasteajassa, sekä halutun soittolistan pituuden määrittämisessä. Täytyy selvitellä, lomakkeella on tapahtumakuuntelija, jonka siirtäminen pois tästä suuremmasta komponentista voisi ehkä auttaa.
+Vaikeuksia koittaneet asiat korjattu.
 
 ## Mitä teen seuraavaksi
 
@@ -19,3 +19,4 @@ Käyttöliittymää tulee parantaa, sekä intuitiivisemmaksi että tehokkaammaks
 | Päivä	| Käytetty aika	| Mihin aikaa käytettiin	|
 | ------|:-------------:|------:|
 | 25.7.	| 4h		| Videoiden valitsin ja käyttöliittymän tuunailua. |
+| 26.7.	| 1h		| Uutta musiikkia, käyttöliittymän viilailua sekä picker komponenttiin sivutuksen lisääminen |
