@@ -118,4 +118,80 @@ describe("queue data structure", () => {
     expect(queue.slice(0, 1)).toEqual([{ id: "1", seconds: 123, title: "1" }]);
     expect(queue.slice(1, 2)).toEqual([{ id: "2", seconds: 123, title: "2" }]);
   });
+
+  describe("merge", () => {
+    it("should be able to merge queue", () => {
+      const queue = new Queue();
+
+      queue.enqueue({ id: "1", title: "1", seconds: 123 });
+      queue.enqueue({ id: "2", title: "2", seconds: 123 });
+
+      const newQueue = new Queue();
+      newQueue.merge(queue);
+
+      expect(newQueue.all()).toEqual([
+        { id: "1", seconds: 123, title: "1" },
+        { id: "2", seconds: 123, title: "2" },
+      ]);
+    });
+
+    it("should be able to merge queue and enqueue more items", () => {
+      const queue = new Queue();
+
+      queue.enqueue({ id: "1", title: "1", seconds: 123 });
+      queue.enqueue({ id: "2", title: "2", seconds: 123 });
+
+      const newQueue = new Queue();
+      newQueue.merge(queue);
+
+      expect(newQueue.all()).toEqual([
+        { id: "1", seconds: 123, title: "1" },
+        { id: "2", seconds: 123, title: "2" },
+      ]);
+
+      newQueue.enqueue({ id: "3", title: "3", seconds: 123 });
+
+      expect(newQueue.all()).toEqual([
+        { id: "1", seconds: 123, title: "1" },
+        { id: "2", seconds: 123, title: "2" },
+        { id: "3", seconds: 123, title: "3" },
+      ]);
+    });
+
+    it("should be able to merge list", () => {
+      const queue = new Queue();
+
+      queue.merge([
+        { id: "1", title: "1", seconds: 123 },
+        { id: "2", title: "2", seconds: 123 },
+      ]);
+
+      expect(queue.all()).toEqual([
+        { id: "1", seconds: 123, title: "1" },
+        { id: "2", seconds: 123, title: "2" },
+      ]);
+    });
+
+    it("should be able to merge list and enqueue more items", () => {
+      const queue = new Queue();
+
+      queue.merge([
+        { id: "1", title: "1", seconds: 123 },
+        { id: "2", title: "2", seconds: 123 },
+      ]);
+
+      expect(queue.all()).toEqual([
+        { id: "1", seconds: 123, title: "1" },
+        { id: "2", seconds: 123, title: "2" },
+      ]);
+
+      queue.enqueue({ id: "3", title: "3", seconds: 123 });
+
+      expect(queue.all()).toEqual([
+        { id: "1", seconds: 123, title: "1" },
+        { id: "2", seconds: 123, title: "2" },
+        { id: "3", seconds: 123, title: "3" },
+      ]);
+    });
+  });
 });

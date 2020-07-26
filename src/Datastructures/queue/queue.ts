@@ -27,6 +27,15 @@ class Queue {
     return this.list.slice(start, end);
   }
 
+  // merge array list or queue to queue
+  merge(list: Queue | YoutubeItem[]): void {
+    const values = list instanceof Queue ? list.all() : list;
+
+    for (let i = 0; i < values.length; i++) {
+      this.enqueue(values[i]);
+    }
+  }
+
   // add value to the end of the queue
   // fat arrow syntax allows us to bind `this` to the scope of the class instead of the caller scope
   enqueue = (value: YoutubeItem): void => {
