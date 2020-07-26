@@ -1939,6 +1939,763 @@ const music: YoutubeItem[] = [
   { id: "sHbKdI26RkE", title: "House Of The Rising Sun", seconds: 269 },
   { id: "r5NzAksjfDI", title: "Fortunate Son", seconds: 141 },
   { id: "x2KRpRMSu4g", title: "The Who - Baba O'riley", seconds: 307 },
+  {
+    id: "aXCwXsa2T4E",
+    title: "California - Soyb & Amine Maxwell · [Free Copyright-safe Music]",
+    seconds: 145,
+  },
+  {
+    id: "8IFqQMEt8qk",
+    title: "Crazy (instrumental) - SilentCrafter · [Free Copyright-safe Music]",
+    seconds: 219,
+  },
+  {
+    id: "dyCgA05wDfM",
+    title: "Downstream - Lyvo · [Free Copyright-safe Music]",
+    seconds: 210,
+  },
+  {
+    id: "9CC2Elmv9J4",
+    title: "Uncut Gems - Mezhdunami · [Free Copyright-safe Music]",
+    seconds: 136,
+  },
+  {
+    id: "ZEQKWb5A1qw",
+    title: "Tropics - tubebackr · [Free Copyright-safe Music]",
+    seconds: 238,
+  },
+  {
+    id: "_eTauQHrjto",
+    title: "Remember by Nettson · [Free Copyright-safe Music]",
+    seconds: 168,
+  },
+  {
+    id: "6zo-I7NGK18",
+    title: "Anxiety (instrumental) by RYYZN · [Free Copyright-safe Music]",
+    seconds: 113,
+  },
+  {
+    id: "WAD2veumgYc",
+    title: "Nightfall by Roa · [Free Copyright-safe Music]",
+    seconds: 270,
+  },
+  {
+    id: "kV07PqSZeDY",
+    title: "Winding Road by Pyrosion · [Free Copyright-safe Music]",
+    seconds: 180,
+  },
+  {
+    id: "qd_2lX_bwPY",
+    title: "Void Edge by Lesion X · [Free Copyright-safe Music]",
+    seconds: 193,
+  },
+  {
+    id: "y-tbE2FIA1o",
+    title:
+      "Heartfül of Kerøsene (instrumental) - Jeff II · [Free Copyright-safe Music]",
+    seconds: 161,
+  },
+  {
+    id: "SaoDWgWSpGw",
+    title: "New Life - JayJen & ASHUTOSH · [Free Copyright-safe Music]",
+    seconds: 139,
+  },
+  {
+    id: "a0hkrjqpIOo",
+    title: "stay with me - Rexlambo · [Free Copyright-safe Music]",
+    seconds: 232,
+  },
+  {
+    id: "Sf-DjaE_TeE",
+    title: "The Clock (instrumental) - RYYZN · [Free Copyright-safe Music]",
+    seconds: 131,
+  },
+  {
+    id: "jqrSrcAv97A",
+    title:
+      "Everything You Need Is By Your Side - Vlad Gluschenko · [Free Copyright-safe Music]",
+    seconds: 133,
+  },
+  {
+    id: "asozZJmOqIo",
+    title: "Eden - Onycs · [Free Copyright-safe Music]",
+    seconds: 220,
+  },
+  {
+    id: "MCOKZs8IUWs",
+    title: "Good Evening - Amine Maxwell [Copyright-safe] | Preview",
+    seconds: 48,
+  },
+  {
+    id: "3zL1CW6nr00",
+    title: "Rebirth - Peyruis · [Free Copyright-safe Music]",
+    seconds: 211,
+  },
+  {
+    id: "oZ3vUFdPAjI",
+    title: "California - MusicbyAden · [Free Copyright-safe Music]",
+    seconds: 205,
+  },
+  {
+    id: "c59mA_Z5PZ8",
+    title: "Te amo - Vendredi [Copyright-safe] | Preview",
+    seconds: 60,
+  },
+  {
+    id: "rtyEmZCUI5g",
+    title: "Ephemera - Scott Buckley · [Free Copyright-safe Music]",
+    seconds: 340,
+  },
+  {
+    id: "h3vLcFXEpyw",
+    title:
+      "Something I Like (instrumental) - RYYZN · [Free Copyright-safe Music]",
+    seconds: 138,
+  },
+  {
+    id: "qonPqql2sP0",
+    title: "Riviera - Smith The Mister · [Free Copyright-safe Music]",
+    seconds: 174,
+  },
+  {
+    id: "i-ZlZ49oZ78",
+    title: "Holiday - JayJen & Osheen · [Free Copyright-safe Music]",
+    seconds: 216,
+  },
+  {
+    id: "6FeM9gsbjWU",
+    title: "Faith - Vishmak · [Free Copyright-safe Music]",
+    seconds: 160,
+  },
+  {
+    id: "dsdYAMcNcwI",
+    title: "Mood - Peyruis · [Free Copyright-safe Music]",
+    seconds: 223,
+  },
+  {
+    id: "LGu5ABRjYM4",
+    title: "Enchanté - Vendredi · [Free Copyright-safe Music]",
+    seconds: 175,
+  },
+  {
+    id: "JZ1maOwEZy0",
+    title: "Fate And Fortune - Scott Buckley · [Free Copyright-safe Music]",
+    seconds: 84,
+  },
+  {
+    id: "ybRUMGomV5E",
+    title: "Sleepless Nights - Roa · [Free Copyright-safe Music]",
+    seconds: 224,
+  },
+  {
+    id: "lVwzRg40PrU",
+    title: "Good Life - JayJen & Roa [Copyright-safe] | Preview",
+    seconds: 58,
+  },
+  {
+    id: "6MT6-JzUw1w",
+    title: "Clocks - Smith The Mister · [Free Copyright-safe Music]",
+    seconds: 121,
+  },
+  {
+    id: "ipBADI59ZLQ",
+    title: "Waiting For You - Le Gang · [Free Copyright-safe Music]",
+    seconds: 176,
+  },
+  {
+    id: "1YtWigPFk4M",
+    title: "Superstar - Soyb [Copyright-safe] | Preview",
+    seconds: 58,
+  },
+  {
+    id: "ecu0hLNS-X8",
+    title: "Children (ft ELLE) - Vendredi · [Free Copyright-safe Music]",
+    seconds: 167,
+  },
+  {
+    id: "qXptaqHIH5g",
+    title: "Cali - Wataboi · [Free Copyright-safe Music]",
+    seconds: 181,
+  },
+  {
+    id: "i5xJX-SYQL0",
+    title: "Bubble - KV [Copyright-safe] | Preview",
+    seconds: 75,
+  },
+  {
+    id: "Q0mUON_LA2Q",
+    title: "Vacaciones - Mike Leite · [Free Copyright-safe Music]",
+    seconds: 194,
+  },
+  {
+    id: "x8h50E6ekR0",
+    title: "Solace - Scott Buckley · [Free Copyright-safe Music]",
+    seconds: 358,
+  },
+  {
+    id: "b4p9TiftgJY",
+    title: "Slowly - Smith The Mister · [Free Copyright-safe Music]",
+    seconds: 146,
+  },
+  {
+    id: "TCzSzvJEMZY",
+    title: "Light - tubebackr · [Free Copyright-safe Music]",
+    seconds: 213,
+  },
+  {
+    id: "0UFQPWTU6sI",
+    title: "Desire - MusicbyAden · [Free Copyright-safe Music]",
+    seconds: 300,
+  },
+  {
+    id: "AKy14wPxaSo",
+    title: "My Itinerary - Tokyo Music Walker · [Free Copyright-safe Music]",
+    seconds: 314,
+  },
+  {
+    id: "aK8x9Qsx8y8",
+    title: "It will be ok - LiQWYD · [Free Copyright-safe Music]",
+    seconds: 183,
+  },
+  {
+    id: "of0Ei_T4isc",
+    title: "Signal To Noise - Scott Buckley · [Free Copyright-safe Music]",
+    seconds: 355,
+  },
+  {
+    id: "7TWSF5Dt0EM",
+    title: "Lights - Roa · [Free Copyright-safe Music]",
+    seconds: 263,
+  },
+  {
+    id: "lqTd9aYvUOI",
+    title: "Secret Crush - Vendredi [Copyright-safe] | Preview",
+    seconds: 74,
+  },
+  {
+    id: "zNqOPkZi83g",
+    title: "Galaxy Voices - Cauzmonote · [Free Copyright-safe Music]",
+    seconds: 186,
+  },
+  {
+    id: "R6ItSWcMh6Q",
+    title: "Sunrise - MusicbyAden & Atch · [Free Copyright-safe Music]",
+    seconds: 162,
+  },
+  {
+    id: "e-0noViJqxI",
+    title:
+      "Roa - Remember (JayJen Remix) - JayJen · [Free Copyright-safe Music]",
+    seconds: 189,
+  },
+  {
+    id: "TzrgCtfA5gs",
+    title: "Playa - Mauro Somm [Copyright-safe] | Preview",
+    seconds: 61,
+  },
+  {
+    id: "VW49wOueXgY",
+    title: "Play it safe - LiQWYD · [Free Copyright-safe Music]",
+    seconds: 192,
+  },
+  {
+    id: "AzYoVrMLa1Q",
+    title: "In Time (Instrumental) - Dylan Emmet · [Free Copyright-safe Music]",
+    seconds: 177,
+  },
+  {
+    id: "LsGBcsXFwhY",
+    title: "Campfire - Declan DP [Copyright-safe] | Preview",
+    seconds: 61,
+  },
+  {
+    id: "gY6eEnR2tTU",
+    title:
+      "Out Of Time (ft. Lily Hain) - Leonell Cassio · [Free Copyright-safe Music]",
+    seconds: 200,
+  },
+  {
+    id: "4fX1VmXg-gU",
+    title: "Memories - MusicbyAden · [Free Copyright-safe Music]",
+    seconds: 196,
+  },
+  {
+    id: "XakoYx0c0MA",
+    title: "Maarif - Soyb & Amine Maxwell [Copyright-safe] | Preview",
+    seconds: 61,
+  },
+  {
+    id: "wqNpI4vNuyk",
+    title: "Amelia - Amine Maxwell · [Free Copyright-safe Music]",
+    seconds: 168,
+  },
+  {
+    id: "Qdaj2UeTsu4",
+    title: "Asleep - HaTom · [Free Copyright-safe Music]",
+    seconds: 216,
+  },
+  {
+    id: "6c-QjUUOUEE",
+    title: "This Feeling - Atch · [Free Copyright-safe Music]",
+    seconds: 154,
+  },
+  {
+    id: "WiCkC9RsVQg",
+    title: "Follow Me - Vendredi [Copyright-safe] | Preview",
+    seconds: 61,
+  },
+  {
+    id: "AOjdw8XX-vE",
+    title: "Intense - Peyruis · [Free Copyright-safe Music]",
+    seconds: 180,
+  },
+  {
+    id: "89AQsDYk04Q",
+    title: "Never Be Friends - Dylan Emmet · [Free Copyright-safe Music]",
+    seconds: 132,
+  },
+  {
+    id: "RKiTVUu-4dM",
+    title: "Stable - KV [Copyright-safe] | Preview",
+    seconds: 61,
+  },
+  {
+    id: "Xqrw9DuIlkA",
+    title: "Havana - Soyb & Amine Maxwell · [Free Copyright-safe Music]",
+    seconds: 95,
+  },
+  {
+    id: "hnELKq4QXsY",
+    title: "LiQWYD - A day in my life as a music producer",
+    seconds: 89,
+  },
+  {
+    id: "I8_b6YNiyp4",
+    title: "Surf - MusicbyAden · [Free Copyright-safe Music]",
+    seconds: 146,
+  },
+  {
+    id: "UtFapeYHmMA",
+    title: "Pineapple - JayJen [Copyright-safe] | Preview",
+    seconds: 61,
+  },
+  {
+    id: "cCpES8j_ucI",
+    title: "We've Got Time - LiQWYD · [Free Copyright-safe Music]",
+    seconds: 189,
+  },
+  {
+    id: "kxygwruwK3k",
+    title: "Promise Me - PYC Music · [Free Copyright-safe Music]",
+    seconds: 134,
+  },
+  {
+    id: "XWxtEf57SgA",
+    title: "Come Over - RYYZN · [Free Copyright-safe Music]",
+    seconds: 159,
+  },
+  {
+    id: "tzQnj9ITYQQ",
+    title: "Ardent - Pratzapp [Copyright-safe] | Preview",
+    seconds: 63,
+  },
+  {
+    id: "sIaZg9d6mjg",
+    title: "Journey - Atch · [Free Copyright-safe Music]",
+    seconds: 189,
+  },
+  {
+    id: "aHM4r9Llpb0",
+    title: "Harmonia - Peyruis · [Free Copyright-safe Music]",
+    seconds: 196,
+  },
+  {
+    id: "z4nKLURr8Ec",
+    title: "Tropical Love - Vendredi [Copyright-safe] | Preview",
+    seconds: 62,
+  },
+  {
+    id: "H74vWsZs2cQ",
+    title: "Over soon - LiQWYD · [Free Copyright-safe Music]",
+    seconds: 158,
+  },
+  {
+    id: "Fpwzd8Nl6Eo",
+    title: "Sunray valley - Scandinavianz · [Free Copyright-safe Music]",
+    seconds: 191,
+  },
+  {
+    id: "XsH4ktwozrs",
+    title:
+      "On The Line (Instrumental) - SilentCrafter · [Free Copyright-safe Music]",
+    seconds: 188,
+  },
+  {
+    id: "LeP1D9DoiYE",
+    title: "Promises - ROFEU · [Free Copyright-safe Music]",
+    seconds: 128,
+  },
+  {
+    id: "eNgusegQBGM",
+    title: "Virtual Joy - SilentCrafter · [Free Copyright-safe Music]",
+    seconds: 198,
+  },
+  {
+    id: "edtbI6-9CRA",
+    title:
+      "Soulmates (Instrumental) - DayFox & BraveLion [Copyright-safe] | Preview",
+    seconds: 61,
+  },
+  {
+    id: "e4u4vGpuoQM",
+    title: "District 19 - tubebackr · [Free Copyright-safe Music]",
+    seconds: 262,
+  },
+  {
+    id: "Qvw-s27xp_g",
+    title: "Bora Bora - MBB · [Free Copyright-safe Music]",
+    seconds: 149,
+  },
+  {
+    id: "kPVJUD9Wo98",
+    title: "Gonna Sing - Peyruis · [Free Copyright-safe Music]",
+    seconds: 165,
+  },
+  {
+    id: "F0qB13gOqf0",
+    title: "Will I? - ADERIN · [Free Copyright-safe Music]",
+    seconds: 146,
+  },
+  {
+    id: "ORP36Tcn190",
+    title: "Timeless - Lahar [Copyright-safe] | Preview",
+    seconds: 72,
+  },
+  {
+    id: "dmQIxX3L_3c",
+    title: "Lockdown - Pold & Baribal · [Free Copyright-safe Music]",
+    seconds: 193,
+  },
+  {
+    id: "zEkE5zd1QM0",
+    title: "Midnight lover - ROFEU · [Free Copyright-safe Music]",
+    seconds: 146,
+  },
+  {
+    id: "QwPYLZucM0k",
+    title: "Genesis - Lahar · [Free Copyright-safe Music]",
+    seconds: 203,
+  },
+  {
+    id: "0VPGa56omYg",
+    title:
+      "It Ain't Over (feat Sphere) - Vendredi · [Free Copyright-safe Music]",
+    seconds: 179,
+  },
+  {
+    id: "mXEBzTy68Hc",
+    title: "Sakura 2020 - Roa · [Free Copyright-safe Music]",
+    seconds: 249,
+  },
+  {
+    id: "_qGC14Oem_U",
+    title: "Weightless - LiQWYD · [Free Copyright-safe Music]",
+    seconds: 177,
+  },
+  {
+    id: "lemU_UmPBuM",
+    title: "Spaceship - Declan DP · [Free Copyright-safe Music]",
+    seconds: 181,
+  },
+  {
+    id: "WqQWzHuumpk",
+    title: "City Lights - Babasmas [Copyright-safe] | Preview",
+    seconds: 60,
+  },
+  {
+    id: "ZABd-dGURW4",
+    title: "Made in Sydney - Peyruis · [Free Copyright-safe Music]",
+    seconds: 181,
+  },
+  {
+    id: "GM4a1vL9jyI",
+    title: "Climb - Declan DP · [Free Copyright-safe Music]",
+    seconds: 187,
+  },
+  {
+    id: "8wTHc0q0Kwc",
+    title: "Dark Sky - JayJen & Enine · [Free Copyright-safe Music]",
+    seconds: 178,
+  },
+  {
+    id: "D0dz2bt-NHQ",
+    title: "Nostalgia - Another Kid [Copyright-safe] | Preview",
+    seconds: 70,
+  },
+  {
+    id: "-MO-mrBlo5s",
+    title: "Elizabeth's Groove - Amarià · [Free Copyright-safe Music]",
+    seconds: 179,
+  },
+  {
+    id: "X5_gDgGbp6w",
+    title: "Fiesta Loca - Mike Leite · [Free Copyright-safe Music]",
+    seconds: 181,
+  },
+  {
+    id: "Ttw0Wa3V7Fs",
+    title: "Discovery - JayJen & ASHUTOSH [Copyright-safe] | Preview",
+    seconds: 69,
+  },
+  {
+    id: "STzt6dbcipo",
+    title: "Dawn - MusicbyAden · [Free Copyright-safe Music]",
+    seconds: 181,
+  },
+  {
+    id: "BrCd9zw1ZOs",
+    title: "Laser - SilentCrafter · [Free Copyright-safe Music]",
+    seconds: 185,
+  },
+  {
+    id: "-aJuxWPdR7Q",
+    title: "Nobody - Theo Dor [Copyright-safe] | Preview",
+    seconds: 60,
+  },
+  {
+    id: "2u6cFuVkxgI",
+    title: "Frontline - Jay Someday · [Free Copyright-safe Music]",
+    seconds: 181,
+  },
+  {
+    id: "IAuKHcshJqw",
+    title: "Penguins - Vlad Gluschenko · [Free Copyright-safe Music]",
+    seconds: 69,
+  },
+  {
+    id: "CmGlppkhxJg",
+    title: "Quarantine (Instrumental) - RYYZN · [Free Copyright-safe Music]",
+    seconds: 139,
+  },
+  {
+    id: "IUgGkww_BCQ",
+    title: "Freedom - Scandinavianz [Copyright-safe] | Preview",
+    seconds: 62,
+  },
+  {
+    id: "8lJoHMz4vGE",
+    title: "Departure - Ghostrifter Official · [Free Copyright-safe Music]",
+    seconds: 132,
+  },
+  {
+    id: "71enqnxhJZI",
+    title: "Wings Of Norway - Scandinavianz · [Free Copyright-safe Music]",
+    seconds: 216,
+  },
+  {
+    id: "8nHDBaPvw7c",
+    title: "Cyber Warrior - Iaio [Copyright-safe] | Preview",
+    seconds: 60,
+  },
+  {
+    id: "OM9G3nyLT_w",
+    title: "Fluffy - Smith The Mister · [Free Copyright-safe Music]",
+    seconds: 105,
+  },
+  {
+    id: "h5JxHWkrIws",
+    title: "Sparkle - JayJen · [Free Copyright-safe Music]",
+    seconds: 144,
+  },
+  {
+    id: "JQ8LggdjEKY",
+    title: "Voyage - Atch · [Free Copyright-safe Music]",
+    seconds: 226,
+  },
+  {
+    id: "YQCeqy0mleg",
+    title:
+      "A Journey Through The Universe - Lesion X · [Free Copyright-safe Music]",
+    seconds: 195,
+  },
+  {
+    id: "KunCHEX0MR4",
+    title:
+      "Sittin' Throwin' Rocks (ft Lily Hain) - Leonell Cassio · [Free Copyright-safe Music]",
+    seconds: 218,
+  },
+  {
+    id: "roEgbjvPcpA",
+    title: "Just Call - VOLTE/FACE [Copyright-safe] | Preview",
+    seconds: 63,
+  },
+  {
+    id: "YMBjjxI3Ab0",
+    title: "Kannushi - Dizaro · [Free Copyright-safe Music]",
+    seconds: 147,
+  },
+  {
+    id: "AZ8RWIaFlYg",
+    title: "New Day - Tokyo Music Walker · [Free Copyright-safe Music]",
+    seconds: 235,
+  },
+  {
+    id: "tPKXyOCJ7l4",
+    title: "Electric - KV [Copyright-safe] | Preview",
+    seconds: 60,
+  },
+  {
+    id: "pbioRi-jWj0",
+    title: "Me & You - MusicbyAden · [Free Copyright-safe Music]",
+    seconds: 244,
+  },
+  {
+    id: "9v2xRVapP_I",
+    title: "AI - Vendredi [Copyright-safe] | Preview",
+    seconds: 60,
+  },
+  {
+    id: "j7njyY6vTIg",
+    title: "Endless Way - SilentCrafter · [Free Copyright-safe Music]",
+    seconds: 147,
+  },
+  {
+    id: "bP17he7J85E",
+    title: "Be Myself - Nettson · [Free Copyright-safe Music]",
+    seconds: 204,
+  },
+  {
+    id: "of6Y84Hv7m8",
+    title: "Replay - Declan DP [Copyright-safe] | Preview",
+    seconds: 61,
+  },
+  {
+    id: "lmS2jz2N2rI",
+    title:
+      "Passionate Affair (Instrumental) - RYYZN · [Free Copyright-safe Music]",
+    seconds: 147,
+  },
+  {
+    id: "J4x_Gj4LoCU",
+    title: "Short Trip - Roa · [Free Copyright-safe Music]",
+    seconds: 244,
+  },
+  {
+    id: "R5ty0UKjvA4",
+    title: "Cocktail - Vendredi [Copyright-safe] | Preview",
+    seconds: 60,
+  },
+  {
+    id: "OHduxKdE4zs",
+    title: "Perilune - AERØHEAD · [Free Copyright-safe Music]",
+    seconds: 245,
+  },
+  {
+    id: "-xLJWEw33A0",
+    title: "Stay Home - Declan DP · [Free Copyright-safe Music]",
+    seconds: 182,
+  },
+  {
+    id: "GdoYTaJl4p8",
+    title: "Dreams Are Pretty - Seoul June [Copyright-safe] | Preview",
+    seconds: 61,
+  },
+  {
+    id: "BqbtZVEOkic",
+    title:
+      "Memories of Spring - Tokyo Music Walker · [Free Copyright-safe Music]",
+    seconds: 264,
+  },
+  {
+    id: "zAghUpatQcI",
+    title: "Reverie - Scott Buckley · [Free Copyright-safe Music]",
+    seconds: 224,
+  },
+  {
+    id: "CVD1xeMIcZc",
+    title: "Escape Is Senseless - SilentCrafter · [Free Copyright-safe Music]",
+    seconds: 182,
+  },
+  {
+    id: "r-rU0pZdtTA",
+    title: "Velvet - Peyruis · [Free Copyright-safe Music]",
+    seconds: 174,
+  },
+  {
+    id: "qldyHxWPFUY",
+    title: "Believe - Roa · [Free Copyright-safe Music]",
+    seconds: 224,
+  },
+  {
+    id: "Dr-I4lbPM3M",
+    title: "Castle in the sky - Rofeu · [Free Copyright-safe Music]",
+    seconds: 130,
+  },
+  {
+    id: "eFmIPr6ZYuM",
+    title: "Pixel Pig - Di Young · [Free Copyright-safe Music]",
+    seconds: 174,
+  },
+  {
+    id: "u0ct_6Ja-zk",
+    title: "Drive Around Town - Broke In Summer [Copyright-safe] | Preview",
+    seconds: 61,
+  },
+  {
+    id: "spOci-L3BNc",
+    title: "Waiting on You - RYYZN · [Free Copyright-safe Music]",
+    seconds: 163,
+  },
+  {
+    id: "R1XEEm5Fppg",
+    title: "Fresh Time - Roa · [Free Copyright-safe Music]",
+    seconds: 235,
+  },
+  {
+    id: "K9ERmGNzdyo",
+    title: "Afternoon Nap - Ghostrifter Official · [Free Copyright-safe Music]",
+    seconds: 129,
+  },
+  {
+    id: "63hI-QLj-n0",
+    title: "Waves - The Loyalist [Copyright-safe] | Preview",
+    seconds: 62,
+  },
+  {
+    id: "vK1hPY44mEc",
+    title: "With You (Instrumental) - HaTom · [Free Copyright-safe Music]",
+    seconds: 163,
+  },
+  {
+    id: "XK5WipDlH5E",
+    title: "YOURSWAG - tubebackr · [Free Copyright-safe Music]",
+    seconds: 220,
+  },
+  {
+    id: "CJuRZhRkS6g",
+    title: "Baby Don't - Peyruis · [Free Copyright-safe Music]",
+    seconds: 178,
+  },
+  {
+    id: "cQmntMw_c8I",
+    title: "Alley - Roa · [Free Copyright-safe Music]",
+    seconds: 282,
+  },
+  {
+    id: "ups0Y_U35yg",
+    title: "Frame - KV [Copyright-safe] | Preview",
+    seconds: 79,
+  },
+  {
+    id: "nwV8HN0m2eA",
+    title: "Elevate - LiQWYD · [Free Copyright-safe Music]",
+    seconds: 230,
+  },
+  {
+    id: "Hc6r06k-ADA",
+    title: "Tropical Sensation - Mike Leite · [Free Copyright-safe Music]",
+    seconds: 196,
+  },
 ];
 
 const YoutubeMusic = (): YoutubeItem[] => music;
