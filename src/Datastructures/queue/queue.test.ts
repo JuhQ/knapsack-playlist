@@ -83,4 +83,39 @@ describe("queue data structure", () => {
     expect(queue.dequeue()).toEqual({ id: "1", title: "1", seconds: 123 });
     expect(queue.seconds()).toEqual(523);
   });
+
+  it("should return value at a given index", () => {
+    const queue = new Queue();
+
+    queue.enqueue({ id: "1", title: "1", seconds: 123 });
+    queue.enqueue({ id: "2", title: "2", seconds: 123 });
+    queue.enqueue({ id: "3", title: "3", seconds: 400 });
+    expect(queue.at(0)).toEqual({ id: "1", title: "1", seconds: 123 });
+    expect(queue.at(1)).toEqual({ id: "2", title: "2", seconds: 123 });
+    expect(queue.at(2)).toEqual({ id: "3", title: "3", seconds: 400 });
+  });
+
+  it("should return undefined from position which does not exist in the queue", () => {
+    const queue = new Queue();
+
+    queue.enqueue({ id: "1", title: "1", seconds: 123 });
+    queue.enqueue({ id: "2", title: "2", seconds: 123 });
+    queue.enqueue({ id: "3", title: "3", seconds: 400 });
+    expect(queue.at(3)).toEqual(undefined);
+  });
+
+  it("should return a specific slice of the list", () => {
+    const queue = new Queue();
+
+    queue.enqueue({ id: "1", title: "1", seconds: 123 });
+    queue.enqueue({ id: "2", title: "2", seconds: 123 });
+    queue.enqueue({ id: "3", title: "3", seconds: 400 });
+    expect(queue.slice(0)).toEqual(queue.all());
+    expect(queue.slice(-2)).toEqual([
+      { id: "2", seconds: 123, title: "2" },
+      { id: "3", seconds: 400, title: "3" },
+    ]);
+    expect(queue.slice(0, 1)).toEqual([{ id: "1", seconds: 123, title: "1" }]);
+    expect(queue.slice(1, 2)).toEqual([{ id: "2", seconds: 123, title: "2" }]);
+  });
 });
