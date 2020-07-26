@@ -5,9 +5,8 @@ import React, { useEffect, useState } from "react";
 import { Grid } from "semantic-ui-react";
 
 import knapsack from "../../Algorithms/knapsack/knapsack";
+import Queue from "../../Datastructures/queue/queue";
 import YoutubeMusic from "../../Models/Youtube/Youtube";
-import { YoutubeItem } from "../../types";
-import { sumSeconds } from "../../Utils/math";
 import sample from "../../Utils/utils";
 import Generator from "../Generator/Generator";
 import Picker from "../Picker/Picker";
@@ -17,7 +16,7 @@ import AppTitle from "./AppTitle/AppTitle";
 interface Props {
   initialPlaylistLength?: number;
   initialCreating?: boolean;
-  initialPlaylist?: YoutubeItem[];
+  initialPlaylist?: Queue;
   initialGeneratorSubmitted?: boolean;
 }
 
@@ -26,18 +25,18 @@ const music = YoutubeMusic();
 const App: React.FC<Props> = ({
   initialPlaylistLength = 0,
   initialCreating = false,
-  initialPlaylist = [],
+  initialPlaylist = new Queue(),
   initialGeneratorSubmitted = false,
 }: Props) => {
   const [playlistLength, setPlaylistLength] = useState<number>(
     initialPlaylistLength
   );
-  const [playlist, setPlaylist] = useState<YoutubeItem[]>(initialPlaylist);
+  const [playlist, setPlaylist] = useState<Queue>(initialPlaylist);
   const [creating, setCreating] = useState<boolean>(initialCreating);
   const [generatorSubmitted, setGeneratorSubmitted] = useState<boolean>(
     initialGeneratorSubmitted
   );
-  const [musicList, setMusicList] = useState<YoutubeItem[]>([]);
+  const [musicList, setMusicList] = useState<Queue>(new Queue());
   const [generationTried, setGenerationTried] = useState<boolean>(false);
 
   useEffect(() => {
@@ -56,12 +55,17 @@ const App: React.FC<Props> = ({
       </Grid.Column>
       <Grid.Column width={16}>
         <Generator
-          totalLength={sumSeconds(music)}
-          totalDataset={music.length}
+          totalLength={music.seconds()}
+          totalDataset={music.length()}
           onSubmit={(value) => {
             setCreating(true);
             setPlaylistLength(value.playlistLength);
-            setMusicList(sample(music, value.dataSetSize));
+
+            const sampledList = sample(music.all(), value.dataSetSize);
+            const sampledQueue = new Queue();
+            sampledQueue.merge(sampledList);
+
+            setMusicList(sampledQueue);
             setGeneratorSubmitted(true);
           }}
         />

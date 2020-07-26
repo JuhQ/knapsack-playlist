@@ -3,6 +3,7 @@ import { shallowToJson } from "enzyme-to-json";
 import React from "react";
 import { act, create } from "react-test-renderer";
 
+import Queue from "../../Datastructures/queue/queue";
 import App from "./App";
 
 describe("App", () => {
@@ -85,7 +86,7 @@ describe("App", () => {
       const component = create(
         <App
           initialPlaylistLength={100}
-          initialPlaylist={[]}
+          initialPlaylist={new Queue()}
           initialGeneratorSubmitted
         />
       );
@@ -94,10 +95,12 @@ describe("App", () => {
     });
 
     it("should submit only length", () => {
+      const playlist = new Queue();
+      playlist.merge([{ id: "1", title: "test", seconds: 2 }]);
       const wrapper = shallow(
         <App
           initialPlaylistLength={100}
-          initialPlaylist={[{ id: "1", title: "test", seconds: 2 }]}
+          initialPlaylist={playlist}
           initialGeneratorSubmitted
           initialCreating
         />
@@ -112,10 +115,12 @@ describe("App", () => {
     });
 
     it("should submit only dataset size", () => {
+      const playlist = new Queue();
+      playlist.merge([{ id: "1", title: "test", seconds: 2 }]);
       const wrapper = shallow(
         <App
           initialPlaylistLength={100}
-          initialPlaylist={[{ id: "1", title: "test", seconds: 2 }]}
+          initialPlaylist={playlist}
           initialGeneratorSubmitted
           initialCreating
         />
@@ -130,10 +135,12 @@ describe("App", () => {
     });
 
     it("should submit proper dataset size and playlist length", () => {
+      const playlist = new Queue();
+      playlist.merge([{ id: "1", title: "test", seconds: 2 }]);
       const wrapper = shallow(
         <App
           initialPlaylistLength={100}
-          initialPlaylist={[{ id: "1", title: "test", seconds: 2 }]}
+          initialPlaylist={playlist}
           initialGeneratorSubmitted
           initialCreating
         />
