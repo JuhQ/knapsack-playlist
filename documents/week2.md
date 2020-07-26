@@ -4,6 +4,7 @@
 
 Rakensin komponentin jonka avulla voidaan valita halutut videot algoritmille annettavalle datasetille. Tätä ennen videot valikoitiin satunnaisesti. Satunnaisvalikointi on edelleen, sen käyttöliittymä on nyt vähän yksinkertaisempi ja selkeämpi. Suurempia näkymäkomponentteja on myös paloiteltu pienempiin osiin kehitystyön helpottamiseksi.
 
+Array tietorakenne korvattiin jonoksi ja knapsack algoritmi ottaa nyt sisään jonon ja palauttaa jonon.
 
 ## Mikä jäi epäselväksi tai tuotti vaikeuksia
 
@@ -20,3 +21,4 @@ Käyttöliittymää tulee parantaa, sekä intuitiivisemmaksi että tehokkaammaks
 | ------|:-------------:|------:|
 | 25.7.	| 4h		| Videoiden valitsin ja käyttöliittymän tuunailua. |
 | 26.7.	| 1h		| Uutta musiikkia, käyttöliittymän viilailua sekä picker komponenttiin sivutuksen lisääminen |
+| 27.7.	| 1h		| Jono tietorakenteen implementointia |
