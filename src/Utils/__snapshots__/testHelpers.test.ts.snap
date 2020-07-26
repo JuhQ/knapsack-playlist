@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test helpers should generate test data 1`] = `
+Array [
+  Object {
+    "id": "0",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "1",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "2",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "3",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "4",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "5",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "6",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "7",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "8",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "9",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "10",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "11",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "12",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "13",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "14",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "15",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "16",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "17",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "18",
+    "seconds": 20,
+    "title": "test",
+  },
+  Object {
+    "id": "19",
+    "seconds": 20,
+    "title": "test",
+  },
+]
+`;
