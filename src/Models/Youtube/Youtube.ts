@@ -248,7 +248,6 @@ const music: YoutubeItem[] = [
       "MACKLEMORE & RYAN LEWIS - CAN'T HOLD US FEAT. RAY DALTON (OFFICIAL MUSIC VIDEO)",
     seconds: 424,
   },
-  { id: "qO_IkNfT3Iw", title: "History of the Indian wars", seconds: 13195 },
   {
     id: "LL-gyhZVvx0",
     title: "Daft Punk ft. Panda Bear - Doin' it Right (Official Audio)",
@@ -666,39 +665,14 @@ const music: YoutubeItem[] = [
     seconds: 328,
   },
   {
-    id: "MgavgIS00sk",
-    title: "Rammstein - Benzin (Live from Madison Square Garden)",
-    seconds: 311,
-  },
-  {
-    id: "mqGAokNRFI8",
-    title: "Rammstein - Du Riechst So Gut (Live at Hellfest 2016)",
-    seconds: 310,
-  },
-  {
-    id: "1HDV1fmtIKE",
-    title: "Rammstein - Du Riechst So Gut '95 (Official Video)",
-    seconds: 242,
-  },
-  {
     id: "3XfJEhGlCzc",
     title: "Rammstein - Ich Tu Dir Weh (Live at Hurricane Festival 2016)",
     seconds: 405,
   },
   {
-    id: "Uq41Fmw5CGI",
-    title: "Rammstein - Mein Herz brennt (Live at Download Festival UK 2016)",
-    seconds: 301,
-  },
-  {
     id: "MxFfS-X3Xoo",
     title: "Rammstein - Ramm4 (Live at Hellfest 2016)",
     seconds: 412,
-  },
-  {
-    id: "8p2sz_5TK8A",
-    title: "Rammstein - Ich Will & Links 2 3 4 (Velodrom Berlin 2001)",
-    seconds: 523,
   },
   {
     id: "Qs8c6FCwkbk",
@@ -716,24 +690,9 @@ const music: YoutubeItem[] = [
     seconds: 354,
   },
   {
-    id: "tsHCcu0Mz2E",
-    title: "Rammstein: Paris - Mann Gegen Mann (Official Video)",
-    seconds: 260,
-  },
-  {
-    id: "IjGNTqAW58E",
-    title: "Rammstein - Sonne (Live at Rock im Park 2017)",
-    seconds: 297,
-  },
-  {
     id: "rlm6FHP9VQM",
     title: "Rammstein - Spiel Mit Mir (Philipshalle Düsseldorf 1997)",
     seconds: 272,
-  },
-  {
-    id: "jRxW5Vzeo0A",
-    title: "Rammstein - Engel (Live at Rock im Park 2017)",
-    seconds: 393,
   },
   {
     id: "CcZHxomhwzg",
@@ -747,17 +706,11 @@ const music: YoutubeItem[] = [
     seconds: 494,
   },
   {
-    id: "PdIxGIjlHEo",
-    title: "Rammstein - Mein Teil (Kangawa 2005)",
-    seconds: 327,
-  },
-  {
     id: "R9U7jGk26QM",
     title: "Rammstein - Ich will (Völkerball Version)",
     seconds: 243,
   },
   { id: "Y42YJ-i5jW0", title: "Rammstein: Paris", seconds: 117 },
-  { id: "CwUqnsAGyYE", title: "Rammstein - Sonne (London 2005)", seconds: 264 },
   {
     id: "fksLPwPXQD0",
     title: "Rammstein - Herzeleid & Seemann (Arena Berlin 1996)",
@@ -768,14 +721,6 @@ const music: YoutubeItem[] = [
     title: "Nirvana - Smells Like Teen Spirit (Official Music Video)",
     seconds: 279,
   },
-  { id: "vabnZ9-ex7o", title: "Nirvana - Come As You Are", seconds: 226 },
-  {
-    id: "fregObNcHC8",
-    title: "Nirvana - The Man Who Sold The World (MTV Unplugged)",
-    seconds: 218,
-  },
-  { id: "n6P0SitRwy8", title: "Nirvana - Heart-Shaped Box", seconds: 285 },
-  { id: "pkcJEvMcnEg", title: "Nirvana - Lithium", seconds: 256 },
   {
     id: "PbgKEjNBHqM",
     title: "Nirvana - In Bloom (Official Video)",
@@ -845,11 +790,6 @@ const music: YoutubeItem[] = [
     seconds: 167,
   },
   {
-    id: "_24pJQUj7zg",
-    title: "Nirvana - About A Girl (Live On MTV Unplugged, 1993 / Unedited)",
-    seconds: 264,
-  },
-  {
     id: "z9LiPuVRyU8",
     title: "Nirvana - Come As You Are (Live On MTV Unplugged, 1993 / Unedited)",
     seconds: 276,
@@ -871,67 +811,10 @@ const music: YoutubeItem[] = [
     seconds: 160,
   },
   {
-    id: "C-r9tuPrZK4",
-    title: "Nirvana - Negative Creep (Live at Reading 1992)",
-    seconds: 173,
-  },
-  {
-    id: "dUb69RIqfO8",
-    title:
-      'Nirvana - Drain You (Live On "Nulle Part Ailleurs", Paris, France/1994)',
-    seconds: 222,
-  },
-  {
-    id: "tGc8jL4dzao",
-    title: "Nirvana - Breed (Live At The Paramount/1991)",
-    seconds: 192,
-  },
-  {
-    id: "_fdYjlAviT8",
-    title: "Nirvana - Territorial Pissings (Live at Reading 1992)",
-    seconds: 178,
-  },
-  {
-    id: "NJqQf5DObtY",
-    title: "Nirvana - Come As You Are (Live at Reading 1992)",
-    seconds: 216,
-  },
-  {
-    id: "tz1pv3g4YFQ",
-    title: "Nirvana - Love Buzz (Live at Reading, 1992)",
-    seconds: 232,
-  },
-  {
-    id: "ODn21NOi-dQ",
-    title: 'Nirvana - Serve The Servants (Live On "Tunnel", Rome, Italy/1994)',
-    seconds: 202,
-  },
-  {
     id: "1YhR5UfaAzM",
     title:
       "Nirvana - Something In The Way (Live On MTV Unplugged Unedited, 1993)",
     seconds: 490,
-  },
-  {
-    id: "EU-Hd_dsg4c",
-    title:
-      "Nirvana - Come As You Are (Live On MTV Unplugged, 1993 / Rehearsal)",
-    seconds: 283,
-  },
-  {
-    id: "xAy---wp_DQ",
-    title: "Nirvana - In Bloom (Alternate Version)",
-    seconds: 271,
-  },
-  {
-    id: "h2JgqF384cU",
-    title: "Nirvana - Breed (Live a Reading 1992)",
-    seconds: 184,
-  },
-  {
-    id: "QWrW0j6uOIU",
-    title: "Nirvana - On A Plain (Live at Reading 1992)",
-    seconds: 187,
   },
   {
     id: "ZXZknkAJdAs",
@@ -940,20 +823,9 @@ const music: YoutubeItem[] = [
     seconds: 280,
   },
   {
-    id: "D742dNm1f8Q",
-    title: "Nirvana - In Bloom (Live at Reading 1992)",
-    seconds: 270,
-  },
-  {
     id: "x6XBlkvTmv8",
     title: "Nirvana - Territorial Pissings (Live At The Paramount/1991)",
     seconds: 152,
-  },
-  {
-    id: "arQC1MdDm8k",
-    title:
-      'Nirvana - Pennyroyal Tea (Live On "Nulle Part Ailleurs", Paris, France/1994)',
-    seconds: 213,
   },
   {
     id: "0oBHEvYAJnY",
@@ -971,12 +843,6 @@ const music: YoutubeItem[] = [
     seconds: 191,
   },
   {
-    id: "zucJHYwi2Uc",
-    title:
-      "Nirvana - Smells Like Teen Spirit (Live At The Paramount, Seattle / 1991)",
-    seconds: 276,
-  },
-  {
     id: "GtBhclCigH0",
     title: "Nirvana - Dumb (Live On MTV Unplugged, 1993 / Unedited)",
     seconds: 281,
@@ -990,11 +856,6 @@ const music: YoutubeItem[] = [
     id: "1J3uj2wqPPA",
     title: "Nirvana - The Money Will Roll Right In (Live at Reading 1992)",
     seconds: 140,
-  },
-  {
-    id: "-CK6_DIMyIY",
-    title: "Nirvana - Rape Me (Live And Loud Rehearsal/Seattle/1993)",
-    seconds: 164,
   },
   {
     id: "wlVdPl-oEmg",
@@ -1013,54 +874,14 @@ const music: YoutubeItem[] = [
     seconds: 278,
   },
   {
-    id: "Z05qiPnLpMM",
-    title: "Nirvana - Lithium (Live And Loud, Seattle / 1993)",
-    seconds: 254,
-  },
-  {
-    id: "aIr_IXXLZ8Q",
-    title: "Nirvana - Aneurysm (Live At The Paramount, Seattle / 1991)",
-    seconds: 271,
-  },
-  {
-    id: "4dcIPGzxsl8",
-    title: "Nirvana - Pennyroyal Tea (Live On MTV Unplugged, 1993 / Unedited)",
-    seconds: 270,
-  },
-  {
     id: "YLrfVAdYuTY",
     title: "Nirvana - Been A Son (Live at Reading 1992)",
     seconds: 132,
   },
   {
-    id: "4TsqlT0rfJI",
-    title: "Nirvana - Rape Me (Live And Loud, Seattle / 1993)",
-    seconds: 159,
-  },
-  {
-    id: "Sj8UbmdV7bk",
-    title: "Nirvana - Plateau (Live On MTV Unplugged, 1993 / Unedited)",
-    seconds: 215,
-  },
-  {
-    id: "xdTa6BiGXO0",
-    title: "Nirvana - Breed (Live And Loud, Seattle / 1993)",
-    seconds: 184,
-  },
-  {
-    id: "92fK3K8nagk",
-    title: "Nirvana - Heart-Shaped Box (Live And Loud, Seattle / 1993)",
-    seconds: 269,
-  },
-  {
     id: "3H0NHHKBemg",
     title: "Nirvana - Polly (Live On MTV Unplugged, 1993 / Unedited)",
     seconds: 228,
-  },
-  {
-    id: "YleoyKFfHaY",
-    title: "Nirvana - About A Girl (Live at Reading 1992)",
-    seconds: 170,
   },
   {
     id: "_jFzDbsGK54",
@@ -1071,12 +892,6 @@ const music: YoutubeItem[] = [
     id: "RMBVzcjPiyo",
     title: "Nirvana - Negative Creep (Live In Europe/1991)",
     seconds: 166,
-  },
-  { id: "mQR9gsQRf0U", title: "Nirvana - About A Girl (Live)", seconds: 265 },
-  {
-    id: "0DSIJD20V28",
-    title: "Nirvana - Sliver (Live at Reading 1992)",
-    seconds: 127,
   },
   {
     id: "80B_yiN2FH8",
@@ -1089,12 +904,6 @@ const music: YoutubeItem[] = [
     seconds: 206,
   },
   {
-    id: "BxqkzEad96M",
-    title:
-      "Nirvana - Radio Friendly Unit Shifter (Live In Munich, Germany/1994)",
-    seconds: 231,
-  },
-  {
     id: "ZEh3mO9MPV0",
     title: "Nirvana - Love Buzz (Live At The Paramount, Seattle / 1991)",
     seconds: 198,
@@ -1105,11 +914,6 @@ const music: YoutubeItem[] = [
     seconds: 213,
   },
   {
-    id: "ZSEoYDA2txw",
-    title: "Nirvana - Polly (Live On MTV Unplugged, 1993 / Rehearsal)",
-    seconds: 245,
-  },
-  {
     id: "iz3tmYDl6XI",
     title:
       "Nirvana - The Man Who Sold The World (Live And Loud, Seattle / 1993)",
@@ -1117,13 +921,8 @@ const music: YoutubeItem[] = [
   },
   {
     id: "ly1lWkRwm6g",
-    title: "Nirvana - Rape Me (Live At The Paramount, Seattle / 1991)",
+    title: "Nirvana - Me (Live At The Paramount, Seattle / 1991)",
     seconds: 187,
-  },
-  {
-    id: "XIFUHzCUHrg",
-    title: "Nirvana - Drain You (Live At The Paramount, Seattle / 1991)",
-    seconds: 212,
   },
   {
     id: "e3ZAJevR_4Q",
@@ -1131,19 +930,9 @@ const music: YoutubeItem[] = [
     seconds: 255,
   },
   {
-    id: "yY5ov_IYaAs",
-    title: "Nirvana - Drain You (Live In Munich, Germany/1994)",
-    seconds: 206,
-  },
-  {
     id: "QVlo81A5mHc",
     title: "Nirvana - Blew (Live And Loud, Seattle / 1993)",
     seconds: 197,
-  },
-  {
-    id: "G70P3Tg-rhs",
-    title: "Nirvana - Drain You (Live And Loud, Seattle / 1993)",
-    seconds: 217,
   },
   {
     id: "ikkhmkAH72U",
@@ -1151,29 +940,14 @@ const music: YoutubeItem[] = [
     seconds: 147,
   },
   {
-    id: "aattgr1wFcU",
-    title: "Nirvana - School (Live And Loud, Seattle / 1993)",
-    seconds: 157,
-  },
-  {
     id: "EO9l8TooOFg",
     title: "Nirvana - Plateau (Live On MTV Unplugged, 1993 / Rehearsal)",
     seconds: 279,
   },
   {
-    id: "G2Suqc9Ngbg",
-    title: "Nirvana - Pennyroyal Tea (Live And Loud Rehearsal/Seattle/1993)",
-    seconds: 227,
-  },
-  {
     id: "L6PTI0Gh5zU",
     title: "Nirvana - Pennyroyal Tea (Live And Loud, Seattle / 1993)",
     seconds: 217,
-  },
-  {
-    id: "t_U5ZIo77UM",
-    title: "Nirvana - About A Girl (Live At The Paramount, Seattle / 1991)",
-    seconds: 164,
   },
   {
     id: "ckQOotKob6E",
@@ -1196,21 +970,6 @@ const music: YoutubeItem[] = [
     id: "nDF-GEzTjFI",
     title: "Nirvana - Sliver (Live And Loud, Seattle / 1993)",
     seconds: 120,
-  },
-  {
-    id: "nPD1CuPxH_M",
-    title: "Nirvana - Negative Creep (Live At The Paramount, Seattle / 1991)",
-    seconds: 163,
-  },
-  {
-    id: "ZFTvRuLGOyw",
-    title: "Nirvana - Lithium (Live at Reading 1992, Alt. Version)",
-    seconds: 266,
-  },
-  {
-    id: "Hk7w-WJkm7o",
-    title: "Nirvana - About A Girl (Live And Loud, Seattle / 1993)",
-    seconds: 170,
   },
   {
     id: "DeoWhvsyOZ8",
@@ -1726,7 +1485,6 @@ const music: YoutubeItem[] = [
   { id: "JEc1uhdKRko", title: "The Mole", seconds: 336 },
   { id: "_-_4V0lrXag", title: "Dust", seconds: 342 },
   { id: "JvGeEz5nWA0", title: "Maestro", seconds: 234 },
-
   { id: "HLWtpZwfUfc", title: "Spectres in the Fog", seconds: 248 },
   {
     id: "BbSLZeCdvK8",
@@ -2004,6 +1762,183 @@ const music: YoutubeItem[] = [
     seconds: 113,
   },
   { id: "p96HnbSo8FU", title: "Black Sabbath - Paranoid (Live)", seconds: 161 },
+  {
+    id: "iYYRH4apXDo",
+    title: "David Bowie – Space Oddity (Official Video)",
+    seconds: 305,
+  },
+  {
+    id: "GgnClrx8N2k",
+    title: "The Rolling Stones - Sympathy For The Devil (Official Lyric Video)",
+    seconds: 383,
+  },
+  {
+    id: "1vrEljMfXYo",
+    title: "John Denver - Take Me Home, Country Roads (Audio)",
+    seconds: 199,
+  },
+  {
+    id: "UipTt-qqZOE",
+    title: "David Bowie - Life On Mars (2016 Mix)",
+    seconds: 258,
+  },
+  {
+    id: "RbmS3tQJ7Os",
+    title: "The Rolling Stones - Gimme Shelter (Official Lyric Video)",
+    seconds: 271,
+  },
+  {
+    id: "Dy4HA3vUv2c",
+    title: "Blue Oyster Cult - (Don't Fear) The Reaper (Official Audio)",
+    seconds: 309,
+  },
+  {
+    id: "nrIPxlFzDi0",
+    title:
+      "The Rolling Stones - (I Can't Get No) Satisfaction (Official Lyric Video)",
+    seconds: 235,
+  },
+  {
+    id: "4-43lLKaqBQ",
+    title:
+      "The Animals - House of the Rising Sun (1964) HQ/Widescreen ♫♥ 56 YEARS AGO",
+    seconds: 249,
+  },
+  {
+    id: "fJ9rUzIMcZQ",
+    title: "Queen – Bohemian Rhapsody (Official Video Remastered)",
+    seconds: 360,
+  },
+  { id: "I_2D8Eo15wE", title: "Ram Jam - Black Betty", seconds: 145 },
+  {
+    id: "0J2QdDbelmY",
+    title: "The White Stripes - 'Seven Nation Army'",
+    seconds: 240,
+  },
+  {
+    id: "Kt-tLuszKBA",
+    title: "Guardians of the Galaxy Awesome Mix Vol 1 Vol 2 Full Soundtrack",
+    seconds: 3218,
+  },
+  {
+    id: "TLV4_xaYynY",
+    title:
+      "The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)",
+    seconds: 242,
+  },
+  {
+    id: "N-aK6JnyFmk",
+    title: "The Mamas & The Papas - California Dreamin'",
+    seconds: 158,
+  },
+  { id: "VixdIglCZXk", title: "The House of the Rising Sun", seconds: 270 },
+  {
+    id: "NUTGr5t3MoY",
+    title: "Green Day - Basket Case [Official Music Video]",
+    seconds: 193,
+  },
+  {
+    id: "ZWijx_AgPiA",
+    title: "Creedence Clearwater Revival - Fortunate Son",
+    seconds: 138,
+  },
+  {
+    id: "FTQbiNvZqaY",
+    title: "Toto - Africa (Official Music Video)",
+    seconds: 275,
+  },
+  {
+    id: "ZhIsAZO5gl0",
+    title: "Kiss - I Was Made For Lovin' You",
+    seconds: 239,
+  },
+  {
+    id: "Soa3gO7tL-c",
+    title: 'Green Day: "Boulevard Of Broken Dreams" - [Official Video]',
+    seconds: 288,
+  },
+  {
+    id: "DtVBCG6ThDk",
+    title: "Elton John - Rocket Man (Official Music Video)",
+    seconds: 283,
+  },
+  {
+    id: "y9ANOzmSKQg",
+    title: "The White Stripes-Seven Nation Army",
+    seconds: 243,
+  },
+  {
+    id: "6c1BThu95d8",
+    title: "The Rolling Stones - She's A Rainbow (Official Lyric Video)",
+    seconds: 253,
+  },
+  {
+    id: "6Ejga4kJUts",
+    title: "The Cranberries - Zombie (Official Music Video)",
+    seconds: 308,
+  },
+  {
+    id: "qeMFqkcPYcg",
+    title:
+      "Eurythmics, Annie Lennox, Dave Stewart - Sweet Dreams (Are Made Of This) (Official Video)",
+    seconds: 215,
+  },
+  {
+    id: "bpOSxM0rNPM",
+    title: "Arctic Monkeys - Do I Wanna Know? (Official Video)",
+    seconds: 266,
+  },
+  {
+    id: "DnGdoEa1tPg",
+    title: "System Of A Down - Lonely Day (Official Video)",
+    seconds: 173,
+  },
+  {
+    id: "bx1Bh8ZvH84",
+    title: "Oasis - Wonderwall (Official Video)",
+    seconds: 278,
+  },
+  {
+    id: "f4Mc-NYPHaQ",
+    title: "Queen - I Want To Break Free (Official Video)",
+    seconds: 272,
+  },
+  {
+    id: "7G2-FPlvY58",
+    title: "The Doors - Riders on the Storm (Official Audio)",
+    seconds: 436,
+  },
+  {
+    id: "krxU5Y9lCS8",
+    title:
+      "The Rolling Stones - You Can’t Always Get What You Want (Official Lyric Video)",
+    seconds: 451,
+  },
+  {
+    id: "gxEPV4kolz0",
+    title: "Billy Joel - Piano Man (Official Video)",
+    seconds: 342,
+  },
+  {
+    id: "XfR9iY5y94s",
+    title: "Men At Work - Down Under (Video)",
+    seconds: 222,
+  },
+  {
+    id: "tAGnKpE4NCI",
+    title: "Metallica: Nothing Else Matters (Official Music Video)",
+    seconds: 386,
+  },
+  { id: "8SbUC-UaAxE", title: "Guns N' Roses - November Rain", seconds: 557 },
+  {
+    id: "8DyziWtkfBw",
+    title: "Red Hot Chili Peppers - Can't Stop [Official Music Video]",
+    seconds: 278,
+  },
+  { id: "CKti7QixnJI", title: "Talking Heads - Psycho Killer", seconds: 313 },
+  { id: "sHbKdI26RkE", title: "House Of The Rising Sun", seconds: 269 },
+  { id: "r5NzAksjfDI", title: "Fortunate Son", seconds: 141 },
+  { id: "x2KRpRMSu4g", title: "The Who - Baba O'riley", seconds: 307 },
 ];
 
 const YoutubeMusic = (): YoutubeItem[] => music;
