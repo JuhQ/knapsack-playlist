@@ -1,122 +1,110 @@
+import Queue from "../../Datastructures/queue/queue";
 import YoutubeMusic from "../../Models/Youtube/Youtube";
-import { YoutubeItem } from "../../types";
-import { sumSeconds } from "../../Utils/math";
 import generateTestData from "../../Utils/testHelpers";
 import knapsack from "./knapsack";
 
 describe("knapsack algorithm", () => {
   it("should return empty list when given weight is zero", () => {
-    expect(knapsack([], 0)).toEqual([]);
+    const result = knapsack(new Queue(), 0);
+    expect(result.all()).toEqual([]);
   });
 
   it("should return empty list when given list is empty", () => {
-    expect(knapsack([], 1000)).toEqual([]);
+    const result = knapsack(new Queue(), 1000);
+    expect(result.all()).toEqual([]);
   });
 
   it("should return empty list when given list is empty and weight is zero", () => {
-    expect(knapsack([], 0)).toEqual([]);
+    const result = knapsack(new Queue(), 0);
+    expect(result.all()).toEqual([]);
   });
 
   it("should return empty list when given list is empty and weight is negative", () => {
-    expect(knapsack([], -10)).toEqual([]);
+    const result = knapsack(new Queue(), -10);
+    expect(result.all()).toEqual([]);
   });
 
   it("should return the only item if only one item in the list and the item fits", () => {
-    expect(
-      knapsack([{ title: "test", seconds: 123, id: "test" }], 123)
-    ).toEqual([{ title: "test", seconds: 123, id: "test" }]);
+    const list = new Queue();
+    list.enqueue({ title: "test", seconds: 123, id: "test" });
+    const result = knapsack(list, 123);
+    expect(result.all()).toEqual([{ title: "test", seconds: 123, id: "test" }]);
   });
 
   it("should return empty list when the list contains data but the weight limit is zero", () => {
-    expect(knapsack([{ title: "test", seconds: 123, id: "test" }], 0)).toEqual(
-      []
-    );
+    const list = new Queue();
+    list.enqueue({ title: "test", seconds: 123, id: "test" });
+    const result = knapsack(list, 0);
+    expect(result.all()).toEqual([]);
   });
 
   it("should return empty list when the list contains data but the weight limit is negative", () => {
-    expect(knapsack([{ title: "test", seconds: 123, id: "test" }], -1)).toEqual(
-      []
-    );
+    const list = new Queue();
+    list.enqueue({ title: "test", seconds: 123, id: "test" });
+    const result = knapsack(list, -1);
+    expect(result.all()).toEqual([]);
   });
 
   it("should return empty list when the list contains large amount of data but the weight limit is negative", () => {
-    expect(knapsack(generateTestData(10000), -1)).toEqual([]);
+    const result = knapsack(generateTestData(10000), -1);
+    expect(result.all()).toEqual([]);
   });
 
   it("should return empty list if all the videos are shorter than given length", () => {
-    expect(knapsack([{ title: "test", seconds: 123, id: "test" }], 1)).toEqual(
-      []
-    );
+    const list = new Queue();
+    list.enqueue({ title: "test", seconds: 123, id: "test" });
+    const result = knapsack(list, 1);
+    expect(result.all()).toEqual([]);
   });
 
   it("should return a list which only contains the first element which fits, when all the elements have same size and the weight limit matches the size", () => {
-    expect(
-      knapsack(
-        [
-          { title: "test", seconds: 123, id: "test" },
-          { title: "test2", seconds: 123, id: "test2" },
-        ],
-        123
-      )
-    ).toEqual([{ title: "test", seconds: 123, id: "test" }]);
+    const list = new Queue();
+    list.enqueue({ title: "test", seconds: 123, id: "test" });
+    list.enqueue({ title: "test2", seconds: 123, id: "test2" });
+    const result = knapsack(list, 123);
+    expect(result.all()).toEqual([{ title: "test", seconds: 123, id: "test" }]);
   });
 
   it("should return a list which only contains elements which combined, fit into the given weight", () => {
-    expect(
-      knapsack(
-        [
-          { title: "test", seconds: 3, id: "test" },
-          { title: "test2", seconds: 2, id: "test2" },
-        ],
-        5
-      )
-    ).toEqual([
+    const list = new Queue();
+    list.enqueue({ title: "test", seconds: 3, id: "test" });
+    list.enqueue({ title: "test2", seconds: 2, id: "test2" });
+    const result = knapsack(list, 5);
+    expect(result.all()).toEqual([
       { title: "test", seconds: 3, id: "test" },
       { title: "test2", seconds: 2, id: "test2" },
     ]);
   });
 
   it("should return a list which has length of 5, leaving one of the items out of the result", () => {
-    expect(
-      knapsack(
-        [
-          { title: "test", seconds: 3, id: "test" },
-          { title: "test2", seconds: 2, id: "test2" },
-          { title: "test3", seconds: 1, id: "test3" },
-        ],
-        5
-      )
-    ).toEqual([
+    const list = new Queue();
+    list.enqueue({ title: "test", seconds: 3, id: "test" });
+    list.enqueue({ title: "test2", seconds: 2, id: "test2" });
+    list.enqueue({ title: "test3", seconds: 1, id: "test3" });
+    const result = knapsack(list, 5);
+    expect(result.all()).toEqual([
       { title: "test", seconds: 3, id: "test" },
       { title: "test2", seconds: 2, id: "test2" },
     ]);
   });
 
   it("should return a list which contains all the items, because the weight is larger than the sum of item weights", () => {
-    expect(
-      knapsack(
-        [
-          { title: "test", seconds: 3, id: "test" },
-          { title: "test2", seconds: 2, id: "test2" },
-        ],
-        6
-      )
-    ).toEqual([
+    const list = new Queue();
+    list.enqueue({ title: "test", seconds: 3, id: "test" });
+    list.enqueue({ title: "test2", seconds: 2, id: "test2" });
+    const result = knapsack(list, 6);
+    expect(result.all()).toEqual([
       { title: "test", seconds: 3, id: "test" },
       { title: "test2", seconds: 2, id: "test2" },
     ]);
   });
 
   it("should return a list which contains all the items, because the weight is 1000 times larger than the sum of item weights", () => {
-    expect(
-      knapsack(
-        [
-          { title: "test", seconds: 3, id: "test" },
-          { title: "test2", seconds: 2, id: "test2" },
-        ],
-        5000
-      )
-    ).toEqual([
+    const list = new Queue();
+    list.enqueue({ title: "test", seconds: 3, id: "test" });
+    list.enqueue({ title: "test2", seconds: 2, id: "test2" });
+    const result = knapsack(list, 5000);
+    expect(result.all()).toEqual([
       { title: "test", seconds: 3, id: "test" },
       { title: "test2", seconds: 2, id: "test2" },
     ]);
@@ -126,28 +114,38 @@ describe("knapsack algorithm", () => {
     const catalog = YoutubeMusic();
 
     it("should return a one minute playlist", () => {
-      expect(sumSeconds(knapsack(catalog, 60))).toBe(45);
+      const result = knapsack(catalog, 60);
+      expect(result.seconds()).toBe(45);
     });
     it("should return a two minute playlist", () => {
-      expect(sumSeconds(knapsack(catalog, 120))).toBe(88);
+      const result = knapsack(catalog, 120);
+      expect(result.seconds()).toBe(88);
     });
     it("should return a three minute playlist", () => {
-      expect(sumSeconds(knapsack(catalog, 180))).toBe(176);
+      const result = knapsack(catalog, 180);
+      expect(result.seconds()).toBe(176);
     });
     it("should return a four minute playlist", () => {
-      expect(sumSeconds(knapsack(catalog, 240))).toBe(223);
+      const result = knapsack(catalog, 240);
+      expect(result.seconds()).toBe(223);
     });
     it("should return a five minute playlist", () => {
-      expect(sumSeconds(knapsack(catalog, 300))).toBe(284);
+      const result = knapsack(catalog, 300);
+      expect(result.seconds()).toBe(284);
     });
   });
 
   it("should return one hour long playlist", () => {
     // take 20 videos from the list and try to generate one hour of music
-    const playlist = knapsack(YoutubeMusic().slice(-20), 3600);
 
-    expect(sumSeconds(playlist)).toBe(3431);
-    expect(playlist).toMatchSnapshot();
+    const list = new Queue();
+    // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
+    YoutubeMusic().slice(-20).forEach(list.enqueue);
+
+    const playlist = knapsack(list, 3600);
+
+    expect(playlist.seconds()).toBe(3431);
+    expect(playlist.all()).toMatchSnapshot();
   });
 
   // these test cases are here to show the difference in playlist length when selecting different subset of videos
@@ -155,39 +153,63 @@ describe("knapsack algorithm", () => {
   describe("variations on playlist", () => {
     describe("one hour playlist", () => {
       it("should return one hour long playlist, on a slice fom 0 to 20 from music list", () => {
-        const playlist = knapsack(YoutubeMusic().slice(0, 20), 3600);
-        expect(sumSeconds(playlist)).toBe(3531);
+        const musicList = new Queue();
+        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
+        YoutubeMusic().slice(0, 20).forEach(musicList.enqueue);
+        const playlist = knapsack(musicList, 3600);
+        expect(playlist.seconds()).toBe(3531);
       });
       it("should return one hour long playlist, on a slice fom 20 to 40 from music list", () => {
-        const playlist = knapsack(YoutubeMusic().slice(20, 40), 3600);
-        expect(sumSeconds(playlist)).toBe(3588);
+        const list = new Queue();
+        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
+        YoutubeMusic().slice(20, 40).forEach(list.enqueue);
+        const playlist = knapsack(list, 3600);
+        expect(playlist.seconds()).toBe(3588);
       });
       it("should return one hour long playlist, on a slice fom 40 to 60 from music list", () => {
-        const playlist = knapsack(YoutubeMusic().slice(40, 60), 3600);
-        expect(sumSeconds(playlist)).toBe(3566);
+        const list = new Queue();
+        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
+        YoutubeMusic().slice(40, 60).forEach(list.enqueue);
+        const playlist = knapsack(list, 3600);
+        expect(playlist.seconds()).toBe(3566);
       });
       it("should return one hour long playlist, on a slice fom 60 to 80 from music list", () => {
-        const playlist = knapsack(YoutubeMusic().slice(60, 80), 3600);
-        expect(sumSeconds(playlist)).toBe(3437);
+        const list = new Queue();
+        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
+        YoutubeMusic().slice(60, 80).forEach(list.enqueue);
+        const playlist = knapsack(list, 3600);
+        expect(playlist.seconds()).toBe(3437);
       });
     });
 
     describe("two hour playlist", () => {
       it("should return two hour long playlist, on a slice fom 0 to 20 from music list", () => {
-        const playlist = knapsack(YoutubeMusic().slice(0, 20), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(5198);
+        const list = new Queue();
+        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
+        YoutubeMusic().slice(0, 20).forEach(list.enqueue);
+        const playlist = knapsack(list, 3600 * 2);
+        expect(playlist.seconds()).toBe(5198);
       });
       it("should return two hour long playlist, on a slice fom 20 to 40 from music list", () => {
-        const playlist = knapsack(YoutubeMusic().slice(20, 40), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(5852);
+        const list = new Queue();
+        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
+        YoutubeMusic().slice(20, 40).forEach(list.enqueue);
+        const playlist = knapsack(list, 3600 * 2);
+        expect(playlist.seconds()).toBe(5852);
       });
       it("should return two hour long playlist, on a slice fom 40 to 60 from music list", () => {
-        const playlist = knapsack(YoutubeMusic().slice(40, 60), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(5948);
+        const list = new Queue();
+        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
+        YoutubeMusic().slice(40, 60).forEach(list.enqueue);
+        const playlist = knapsack(list, 3600 * 2);
+        expect(playlist.seconds()).toBe(5948);
       });
       it("should return two hour long playlist, on a slice fom 60 to 80 from music list", () => {
-        const playlist = knapsack(YoutubeMusic().slice(60, 80), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(6994);
+        const list = new Queue();
+        // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
+        YoutubeMusic().slice(60, 80).forEach(list.enqueue);
+        const playlist = knapsack(list, 3600 * 2);
+        expect(playlist.seconds()).toBe(6994);
       });
     });
   });
@@ -203,9 +225,9 @@ describe("knapsack algorithm", () => {
 
     matches.forEach(({ seconds, weight }) => {
       it(`should return a playlist which is ${weight} seconds long, given small enough items`, () => {
-        const items: YoutubeItem[] = generateTestData(10, seconds);
+        const items: Queue = generateTestData(10, seconds);
         const playlist = knapsack(items, weight);
-        expect(sumSeconds(playlist)).toBe(weight);
+        expect(playlist.seconds()).toBe(weight);
       });
     });
   });
@@ -213,8 +235,11 @@ describe("knapsack algorithm", () => {
   // test commented because it's a bit slow
   // it("should return a two hour long playlist", () => {
   //   // take 30 videos from the list and try to generate two hours of music
-  //   const playlist = knapsack(YoutubeMusic().slice(-30), 3600 * 2);
+  //   const list = new Queue();
+  //   // functional way of inserting all the values from the underlying array in the queue implementation to the new queue
+  //   YoutubeMusic().slice(-30).forEach(list.enqueue);
+  //   const playlist = knapsack(list, 3600 * 2);
 
-  //   expect(sumSeconds(playlist)).toBe(7167);
+  //   expect(playlist.seconds()).toBe(7167);
   // });
 });
