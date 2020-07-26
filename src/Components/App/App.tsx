@@ -68,7 +68,7 @@ const App: React.FC<Props> = ({
       </Grid.Column>
       <Grid.Column width={16}>
         <Grid>
-          <Grid.Column width={5}>
+          <Grid.Column computer={5} mobile={16}>
             <Picker
               list={music}
               onSubmit={({ list, length }) => {
@@ -79,7 +79,7 @@ const App: React.FC<Props> = ({
               }}
             />
           </Grid.Column>
-          <Grid.Column width={11}>
+          <Grid.Column computer={11} mobile={16}>
             <AppPlayer
               playlistLength={playlistLength}
               generationTried={generationTried}
