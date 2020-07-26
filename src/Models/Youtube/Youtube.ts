@@ -1,3 +1,4 @@
+import Queue from "../../Datastructures/queue/queue";
 import { YoutubeItem } from "../../types";
 
 const music: YoutubeItem[] = [
@@ -2698,6 +2699,12 @@ const music: YoutubeItem[] = [
   },
 ];
 
-const YoutubeMusic = (): YoutubeItem[] => music;
+const queue = new Queue();
+
+for (let i = 0; i < music.length; i++) {
+  queue.enqueue(music[i]);
+}
+
+const YoutubeMusic = (): Queue => queue;
 
 export default YoutubeMusic;
