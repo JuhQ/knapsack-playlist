@@ -3,69 +3,64 @@
 exports[`knapsack algorithm should return one hour long playlist 1`] = `
 Array [
   Object {
-    "id": "rixsC0TioYE",
-    "seconds": 779,
-    "title": "BLACK SABBATH - Live Aid 1985 (Live Video)",
+    "id": "DtVBCG6ThDk",
+    "seconds": 283,
+    "title": "Elton John - Rocket Man (Official Music Video)",
   },
   Object {
-    "id": "xbyohIKIsoU",
-    "seconds": 229,
-    "title": "BLACK SABBATH - \\"Hole in the Sky\\" (Live Video)",
-  },
-  Object {
-    "id": "uMa2ga8gqEw",
-    "seconds": 532,
-    "title": "BLACK SABBATH - \\"God Is Dead?\\" (Official Video)",
-  },
-  Object {
-    "id": "uDELg7qaFyw",
-    "seconds": 295,
-    "title": "BLACK SABBATH - \\"Never Say Die\\" (Live Video)",
-  },
-  Object {
-    "id": "6EBk3czZXlQ",
-    "seconds": 432,
-    "title": "BLACK SABBATH - \\"Dirty Women\\" (Live Video)",
-  },
-  Object {
-    "id": "Jx7jDPDFvuE",
-    "seconds": 196,
-    "title": "BLACK SABBATH - \\"Electric Funeral\\" (Live Video)",
-  },
-  Object {
-    "id": "Usqq2amB3QE",
+    "id": "y9ANOzmSKQg",
     "seconds": 243,
-    "title": "Black Sabbath - Behind The Scenes at Rehearsals for THE END",
+    "title": "The White Stripes-Seven Nation Army",
   },
   Object {
-    "id": "Kt0Xuw02TMQ",
-    "seconds": 205,
-    "title": "BLACK SABBATH - \\"Rock 'N' Roll Doctor\\" (Official Video)",
+    "id": "6c1BThu95d8",
+    "seconds": 253,
+    "title": "The Rolling Stones - She's A Rainbow (Official Lyric Video)",
   },
   Object {
-    "id": "2Q6gPouusHs",
-    "seconds": 211,
-    "title": "BLACK SABBATH - \\"Never Say Die\\" Top of the Pops 1978",
+    "id": "6Ejga4kJUts",
+    "seconds": 308,
+    "title": "The Cranberries - Zombie (Official Music Video)",
   },
   Object {
-    "id": "_cjomffUqCg",
-    "seconds": 206,
-    "title": "BLACK SABBATH - Gathered In Their Masses (Teaser #2)",
+    "id": "qeMFqkcPYcg",
+    "seconds": 215,
+    "title": "Eurythmics, Annie Lennox, Dave Stewart - Sweet Dreams (Are Made Of This) (Official Video)",
   },
   Object {
-    "id": "7gM9vwBD0iA",
-    "seconds": 113,
-    "title": "BLACK SABBATH - \\"Paranoid\\" at Bilzen Pop Festival (Live Video)",
+    "id": "bpOSxM0rNPM",
+    "seconds": 266,
+    "title": "Arctic Monkeys - Do I Wanna Know? (Official Video)",
   },
   Object {
-    "id": "rTvv8LsekIo",
-    "seconds": 61,
-    "title": "BLACK SABBATH - The End Limited Edition Tour CD Commercial",
+    "id": "DnGdoEa1tPg",
+    "seconds": 173,
+    "title": "System Of A Down - Lonely Day (Official Video)",
   },
   Object {
-    "id": "ezvVJLeTQ0U",
-    "seconds": 88,
-    "title": "Black Sabbath - Grammy Nominations Congratulations",
+    "id": "bx1Bh8ZvH84",
+    "seconds": 278,
+    "title": "Oasis - Wonderwall (Official Video)",
+  },
+  Object {
+    "id": "f4Mc-NYPHaQ",
+    "seconds": 272,
+    "title": "Queen - I Want To Break Free (Official Video)",
+  },
+  Object {
+    "id": "7G2-FPlvY58",
+    "seconds": 436,
+    "title": "The Doors - Riders on the Storm (Official Audio)",
+  },
+  Object {
+    "id": "krxU5Y9lCS8",
+    "seconds": 451,
+    "title": "The Rolling Stones - You Can’t Always Get What You Want (Official Lyric Video)",
+  },
+  Object {
+    "id": "gxEPV4kolz0",
+    "seconds": 342,
+    "title": "Billy Joel - Piano Man (Official Video)",
   },
 ]
 `;

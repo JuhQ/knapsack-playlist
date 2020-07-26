@@ -1,15 +1,8 @@
 import YoutubeMusic from "../../Models/Youtube/Youtube";
 import { YoutubeItem } from "../../types";
 import { sumSeconds } from "../../Utils/math";
+import generateTestData from "../../Utils/testHelpers";
 import knapsack from "./knapsack";
-
-// This helper will generate n-length array of test data
-const generateTestData = (n: number, seconds = 1) =>
-  [...Array(n).fill(null)].map(() => ({
-    id: "1",
-    title: "test",
-    seconds,
-  }));
 
 describe("knapsack algorithm", () => {
   it("should return empty list when given weight is zero", () => {
@@ -153,7 +146,7 @@ describe("knapsack algorithm", () => {
     // take 20 videos from the list and try to generate one hour of music
     const playlist = knapsack(YoutubeMusic().slice(-20), 3600);
 
-    expect(sumSeconds(playlist)).toBe(3590);
+    expect(sumSeconds(playlist)).toBe(3520);
     expect(playlist).toMatchSnapshot();
   });
 
@@ -175,7 +168,7 @@ describe("knapsack algorithm", () => {
       });
       it("should return one hour long playlist, on a slice fom 60 to 80 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(60, 80), 3600);
-        expect(sumSeconds(playlist)).toBe(3444);
+        expect(sumSeconds(playlist)).toBe(3437);
       });
     });
 
@@ -190,11 +183,11 @@ describe("knapsack algorithm", () => {
       });
       it("should return two hour long playlist, on a slice fom 40 to 60 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(40, 60), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(5687);
+        expect(sumSeconds(playlist)).toBe(5948);
       });
       it("should return two hour long playlist, on a slice fom 60 to 80 from music list", () => {
         const playlist = knapsack(YoutubeMusic().slice(60, 80), 3600 * 2);
-        expect(sumSeconds(playlist)).toBe(6782);
+        expect(sumSeconds(playlist)).toBe(6994);
       });
     });
   });
