@@ -64,6 +64,19 @@ describe("queue data structure", () => {
     ]);
   });
 
+  it("should be able to remove the only item", () => {
+    const queue = new Queue();
+
+    expect(queue.all()).toEqual([]);
+    expect(queue.length()).toEqual(0);
+
+    queue.enqueue({ id: "1", title: "1", seconds: 1 });
+    expect(queue.length()).toEqual(1);
+
+    expect(queue.dequeue()).toEqual({ id: "1", title: "1", seconds: 1 });
+    expect(queue.length()).toEqual(0);
+  });
+
   it("should be able to return playlist length in seconds", () => {
     const queue = new Queue();
 
