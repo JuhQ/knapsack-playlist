@@ -25,7 +25,7 @@ const AppPlayer: React.FC<Props> = ({
     {playlistLength > 0 &&
       generationTried &&
       !creating &&
-      !playlist?.length && <>Playlist generated but no songs were found</>}
+      !playlist.length() && <>Playlist generated but no songs were found</>}
 
     {creating && (
       <>

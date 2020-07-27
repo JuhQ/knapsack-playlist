@@ -12,7 +12,7 @@ exports[`AppPlayer should render 1`] = `
       className="right aligned ten wide computer sixteen wide mobile column"
     >
       <h2>
-        test
+        test AppPlayer
       </h2>
     </div>
     <div
@@ -106,7 +106,7 @@ exports[`AppPlayer should render 1`] = `
               <div
                 className="header"
               >
-                test
+                test AppPlayer
               </div>
               <div
                 className="meta"
@@ -134,7 +134,7 @@ exports[`AppPlayer should render 1`] = `
               <div
                 className="header"
               >
-                test2
+                test2 AppPlayer
               </div>
               <div
                 className="meta"
@@ -150,6 +150,21 @@ exports[`AppPlayer should render 1`] = `
     </div>
   </div>
 </div>
+`;
+
+exports[`AppPlayer should render select dataset message 1`] = `
+<div
+  className="ui container"
+>
+  Select dataset size and desired playlist length
+  Generating playlist. Depending on input size and desired playlist length, this might take a while.
+</div>
+`;
+
+exports[`AppPlayer should render select dataset message even when genration is false 1`] = `
+<div
+  className="ui container"
+/>
 `;
 
 exports[`AppPlayer should render with creating false 1`] = `
@@ -163,158 +178,7 @@ exports[`AppPlayer should render with creating false 1`] = `
       className="right aligned ten wide computer sixteen wide mobile column"
     >
       <h2>
-        test
-      </h2>
-    </div>
-    <div
-      className="center aligned five wide computer sixteen wide mobile column"
-    >
-      <span>
-        Playlist duration: 
-        120
-         seconds
-      </span>
-      <br />
-      <span>
-        Tried to generate 
-        120
-         seconds
-      </span>
-      <br />
-      <strong>
-        Great success! Playlist is exactly as long as you wanted!
-        <span
-          aria-label="Success"
-          role="img"
-        >
-          👌
-        </span>
-        <span
-          aria-label="Success"
-          role="img"
-        >
-          🤘
-        </span>
-        <br />
-      </strong>
-      <span>
-        Queue duration: 
-        120
-         seconds
-      </span>
-      <br />
-      <span>
-        Playlist size: 
-        2
-         songs
-      </span>
-      <br />
-      <span>
-        Queue size: 
-        2
-         songs
-      </span>
-    </div>
-  </div>
-  <div
-    className="ui grid"
-  >
-    <div
-      className="right aligned ten wide computer sixteen wide mobile column"
-    >
-      <div
-        className=""
-      >
-        <div
-          className={null}
-          id={null}
-        />
-      </div>
-    </div>
-    <div
-      className="five wide computer sixteen wide mobile column"
-    >
-      <div
-        className="playlist"
-      >
-        <div
-          className="ui items"
-        >
-          <a
-            className="item"
-            onClick={[Function]}
-          >
-            <div
-              className="image"
-            >
-              <img
-                src="https://i.ytimg.com/vi/1/hqdefault.jpg"
-              />
-            </div>
-            <div
-              className="content"
-            >
-              <div
-                className="header"
-              >
-                test
-              </div>
-              <div
-                className="meta"
-              >
-                1 minute
-                 
-                
-              </div>
-            </div>
-          </a>
-          <a
-            className="item"
-            onClick={[Function]}
-          >
-            <div
-              className="image"
-            >
-              <img
-                src="https://i.ytimg.com/vi/2/hqdefault.jpg"
-              />
-            </div>
-            <div
-              className="content"
-            >
-              <div
-                className="header"
-              >
-                test2
-              </div>
-              <div
-                className="meta"
-              >
-                1 minute
-                 
-                
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`AppPlayer should render with generation tried and creating false 1`] = `
-<div
-  className="ui container"
->
-  <div
-    className="ui bottom aligned grid"
-  >
-    <div
-      className="right aligned ten wide computer sixteen wide mobile column"
-    >
-      <h2>
-        test
+        test AppPlayer
       </h2>
     </div>
     <div
@@ -408,7 +272,158 @@ exports[`AppPlayer should render with generation tried and creating false 1`] = 
               <div
                 className="header"
               >
-                test2
+                test2 AppPlayer
+              </div>
+              <div
+                className="meta"
+              >
+                1 minute
+                 
+                
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AppPlayer should render with generation tried and creating false 1`] = `
+<div
+  className="ui container"
+>
+  <div
+    className="ui bottom aligned grid"
+  >
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <h2>
+        test AppPlayer
+      </h2>
+    </div>
+    <div
+      className="center aligned five wide computer sixteen wide mobile column"
+    >
+      <span>
+        Playlist duration: 
+        120
+         seconds
+      </span>
+      <br />
+      <span>
+        Tried to generate 
+        120
+         seconds
+      </span>
+      <br />
+      <strong>
+        Great success! Playlist is exactly as long as you wanted!
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          👌
+        </span>
+        <span
+          aria-label="Success"
+          role="img"
+        >
+          🤘
+        </span>
+        <br />
+      </strong>
+      <span>
+        Queue duration: 
+        120
+         seconds
+      </span>
+      <br />
+      <span>
+        Playlist size: 
+        2
+         songs
+      </span>
+      <br />
+      <span>
+        Queue size: 
+        2
+         songs
+      </span>
+    </div>
+  </div>
+  <div
+    className="ui grid"
+  >
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className=""
+      >
+        <div
+          className={null}
+          id={null}
+        />
+      </div>
+    </div>
+    <div
+      className="five wide computer sixteen wide mobile column"
+    >
+      <div
+        className="playlist"
+      >
+        <div
+          className="ui items"
+        >
+          <a
+            className="item"
+            onClick={[Function]}
+          >
+            <div
+              className="image"
+            >
+              <img
+                src="https://i.ytimg.com/vi/1/hqdefault.jpg"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                test AppPlayer
+              </div>
+              <div
+                className="meta"
+              >
+                1 minute
+                 
+                
+              </div>
+            </div>
+          </a>
+          <a
+            className="item"
+            onClick={[Function]}
+          >
+            <div
+              className="image"
+            >
+              <img
+                src="https://i.ytimg.com/vi/2/hqdefault.jpg"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                test2 AppPlayer
               </div>
               <div
                 className="meta"
@@ -438,7 +453,7 @@ exports[`AppPlayer should render with generation tried false 1`] = `
       className="right aligned ten wide computer sixteen wide mobile column"
     >
       <h2>
-        test
+        test AppPlayer
       </h2>
     </div>
     <div
@@ -474,7 +489,7 @@ exports[`AppPlayer should render with generation tried false 1`] = `
       </strong>
       <span>
         Queue duration: 
-        60
+        120
          seconds
       </span>
       <br />
@@ -486,7 +501,7 @@ exports[`AppPlayer should render with generation tried false 1`] = `
       <br />
       <span>
         Queue size: 
-        1
+        2
          songs
       </span>
     </div>
@@ -523,6 +538,34 @@ exports[`AppPlayer should render with generation tried false 1`] = `
               className="image"
             >
               <img
+                src="https://i.ytimg.com/vi/1/hqdefault.jpg"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                test AppPlayer
+              </div>
+              <div
+                className="meta"
+              >
+                1 minute
+                 
+                
+              </div>
+            </div>
+          </a>
+          <a
+            className="item"
+            onClick={[Function]}
+          >
+            <div
+              className="image"
+            >
+              <img
                 src="https://i.ytimg.com/vi/2/hqdefault.jpg"
               />
             </div>
@@ -532,7 +575,7 @@ exports[`AppPlayer should render with generation tried false 1`] = `
               <div
                 className="header"
               >
-                test2
+                test2 AppPlayer
               </div>
               <div
                 className="meta"
