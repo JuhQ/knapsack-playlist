@@ -40,25 +40,28 @@ describe("EntertainmentSystem", () => {
   it("should end the last song of the list", () => {
     const list = new Queue();
     list.merge([{ id: "1", title: "test", seconds: 60 }]);
-    act(() => {
-      const wrapper = shallow(<EntertainmentSystem list={list} length={120} />);
 
-      wrapper.find("EntertainmentSystemContent").simulate("end");
-      act(() => {
-        expect(shallowToJson(wrapper)).toMatchSnapshot();
-      });
+    const wrapper = shallow(<EntertainmentSystem list={list} length={120} />);
+    wrapper.find("EntertainmentSystemContent").simulate("end");
+    act(() => {
+      expect(shallowToJson(wrapper)).toMatchSnapshot();
     });
   });
 
-  it("should end the song of the empty list", () => {
+  it("should render empty playlist message", () => {
+    const wrapper = shallow(
+      <EntertainmentSystem list={new Queue()} length={120} />
+    );
+    expect(shallowToJson(wrapper)).toMatchSnapshot();
+  });
+
+  it("should end song on empty list", () => {
     const wrapper = shallow(
       <EntertainmentSystem list={new Queue()} length={120} />
     );
 
     wrapper.find("EntertainmentSystemContent").simulate("end");
-    act(() => {
-      expect(shallowToJson(wrapper)).toMatchSnapshot();
-    });
+    expect(shallowToJson(wrapper)).toMatchSnapshot();
   });
 
   it("should change song", () => {

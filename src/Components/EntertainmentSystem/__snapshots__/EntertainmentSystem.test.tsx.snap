@@ -46,6 +46,8 @@ exports[`EntertainmentSystem should change song 1`] = `
 />
 `;
 
+exports[`EntertainmentSystem should end song on empty list 1`] = `<EntertainmentSystemLastSongPlayed />`;
+
 exports[`EntertainmentSystem should end the first song 1`] = `
 <EntertainmentSystemContent
   currentSong={
@@ -55,12 +57,17 @@ exports[`EntertainmentSystem should end the first song 1`] = `
       "title": "test",
     }
   }
-  diff={60}
+  diff={0}
   length={120}
   list={
     Queue {
       "enqueue": [Function],
       "list": Array [
+        Object {
+          "id": "1",
+          "seconds": 60,
+          "title": "test",
+        },
         Object {
           "id": "2",
           "seconds": 60,
@@ -83,7 +90,7 @@ exports[`EntertainmentSystem should end the first song 1`] = `
       ],
     }
   }
-  playlistLength={60}
+  playlistLength={120}
 />
 `;
 
@@ -96,12 +103,17 @@ exports[`EntertainmentSystem should end the first song 2`] = `
       "title": "test",
     }
   }
-  diff={60}
+  diff={0}
   length={120}
   list={
     Queue {
       "enqueue": [Function],
       "list": Array [
+        Object {
+          "id": "1",
+          "seconds": 60,
+          "title": "test",
+        },
         Object {
           "id": "2",
           "seconds": 60,
@@ -124,7 +136,7 @@ exports[`EntertainmentSystem should end the first song 2`] = `
       ],
     }
   }
-  playlistLength={60}
+  playlistLength={120}
 />
 `;
 
@@ -137,12 +149,18 @@ exports[`EntertainmentSystem should end the last song of the list 1`] = `
       "title": "test",
     }
   }
-  diff={120}
+  diff={60}
   length={120}
   list={
     Queue {
       "enqueue": [Function],
-      "list": Array [],
+      "list": Array [
+        Object {
+          "id": "1",
+          "seconds": 60,
+          "title": "test",
+        },
+      ],
     }
   }
   onChange={[Function]}
@@ -153,11 +171,9 @@ exports[`EntertainmentSystem should end the last song of the list 1`] = `
       "list": Array [],
     }
   }
-  playlistLength={0}
+  playlistLength={60}
 />
 `;
-
-exports[`EntertainmentSystem should end the song of the empty list 1`] = `<EntertainmentSystemLastSongPlayed />`;
 
 exports[`EntertainmentSystem should render 1`] = `
 Array [
@@ -455,4 +471,33 @@ Array [
     </div>
   </div>,
 ]
+`;
+
+exports[`EntertainmentSystem should render empty playlist message 1`] = `
+<EntertainmentSystemContent
+  currentSong={
+    Object {
+      "id": "1",
+      "seconds": 0,
+      "title": "1",
+    }
+  }
+  diff={120}
+  length={120}
+  list={
+    Queue {
+      "enqueue": [Function],
+      "list": Array [],
+    }
+  }
+  onChange={[Function]}
+  onEnd={[Function]}
+  playlist={
+    Queue {
+      "enqueue": [Function],
+      "list": Array [],
+    }
+  }
+  playlistLength={0}
+/>
 `;

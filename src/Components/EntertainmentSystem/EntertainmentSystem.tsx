@@ -14,7 +14,9 @@ interface Props {
 
 const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
   const [playlist, setPlaylist] = useState<Queue>(list);
-  const [currentSong, setCurrentSong] = useState<YoutubeItem>(list.at(0));
+  const [currentSong, setCurrentSong] = useState<YoutubeItem | undefined>(
+    list.at(0)
+  );
   const [lastSongPlayed, setLastSongPlayed] = useState<boolean>(false);
   const playlistLength = list.seconds();
   const diff = length - playlistLength;
@@ -24,9 +26,7 @@ const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
     initialPlaylist.merge(list);
     const firstSong = initialPlaylist.dequeue();
 
-    if (firstSong) {
-      setCurrentSong(firstSong);
-    }
+    setCurrentSong(firstSong);
 
     setPlaylist(initialPlaylist);
     setLastSongPlayed(false);
@@ -40,15 +40,19 @@ const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
     <EntertainmentSystemContent
       list={list}
       playlist={playlist}
-      currentSong={currentSong}
+      currentSong={currentSong || { id: "1", title: "1", seconds: 0 }}
       length={length}
       diff={diff}
       playlistLength={playlistLength}
       onEnd={() => {
-        const nextSong = playlist.dequeue();
+        const newQueue = new Queue();
+        newQueue.merge(playlist);
+
+        const nextSong = newQueue.dequeue();
+
         if (nextSong) {
           setCurrentSong(nextSong);
-          setPlaylist(playlist);
+          setPlaylist(newQueue);
         } else {
           setLastSongPlayed(true);
           setPlaylist(new Queue());
