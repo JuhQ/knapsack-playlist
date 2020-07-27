@@ -21,4 +21,4 @@ Käyttöliittymää tulee parantaa, sekä intuitiivisemmaksi että tehokkaammaks
 | ------|:-------------:|------:|
 | 25.7.	| 4h		| Videoiden valitsin ja käyttöliittymän tuunailua. |
 | 26.7.	| 1h		| Uutta musiikkia, käyttöliittymän viilailua sekä picker komponenttiin sivutuksen lisääminen |
-| 27.7.	| 1h		| Jono tietorakenteen implementointia |
+| 27.7.	| 4h		| Jono tietorakenteen implementointia sekä komponenttien ja testien muuttaminen käyttämään jonoa |
