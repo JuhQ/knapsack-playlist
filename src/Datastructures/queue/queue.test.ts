@@ -1,3 +1,5 @@
+import { YoutubeItem } from "../../types";
+import ArrayList from "../ArrayList/ArrayList";
 import Queue from "./queue";
 
 describe("queue data structure", () => {
@@ -5,7 +7,7 @@ describe("queue data structure", () => {
     const queue = new Queue();
 
     expect(queue.length()).toEqual(0);
-    expect(queue.all()).toEqual([]);
+    expect(queue.all().getAsArray()).toEqual([]);
     expect(queue.seconds()).toEqual(0);
   });
 
@@ -20,23 +22,25 @@ describe("queue data structure", () => {
   it("should be able to show all the values, when given only one item", () => {
     const queue = new Queue();
 
-    expect(queue.all()).toEqual([]);
+    expect(queue.all().getAsArray()).toEqual([]);
     expect(queue.length()).toEqual(0);
     queue.enqueue({ id: "1", title: "1", seconds: 1 });
-    expect(queue.all()).toEqual([{ id: "1", title: "1", seconds: 1 }]);
+    expect(queue.all().getAsArray()).toEqual([
+      { id: "1", title: "1", seconds: 1 },
+    ]);
     expect(queue.length()).toEqual(1);
   });
 
   it("should be able to show all the values, when given multiple items", () => {
     const queue = new Queue();
 
-    expect(queue.all()).toEqual([]);
+    expect(queue.all().getAsArray()).toEqual([]);
     expect(queue.length()).toEqual(0);
     queue.enqueue({ id: "1", title: "1", seconds: 1 });
     queue.enqueue({ id: "2", title: "2", seconds: 1 });
     queue.enqueue({ id: "3", title: "3", seconds: 1 });
 
-    expect(queue.all()).toEqual([
+    expect(queue.all().getAsArray()).toEqual([
       { id: "1", title: "1", seconds: 1 },
       { id: "2", title: "2", seconds: 1 },
       { id: "3", title: "3", seconds: 1 },
@@ -47,7 +51,7 @@ describe("queue data structure", () => {
   it("should be able to remove first item from the list and return the removed item", () => {
     const queue = new Queue();
 
-    expect(queue.all()).toEqual([]);
+    expect(queue.all().getAsArray()).toEqual([]);
     expect(queue.length()).toEqual(0);
 
     queue.enqueue({ id: "1", title: "1", seconds: 1 });
@@ -58,7 +62,7 @@ describe("queue data structure", () => {
     expect(queue.dequeue()).toEqual({ id: "1", title: "1", seconds: 1 });
 
     expect(queue.length()).toEqual(2);
-    expect(queue.all()).toEqual([
+    expect(queue.all().getAsArray()).toEqual([
       { id: "2", title: "2", seconds: 1 },
       { id: "3", title: "3", seconds: 1 },
     ]);
@@ -67,7 +71,7 @@ describe("queue data structure", () => {
   it("should be able to remove the only item", () => {
     const queue = new Queue();
 
-    expect(queue.all()).toEqual([]);
+    expect(queue.all().getAsArray()).toEqual([]);
     expect(queue.length()).toEqual(0);
 
     queue.enqueue({ id: "1", title: "1", seconds: 1 });
@@ -123,13 +127,17 @@ describe("queue data structure", () => {
     queue.enqueue({ id: "1", title: "1", seconds: 123 });
     queue.enqueue({ id: "2", title: "2", seconds: 123 });
     queue.enqueue({ id: "3", title: "3", seconds: 400 });
-    expect(queue.slice(0)).toEqual(queue.all());
-    expect(queue.slice(-2)).toEqual([
+    expect(queue.slice(0).getAsArray()).toEqual(queue.all().getAsArray());
+    expect(queue.slice(-2).getAsArray()).toEqual([
       { id: "2", seconds: 123, title: "2" },
       { id: "3", seconds: 400, title: "3" },
     ]);
-    expect(queue.slice(0, 1)).toEqual([{ id: "1", seconds: 123, title: "1" }]);
-    expect(queue.slice(1, 2)).toEqual([{ id: "2", seconds: 123, title: "2" }]);
+    expect(queue.slice(0, 1).getAsArray()).toEqual([
+      { id: "1", seconds: 123, title: "1" },
+    ]);
+    expect(queue.slice(1, 2).getAsArray()).toEqual([
+      { id: "2", seconds: 123, title: "2" },
+    ]);
   });
 
   describe("merge", () => {
@@ -142,7 +150,7 @@ describe("queue data structure", () => {
       const newQueue = new Queue();
       newQueue.merge(queue);
 
-      expect(newQueue.all()).toEqual([
+      expect(newQueue.all().getAsArray()).toEqual([
         { id: "1", seconds: 123, title: "1" },
         { id: "2", seconds: 123, title: "2" },
       ]);
@@ -157,14 +165,14 @@ describe("queue data structure", () => {
       const newQueue = new Queue();
       newQueue.merge(queue);
 
-      expect(newQueue.all()).toEqual([
+      expect(newQueue.all().getAsArray()).toEqual([
         { id: "1", seconds: 123, title: "1" },
         { id: "2", seconds: 123, title: "2" },
       ]);
 
       newQueue.enqueue({ id: "3", title: "3", seconds: 123 });
 
-      expect(newQueue.all()).toEqual([
+      expect(newQueue.all().getAsArray()).toEqual([
         { id: "1", seconds: 123, title: "1" },
         { id: "2", seconds: 123, title: "2" },
         { id: "3", seconds: 123, title: "3" },
@@ -172,35 +180,35 @@ describe("queue data structure", () => {
     });
 
     it("should be able to merge list", () => {
+      const list = new ArrayList<YoutubeItem>(2);
+      list.push({ id: "1", title: "1", seconds: 123 });
+      list.push({ id: "2", title: "2", seconds: 123 });
+
       const queue = new Queue();
+      queue.merge(list);
 
-      queue.merge([
-        { id: "1", title: "1", seconds: 123 },
-        { id: "2", title: "2", seconds: 123 },
-      ]);
-
-      expect(queue.all()).toEqual([
+      expect(queue.all().getAsArray()).toEqual([
         { id: "1", seconds: 123, title: "1" },
         { id: "2", seconds: 123, title: "2" },
       ]);
     });
 
     it("should be able to merge list and enqueue more items", () => {
+      const list = new ArrayList<YoutubeItem>(2);
+      list.push({ id: "1", title: "1", seconds: 123 });
+      list.push({ id: "2", title: "2", seconds: 123 });
+
       const queue = new Queue();
+      queue.merge(list);
 
-      queue.merge([
-        { id: "1", title: "1", seconds: 123 },
-        { id: "2", title: "2", seconds: 123 },
-      ]);
-
-      expect(queue.all()).toEqual([
+      expect(queue.all().getAsArray()).toEqual([
         { id: "1", seconds: 123, title: "1" },
         { id: "2", seconds: 123, title: "2" },
       ]);
 
       queue.enqueue({ id: "3", title: "3", seconds: 123 });
 
-      expect(queue.all()).toEqual([
+      expect(queue.all().getAsArray()).toEqual([
         { id: "1", seconds: 123, title: "1" },
         { id: "2", seconds: 123, title: "2" },
         { id: "3", seconds: 123, title: "3" },
