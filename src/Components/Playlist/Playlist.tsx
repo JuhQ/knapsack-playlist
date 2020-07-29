@@ -15,9 +15,12 @@ interface Props {
 const Playlist: React.FC<Props> = ({ list, onChange }: Props) => (
   <div className="playlist">
     <Item.Group>
-      {list.all().map((item) => (
-        <PlaylistItem item={item} onClick={onChange} key={item.id} />
-      ))}
+      {list
+        .all()
+        .map((item) => (
+          <PlaylistItem item={item} onClick={onChange} key={item.id} />
+        ))
+        .getAsArray()}
     </Item.Group>
   </div>
 );
