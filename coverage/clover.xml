@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1595811450675" clover="3.2.0">
-  <project timestamp="1595811450675" name="All files">
-    <metrics statements="174" coveredstatements="174" conditionals="62" coveredconditionals="62" methods="57" coveredmethods="57" elements="293" coveredelements="293" complexity="0" loc="174" ncloc="174" packages="18" files="20" classes="20"/>
+<coverage generated="1596052439890" clover="3.2.0">
+  <project timestamp="1596052439890" name="All files">
+    <metrics statements="240" coveredstatements="240" conditionals="70" coveredconditionals="70" methods="71" coveredmethods="71" elements="381" coveredelements="381" complexity="0" loc="240" ncloc="240" packages="19" files="21" classes="21"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="types.ts" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/types.ts">
@@ -148,55 +148,75 @@
       </file>
     </package>
     <package name="src.Components.Generator">
-      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+      <metrics statements="30" coveredstatements="30" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
       <file name="Generator.tsx" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Components/Generator/Generator.tsx">
-        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="17" count="11" type="stmt"/>
-        <line num="18" count="11" type="stmt"/>
+        <metrics statements="30" coveredstatements="30" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
         <line num="20" count="11" type="stmt"/>
-        <line num="21" count="11" type="stmt"/>
-        <line num="32" count="11" type="stmt"/>
-        <line num="36" count="3" type="stmt"/>
-        <line num="53" count="99" type="stmt"/>
-        <line num="60" count="1" type="stmt"/>
-        <line num="61" count="1" type="stmt"/>
-        <line num="77" count="88" type="stmt"/>
-        <line num="84" count="1" type="stmt"/>
-        <line num="85" count="1" type="stmt"/>
+        <line num="22" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="30" count="11" type="stmt"/>
+        <line num="31" count="11" type="stmt"/>
+        <line num="33" count="11" type="stmt"/>
+        <line num="34" count="11" type="stmt"/>
+        <line num="35" count="11" type="stmt"/>
+        <line num="36" count="11" type="stmt"/>
+        <line num="37" count="11" type="stmt"/>
+        <line num="38" count="11" type="stmt"/>
+        <line num="39" count="11" type="stmt"/>
+        <line num="40" count="11" type="stmt"/>
+        <line num="41" count="11" type="stmt"/>
+        <line num="43" count="11" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="65" count="99" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="91" count="88" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.Components.Picker">
-      <metrics statements="27" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="11"/>
+      <metrics statements="30" coveredstatements="30" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="11"/>
       <file name="Picker.tsx" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Components/Picker/Picker.tsx">
-        <metrics statements="27" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="11"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="21" type="stmt"/>
+        <metrics statements="30" coveredstatements="30" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="11"/>
+        <line num="21" count="2" type="stmt"/>
         <line num="22" count="21" type="stmt"/>
         <line num="23" count="21" type="stmt"/>
         <line num="24" count="21" type="stmt"/>
-        <line num="26" count="21" type="stmt"/>
-        <line num="27" count="4" type="stmt"/>
+        <line num="25" count="21" type="stmt"/>
+        <line num="27" count="21" type="stmt"/>
         <line num="28" count="4" type="stmt"/>
-        <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="37" count="3" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
         <line num="38" count="3" type="stmt"/>
-        <line num="41" count="4" type="stmt"/>
-        <line num="44" count="21" type="stmt"/>
-        <line num="47" count="3791" type="cond" truecount="2" falsecount="0"/>
-        <line num="52" count="21" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="45" count="21" type="stmt"/>
+        <line num="48" count="3791" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="21" type="stmt"/>
         <line num="54" count="21" type="stmt"/>
-        <line num="57" count="4" type="stmt"/>
-        <line num="58" count="4" type="stmt"/>
-        <line num="70" count="1" type="stmt"/>
-        <line num="92" count="1" type="stmt"/>
-        <line num="93" count="1" type="stmt"/>
-        <line num="101" count="1" type="stmt"/>
-        <line num="111" count="102" type="stmt"/>
-        <line num="113" count="4" type="stmt"/>
+        <line num="55" count="3787" type="stmt"/>
+        <line num="58" count="21" type="stmt"/>
+        <line num="60" count="21" type="stmt"/>
+        <line num="63" count="4" type="stmt"/>
+        <line num="64" count="4" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="107" count="1" type="stmt"/>
+        <line num="117" count="102" type="stmt"/>
+        <line num="119" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.Components.Picker.PickerItem">
@@ -224,7 +244,7 @@
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="15" count="5" type="stmt"/>
         <line num="16" count="12" type="stmt"/>
-        <line num="19" count="18" type="stmt"/>
+        <line num="21" count="18" type="stmt"/>
       </file>
     </package>
     <package name="src.Components.Playlist.PlaylistItem">
@@ -235,22 +255,74 @@
         <line num="13" count="20" type="stmt"/>
       </file>
     </package>
+    <package name="src.Datastructures.ArrayList">
+      <metrics statements="46" coveredstatements="46" conditionals="8" coveredconditionals="8" methods="13" coveredmethods="13"/>
+      <file name="ArrayList.ts" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Datastructures/ArrayList/ArrayList.ts">
+        <metrics statements="46" coveredstatements="46" conditionals="8" coveredconditionals="8" methods="13" coveredmethods="13"/>
+        <line num="10" count="4005393" type="stmt"/>
+        <line num="11" count="4005393" type="stmt"/>
+        <line num="16" count="3234163" type="stmt"/>
+        <line num="23" count="1808154" type="stmt"/>
+        <line num="25" count="1808154" type="stmt"/>
+        <line num="26" count="22894" type="stmt"/>
+        <line num="29" count="1808154" type="stmt"/>
+        <line num="34" count="3234163" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1808154" type="stmt"/>
+        <line num="38" count="3234163" type="stmt"/>
+        <line num="39" count="3234163" type="stmt"/>
+        <line num="45" count="46" type="stmt"/>
+        <line num="47" count="46" type="stmt"/>
+        <line num="49" count="46" type="stmt"/>
+        <line num="50" count="3267" type="stmt"/>
+        <line num="53" count="46" type="stmt"/>
+        <line num="59" count="11" type="stmt"/>
+        <line num="60" count="11" type="stmt"/>
+        <line num="66" count="75" type="stmt"/>
+        <line num="67" count="75" type="stmt"/>
+        <line num="69" count="75" type="stmt"/>
+        <line num="70" count="10631" type="stmt"/>
+        <line num="73" count="75" type="stmt"/>
+        <line num="79" count="25" type="stmt"/>
+        <line num="80" count="25" type="stmt"/>
+        <line num="82" count="25" type="stmt"/>
+        <line num="83" count="3800" type="cond" truecount="2" falsecount="0"/>
+        <line num="84" count="3791" type="stmt"/>
+        <line num="88" count="25" type="stmt"/>
+        <line num="94" count="6" type="stmt"/>
+        <line num="96" count="6" type="stmt"/>
+        <line num="97" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="98" count="2" type="stmt"/>
+        <line num="102" count="4" type="stmt"/>
+        <line num="107" count="10" type="stmt"/>
+        <line num="109" count="10" type="stmt"/>
+        <line num="110" count="10" type="stmt"/>
+        <line num="111" count="5162" type="stmt"/>
+        <line num="114" count="10" type="stmt"/>
+        <line num="119" count="3651762" type="stmt"/>
+        <line num="124" count="222597039" type="stmt"/>
+        <line num="135" count="8010211" type="stmt"/>
+        <line num="136" count="8010211" type="stmt"/>
+        <line num="137" count="11459963" type="cond" truecount="2" falsecount="0"/>
+        <line num="138" count="7425961" type="stmt"/>
+        <line num="142" count="8010211" type="stmt"/>
+      </file>
+    </package>
     <package name="src.Datastructures.queue">
-      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="9"/>
       <file name="queue.ts" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Datastructures/queue/queue.ts">
-        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
-        <line num="5" count="4005143" type="stmt"/>
-        <line num="8" count="90" type="stmt"/>
-        <line num="12" count="152" type="stmt"/>
-        <line num="17" count="8009946" type="stmt"/>
-        <line num="22" count="222590036" type="stmt"/>
-        <line num="27" count="13" type="stmt"/>
-        <line num="32" count="62" type="cond" truecount="2" falsecount="0"/>
-        <line num="34" count="62" type="stmt"/>
-        <line num="35" count="3215" type="stmt"/>
-        <line num="41" count="4005143" type="stmt"/>
-        <line num="42" count="3207233" type="stmt"/>
-        <line num="47" count="10" type="stmt"/>
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="9"/>
+        <line num="9" count="4005143" type="stmt"/>
+        <line num="14" count="90" type="stmt"/>
+        <line num="19" count="152" type="stmt"/>
+        <line num="25" count="8009946" type="stmt"/>
+        <line num="31" count="222590036" type="stmt"/>
+        <line num="37" count="13" type="stmt"/>
+        <line num="43" count="62" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="62" type="stmt"/>
+        <line num="46" count="3215" type="stmt"/>
+        <line num="53" count="4005143" type="stmt"/>
+        <line num="54" count="3207233" type="stmt"/>
+        <line num="60" count="10" type="stmt"/>
       </file>
     </package>
     <package name="src.Models.Youtube">
@@ -283,11 +355,11 @@
       </file>
       <file name="utils.ts" path="/Users/juhatauriainen/Sites/misc/knapsack-playlist/src/Utils/utils.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="9" type="stmt"/>
-        <line num="6" count="5159" type="stmt"/>
-        <line num="7" count="42241" type="stmt"/>
-        <line num="9" count="5159" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="10" count="5159" type="stmt"/>
+        <line num="11" count="42269" type="stmt"/>
+        <line num="13" count="5159" type="stmt"/>
       </file>
     </package>
   </project>
