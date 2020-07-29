@@ -3,6 +3,8 @@ import "./Generator.css";
 import React, { useState } from "react";
 import { Container, Form, Grid } from "semantic-ui-react";
 
+import ArrayList from "../../Datastructures/ArrayList/ArrayList";
+
 interface Props {
   totalDataset: number;
   totalLength: number;
@@ -17,17 +19,26 @@ const Generator: React.FC<Props> = ({
   const [dataSetSize, setDataSetSize] = useState<number>(0);
   const [playlistLength, setPlaylistLength] = useState<number>(0);
 
-  const predefinedDataSetSizes = [10, 15, 20, 25, 30, 35, 40, 50, totalDataset];
-  const predefinedPlaylistLength = [
-    60,
-    120,
-    300,
-    600,
-    1800,
-    3600,
-    7200,
-    totalLength,
-  ];
+  const predefinedDataSetSizes = new ArrayList<number>(9);
+  predefinedDataSetSizes.push(10);
+  predefinedDataSetSizes.push(15);
+  predefinedDataSetSizes.push(20);
+  predefinedDataSetSizes.push(25);
+  predefinedDataSetSizes.push(30);
+  predefinedDataSetSizes.push(35);
+  predefinedDataSetSizes.push(40);
+  predefinedDataSetSizes.push(50);
+  predefinedDataSetSizes.push(totalDataset);
+
+  const predefinedPlaylistLength = new ArrayList<number>(8);
+  predefinedPlaylistLength.push(60);
+  predefinedPlaylistLength.push(120);
+  predefinedPlaylistLength.push(300);
+  predefinedPlaylistLength.push(600);
+  predefinedPlaylistLength.push(1800);
+  predefinedPlaylistLength.push(3600);
+  predefinedPlaylistLength.push(7200);
+  predefinedPlaylistLength.push(totalLength);
 
   return (
     <Container>
@@ -49,21 +60,23 @@ const Generator: React.FC<Props> = ({
               and may result in a long playlist generation time.
             </small>
             <br />
-            {predefinedDataSetSizes.map((size) => (
-              <button
-                key={size}
-                type="button"
-                className={`preset dataset ${
-                  size === dataSetSize ? "selected" : ""
-                }`}
-                onClick={() => {
-                  setDataSetSize(size);
-                  onSubmit({ dataSetSize: size, playlistLength });
-                }}
-              >
-                {size}
-              </button>
-            ))}
+            {predefinedDataSetSizes
+              .map((size) => (
+                <button
+                  key={size}
+                  type="button"
+                  className={`preset dataset ${
+                    size === dataSetSize ? "selected" : ""
+                  }`}
+                  onClick={() => {
+                    setDataSetSize(size);
+                    onSubmit({ dataSetSize: size, playlistLength });
+                  }}
+                >
+                  {size}
+                </button>
+              ))
+              .getAsArray()}
           </Grid.Column>
           <Grid.Column computer={8} mobile={16}>
             Select desired playlist length
@@ -73,21 +86,23 @@ const Generator: React.FC<Props> = ({
               may result in a long playlist generation time.
             </small>
             <br />
-            {predefinedPlaylistLength.map((length) => (
-              <button
-                key={length}
-                type="button"
-                className={`preset length ${
-                  length === playlistLength ? "selected" : ""
-                }`}
-                onClick={() => {
-                  setPlaylistLength(length);
-                  onSubmit({ dataSetSize, playlistLength: length });
-                }}
-              >
-                {length}
-              </button>
-            ))}
+            {predefinedPlaylistLength
+              .map((length) => (
+                <button
+                  key={length}
+                  type="button"
+                  className={`preset length ${
+                    length === playlistLength ? "selected" : ""
+                  }`}
+                  onClick={() => {
+                    setPlaylistLength(length);
+                    onSubmit({ dataSetSize, playlistLength: length });
+                  }}
+                >
+                  {length}
+                </button>
+              ))
+              .getAsArray()}
           </Grid.Column>
         </Grid>
       </Form>
