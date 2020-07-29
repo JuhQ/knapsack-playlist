@@ -14,18 +14,21 @@ exports[`EntertainmentSystem should change song 1`] = `
   list={
     Queue {
       "enqueue": [Function],
-      "list": Array [
-        Object {
-          "id": "1",
-          "seconds": 60,
-          "title": "test",
-        },
-        Object {
-          "id": "2",
-          "seconds": 60,
-          "title": "test 2",
-        },
-      ],
+      "list": ArrayList {
+        "index": 2,
+        "list": Array [
+          Object {
+            "id": "1",
+            "seconds": 60,
+            "title": "test",
+          },
+          Object {
+            "id": "2",
+            "seconds": 60,
+            "title": "test 2",
+          },
+        ],
+      },
     }
   }
   onChange={[Function]}
@@ -33,13 +36,16 @@ exports[`EntertainmentSystem should change song 1`] = `
   playlist={
     Queue {
       "enqueue": [Function],
-      "list": Array [
-        Object {
-          "id": "1",
-          "seconds": 60,
-          "title": "test",
-        },
-      ],
+      "list": ArrayList {
+        "index": 1,
+        "list": Array [
+          Object {
+            "id": "1",
+            "seconds": 60,
+            "title": "test",
+          },
+        ],
+      },
     }
   }
   playlistLength={120}
@@ -62,18 +68,21 @@ exports[`EntertainmentSystem should end the first song 1`] = `
   list={
     Queue {
       "enqueue": [Function],
-      "list": Array [
-        Object {
-          "id": "1",
-          "seconds": 60,
-          "title": "test",
-        },
-        Object {
-          "id": "2",
-          "seconds": 60,
-          "title": "test 2",
-        },
-      ],
+      "list": ArrayList {
+        "index": 2,
+        "list": Array [
+          Object {
+            "id": "1",
+            "seconds": 60,
+            "title": "test",
+          },
+          Object {
+            "id": "2",
+            "seconds": 60,
+            "title": "test 2",
+          },
+        ],
+      },
     }
   }
   onChange={[Function]}
@@ -81,13 +90,16 @@ exports[`EntertainmentSystem should end the first song 1`] = `
   playlist={
     Queue {
       "enqueue": [Function],
-      "list": Array [
-        Object {
-          "id": "2",
-          "seconds": 60,
-          "title": "test 2",
-        },
-      ],
+      "list": ArrayList {
+        "index": 1,
+        "list": Array [
+          Object {
+            "id": "2",
+            "seconds": 60,
+            "title": "test 2",
+          },
+        ],
+      },
     }
   }
   playlistLength={120}
@@ -108,18 +120,21 @@ exports[`EntertainmentSystem should end the first song 2`] = `
   list={
     Queue {
       "enqueue": [Function],
-      "list": Array [
-        Object {
-          "id": "1",
-          "seconds": 60,
-          "title": "test",
-        },
-        Object {
-          "id": "2",
-          "seconds": 60,
-          "title": "test 2",
-        },
-      ],
+      "list": ArrayList {
+        "index": 2,
+        "list": Array [
+          Object {
+            "id": "1",
+            "seconds": 60,
+            "title": "test",
+          },
+          Object {
+            "id": "2",
+            "seconds": 60,
+            "title": "test 2",
+          },
+        ],
+      },
     }
   }
   onChange={[Function]}
@@ -127,13 +142,16 @@ exports[`EntertainmentSystem should end the first song 2`] = `
   playlist={
     Queue {
       "enqueue": [Function],
-      "list": Array [
-        Object {
-          "id": "2",
-          "seconds": 60,
-          "title": "test 2",
-        },
-      ],
+      "list": ArrayList {
+        "index": 1,
+        "list": Array [
+          Object {
+            "id": "2",
+            "seconds": 60,
+            "title": "test 2",
+          },
+        ],
+      },
     }
   }
   playlistLength={120}
@@ -154,13 +172,16 @@ exports[`EntertainmentSystem should end the last song of the list 1`] = `
   list={
     Queue {
       "enqueue": [Function],
-      "list": Array [
-        Object {
-          "id": "1",
-          "seconds": 60,
-          "title": "test",
-        },
-      ],
+      "list": ArrayList {
+        "index": 1,
+        "list": Array [
+          Object {
+            "id": "1",
+            "seconds": 60,
+            "title": "test",
+          },
+        ],
+      },
     }
   }
   onChange={[Function]}
@@ -168,7 +189,10 @@ exports[`EntertainmentSystem should end the last song of the list 1`] = `
   playlist={
     Queue {
       "enqueue": [Function],
-      "list": Array [],
+      "list": ArrayList {
+        "index": 0,
+        "list": Array [],
+      },
     }
   }
   playlistLength={60}
@@ -487,7 +511,12 @@ exports[`EntertainmentSystem should render empty playlist message 1`] = `
   list={
     Queue {
       "enqueue": [Function],
-      "list": Array [],
+      "list": ArrayList {
+        "index": 0,
+        "list": Array [
+          undefined,
+        ],
+      },
     }
   }
   onChange={[Function]}
@@ -495,7 +524,12 @@ exports[`EntertainmentSystem should render empty playlist message 1`] = `
   playlist={
     Queue {
       "enqueue": [Function],
-      "list": Array [],
+      "list": ArrayList {
+        "index": 0,
+        "list": Array [
+          undefined,
+        ],
+      },
     }
   }
   playlistLength={0}

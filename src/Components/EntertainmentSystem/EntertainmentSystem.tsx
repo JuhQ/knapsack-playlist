@@ -60,8 +60,8 @@ const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
       }}
       onChange={(song) => {
         const queue = new Queue();
-        const filteredList = playlist.all().filter(({ id }) => id !== song.id);
-        queue.merge(filteredList);
+        const filteredQueue = playlist.all().filter(({ id }) => id !== song.id);
+        queue.merge(filteredQueue);
         setPlaylist(queue);
         setCurrentSong(song);
       }}
