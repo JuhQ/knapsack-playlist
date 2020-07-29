@@ -38,7 +38,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>8/8</span>
+                <span class='fraction'>9/9</span>
             </div>
         
             
@@ -107,18 +107,39 @@
 <a name='L49'></a><a href='#L49'>49</a>
 <a name='L50'></a><a href='#L50'>50</a>
 <a name='L51'></a><a href='#L51'>51</a>
-<a name='L52'></a><a href='#L52'>52</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4005143x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">90x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">152x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -128,12 +149,15 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">222590036x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -147,8 +171,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4005143x</span>
 <span class="cline-any cline-yes">3207233x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -160,49 +186,62 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { YoutubeItem } from "../../types";
 import { sumSeconds } from "../../Utils/math";
+import ArrayList from "../ArrayList/ArrayList";
 &nbsp;
 class Queue {
-  private list: YoutubeItem[] = [];
+  private list: ArrayList&lt;YoutubeItem&gt;;
 &nbsp;
-  all(): YoutubeItem[] {
+  constructor() {
+    this.list = new ArrayList(1);
+  }
+&nbsp;
+  // Time complexity O(1)
+  all(): ArrayList&lt;YoutubeItem&gt; {
     return this.list;
   }
 &nbsp;
+  // Time complexity O(1)
   length(): number {
-    return this.list.length;
+    return this.list.size();
   }
 &nbsp;
   // return the playlist length in seconds
+  // Time complexity O(n)
   seconds(): number {
-    return sumSeconds(this.list);
+    return sumSeconds(this.list.getAsArray());
   }
 &nbsp;
   // this method is only for the knapsack algorithm
+  // Time complexity O(1)
   at(index: number): YoutubeItem {
-    return this.list[index];
+    return this.list.at(index);
   }
 &nbsp;
   // this method is only for the knapsack algorithm test cases
-  slice(start: number, end?: number): YoutubeItem[] {
+  // Time complexity O(n)
+  slice(start: number, end?: number): ArrayList&lt;YoutubeItem&gt; {
     return this.list.slice(start, end);
   }
 &nbsp;
   // merge array list or queue to queue
-  merge(list: Queue | YoutubeItem[]): void {
+  // Time complexity O(n)
+  merge(list: Queue | ArrayList&lt;YoutubeItem&gt;): void {
     const values = list instanceof Queue ? list.all() : list;
 &nbsp;
-    for (let i = 0; i &lt; values.length; i++) {
-      this.enqueue(values[i]);
+    for (let i = 0; i &lt; values.size(); i++) {
+      this.enqueue(values.at(i));
     }
   }
 &nbsp;
   // add value to the end of the queue
   // fat arrow syntax allows us to bind `this` to the scope of the class instead of the caller scope
+  // Time complexity O(1)
   enqueue = (value: YoutubeItem): void =&gt; {
     this.list.push(value);
   };
 &nbsp;
   // remove item from the beginning of the queue and return that value
+  // Time complexity O(n)
   dequeue(): YoutubeItem | undefined {
     return this.list.shift();
   }
@@ -216,7 +255,7 @@ export default Queue;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Mon Jul 27 2020 07:51:24 GMT+0000 (Coordinated Universal Time)
+                at Wed Jul 29 2020 19:54:46 GMT+0000 (Coordinated Universal Time)
             </div>
         </div>
         <script src="../../../prettify.js"></script>

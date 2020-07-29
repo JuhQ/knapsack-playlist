@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/knapsack-playlist/precache-manifest.ad1d06aae13367317265604d4f7b15d3.js"
+  "/knapsack-playlist/precache-manifest.2fff8f36b31a747e852eaabb5a63d971.js"
 );
 
 self.addEventListener('message', (event) => {
