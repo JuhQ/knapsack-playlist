@@ -1,16 +1,19 @@
 import React from "react";
 import { create } from "react-test-renderer";
 
+import ArrayList from "../../../Datastructures/ArrayList/ArrayList";
 import Queue from "../../../Datastructures/queue/queue";
+import { YoutubeItem } from "../../../types";
 import AppPlayer from "./AppPlayer";
 
 describe("AppPlayer", () => {
   it("should render", () => {
+    const list = new ArrayList<YoutubeItem>(2);
+    list.push({ id: "1", title: "test AppPlayer", seconds: 60 });
+    list.push({ id: "2", title: "test2 AppPlayer", seconds: 60 });
     const playlist = new Queue();
-    playlist.merge([
-      { id: "1", title: "test AppPlayer", seconds: 60 },
-      { id: "2", title: "test2 AppPlayer", seconds: 60 },
-    ]);
+    playlist.merge(list);
+
     const component = create(
       <AppPlayer
         playlistLength={120}
@@ -54,11 +57,12 @@ describe("AppPlayer", () => {
   });
 
   it("should render with generation tried false", () => {
+    const list = new ArrayList<YoutubeItem>(2);
+    list.push({ id: "1", title: "test AppPlayer", seconds: 60 });
+    list.push({ id: "2", title: "test2 AppPlayer", seconds: 60 });
     const playlist = new Queue();
-    playlist.merge([
-      { id: "1", title: "test AppPlayer", seconds: 60 },
-      { id: "2", title: "test2 AppPlayer", seconds: 60 },
-    ]);
+    playlist.merge(list);
+
     const component = create(
       <AppPlayer
         playlistLength={120}
@@ -72,11 +76,12 @@ describe("AppPlayer", () => {
   });
 
   it("should render with creating false", () => {
+    const list = new ArrayList<YoutubeItem>(2);
+    list.push({ id: "1", title: "test AppPlayer", seconds: 60 });
+    list.push({ id: "2", title: "test2 AppPlayer", seconds: 60 });
     const playlist = new Queue();
-    playlist.merge([
-      { id: "1", title: "test AppPlayer", seconds: 60 },
-      { id: "2", title: "test2 AppPlayer", seconds: 60 },
-    ]);
+    playlist.merge(list);
+
     const component = create(
       <AppPlayer
         playlistLength={120}
@@ -90,11 +95,12 @@ describe("AppPlayer", () => {
   });
 
   it("should render with generation tried and creating false", () => {
+    const list = new ArrayList<YoutubeItem>(2);
+    list.push({ id: "1", title: "test AppPlayer", seconds: 60 });
+    list.push({ id: "2", title: "test2 AppPlayer", seconds: 60 });
     const playlist = new Queue();
-    playlist.merge([
-      { id: "1", title: "test AppPlayer", seconds: 60 },
-      { id: "2", title: "test2 AppPlayer", seconds: 60 },
-    ]);
+    playlist.merge(list);
+
     const component = create(
       <AppPlayer
         playlistLength={120}
