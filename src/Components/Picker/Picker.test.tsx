@@ -3,7 +3,9 @@ import { shallowToJson } from "enzyme-to-json";
 import React from "react";
 import renderer, { act } from "react-test-renderer";
 
+import ArrayList from "../../Datastructures/ArrayList/ArrayList";
 import Queue from "../../Datastructures/queue/queue";
+import { YoutubeItem } from "../../types";
 import generateTestData from "../../Utils/testHelpers";
 import Picker from "./Picker";
 
@@ -24,26 +26,28 @@ describe("Picker", () => {
   });
 
   it("should render", () => {
-    const list = new Queue();
-    list.merge([
-      { id: "1", title: "test", seconds: 60 },
-      { id: "2", title: "test 2", seconds: 60 },
-    ]);
+    const list = new ArrayList<YoutubeItem>(2);
+    list.push({ id: "1", title: "test", seconds: 60 });
+    list.push({ id: "2", title: "test 2", seconds: 60 });
+    const queue = new Queue();
+    queue.merge(list);
+
     const component = renderer.create(
-      <Picker list={list} onSubmit={() => null} />
+      <Picker list={queue} onSubmit={() => null} />
     );
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it("should be able to call onSubmit function", () => {
-    const list = new Queue();
-    list.merge([
-      { id: "1", title: "test", seconds: 60 },
-      { id: "2", title: "test 2", seconds: 60 },
-    ]);
+    const list = new ArrayList<YoutubeItem>(2);
+    list.push({ id: "1", title: "test", seconds: 60 });
+    list.push({ id: "2", title: "test 2", seconds: 60 });
+    const queue = new Queue();
+    queue.merge(list);
+
     const handleSubmit = jest.fn();
-    const wrapper = shallow(<Picker list={list} onSubmit={handleSubmit} />);
+    const wrapper = shallow(<Picker list={queue} onSubmit={handleSubmit} />);
     expect(handleSubmit).not.toHaveBeenCalled();
     wrapper.simulate("submit", event);
     expect(event.preventDefault).toBeCalled();
@@ -51,13 +55,14 @@ describe("Picker", () => {
   });
 
   it("should be able to call onSubmit function and return a list of selected songs", () => {
-    const list = new Queue();
-    list.merge([
-      { id: "1", title: "test", seconds: 60 },
-      { id: "2", title: "test 2", seconds: 60 },
-    ]);
+    const list = new ArrayList<YoutubeItem>(2);
+    list.push({ id: "1", title: "test", seconds: 60 });
+    list.push({ id: "2", title: "test 2", seconds: 60 });
+    const queue = new Queue();
+    queue.merge(list);
+
     const handleSubmit = jest.fn();
-    const wrapper = shallow(<Picker list={list} onSubmit={handleSubmit} />);
+    const wrapper = shallow(<Picker list={queue} onSubmit={handleSubmit} />);
     expect(handleSubmit).not.toHaveBeenCalled();
     wrapper.find("PickerItem").last().simulate("click");
     wrapper.simulate("submit", event);
@@ -66,7 +71,7 @@ describe("Picker", () => {
       length: 3600,
       list: {
         enqueue: expect.any(Function),
-        list: [{ id: "2", seconds: 60, title: "test 2" }],
+        list: { index: 1, list: [{ id: "2", seconds: 60, title: "test 2" }] },
       },
     });
 
@@ -76,13 +81,14 @@ describe("Picker", () => {
   });
 
   it("should be able to call filter list", () => {
-    const list = new Queue();
-    list.merge([
-      { id: "1", title: "test", seconds: 60 },
-      { id: "2", title: "test 2", seconds: 60 },
-    ]);
+    const list = new ArrayList<YoutubeItem>(2);
+    list.push({ id: "1", title: "test", seconds: 60 });
+    list.push({ id: "2", title: "test 2", seconds: 60 });
+    const queue = new Queue();
+    queue.merge(list);
+
     const handleSubmit = jest.fn();
-    const wrapper = shallow(<Picker list={list} onSubmit={handleSubmit} />);
+    const wrapper = shallow(<Picker list={queue} onSubmit={handleSubmit} />);
     expect(handleSubmit).not.toHaveBeenCalled();
     wrapper
       .find("Input")
@@ -95,14 +101,14 @@ describe("Picker", () => {
   });
 
   it("should be able to call onSubmit function and return an empty list because selection was removed on the second click", () => {
-    const list = new Queue();
-    list.merge([
-      { id: "1", title: "test", seconds: 60 },
-      { id: "2", title: "test 2", seconds: 60 },
-    ]);
-    const handleSubmit = jest.fn();
+    const list = new ArrayList<YoutubeItem>(2);
+    list.push({ id: "1", title: "test", seconds: 60 });
+    list.push({ id: "2", title: "test 2", seconds: 60 });
+    const queue = new Queue();
+    queue.merge(list);
 
-    const wrapper = shallow(<Picker list={list} onSubmit={handleSubmit} />);
+    const handleSubmit = jest.fn();
+    const wrapper = shallow(<Picker list={queue} onSubmit={handleSubmit} />);
 
     expect(handleSubmit).not.toHaveBeenCalled();
     wrapper.find("PickerItem").last().simulate("click");
@@ -113,7 +119,10 @@ describe("Picker", () => {
       length: 3600,
       list: {
         enqueue: expect.any(Function),
-        list: [],
+        list: {
+          index: 0,
+          list: [undefined],
+        },
       },
     });
 
@@ -123,13 +132,14 @@ describe("Picker", () => {
   });
 
   it("should be able to submit with length", () => {
-    const list = new Queue();
-    list.merge([
-      { id: "1", title: "test", seconds: 60 },
-      { id: "2", title: "test 2", seconds: 60 },
-    ]);
+    const list = new ArrayList<YoutubeItem>(2);
+    list.push({ id: "1", title: "test", seconds: 60 });
+    list.push({ id: "2", title: "test 2", seconds: 60 });
+    const queue = new Queue();
+    queue.merge(list);
+
     const handleSubmit = jest.fn();
-    const wrapper = shallow(<Picker list={list} onSubmit={handleSubmit} />);
+    const wrapper = shallow(<Picker list={queue} onSubmit={handleSubmit} />);
     expect(handleSubmit).not.toHaveBeenCalled();
 
     wrapper
@@ -145,7 +155,7 @@ describe("Picker", () => {
       length: 200,
       list: {
         enqueue: expect.any(Function),
-        list: [{ id: "2", seconds: 60, title: "test 2" }],
+        list: { index: 1, list: [{ id: "2", seconds: 60, title: "test 2" }] },
       },
     });
   });

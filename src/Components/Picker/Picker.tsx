@@ -3,6 +3,7 @@ import "./Picker.css";
 import React, { useState } from "react";
 import { Input, Item, Pagination } from "semantic-ui-react";
 
+import ArrayList from "../../Datastructures/ArrayList/ArrayList";
 import Queue from "../../Datastructures/queue/queue";
 import { YoutubeItem } from "../../types";
 import PickerItem from "./PickerItem/PickerItem";
@@ -21,27 +22,27 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
   const [playlistLength, setPlaylistLength] = useState<number>(3600);
   const [search, setSearch] = useState<string>("");
   const [currentPage, setCurrentPage] = useState<number>(0);
-  const [selectedList, setSelectedList] = useState<Queue>(new Queue());
+  const [selectedQueue, setSelectedQueue] = useState<Queue>(new Queue());
 
   const handleSelection = (item: YoutubeItem) => {
-    const itemFound = selectedList.all().find(({ id }) => item.id === id);
+    const itemFound = selectedQueue.all().find(({ id }) => item.id === id);
     const queue = new Queue();
 
     if (itemFound) {
-      const filteredList = selectedList
+      const filteredQueue = selectedQueue
         .all()
         .filter(({ id }) => id !== item.id);
 
-      queue.merge(filteredList);
+      queue.merge(filteredQueue);
     } else {
-      queue.merge(selectedList);
+      queue.merge(selectedQueue);
       queue.enqueue(item);
     }
 
-    setSelectedList(queue);
+    setSelectedQueue(queue);
   };
 
-  const filteredList = list
+  const filteredQueue = list
     .all()
     .filter((item) =>
       search.length
@@ -49,13 +50,18 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
         : true
     );
 
+  const filteredList = new ArrayList<YoutubeItem>(filteredQueue.size());
+  for (let i = 0; i < filteredQueue.size(); i++) {
+    filteredList.push(filteredQueue.at(i));
+  }
+
   const itemsPerPage = 10;
 
   return (
     <form
       onSubmit={(event) => {
         event.preventDefault();
-        onSubmit({ list: selectedList, length: playlistLength });
+        onSubmit({ list: selectedQueue, length: playlistLength });
       }}
     >
       <h3>Define desired playlist length and pick your music</h3>
@@ -81,9 +87,9 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
         songs you picked.
       </small>
       <br />
-      List duration {selectedList.seconds()}
+      List duration {selectedQueue.seconds()}
       <br />
-      List size {selectedList.length()}
+      List size {selectedQueue.length()}
       <br />
       <Input
         type="search"
@@ -96,7 +102,7 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
       <div className="picker-container">
         <Pagination
           activePage={currentPage + 1}
-          totalPages={Math.ceil(filteredList.length / itemsPerPage)}
+          totalPages={Math.ceil(filteredList.size() / itemsPerPage)}
           onPageChange={(event, { activePage }) => {
             setCurrentPage(Number(activePage) - 1);
           }}
@@ -113,7 +119,8 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
                 onClick={() => handleSelection(item)}
                 key={item.id}
               />
-            ))}
+            ))
+            .getAsArray()}
         </Item.Group>
       </div>
     </form>
