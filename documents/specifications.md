@@ -2,13 +2,14 @@
 
 Ohjelman tarkoituksena on luoda halutun pituisia soittolistoja annetusta videolistasta, käyttäen `Knapsack` [1,2] -algoritmia. Algoritmin suomenkielinen termi on `Repunpakkaus` [3]. Algoritmi on NP-täydellinen ongelma, näin se on ollen laskennallisesti vaativa. Toteuttamalleni algoritmille annetaan lista YouTube -videoista sekä halutun soittolistan pituus. Näistä videoista valikoidaan kombinaatio, joista muodostuu halutun pituinen yhdistelmä videoita. Algoritmille voidaan antaa esimerkiksi lista tuhannesta videosta ja näiden pituuksista, sekä haluttu soittolistan pituus. Algoritmi valitsee listalta videot, joista muodostuu soittolista, joka on mahdollisimman lähellä annettua pituutta, mutta ei kuitenkaan ylitä annettua pituutta.
 
-Knapsack -algoritmissa on siis ajatuksena, että käytössä on tila, johon mahtuu vain rajallinen määrä asioita ja tila tulisi käyttää mahdollisimman tehokkaasti, niin että hukkatilaa jää mahdollisimman vähän. Tilaan laitettavilla asioilla on tietty arvo, esimerkiksi paino tai pituus, tässä harjoitustyössä pituus, jonka perusteella tilaan sijoitetaan asioita.
+Knapsack -algoritmissa on siis ajatuksena, että käytössä on tila, johon mahtuu vain rajallinen määrä asioita ja tähän tilaan tulisi tietyin kriteerein valita mahdollisimman arvokkaita/laadukkaita asioita niin, että tilan arvo maksimoituu ja annettu tilan koko ei ylity. Tilaan laitettavilla asioilla on tietty arvo, esimerkiksi paino tai pituus, tässä harjoitustyössä musiikin pituus sekä käyttäjien antamat arvosanat, 1-5 tähteä, jonka perusteella tilaan sijoitetaan asioita.
 
-Tietorakenteina jono ja map.
+Tietorakenteina käytetään jonoa, mapia ja arraylistia.
 Algoritmi saa kaksi arvoa; halutun soittolistan pituuden sekä jonon, jonka jokainen alkio on map muodossa oleva tietorakenne. Tämä rakenne sisältää avain/arvo -pareina videon osoitteen, otsikon sekä pituuden. Tästä tiedosta pituus on algoritmin kannalta tärkein.
 Algoritmin palautusarvo on jono, jossa jokainen alkio on myös map muotoinen tietorakenne.
+ArrayList tietorakennetta käytetään käyttöliittymässä listoja tarvitsevissa kohdissa.
 
-Algoritmin aika- ja tilavaatimus on `O(nW)`, jossa `W` on halutun soittolistan pituus.
+Algoritmin aika- ja tilavaatimus on `O(nW)`, jossa `n` on annetun soittolistan pituus sekä `W` on halutun soittolistan pituus.
 
 Jonon tilavaatimus on `O(n)`. Jonossa lisäys- ja poisto-operaatioiden aikavaatimukset on `O(1)` [4].
 Mapin tilavaatimus on `O(n)`. Mapissa lisäysoperaation aikavaatimus on `O(1)`, kun taas poiston aikavaatimus on `O(n)` [5].
