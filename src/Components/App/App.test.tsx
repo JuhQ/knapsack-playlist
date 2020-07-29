@@ -3,7 +3,9 @@ import { shallowToJson } from "enzyme-to-json";
 import React from "react";
 import { act, create } from "react-test-renderer";
 
+import ArrayList from "../../Datastructures/ArrayList/ArrayList";
 import Queue from "../../Datastructures/queue/queue";
+import { YoutubeItem } from "../../types";
 import App from "./App";
 
 describe("App", () => {
@@ -95,8 +97,10 @@ describe("App", () => {
     });
 
     it("should submit only length", () => {
+      const list = new ArrayList<YoutubeItem>(1);
+      list.push({ id: "1", title: "test", seconds: 2 });
       const playlist = new Queue();
-      playlist.merge([{ id: "1", title: "test", seconds: 2 }]);
+      playlist.merge(list);
       const wrapper = shallow(
         <App
           initialPlaylistLength={100}
@@ -115,8 +119,10 @@ describe("App", () => {
     });
 
     it("should submit only dataset size", () => {
+      const list = new ArrayList<YoutubeItem>(1);
+      list.push({ id: "1", title: "test", seconds: 2 });
       const playlist = new Queue();
-      playlist.merge([{ id: "1", title: "test", seconds: 2 }]);
+      playlist.merge(list);
       const wrapper = shallow(
         <App
           initialPlaylistLength={100}
@@ -135,8 +141,10 @@ describe("App", () => {
     });
 
     it("should submit proper dataset size and playlist length", () => {
+      const list = new ArrayList<YoutubeItem>(1);
+      list.push({ id: "1", title: "test", seconds: 2 });
       const playlist = new Queue();
-      playlist.merge([{ id: "1", title: "test", seconds: 2 }]);
+      playlist.merge(list);
       const wrapper = shallow(
         <App
           initialPlaylistLength={100}
