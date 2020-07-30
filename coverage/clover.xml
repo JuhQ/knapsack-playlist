@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596052561730" clover="3.2.0">
-  <project timestamp="1596052561730" name="All files">
-    <metrics statements="240" coveredstatements="240" conditionals="70" coveredconditionals="70" methods="71" coveredmethods="71" elements="381" coveredelements="381" complexity="0" loc="240" ncloc="240" packages="19" files="21" classes="21"/>
+<coverage generated="1596090999521" clover="3.2.0">
+  <project timestamp="1596090999521" name="All files">
+    <metrics statements="247" coveredstatements="247" conditionals="72" coveredconditionals="72" methods="72" coveredmethods="72" elements="391" coveredelements="391" complexity="0" loc="247" ncloc="247" packages="19" files="21" classes="21"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="types.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/types.ts">
@@ -337,13 +337,20 @@
       </file>
     </package>
     <package name="src.Utils">
-      <metrics statements="14" coveredstatements="14" conditionals="1" coveredconditionals="1" methods="8" coveredmethods="8"/>
+      <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="9"/>
       <file name="math.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Utils/math.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="3" count="7394778" type="stmt"/>
-        <line num="5" count="12" type="stmt"/>
-        <line num="6" count="8009950" type="stmt"/>
-        <line num="8" count="5160" type="stmt"/>
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="5" count="7394778" type="stmt"/>
+        <line num="7" count="12" type="stmt"/>
+        <line num="8" count="8009950" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="13" count="5162" type="stmt"/>
+        <line num="15" count="5162" type="stmt"/>
+        <line num="17" count="5162" type="stmt"/>
+        <line num="19" count="5162" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="12" type="stmt"/>
+        <line num="23" count="5162" type="stmt"/>
+        <line num="25" count="5162" type="stmt"/>
       </file>
       <file name="testHelpers.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Utils/testHelpers.ts">
         <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
@@ -358,7 +365,7 @@
         <line num="5" count="2" type="stmt"/>
         <line num="9" count="9" type="stmt"/>
         <line num="10" count="5159" type="stmt"/>
-        <line num="11" count="42276" type="stmt"/>
+        <line num="11" count="5434" type="stmt"/>
         <line num="13" count="5159" type="stmt"/>
       </file>
     </package>
