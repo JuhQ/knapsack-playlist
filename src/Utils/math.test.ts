@@ -37,5 +37,13 @@ describe("math", () => {
     it("should return random value", () => {
       expect(random()).not.toBeNaN();
     });
+
+    it("should return value greater than zero", () => {
+      expect(random()).toBeGreaterThan(0);
+    });
+
+    it("should return value less than one", () => {
+      expect(random()).toBeLessThan(1);
+    });
   });
 });
