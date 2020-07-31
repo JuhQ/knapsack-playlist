@@ -6,11 +6,11 @@ Rakensin komponentin jonka avulla voidaan valita halutut videot algoritmille ann
 
 Array tietorakenne korvattiin jonoksi ja knapsack algoritmi ottaa nyt sisään jonon ja palauttaa jonon.
 
-Käyttöliittymässä javascript array korvattiin ArrayList tietorakenteella.
+Käyttöliittymässä javascript array korvattiin ArrayList tietorakenteella sekä generator komponentin soittolistan randomisointia varten implementoin sekä xorshift algoritmin että quicksort algoritmin.
 
 ## Mikä jäi epäselväksi tai tuotti vaikeuksia
 
-Vaikeuksia koittaneet asiat korjattu.
+Vaikeuksia tuottaneet asiat korjattu.
 
 ## Mitä teen seuraavaksi
 
@@ -25,3 +25,4 @@ Käyttöliittymää tulee parantaa, sekä intuitiivisemmaksi että tehokkaammaks
 | 26.7.	| 1h		| Uutta musiikkia, käyttöliittymän viilailua sekä picker komponenttiin sivutuksen lisääminen |
 | 27.7.	| 4h		| Jono tietorakenteen implementointia sekä komponenttien ja testien muuttaminen käyttämään jonoa |
 | 29.7.	| 2h		| ArrayList tietorakenteen implementointia |
+| 31.7.	| 2h		| QuickSort algoritmin implementointia |
