@@ -51,14 +51,15 @@ describe("ArrayList data structure", () => {
     expect(array.getAsArray()).toEqual([2, 3]);
   });
 
-  it("should be able to sort the list without manipulating original list", () => {
+  it("should be able to set value at a specific index", () => {
     const array = new ArrayList<number>(1);
-    array.push(2);
     array.push(1);
+    array.push(2);
     array.push(3);
 
-    expect(array.sort((a, b) => a - b).getAsArray()).toEqual([1, 2, 3]);
-    expect(array.getAsArray()).toEqual([2, 1, 3]);
+    array.set(1, 500);
+
+    expect(array.getAsArray()).toEqual([1, 500, 3]);
   });
 
   describe("find", () => {

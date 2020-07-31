@@ -102,18 +102,6 @@ class ArrayList<T> {
     return undefined;
   }
 
-  // TODO: implement proper sort algorithm
-  sort(fn: (a: T, b: T) => number): ArrayList<T> {
-    const sorted = [...this.list].sort(fn);
-
-    const list = new ArrayList<T>(this.size());
-    for (let i = 0; i < this.size(); i++) {
-      list.push(sorted[i]);
-    }
-
-    return list;
-  }
-
   // Time complexity O(1)
   size(): number {
     return this.index;
@@ -122,6 +110,11 @@ class ArrayList<T> {
   // Time complexity O(1)
   at(index: number): T {
     return this.list[index];
+  }
+
+  // Time complexity O(1)
+  set(index: number, value: T): void {
+    this.list[index] = value;
   }
 
   /**
