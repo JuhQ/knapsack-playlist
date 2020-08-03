@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596224562823" clover="3.2.0">
-  <project timestamp="1596224562823" name="All files">
+<coverage generated="1596445235908" clover="3.2.0">
+  <project timestamp="1596445235908" name="All files">
     <metrics statements="271" coveredstatements="271" conditionals="78" coveredconditionals="78" methods="75" coveredmethods="75" elements="424" coveredelements="424" complexity="0" loc="271" ncloc="271" packages="20" files="22" classes="22"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -41,29 +41,29 @@
       <file name="quicksort.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Algorithms/quicksort/quicksort.ts">
         <metrics statements="30" coveredstatements="30" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
         <line num="9" count="3" type="stmt"/>
-        <line num="10" count="4804" type="stmt"/>
-        <line num="11" count="4804" type="stmt"/>
-        <line num="12" count="4804" type="stmt"/>
+        <line num="10" count="5208" type="stmt"/>
+        <line num="11" count="5208" type="stmt"/>
+        <line num="12" count="5208" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
-        <line num="17" count="88" type="stmt"/>
-        <line num="18" count="88" type="stmt"/>
-        <line num="19" count="88" type="stmt"/>
-        <line num="21" count="88" type="stmt"/>
-        <line num="22" count="4804" type="stmt"/>
-        <line num="23" count="2351" type="stmt"/>
-        <line num="26" count="4804" type="stmt"/>
-        <line num="27" count="1863" type="stmt"/>
-        <line num="32" count="4804" type="stmt"/>
-        <line num="33" count="4804" type="stmt"/>
-        <line num="34" count="4804" type="stmt"/>
-        <line num="37" count="88" type="stmt"/>
+        <line num="17" count="92" type="stmt"/>
+        <line num="18" count="92" type="stmt"/>
+        <line num="19" count="92" type="stmt"/>
+        <line num="21" count="92" type="stmt"/>
+        <line num="22" count="5208" type="stmt"/>
+        <line num="23" count="1948" type="stmt"/>
+        <line num="26" count="5208" type="stmt"/>
+        <line num="27" count="2364" type="stmt"/>
+        <line num="32" count="5208" type="stmt"/>
+        <line num="33" count="5208" type="stmt"/>
+        <line num="34" count="5208" type="stmt"/>
+        <line num="37" count="92" type="stmt"/>
         <line num="46" count="3" type="stmt"/>
-        <line num="51" count="89" type="cond" truecount="2" falsecount="0"/>
-        <line num="52" count="88" type="stmt"/>
-        <line num="53" count="88" type="cond" truecount="2" falsecount="0"/>
-        <line num="54" count="71" type="stmt"/>
-        <line num="57" count="17" type="cond" truecount="2" falsecount="0"/>
-        <line num="58" count="5" type="stmt"/>
+        <line num="51" count="93" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="92" type="stmt"/>
+        <line num="53" count="92" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="74" type="stmt"/>
+        <line num="57" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="6" type="stmt"/>
         <line num="62" count="13" type="stmt"/>
         <line num="71" count="3" type="stmt"/>
         <line num="74" count="13" type="stmt"/>
@@ -329,9 +329,9 @@
         <line num="97" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="98" count="2" type="stmt"/>
         <line num="102" count="4" type="stmt"/>
-        <line num="107" count="3657880" type="stmt"/>
-        <line num="112" count="222627719" type="stmt"/>
-        <line num="117" count="9609" type="stmt"/>
+        <line num="107" count="3657884" type="stmt"/>
+        <line num="112" count="222629437" type="stmt"/>
+        <line num="117" count="10417" type="stmt"/>
         <line num="128" count="8010221" type="stmt"/>
         <line num="129" count="8010221" type="stmt"/>
         <line num="130" count="11480960" type="cond" truecount="2" falsecount="0"/>
