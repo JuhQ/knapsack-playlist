@@ -13,3 +13,9 @@ Lisään tähän dokumenttiin projektin edetessä kuvakaappauksia testeistä ja 
 
 ![Testikattavuusraportti viikko 1](./test-coverage-images/week-1.png)
 ![Käyttöliittymä viikko 1](./user-interface-images/week-1.png)
+
+
+### Viikko 2
+
+![Testikattavuusraportti viikko 2](./test-coverage-images/week-2.png)
+![Käyttöliittymä viikko 2](./user-interface-images/week-2.png)
