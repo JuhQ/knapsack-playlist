@@ -9,10 +9,11 @@ Algoritmi saa kaksi arvoa; halutun soittolistan pituuden sekä jonon, jonka joka
 Algoritmin palautusarvo on jono, jossa jokainen alkio on myös map muotoinen tietorakenne.
 ArrayList tietorakennetta käytetään käyttöliittymässä listoja tarvitsevissa kohdissa.
 
-Algoritmin aika- ja tilavaatimus on `O(nW)`, jossa `n` on annetun soittolistan pituus sekä `W` on halutun soittolistan pituus.
+Algoritmin aika- ja tilavaatimus on `O(nW)`, jossa `n` on annetun soittolistan videoiden lukumäärä, sekä `W` on halutun soittolistan pituus.
 
 Jonon tilavaatimus on `O(n)`. Jonossa lisäys- ja poisto-operaatioiden aikavaatimukset on `O(1)` [4].
 Mapin tilavaatimus on `O(n)`. Mapissa lisäysoperaation aikavaatimus on `O(1)`, kun taas poiston aikavaatimus on `O(n)` [5].
+ArrayList tilavaatimus on `O(n)`. ArrayListissa lisäysoperaation aikavaatimus on `O(1)` ja poisto-operaation aikavaatimus on `O(n)` [6]. Tässä projektissa toteutetussa ArrayList tietorakenteessa uusi alkio lisätään aina listan loppuun, sekä alkioita poistetaan vain listan alusta.
 
 Ohjelma kehitetään web-sovelluksena, käyttäen React kirjastoa ja Typescript kieltä.
 
@@ -24,3 +25,4 @@ Koska algoritmi on NP-täydellinen ongelma, on se laskennallisesti vaativa ongel
 - [3] https://www.cs.helsinki.fi/u/ahslaaks/kkkk.pdf Kisakoodarin käsikirja, Antti Laaksonen - Ladattu 21.7.2020
 - [4] https://en.wikipedia.org/wiki/Queue_(abstract_data_type) Queue (abstract data type) - Ladattu 20.7.2020
 - [5] https://en.wikipedia.org/wiki/Associative_array#Comparison Associative array - Ladattu 24.7.2020
+- [6] https://en.wikipedia.org/wiki/Dynamic_array#Performance Dynamic array - Ladattu 3.8.2020
