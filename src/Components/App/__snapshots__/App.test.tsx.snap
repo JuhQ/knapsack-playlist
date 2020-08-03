@@ -119,7 +119,7 @@ exports[`App initial values should render notice about no playlist generated 1`]
               onClick={[Function]}
               type="button"
             >
-              735
+              734
             </button>
           </div>
           <div
@@ -185,7 +185,7 @@ exports[`App initial values should render notice about no playlist generated 1`]
               onClick={[Function]}
               type="button"
             >
-              192881
+              192820
             </button>
           </div>
         </div>
@@ -715,8 +715,8 @@ exports[`App initial values should submit only dataset size 1`] = `
   >
     <Generator
       onSubmit={[Function]}
-      totalDataset={735}
-      totalLength={192881}
+      totalDataset={734}
+      totalLength={192820}
     />
   </GridColumn>
   <GridColumn
@@ -732,7 +732,7 @@ exports[`App initial values should submit only dataset size 1`] = `
             Queue {
               "enqueue": [Function],
               "list": ArrayList {
-                "index": 735,
+                "index": 734,
                 "list": Array [
                   Object {
                     "id": "gAjR4_CbPpQ",
@@ -3423,11 +3423,6 @@ exports[`App initial values should submit only dataset size 1`] = `
                     "id": "7gM9vwBD0iA",
                     "seconds": 113,
                     "title": "BLACK SABBATH - \\"Paranoid\\" at Bilzen Pop Festival (Live Video)",
-                  },
-                  Object {
-                    "id": "rTvv8LsekIo",
-                    "seconds": 61,
-                    "title": "BLACK SABBATH - The End Limited Edition Tour CD Commercial",
                   },
                   Object {
                     "id": "nmZT0IaCN_0",
@@ -4467,8 +4462,8 @@ exports[`App initial values should submit only length 1`] = `
   >
     <Generator
       onSubmit={[Function]}
-      totalDataset={735}
-      totalLength={192881}
+      totalDataset={734}
+      totalLength={192820}
     />
   </GridColumn>
   <GridColumn
@@ -4484,7 +4479,7 @@ exports[`App initial values should submit only length 1`] = `
             Queue {
               "enqueue": [Function],
               "list": ArrayList {
-                "index": 735,
+                "index": 734,
                 "list": Array [
                   Object {
                     "id": "gAjR4_CbPpQ",
@@ -7175,11 +7170,6 @@ exports[`App initial values should submit only length 1`] = `
                     "id": "7gM9vwBD0iA",
                     "seconds": 113,
                     "title": "BLACK SABBATH - \\"Paranoid\\" at Bilzen Pop Festival (Live Video)",
-                  },
-                  Object {
-                    "id": "rTvv8LsekIo",
-                    "seconds": 61,
-                    "title": "BLACK SABBATH - The End Limited Edition Tour CD Commercial",
                   },
                   Object {
                     "id": "nmZT0IaCN_0",
@@ -8219,8 +8209,8 @@ exports[`App initial values should submit proper dataset size and playlist lengt
   >
     <Generator
       onSubmit={[Function]}
-      totalDataset={735}
-      totalLength={192881}
+      totalDataset={734}
+      totalLength={192820}
     />
   </GridColumn>
   <GridColumn
@@ -8236,7 +8226,7 @@ exports[`App initial values should submit proper dataset size and playlist lengt
             Queue {
               "enqueue": [Function],
               "list": ArrayList {
-                "index": 735,
+                "index": 734,
                 "list": Array [
                   Object {
                     "id": "gAjR4_CbPpQ",
@@ -10927,11 +10917,6 @@ exports[`App initial values should submit proper dataset size and playlist lengt
                     "id": "7gM9vwBD0iA",
                     "seconds": 113,
                     "title": "BLACK SABBATH - \\"Paranoid\\" at Bilzen Pop Festival (Live Video)",
-                  },
-                  Object {
-                    "id": "rTvv8LsekIo",
-                    "seconds": 61,
-                    "title": "BLACK SABBATH - The End Limited Edition Tour CD Commercial",
                   },
                   Object {
                     "id": "nmZT0IaCN_0",
@@ -11970,8 +11955,8 @@ exports[`App should be able to use picker to generate custom dataset for playlis
   >
     <Generator
       onSubmit={[Function]}
-      totalDataset={735}
-      totalLength={192881}
+      totalDataset={734}
+      totalLength={192820}
     />
   </GridColumn>
   <GridColumn
@@ -11987,7 +11972,7 @@ exports[`App should be able to use picker to generate custom dataset for playlis
             Queue {
               "enqueue": [Function],
               "list": ArrayList {
-                "index": 735,
+                "index": 734,
                 "list": Array [
                   Object {
                     "id": "gAjR4_CbPpQ",
@@ -14678,11 +14663,6 @@ exports[`App should be able to use picker to generate custom dataset for playlis
                     "id": "7gM9vwBD0iA",
                     "seconds": 113,
                     "title": "BLACK SABBATH - \\"Paranoid\\" at Bilzen Pop Festival (Live Video)",
-                  },
-                  Object {
-                    "id": "rTvv8LsekIo",
-                    "seconds": 61,
-                    "title": "BLACK SABBATH - The End Limited Edition Tour CD Commercial",
                   },
                   Object {
                     "id": "nmZT0IaCN_0",
@@ -15825,7 +15805,7 @@ exports[`App should render 1`] = `
               onClick={[Function]}
               type="button"
             >
-              735
+              734
             </button>
           </div>
           <div
@@ -15891,7 +15871,7 @@ exports[`App should render 1`] = `
               onClick={[Function]}
               type="button"
             >
-              192881
+              192820
             </button>
           </div>
         </div>
@@ -16530,7 +16510,7 @@ exports[`App should render second tab 1`] = `
               onClick={[Function]}
               type="button"
             >
-              735
+              734
             </button>
           </div>
           <div
@@ -16596,7 +16576,7 @@ exports[`App should render second tab 1`] = `
               onClick={[Function]}
               type="button"
             >
-              192881
+              192820
             </button>
           </div>
         </div>
@@ -17235,7 +17215,7 @@ exports[`App should render third tab 1`] = `
               onClick={[Function]}
               type="button"
             >
-              735
+              734
             </button>
           </div>
           <div
@@ -17301,7 +17281,7 @@ exports[`App should render third tab 1`] = `
               onClick={[Function]}
               type="button"
             >
-              192881
+              192820
             </button>
           </div>
         </div>
@@ -17833,8 +17813,8 @@ exports[`App should submit empty dataset size and playlist length 1`] = `
   >
     <Generator
       onSubmit={[Function]}
-      totalDataset={735}
-      totalLength={192881}
+      totalDataset={734}
+      totalLength={192820}
     />
   </GridColumn>
   <GridColumn
@@ -17850,7 +17830,7 @@ exports[`App should submit empty dataset size and playlist length 1`] = `
             Queue {
               "enqueue": [Function],
               "list": ArrayList {
-                "index": 735,
+                "index": 734,
                 "list": Array [
                   Object {
                     "id": "gAjR4_CbPpQ",
@@ -20541,11 +20521,6 @@ exports[`App should submit empty dataset size and playlist length 1`] = `
                     "id": "7gM9vwBD0iA",
                     "seconds": 113,
                     "title": "BLACK SABBATH - \\"Paranoid\\" at Bilzen Pop Festival (Live Video)",
-                  },
-                  Object {
-                    "id": "rTvv8LsekIo",
-                    "seconds": 61,
-                    "title": "BLACK SABBATH - The End Limited Edition Tour CD Commercial",
                   },
                   Object {
                     "id": "nmZT0IaCN_0",
@@ -21581,8 +21556,8 @@ exports[`App should submit only dataset size 1`] = `
   >
     <Generator
       onSubmit={[Function]}
-      totalDataset={735}
-      totalLength={192881}
+      totalDataset={734}
+      totalLength={192820}
     />
   </GridColumn>
   <GridColumn
@@ -21598,7 +21573,7 @@ exports[`App should submit only dataset size 1`] = `
             Queue {
               "enqueue": [Function],
               "list": ArrayList {
-                "index": 735,
+                "index": 734,
                 "list": Array [
                   Object {
                     "id": "gAjR4_CbPpQ",
@@ -24289,11 +24264,6 @@ exports[`App should submit only dataset size 1`] = `
                     "id": "7gM9vwBD0iA",
                     "seconds": 113,
                     "title": "BLACK SABBATH - \\"Paranoid\\" at Bilzen Pop Festival (Live Video)",
-                  },
-                  Object {
-                    "id": "rTvv8LsekIo",
-                    "seconds": 61,
-                    "title": "BLACK SABBATH - The End Limited Edition Tour CD Commercial",
                   },
                   Object {
                     "id": "nmZT0IaCN_0",
@@ -25329,8 +25299,8 @@ exports[`App should submit only length 1`] = `
   >
     <Generator
       onSubmit={[Function]}
-      totalDataset={735}
-      totalLength={192881}
+      totalDataset={734}
+      totalLength={192820}
     />
   </GridColumn>
   <GridColumn
@@ -25346,7 +25316,7 @@ exports[`App should submit only length 1`] = `
             Queue {
               "enqueue": [Function],
               "list": ArrayList {
-                "index": 735,
+                "index": 734,
                 "list": Array [
                   Object {
                     "id": "gAjR4_CbPpQ",
@@ -28037,11 +28007,6 @@ exports[`App should submit only length 1`] = `
                     "id": "7gM9vwBD0iA",
                     "seconds": 113,
                     "title": "BLACK SABBATH - \\"Paranoid\\" at Bilzen Pop Festival (Live Video)",
-                  },
-                  Object {
-                    "id": "rTvv8LsekIo",
-                    "seconds": 61,
-                    "title": "BLACK SABBATH - The End Limited Edition Tour CD Commercial",
                   },
                   Object {
                     "id": "nmZT0IaCN_0",
@@ -29077,8 +29042,8 @@ exports[`App should submit proper dataset size and playlist length 1`] = `
   >
     <Generator
       onSubmit={[Function]}
-      totalDataset={735}
-      totalLength={192881}
+      totalDataset={734}
+      totalLength={192820}
     />
   </GridColumn>
   <GridColumn
@@ -29094,7 +29059,7 @@ exports[`App should submit proper dataset size and playlist length 1`] = `
             Queue {
               "enqueue": [Function],
               "list": ArrayList {
-                "index": 735,
+                "index": 734,
                 "list": Array [
                   Object {
                     "id": "gAjR4_CbPpQ",
@@ -31785,11 +31750,6 @@ exports[`App should submit proper dataset size and playlist length 1`] = `
                     "id": "7gM9vwBD0iA",
                     "seconds": 113,
                     "title": "BLACK SABBATH - \\"Paranoid\\" at Bilzen Pop Festival (Live Video)",
-                  },
-                  Object {
-                    "id": "rTvv8LsekIo",
-                    "seconds": 61,
-                    "title": "BLACK SABBATH - The End Limited Edition Tour CD Commercial",
                   },
                   Object {
                     "id": "nmZT0IaCN_0",

@@ -1728,11 +1728,6 @@ const music: YoutubeItem[] = [
     seconds: 113,
   },
   {
-    id: "rTvv8LsekIo",
-    title: "BLACK SABBATH - The End Limited Edition Tour CD Commercial",
-    seconds: 61,
-  },
-  {
     id: "nmZT0IaCN_0",
     title: 'BLACK SABBATH - "Blue Suede Shoes" (Live Video)',
     seconds: 129,
