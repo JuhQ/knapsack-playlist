@@ -516,6 +516,7 @@ exports[`EntertainmentSystem should render empty playlist message 1`] = `
   currentSong={
     Object {
       "id": "1",
+      "rating": 1,
       "seconds": 0,
       "title": "1",
     }

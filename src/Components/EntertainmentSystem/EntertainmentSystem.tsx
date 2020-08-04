@@ -40,7 +40,9 @@ const EntertainmentSystem: React.FC<Props> = ({ list, length }: Props) => {
     <EntertainmentSystemContent
       list={list}
       playlist={playlist}
-      currentSong={currentSong || { id: "1", title: "1", seconds: 0 }}
+      currentSong={
+        currentSong || { id: "1", title: "1", seconds: 0, rating: 1 }
+      }
       length={length}
       diff={diff}
       playlistLength={playlistLength}
