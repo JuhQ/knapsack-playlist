@@ -27,8 +27,8 @@ describe("Picker", () => {
 
   it("should render", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 60 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
 
@@ -41,8 +41,8 @@ describe("Picker", () => {
 
   it("should be able to call onSubmit function", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 60 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
 
@@ -56,8 +56,8 @@ describe("Picker", () => {
 
   it("should be able to call onSubmit function and return a list of selected songs", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 60 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
 
@@ -71,7 +71,10 @@ describe("Picker", () => {
       length: 3600,
       list: {
         enqueue: expect.any(Function),
-        list: { index: 1, list: [{ id: "2", seconds: 60, title: "test 2" }] },
+        list: {
+          index: 1,
+          list: [{ id: "2", seconds: 60, title: "test 2", rating: 1 }],
+        },
       },
     });
 
@@ -82,8 +85,8 @@ describe("Picker", () => {
 
   it("should be able to call filter list", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 60 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
 
@@ -102,8 +105,8 @@ describe("Picker", () => {
 
   it("should be able to call onSubmit function and return an empty list because selection was removed on the second click", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 60 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
 
@@ -133,8 +136,8 @@ describe("Picker", () => {
 
   it("should be able to submit with length", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 60 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
 
@@ -155,7 +158,10 @@ describe("Picker", () => {
       length: 200,
       list: {
         enqueue: expect.any(Function),
-        list: { index: 1, list: [{ id: "2", seconds: 60, title: "test 2" }] },
+        list: {
+          index: 1,
+          list: [{ id: "2", seconds: 60, title: "test 2", rating: 1 }],
+        },
       },
     });
   });

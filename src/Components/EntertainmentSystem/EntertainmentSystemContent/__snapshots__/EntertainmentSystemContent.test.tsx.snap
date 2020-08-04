@@ -308,6 +308,7 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
               "list": Array [
                 Object {
                   "id": "2",
+                  "rating": 1,
                   "seconds": 60,
                   "title": "test 2",
                 },
@@ -400,6 +401,7 @@ exports[`EntertainmentSystem should render playlist ended message once all the s
               "list": Array [
                 Object {
                   "id": "2",
+                  "rating": 1,
                   "seconds": 60,
                   "title": "test 2",
                 },

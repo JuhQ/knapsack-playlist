@@ -11,10 +11,10 @@ import EntertainmentSystemContent from "./EntertainmentSystemContent";
 describe("EntertainmentSystem", () => {
   it("should render", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 60 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const list2 = new ArrayList<YoutubeItem>(1);
-    list2.push({ id: "2", title: "test 2", seconds: 60 });
+    list2.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
     const playlist = new Queue();
@@ -24,7 +24,7 @@ describe("EntertainmentSystem", () => {
       <EntertainmentSystemContent
         list={queue}
         playlist={playlist}
-        currentSong={{ id: "1", title: "test", seconds: 60 }}
+        currentSong={{ id: "1", title: "test", seconds: 60, rating: 1 }}
         length={120}
         diff={0}
         playlistLength={120}
@@ -38,10 +38,10 @@ describe("EntertainmentSystem", () => {
 
   it("should render diff", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 55 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 55, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const list2 = new ArrayList<YoutubeItem>(1);
-    list2.push({ id: "2", title: "test 2", seconds: 60 });
+    list2.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
     const playlist = new Queue();
@@ -50,7 +50,7 @@ describe("EntertainmentSystem", () => {
       <EntertainmentSystemContent
         list={queue}
         playlist={playlist}
-        currentSong={{ id: "1", title: "test", seconds: 55 }}
+        currentSong={{ id: "1", title: "test", seconds: 55, rating: 1 }}
         length={120}
         diff={5}
         playlistLength={115}
@@ -64,10 +64,10 @@ describe("EntertainmentSystem", () => {
 
   it("should call song changing function on player when current song ends", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 55 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 55, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const list2 = new ArrayList<YoutubeItem>(1);
-    list2.push({ id: "2", title: "test 2", seconds: 60 });
+    list2.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
     const playlist = new Queue();
@@ -77,7 +77,7 @@ describe("EntertainmentSystem", () => {
       <EntertainmentSystemContent
         list={queue}
         playlist={playlist}
-        currentSong={{ id: "1", title: "test", seconds: 55 }}
+        currentSong={{ id: "1", title: "test", seconds: 55, rating: 1 }}
         length={120}
         diff={5}
         playlistLength={115}
@@ -92,10 +92,10 @@ describe("EntertainmentSystem", () => {
 
   it("should call end function on player when current song ends", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 55 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 55, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const list2 = new ArrayList<YoutubeItem>(1);
-    list2.push({ id: "2", title: "test 2", seconds: 60 });
+    list2.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
     const playlist = new Queue();
@@ -105,7 +105,7 @@ describe("EntertainmentSystem", () => {
       <EntertainmentSystemContent
         list={queue}
         playlist={playlist}
-        currentSong={{ id: "1", title: "test", seconds: 55 }}
+        currentSong={{ id: "1", title: "test", seconds: 55, rating: 1 }}
         length={120}
         diff={5}
         playlistLength={115}
@@ -120,10 +120,10 @@ describe("EntertainmentSystem", () => {
 
   it("should call song changing function on playlist when changing song in playlist", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 55 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 55, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const list2 = new ArrayList<YoutubeItem>(2);
-    list2.push({ id: "2", title: "test 2", seconds: 60 });
+    list2.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
     const playlist = new Queue();
@@ -133,7 +133,7 @@ describe("EntertainmentSystem", () => {
       <EntertainmentSystemContent
         list={queue}
         playlist={playlist}
-        currentSong={{ id: "1", title: "test", seconds: 55 }}
+        currentSong={{ id: "1", title: "test", seconds: 55, rating: 1 }}
         length={120}
         diff={5}
         playlistLength={115}
@@ -144,17 +144,17 @@ describe("EntertainmentSystem", () => {
 
     wrapper
       .find("Playlist")
-      .simulate("change", { id: "2", title: "test 2", seconds: 60 });
+      .simulate("change", { id: "2", title: "test 2", seconds: 60, rating: 1 });
 
     expect(handleChange).toHaveBeenCalled();
   });
 
   it("should render playlist ended message once all the songs have been played", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 55 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 55, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const list2 = new ArrayList<YoutubeItem>(1);
-    list2.push({ id: "2", title: "test 2", seconds: 60 });
+    list2.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
     const playlist = new Queue();
@@ -163,7 +163,7 @@ describe("EntertainmentSystem", () => {
       <EntertainmentSystemContent
         list={queue}
         playlist={playlist}
-        currentSong={{ id: "1", title: "test", seconds: 55 }}
+        currentSong={{ id: "1", title: "test", seconds: 55, rating: 1 }}
         length={120}
         diff={5}
         playlistLength={115}

@@ -9,7 +9,7 @@ describe("PickerItem", () => {
   it("should render", () => {
     const component = renderer.create(
       <PickerItem
-        item={{ id: "1", title: "test", seconds: 60 }}
+        item={{ id: "1", title: "test", seconds: 60, rating: 1 }}
         onClick={() => null}
       />
     );
@@ -21,7 +21,7 @@ describe("PickerItem", () => {
     const handleClick = jest.fn();
     const wrapper = shallow(
       <PickerItem
-        item={{ id: "2", title: "test 2", seconds: 60 }}
+        item={{ id: "2", title: "test 2", seconds: 60, rating: 1 }}
         onClick={handleClick}
       />
     );

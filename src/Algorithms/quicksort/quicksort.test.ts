@@ -5,8 +5,8 @@ import quicksort, { Sort } from "./quicksort";
 describe("Quicksort algorithm", () => {
   it("should sort a small list", () => {
     const list = new ArrayList<Sort>(2);
-    list.push({ id: "2", title: "test 2", seconds: 2, sort: 2 });
-    list.push({ id: "1", title: "test 1", seconds: 1, sort: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 2, sort: 2, rating: 1 });
+    list.push({ id: "1", title: "test 1", seconds: 1, sort: 1, rating: 1 });
 
     const result = quicksort(list);
     expect(result.getAsArray()).toEqual([
@@ -15,12 +15,14 @@ describe("Quicksort algorithm", () => {
         seconds: 1,
         title: "test 1",
         sort: 1,
+        rating: 1,
       },
       {
         id: "2",
         seconds: 2,
         title: "test 2",
         sort: 2,
+        rating: 1,
       },
     ]);
     expect(result.getAsArray()).not.toEqual(list.getAsArray());
@@ -36,7 +38,13 @@ describe("Quicksort algorithm", () => {
   it("should sort a larger list", () => {
     const list = new ArrayList<Sort>(1001);
     for (let i = 1000; i >= 0; i--) {
-      list.push({ id: `${i}`, title: `test ${i}`, seconds: i, sort: i });
+      list.push({
+        id: `${i}`,
+        title: `test ${i}`,
+        seconds: i,
+        sort: i,
+        rating: 1,
+      });
     }
 
     const result = quicksort(list);
@@ -46,12 +54,14 @@ describe("Quicksort algorithm", () => {
       title: "test 0",
       seconds: 0,
       sort: 0,
+      rating: 1,
     });
     expect(result.getAsArray()[1000]).toEqual({
       id: "1000",
       title: "test 1000",
       seconds: 1000,
       sort: 1000,
+      rating: 1,
     });
     expect(result.size()).toEqual(1001);
     expect(result.getAsArray()).not.toEqual(list.getAsArray());
@@ -61,10 +71,22 @@ describe("Quicksort algorithm", () => {
     const list = new ArrayList<Sort>(1000);
 
     for (let i = 0; i < 999; i++) {
-      list.push({ id: `${i}`, title: `test ${i}`, seconds: i, sort: random() });
+      list.push({
+        id: `${i}`,
+        title: `test ${i}`,
+        seconds: i,
+        sort: random(),
+        rating: 1,
+      });
     }
 
-    list.push({ id: "999", title: "test 999", seconds: 999, sort: 999 });
+    list.push({
+      id: "999",
+      title: "test 999",
+      seconds: 999,
+      sort: 999,
+      rating: 1,
+    });
 
     const result = quicksort(list);
     expect(result.size()).toEqual(1000);

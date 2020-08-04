@@ -8,7 +8,7 @@ describe("PlaylistItem", () => {
   it("should render", () => {
     const component = renderer.create(
       <PlaylistItem
-        item={{ id: "1", title: "test", seconds: 60 }}
+        item={{ id: "1", title: "test", seconds: 60, rating: 1 }}
         onClick={() => null}
       />
     );
@@ -20,7 +20,7 @@ describe("PlaylistItem", () => {
     const handleOnClick = jest.fn();
     const wrapper = shallow(
       <PlaylistItem
-        item={{ id: "1", title: "test", seconds: 60 }}
+        item={{ id: "1", title: "test", seconds: 60, rating: 1 }}
         onClick={handleOnClick}
       />
     );

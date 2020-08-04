@@ -26,23 +26,23 @@ describe("knapsack algorithm", () => {
 
   it("should return the only item if only one item in the list and the item fits", () => {
     const list = new Queue();
-    list.enqueue({ title: "test", seconds: 123, id: "test" });
+    list.enqueue({ title: "test", seconds: 123, id: "test", rating: 1 });
     const result = knapsack(list, 123);
     expect(result.all().getAsArray()).toEqual([
-      { title: "test", seconds: 123, id: "test" },
+      { title: "test", seconds: 123, id: "test", rating: 1 },
     ]);
   });
 
   it("should return empty list when the list contains data but the weight limit is zero", () => {
     const list = new Queue();
-    list.enqueue({ title: "test", seconds: 123, id: "test" });
+    list.enqueue({ title: "test", seconds: 123, id: "test", rating: 1 });
     const result = knapsack(list, 0);
     expect(result.all().getAsArray()).toEqual([]);
   });
 
   it("should return empty list when the list contains data but the weight limit is negative", () => {
     const list = new Queue();
-    list.enqueue({ title: "test", seconds: 123, id: "test" });
+    list.enqueue({ title: "test", seconds: 123, id: "test", rating: 1 });
     const result = knapsack(list, -1);
     expect(result.all().getAsArray()).toEqual([]);
   });
@@ -54,63 +54,63 @@ describe("knapsack algorithm", () => {
 
   it("should return empty list if all the videos are shorter than given length", () => {
     const list = new Queue();
-    list.enqueue({ title: "test", seconds: 123, id: "test" });
+    list.enqueue({ title: "test", seconds: 123, id: "test", rating: 1 });
     const result = knapsack(list, 1);
     expect(result.all().getAsArray()).toEqual([]);
   });
 
   it("should return a list which only contains the first element which fits, when all the elements have same size and the weight limit matches the size", () => {
     const list = new Queue();
-    list.enqueue({ title: "test", seconds: 123, id: "test" });
-    list.enqueue({ title: "test2", seconds: 123, id: "test2" });
+    list.enqueue({ title: "test", seconds: 123, id: "test", rating: 1 });
+    list.enqueue({ title: "test2", seconds: 123, id: "test2", rating: 1 });
     const result = knapsack(list, 123);
     expect(result.all().getAsArray()).toEqual([
-      { title: "test", seconds: 123, id: "test" },
+      { title: "test", seconds: 123, id: "test", rating: 1 },
     ]);
   });
 
   it("should return a list which only contains elements which combined, fit into the given weight", () => {
     const list = new Queue();
-    list.enqueue({ title: "test", seconds: 3, id: "test" });
-    list.enqueue({ title: "test2", seconds: 2, id: "test2" });
+    list.enqueue({ title: "test", seconds: 3, id: "test", rating: 1 });
+    list.enqueue({ title: "test2", seconds: 2, id: "test2", rating: 1 });
     const result = knapsack(list, 5);
     expect(result.all().getAsArray()).toEqual([
-      { title: "test", seconds: 3, id: "test" },
-      { title: "test2", seconds: 2, id: "test2" },
+      { title: "test", seconds: 3, id: "test", rating: 1 },
+      { title: "test2", seconds: 2, id: "test2", rating: 1 },
     ]);
   });
 
   it("should return a list which has length of 5, leaving one of the items out of the result", () => {
     const list = new Queue();
-    list.enqueue({ title: "test", seconds: 3, id: "test" });
-    list.enqueue({ title: "test2", seconds: 2, id: "test2" });
-    list.enqueue({ title: "test3", seconds: 1, id: "test3" });
+    list.enqueue({ title: "test", seconds: 3, id: "test", rating: 1 });
+    list.enqueue({ title: "test2", seconds: 2, id: "test2", rating: 1 });
+    list.enqueue({ title: "test3", seconds: 1, id: "test3", rating: 1 });
     const result = knapsack(list, 5);
     expect(result.all().getAsArray()).toEqual([
-      { title: "test", seconds: 3, id: "test" },
-      { title: "test2", seconds: 2, id: "test2" },
+      { title: "test", seconds: 3, id: "test", rating: 1 },
+      { title: "test2", seconds: 2, id: "test2", rating: 1 },
     ]);
   });
 
   it("should return a list which contains all the items, because the weight is larger than the sum of item weights", () => {
     const list = new Queue();
-    list.enqueue({ title: "test", seconds: 3, id: "test" });
-    list.enqueue({ title: "test2", seconds: 2, id: "test2" });
+    list.enqueue({ title: "test", seconds: 3, id: "test", rating: 1 });
+    list.enqueue({ title: "test2", seconds: 2, id: "test2", rating: 1 });
     const result = knapsack(list, 6);
     expect(result.all().getAsArray()).toEqual([
-      { title: "test", seconds: 3, id: "test" },
-      { title: "test2", seconds: 2, id: "test2" },
+      { title: "test", seconds: 3, id: "test", rating: 1 },
+      { title: "test2", seconds: 2, id: "test2", rating: 1 },
     ]);
   });
 
   it("should return a list which contains all the items, because the weight is 1000 times larger than the sum of item weights", () => {
     const list = new Queue();
-    list.enqueue({ title: "test", seconds: 3, id: "test" });
-    list.enqueue({ title: "test2", seconds: 2, id: "test2" });
+    list.enqueue({ title: "test", seconds: 3, id: "test", rating: 1 });
+    list.enqueue({ title: "test2", seconds: 2, id: "test2", rating: 1 });
     const result = knapsack(list, 5000);
     expect(result.all().getAsArray()).toEqual([
-      { title: "test", seconds: 3, id: "test" },
-      { title: "test2", seconds: 2, id: "test2" },
+      { title: "test", seconds: 3, id: "test", rating: 1 },
+      { title: "test2", seconds: 2, id: "test2", rating: 1 },
     ]);
   });
 
@@ -119,11 +119,11 @@ describe("knapsack algorithm", () => {
 
     it("should return a one minute playlist", () => {
       const result = knapsack(catalog, 60);
-      expect(result.seconds()).toBe(45);
+      expect(result.seconds()).toBe(56);
     });
     it("should return a two minute playlist", () => {
       const result = knapsack(catalog, 120);
-      expect(result.seconds()).toBe(88);
+      expect(result.seconds()).toBe(119);
     });
     it("should return a three minute playlist", () => {
       const result = knapsack(catalog, 180);
@@ -131,11 +131,11 @@ describe("knapsack algorithm", () => {
     });
     it("should return a four minute playlist", () => {
       const result = knapsack(catalog, 240);
-      expect(result.seconds()).toBe(223);
+      expect(result.seconds()).toBe(234);
     });
     it("should return a five minute playlist", () => {
       const result = knapsack(catalog, 300);
-      expect(result.seconds()).toBe(284);
+      expect(result.seconds()).toBe(295);
     });
   });
 
@@ -147,7 +147,7 @@ describe("knapsack algorithm", () => {
 
     const playlist = knapsack(list, 3600);
 
-    expect(playlist.seconds()).toBe(3431);
+    expect(playlist.seconds()).toBe(3550);
     expect(playlist.all().getAsArray()).toMatchSnapshot();
   });
 

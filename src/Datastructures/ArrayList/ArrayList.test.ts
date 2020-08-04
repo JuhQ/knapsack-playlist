@@ -224,11 +224,11 @@ describe("ArrayList data structure", () => {
     it("should be able use YouTubeItem type", () => {
       const array = new ArrayList<YoutubeItem>(1);
 
-      array.push({ id: "1", title: "test", seconds: 1 });
+      array.push({ id: "1", title: "test", seconds: 1, rating: 1 });
 
       expect(array.size()).toEqual(1);
       expect(array.getAsArray()).toEqual([
-        { id: "1", title: "test", seconds: 1 },
+        { id: "1", title: "test", seconds: 1, rating: 1 },
       ]);
     });
   });

@@ -369,6 +369,7 @@ exports[`Picker should be able to call onSubmit function and return a list of se
         item={
           Object {
             "id": "1",
+            "rating": 1,
             "seconds": 60,
             "title": "test",
           }
@@ -380,6 +381,7 @@ exports[`Picker should be able to call onSubmit function and return a list of se
         item={
           Object {
             "id": "2",
+            "rating": 1,
             "seconds": 60,
             "title": "test 2",
           }
@@ -478,6 +480,7 @@ exports[`Picker should be able to call onSubmit function and return an empty lis
         item={
           Object {
             "id": "1",
+            "rating": 1,
             "seconds": 60,
             "title": "test",
           }
@@ -489,6 +492,7 @@ exports[`Picker should be able to call onSubmit function and return an empty lis
         item={
           Object {
             "id": "2",
+            "rating": 1,
             "seconds": 60,
             "title": "test 2",
           }

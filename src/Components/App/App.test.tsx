@@ -98,7 +98,7 @@ describe("App", () => {
 
     it("should submit only length", () => {
       const list = new ArrayList<YoutubeItem>(1);
-      list.push({ id: "1", title: "test", seconds: 2 });
+      list.push({ id: "1", title: "test", seconds: 2, rating: 1 });
       const playlist = new Queue();
       playlist.merge(list);
       const wrapper = shallow(
@@ -120,7 +120,7 @@ describe("App", () => {
 
     it("should submit only dataset size", () => {
       const list = new ArrayList<YoutubeItem>(1);
-      list.push({ id: "1", title: "test", seconds: 2 });
+      list.push({ id: "1", title: "test", seconds: 2, rating: 1 });
       const playlist = new Queue();
       playlist.merge(list);
       const wrapper = shallow(
@@ -142,7 +142,7 @@ describe("App", () => {
 
     it("should submit proper dataset size and playlist length", () => {
       const list = new ArrayList<YoutubeItem>(1);
-      list.push({ id: "1", title: "test", seconds: 2 });
+      list.push({ id: "1", title: "test", seconds: 2, rating: 1 });
       const playlist = new Queue();
       playlist.merge(list);
       const wrapper = shallow(

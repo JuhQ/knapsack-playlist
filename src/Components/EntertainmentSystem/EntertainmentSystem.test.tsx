@@ -11,8 +11,8 @@ import EntertainmentSystem from "./EntertainmentSystem";
 describe("EntertainmentSystem", () => {
   it("should render", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 60 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
     const component = create(<EntertainmentSystem list={queue} length={120} />);
@@ -26,8 +26,8 @@ describe("EntertainmentSystem", () => {
 
   it("should end the first song", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 60 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
     const wrapper = shallow(<EntertainmentSystem list={queue} length={120} />);
@@ -41,7 +41,7 @@ describe("EntertainmentSystem", () => {
 
   it("should end the last song of the list", () => {
     const list = new ArrayList<YoutubeItem>(1);
-    list.push({ id: "1", title: "test", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
 
@@ -70,15 +70,15 @@ describe("EntertainmentSystem", () => {
 
   it("should change song", () => {
     const list = new ArrayList<YoutubeItem>(2);
-    list.push({ id: "1", title: "test", seconds: 60 });
-    list.push({ id: "2", title: "test 2", seconds: 60 });
+    list.push({ id: "1", title: "test", seconds: 60, rating: 1 });
+    list.push({ id: "2", title: "test 2", seconds: 60, rating: 1 });
     const queue = new Queue();
     queue.merge(list);
     const wrapper = shallow(<EntertainmentSystem list={queue} length={120} />);
 
     wrapper
       .find("EntertainmentSystemContent")
-      .simulate("change", { id: "2", title: "test 2", seconds: 60 });
+      .simulate("change", { id: "2", title: "test 2", seconds: 60, rating: 1 });
     act(() => {
       expect(shallowToJson(wrapper)).toMatchSnapshot();
     });
