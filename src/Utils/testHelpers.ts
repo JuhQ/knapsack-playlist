@@ -9,6 +9,7 @@ const generateTestData = (n: number, seconds = 1): Queue => {
       id: `${i}`,
       title: "test",
       seconds,
+      rating: 1,
     });
   }
   return queue;

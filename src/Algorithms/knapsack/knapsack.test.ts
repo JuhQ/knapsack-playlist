@@ -114,7 +114,8 @@ describe("knapsack algorithm", () => {
     ]);
   });
 
-  describe("short playlists with full music catalog", () => {
+  // skipped for now as this test takes a long time
+  xdescribe("short playlists with full music catalog", () => {
     const catalog = YoutubeMusic();
 
     it("should return a one minute playlist", () => {

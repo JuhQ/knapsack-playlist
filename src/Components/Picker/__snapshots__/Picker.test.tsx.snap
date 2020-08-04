@@ -86,6 +86,7 @@ exports[`Picker should be able change page 1`] = `
         item={
           Object {
             "id": "10",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -97,6 +98,7 @@ exports[`Picker should be able change page 1`] = `
         item={
           Object {
             "id": "11",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -108,6 +110,7 @@ exports[`Picker should be able change page 1`] = `
         item={
           Object {
             "id": "12",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -119,6 +122,7 @@ exports[`Picker should be able change page 1`] = `
         item={
           Object {
             "id": "13",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -130,6 +134,7 @@ exports[`Picker should be able change page 1`] = `
         item={
           Object {
             "id": "14",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -141,6 +146,7 @@ exports[`Picker should be able change page 1`] = `
         item={
           Object {
             "id": "15",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -152,6 +158,7 @@ exports[`Picker should be able change page 1`] = `
         item={
           Object {
             "id": "16",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -163,6 +170,7 @@ exports[`Picker should be able change page 1`] = `
         item={
           Object {
             "id": "17",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -174,6 +182,7 @@ exports[`Picker should be able change page 1`] = `
         item={
           Object {
             "id": "18",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -185,6 +194,7 @@ exports[`Picker should be able change page 1`] = `
         item={
           Object {
             "id": "19",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -778,6 +788,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         item={
           Object {
             "id": "0",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -789,6 +800,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         item={
           Object {
             "id": "1",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -800,6 +812,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         item={
           Object {
             "id": "2",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -811,6 +824,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         item={
           Object {
             "id": "3",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -822,6 +836,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         item={
           Object {
             "id": "4",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -833,6 +848,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         item={
           Object {
             "id": "5",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -844,6 +860,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         item={
           Object {
             "id": "6",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -855,6 +872,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         item={
           Object {
             "id": "7",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -866,6 +884,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         item={
           Object {
             "id": "8",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
@@ -877,6 +896,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         item={
           Object {
             "id": "9",
+            "rating": 1,
             "seconds": 20,
             "title": "test",
           }
