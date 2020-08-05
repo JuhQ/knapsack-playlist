@@ -1,5 +1,5 @@
 import { YoutubeItem } from "../../types";
-import { sumSeconds } from "../../Utils/math";
+import { averageRating, sumSeconds } from "../../Utils/math";
 import ArrayList from "../ArrayList/ArrayList";
 
 class Queue {
@@ -23,6 +23,12 @@ class Queue {
   // Time complexity O(n)
   seconds(): number {
     return sumSeconds(this.list.getAsArray());
+  }
+
+  // return average rating of the playlist
+  // Time complexity O(n)
+  averageRating(): number {
+    return averageRating(this.list.getAsArray());
   }
 
   // this method is only for the knapsack algorithm

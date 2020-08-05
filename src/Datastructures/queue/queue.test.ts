@@ -100,6 +100,22 @@ describe("queue data structure", () => {
     expect(queue.seconds()).toEqual(646);
   });
 
+  it("should be able to return playlist ratings average", () => {
+    const queue = new Queue();
+
+    queue.enqueue({ id: "1", title: "1", seconds: 123, rating: 1 });
+    queue.enqueue({ id: "2", title: "2", seconds: 123, rating: 2 });
+    queue.enqueue({ id: "3", title: "3", seconds: 400, rating: 3 });
+    queue.enqueue({ id: "4", title: "4", seconds: 400, rating: 4 });
+    queue.enqueue({ id: "5", title: "5", seconds: 400, rating: 4 });
+    expect(queue.averageRating()).toEqual(2.8);
+  });
+
+  it("should be able to return playlist ratings average on an empty queue", () => {
+    const queue = new Queue();
+    expect(queue.averageRating()).toEqual(0);
+  });
+
   it("should return a shorter playlist length after an item has been dequeued", () => {
     const queue = new Queue();
 
