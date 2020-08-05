@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596622385056" clover="3.2.0">
-  <project timestamp="1596622385056" name="All files">
+<coverage generated="1596622438281" clover="3.2.0">
+  <project timestamp="1596622438281" name="All files">
     <metrics statements="278" coveredstatements="278" conditionals="80" coveredconditionals="80" methods="78" coveredmethods="78" elements="436" coveredelements="436" complexity="0" loc="278" ncloc="278" packages="20" files="22" classes="22"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -41,29 +41,29 @@
       <file name="quicksort.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Algorithms/quicksort/quicksort.ts">
         <metrics statements="30" coveredstatements="30" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
         <line num="9" count="3" type="stmt"/>
-        <line num="10" count="4899" type="stmt"/>
-        <line num="11" count="4899" type="stmt"/>
-        <line num="12" count="4899" type="stmt"/>
+        <line num="10" count="5571" type="stmt"/>
+        <line num="11" count="5571" type="stmt"/>
+        <line num="12" count="5571" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
         <line num="17" count="91" type="stmt"/>
         <line num="18" count="91" type="stmt"/>
         <line num="19" count="91" type="stmt"/>
         <line num="21" count="91" type="stmt"/>
-        <line num="22" count="4899" type="stmt"/>
-        <line num="23" count="2656" type="stmt"/>
-        <line num="26" count="4899" type="stmt"/>
-        <line num="27" count="2291" type="stmt"/>
-        <line num="32" count="4899" type="stmt"/>
-        <line num="33" count="4899" type="stmt"/>
-        <line num="34" count="4899" type="stmt"/>
+        <line num="22" count="5571" type="stmt"/>
+        <line num="23" count="1983" type="stmt"/>
+        <line num="26" count="5571" type="stmt"/>
+        <line num="27" count="1775" type="stmt"/>
+        <line num="32" count="5571" type="stmt"/>
+        <line num="33" count="5571" type="stmt"/>
+        <line num="34" count="5571" type="stmt"/>
         <line num="37" count="91" type="stmt"/>
         <line num="46" count="3" type="stmt"/>
         <line num="51" count="92" type="cond" truecount="2" falsecount="0"/>
         <line num="52" count="91" type="stmt"/>
         <line num="53" count="91" type="cond" truecount="2" falsecount="0"/>
-        <line num="54" count="73" type="stmt"/>
-        <line num="57" count="18" type="cond" truecount="2" falsecount="0"/>
-        <line num="58" count="6" type="stmt"/>
+        <line num="54" count="74" type="stmt"/>
+        <line num="57" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="5" type="stmt"/>
         <line num="62" count="13" type="stmt"/>
         <line num="71" count="3" type="stmt"/>
         <line num="74" count="13" type="stmt"/>
@@ -329,8 +329,8 @@
         <line num="98" count="5" type="stmt"/>
         <line num="102" count="103" type="stmt"/>
         <line num="107" count="4224488" type="stmt"/>
-        <line num="112" count="4736102" type="stmt"/>
-        <line num="117" count="9799" type="stmt"/>
+        <line num="112" count="4737601" type="stmt"/>
+        <line num="117" count="11143" type="stmt"/>
         <line num="128" count="8689439" type="stmt"/>
         <line num="129" count="8689439" type="stmt"/>
         <line num="130" count="12734537" type="cond" truecount="2" falsecount="0"/>
