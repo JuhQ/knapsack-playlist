@@ -14,3 +14,4 @@ Knapsack algoritmia pitää muuttaa niin, että se valitsee soittolistalle musii
 | Päivä	| Käytetty aika	| Mihin aikaa käytettiin	|
 | ------|:-------------:|------:|
 | 4.8.	| 1h		| Ratings arvo lisätty, uusia videoita lisätty |
+| 5.8.	| 1h		| Ratings arvo lisätty käyttöliittymään, listan laadun keskiarvon laskeminen myös lisätty käyttöliittymään |
