@@ -24,3 +24,16 @@ export const random = (): number => {
 
   return Number(`0.${xorShift(seed)}`);
 };
+
+export const averageRating = (list: YoutubeItem[]): number => {
+  if (!list.length) {
+    return 0;
+  }
+
+  let total = 0;
+  for (let i = 0; i < list.length; i++) {
+    total += list[i].rating;
+  }
+
+  return Number((total / list.length).toFixed(2));
+};
