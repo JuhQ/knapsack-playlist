@@ -1,5 +1,5 @@
 import React from "react";
-import { Item } from "semantic-ui-react";
+import { Item, Rating } from "semantic-ui-react";
 
 import { YoutubeItem } from "../../../types";
 import Duration from "../../Duration/Duration";
@@ -16,6 +16,10 @@ const PlaylistItem: React.FC<Props> = ({ item, onClick }: Props) => (
       <Item.Header>{item.title}</Item.Header>
       <Item.Meta>
         <Duration seconds={item.seconds} />
+        <br />
+        <span className="ratings-container">
+          <Rating icon="star" rating={item.rating} maxRating={5} disabled />
+        </span>
       </Item.Meta>
     </Item.Content>
   </Item>

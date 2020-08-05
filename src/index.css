@@ -23,6 +23,17 @@ body {
   margin: 0;
 }
 
+.ratings-container {
+  background: linear-gradient(
+    156deg,
+    rgba(20, 197, 173, 0.58),
+    rgba(213, 74, 222, 0.41)
+  );
+  padding: 0.4rem 1rem;
+  margin-top: 0.4rem;
+  display: inline-block;
+}
+
 button {
   padding: 1rem;
   font-size: 1.2rem;

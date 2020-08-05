@@ -423,6 +423,73 @@ exports[`App initial values should render notice about no playlist generated 1`]
                     3 minutes
                      
                     43 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -451,6 +518,73 @@ exports[`App initial values should render notice about no playlist generated 1`]
                     6 minutes
                      
                     47 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -479,6 +613,73 @@ exports[`App initial values should render notice about no playlist generated 1`]
                     3 minutes
                      
                     49 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -507,6 +708,73 @@ exports[`App initial values should render notice about no playlist generated 1`]
                     4 minutes
                      
                     56 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -535,6 +803,73 @@ exports[`App initial values should render notice about no playlist generated 1`]
                     4 minutes
                      
                     25 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -563,6 +898,73 @@ exports[`App initial values should render notice about no playlist generated 1`]
                     4 minutes
                      
                     29 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -591,6 +993,73 @@ exports[`App initial values should render notice about no playlist generated 1`]
                     4 minutes
                      
                     4 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -619,6 +1088,73 @@ exports[`App initial values should render notice about no playlist generated 1`]
                     3 minutes
                      
                     49 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -647,6 +1183,73 @@ exports[`App initial values should render notice about no playlist generated 1`]
                     3 minutes
                      
                     52 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -675,6 +1278,73 @@ exports[`App initial values should render notice about no playlist generated 1`]
                     2 minutes
                      
                     56 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -20440,6 +21110,73 @@ exports[`App should render 1`] = `
                     3 minutes
                      
                     43 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -20468,6 +21205,73 @@ exports[`App should render 1`] = `
                     6 minutes
                      
                     47 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -20496,6 +21300,73 @@ exports[`App should render 1`] = `
                     3 minutes
                      
                     49 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -20524,6 +21395,73 @@ exports[`App should render 1`] = `
                     4 minutes
                      
                     56 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -20552,6 +21490,73 @@ exports[`App should render 1`] = `
                     4 minutes
                      
                     25 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -20580,6 +21585,73 @@ exports[`App should render 1`] = `
                     4 minutes
                      
                     29 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -20608,6 +21680,73 @@ exports[`App should render 1`] = `
                     4 minutes
                      
                     4 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -20636,6 +21775,73 @@ exports[`App should render 1`] = `
                     3 minutes
                      
                     49 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -20664,6 +21870,73 @@ exports[`App should render 1`] = `
                     3 minutes
                      
                     52 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -20692,6 +21965,73 @@ exports[`App should render 1`] = `
                     2 minutes
                      
                     56 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21145,6 +22485,73 @@ exports[`App should render second tab 1`] = `
                     3 minutes
                      
                     43 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21173,6 +22580,73 @@ exports[`App should render second tab 1`] = `
                     6 minutes
                      
                     47 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21201,6 +22675,73 @@ exports[`App should render second tab 1`] = `
                     3 minutes
                      
                     49 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21229,6 +22770,73 @@ exports[`App should render second tab 1`] = `
                     4 minutes
                      
                     56 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21257,6 +22865,73 @@ exports[`App should render second tab 1`] = `
                     4 minutes
                      
                     25 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21285,6 +22960,73 @@ exports[`App should render second tab 1`] = `
                     4 minutes
                      
                     29 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21313,6 +23055,73 @@ exports[`App should render second tab 1`] = `
                     4 minutes
                      
                     4 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21341,6 +23150,73 @@ exports[`App should render second tab 1`] = `
                     3 minutes
                      
                     49 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21369,6 +23245,73 @@ exports[`App should render second tab 1`] = `
                     3 minutes
                      
                     52 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21397,6 +23340,73 @@ exports[`App should render second tab 1`] = `
                     2 minutes
                      
                     56 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21850,6 +23860,73 @@ exports[`App should render third tab 1`] = `
                     3 minutes
                      
                     43 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21878,6 +23955,73 @@ exports[`App should render third tab 1`] = `
                     6 minutes
                      
                     47 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21906,6 +24050,73 @@ exports[`App should render third tab 1`] = `
                     3 minutes
                      
                     49 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21934,6 +24145,73 @@ exports[`App should render third tab 1`] = `
                     4 minutes
                      
                     56 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21962,6 +24240,73 @@ exports[`App should render third tab 1`] = `
                     4 minutes
                      
                     25 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -21990,6 +24335,73 @@ exports[`App should render third tab 1`] = `
                     4 minutes
                      
                     29 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -22018,6 +24430,73 @@ exports[`App should render third tab 1`] = `
                     4 minutes
                      
                     4 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -22046,6 +24525,73 @@ exports[`App should render third tab 1`] = `
                     3 minutes
                      
                     49 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -22074,6 +24620,73 @@ exports[`App should render third tab 1`] = `
                     3 minutes
                      
                     52 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -22102,6 +24715,73 @@ exports[`App should render third tab 1`] = `
                     2 minutes
                      
                     56 seconds
+                    <br />
+                    <span
+                      className="ratings-container"
+                    >
+                      <div
+                        className="ui star disabled rating"
+                        onMouseLeave={[Function]}
+                        role="radiogroup"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-checked={false}
+                          aria-posinset={1}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={2}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={3}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={false}
+                          aria-posinset={4}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                        <i
+                          aria-checked={true}
+                          aria-posinset={5}
+                          aria-setsize={5}
+                          className="active icon"
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseEnter={[Function]}
+                          role="radio"
+                          tabIndex={-1}
+                        />
+                      </div>
+                    </span>
                   </div>
                 </div>
               </a>

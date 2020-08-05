@@ -10,6 +10,19 @@ describe("PickerItem", () => {
     const component = renderer.create(
       <PickerItem
         item={{ id: "1", title: "test", seconds: 60, rating: 1 }}
+        selected={false}
+        onClick={() => null}
+      />
+    );
+    const tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it("should render selected", () => {
+    const component = renderer.create(
+      <PickerItem
+        item={{ id: "1", title: "test", seconds: 60, rating: 1 }}
+        selected
         onClick={() => null}
       />
     );
@@ -22,6 +35,7 @@ describe("PickerItem", () => {
     const wrapper = shallow(
       <PickerItem
         item={{ id: "2", title: "test 2", seconds: 60, rating: 1 }}
+        selected={false}
         onClick={handleClick}
       />
     );

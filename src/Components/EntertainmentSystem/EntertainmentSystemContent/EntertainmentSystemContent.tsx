@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "semantic-ui-react";
+import { Grid, Rating } from "semantic-ui-react";
 
 import Queue from "../../../Datastructures/queue/queue";
 import { YoutubeItem } from "../../../types";
@@ -60,6 +60,17 @@ const EntertainmentSystemContent: React.FC<Props> = ({
         <span>Playlist size: {list.length()} songs</span>
         <br />
         <span>Queue size: {playlist.length()} songs</span>
+        <br />
+        <span>Playlist rating: {playlist.averageRating()}/5</span>
+        <br />
+        <span className="ratings-container">
+          <Rating
+            icon="star"
+            rating={playlist.averageRating()}
+            maxRating={5}
+            disabled
+          />
+        </span>
       </Grid.Column>
     </Grid>
     <Grid>

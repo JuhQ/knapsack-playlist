@@ -63,6 +63,79 @@ exports[`AppPlayer should render 1`] = `
         2
          songs
       </span>
+      <br />
+      <span>
+        Playlist rating: 
+        1
+        /5
+      </span>
+      <br />
+      <span
+        className="ratings-container"
+      >
+        <div
+          className="ui star disabled rating"
+          onMouseLeave={[Function]}
+          role="radiogroup"
+          tabIndex={0}
+        >
+          <i
+            aria-checked={true}
+            aria-posinset={1}
+            aria-setsize={5}
+            className="active icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={2}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={3}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={4}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={5}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+        </div>
+      </span>
     </div>
   </div>
   <div
@@ -114,6 +187,73 @@ exports[`AppPlayer should render 1`] = `
                 1 minute
                  
                 
+                <br />
+                <span
+                  className="ratings-container"
+                >
+                  <div
+                    className="ui star disabled rating"
+                    onMouseLeave={[Function]}
+                    role="radiogroup"
+                    tabIndex={0}
+                  >
+                    <i
+                      aria-checked={true}
+                      aria-posinset={1}
+                      aria-setsize={5}
+                      className="active icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={2}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={3}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={4}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={5}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                  </div>
+                </span>
               </div>
             </div>
           </a>
@@ -142,6 +282,73 @@ exports[`AppPlayer should render 1`] = `
                 1 minute
                  
                 
+                <br />
+                <span
+                  className="ratings-container"
+                >
+                  <div
+                    className="ui star disabled rating"
+                    onMouseLeave={[Function]}
+                    role="radiogroup"
+                    tabIndex={0}
+                  >
+                    <i
+                      aria-checked={true}
+                      aria-posinset={1}
+                      aria-setsize={5}
+                      className="active icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={2}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={3}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={4}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={5}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                  </div>
+                </span>
               </div>
             </div>
           </a>
@@ -229,6 +436,79 @@ exports[`AppPlayer should render with creating false 1`] = `
         1
          songs
       </span>
+      <br />
+      <span>
+        Playlist rating: 
+        1
+        /5
+      </span>
+      <br />
+      <span
+        className="ratings-container"
+      >
+        <div
+          className="ui star disabled rating"
+          onMouseLeave={[Function]}
+          role="radiogroup"
+          tabIndex={0}
+        >
+          <i
+            aria-checked={true}
+            aria-posinset={1}
+            aria-setsize={5}
+            className="active icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={2}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={3}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={4}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={5}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+        </div>
+      </span>
     </div>
   </div>
   <div
@@ -280,6 +560,73 @@ exports[`AppPlayer should render with creating false 1`] = `
                 1 minute
                  
                 
+                <br />
+                <span
+                  className="ratings-container"
+                >
+                  <div
+                    className="ui star disabled rating"
+                    onMouseLeave={[Function]}
+                    role="radiogroup"
+                    tabIndex={0}
+                  >
+                    <i
+                      aria-checked={true}
+                      aria-posinset={1}
+                      aria-setsize={5}
+                      className="active icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={2}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={3}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={4}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={5}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                  </div>
+                </span>
               </div>
             </div>
           </a>
@@ -352,6 +699,79 @@ exports[`AppPlayer should render with generation tried and creating false 1`] = 
         2
          songs
       </span>
+      <br />
+      <span>
+        Playlist rating: 
+        1
+        /5
+      </span>
+      <br />
+      <span
+        className="ratings-container"
+      >
+        <div
+          className="ui star disabled rating"
+          onMouseLeave={[Function]}
+          role="radiogroup"
+          tabIndex={0}
+        >
+          <i
+            aria-checked={true}
+            aria-posinset={1}
+            aria-setsize={5}
+            className="active icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={2}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={3}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={4}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={5}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+        </div>
+      </span>
     </div>
   </div>
   <div
@@ -403,6 +823,73 @@ exports[`AppPlayer should render with generation tried and creating false 1`] = 
                 1 minute
                  
                 
+                <br />
+                <span
+                  className="ratings-container"
+                >
+                  <div
+                    className="ui star disabled rating"
+                    onMouseLeave={[Function]}
+                    role="radiogroup"
+                    tabIndex={0}
+                  >
+                    <i
+                      aria-checked={true}
+                      aria-posinset={1}
+                      aria-setsize={5}
+                      className="active icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={2}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={3}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={4}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={5}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                  </div>
+                </span>
               </div>
             </div>
           </a>
@@ -431,6 +918,73 @@ exports[`AppPlayer should render with generation tried and creating false 1`] = 
                 1 minute
                  
                 
+                <br />
+                <span
+                  className="ratings-container"
+                >
+                  <div
+                    className="ui star disabled rating"
+                    onMouseLeave={[Function]}
+                    role="radiogroup"
+                    tabIndex={0}
+                  >
+                    <i
+                      aria-checked={true}
+                      aria-posinset={1}
+                      aria-setsize={5}
+                      className="active icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={2}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={3}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={4}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={5}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                  </div>
+                </span>
               </div>
             </div>
           </a>
@@ -504,6 +1058,79 @@ exports[`AppPlayer should render with generation tried false 1`] = `
         2
          songs
       </span>
+      <br />
+      <span>
+        Playlist rating: 
+        1
+        /5
+      </span>
+      <br />
+      <span
+        className="ratings-container"
+      >
+        <div
+          className="ui star disabled rating"
+          onMouseLeave={[Function]}
+          role="radiogroup"
+          tabIndex={0}
+        >
+          <i
+            aria-checked={true}
+            aria-posinset={1}
+            aria-setsize={5}
+            className="active icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={2}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={3}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={4}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+          <i
+            aria-checked={false}
+            aria-posinset={5}
+            aria-setsize={5}
+            className="icon"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            onMouseEnter={[Function]}
+            role="radio"
+            tabIndex={-1}
+          />
+        </div>
+      </span>
     </div>
   </div>
   <div
@@ -555,6 +1182,73 @@ exports[`AppPlayer should render with generation tried false 1`] = `
                 1 minute
                  
                 
+                <br />
+                <span
+                  className="ratings-container"
+                >
+                  <div
+                    className="ui star disabled rating"
+                    onMouseLeave={[Function]}
+                    role="radiogroup"
+                    tabIndex={0}
+                  >
+                    <i
+                      aria-checked={true}
+                      aria-posinset={1}
+                      aria-setsize={5}
+                      className="active icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={2}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={3}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={4}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={5}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                  </div>
+                </span>
               </div>
             </div>
           </a>
@@ -583,6 +1277,73 @@ exports[`AppPlayer should render with generation tried false 1`] = `
                 1 minute
                  
                 
+                <br />
+                <span
+                  className="ratings-container"
+                >
+                  <div
+                    className="ui star disabled rating"
+                    onMouseLeave={[Function]}
+                    role="radiogroup"
+                    tabIndex={0}
+                  >
+                    <i
+                      aria-checked={true}
+                      aria-posinset={1}
+                      aria-setsize={5}
+                      className="active icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={2}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={3}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={4}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                    <i
+                      aria-checked={false}
+                      aria-posinset={5}
+                      aria-setsize={5}
+                      className="icon"
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      role="radio"
+                      tabIndex={-1}
+                    />
+                  </div>
+                </span>
               </div>
             </div>
           </a>

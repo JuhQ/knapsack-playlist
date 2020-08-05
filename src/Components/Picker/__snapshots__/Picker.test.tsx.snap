@@ -93,6 +93,7 @@ exports[`Picker should be able change page 1`] = `
         }
         key="10"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -105,6 +106,7 @@ exports[`Picker should be able change page 1`] = `
         }
         key="11"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -117,6 +119,7 @@ exports[`Picker should be able change page 1`] = `
         }
         key="12"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -129,6 +132,7 @@ exports[`Picker should be able change page 1`] = `
         }
         key="13"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -141,6 +145,7 @@ exports[`Picker should be able change page 1`] = `
         }
         key="14"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -153,6 +158,7 @@ exports[`Picker should be able change page 1`] = `
         }
         key="15"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -165,6 +171,7 @@ exports[`Picker should be able change page 1`] = `
         }
         key="16"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -177,6 +184,7 @@ exports[`Picker should be able change page 1`] = `
         }
         key="17"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -189,6 +197,7 @@ exports[`Picker should be able change page 1`] = `
         }
         key="18"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -201,6 +210,7 @@ exports[`Picker should be able change page 1`] = `
         }
         key="19"
         onClick={[Function]}
+        selected={false}
       />
     </ItemGroup>
   </div>
@@ -386,6 +396,7 @@ exports[`Picker should be able to call onSubmit function and return a list of se
         }
         key="1"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -398,6 +409,7 @@ exports[`Picker should be able to call onSubmit function and return a list of se
         }
         key="2"
         onClick={[Function]}
+        selected={true}
       />
     </ItemGroup>
   </div>
@@ -497,6 +509,7 @@ exports[`Picker should be able to call onSubmit function and return an empty lis
         }
         key="1"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -509,6 +522,7 @@ exports[`Picker should be able to call onSubmit function and return an empty lis
         }
         key="2"
         onClick={[Function]}
+        selected={false}
       />
     </ItemGroup>
   </div>
@@ -666,6 +680,73 @@ exports[`Picker should render 1`] = `
             1 minute
              
             
+            <br />
+            <span
+              className="ratings-container"
+            >
+              <div
+                className="ui star disabled rating"
+                onMouseLeave={[Function]}
+                role="radiogroup"
+                tabIndex={0}
+              >
+                <i
+                  aria-checked={true}
+                  aria-posinset={1}
+                  aria-setsize={5}
+                  className="active icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseEnter={[Function]}
+                  role="radio"
+                  tabIndex={-1}
+                />
+                <i
+                  aria-checked={false}
+                  aria-posinset={2}
+                  aria-setsize={5}
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseEnter={[Function]}
+                  role="radio"
+                  tabIndex={-1}
+                />
+                <i
+                  aria-checked={false}
+                  aria-posinset={3}
+                  aria-setsize={5}
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseEnter={[Function]}
+                  role="radio"
+                  tabIndex={-1}
+                />
+                <i
+                  aria-checked={false}
+                  aria-posinset={4}
+                  aria-setsize={5}
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseEnter={[Function]}
+                  role="radio"
+                  tabIndex={-1}
+                />
+                <i
+                  aria-checked={false}
+                  aria-posinset={5}
+                  aria-setsize={5}
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseEnter={[Function]}
+                  role="radio"
+                  tabIndex={-1}
+                />
+              </div>
+            </span>
           </div>
         </div>
       </a>
@@ -694,6 +775,73 @@ exports[`Picker should render 1`] = `
             1 minute
              
             
+            <br />
+            <span
+              className="ratings-container"
+            >
+              <div
+                className="ui star disabled rating"
+                onMouseLeave={[Function]}
+                role="radiogroup"
+                tabIndex={0}
+              >
+                <i
+                  aria-checked={true}
+                  aria-posinset={1}
+                  aria-setsize={5}
+                  className="active icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseEnter={[Function]}
+                  role="radio"
+                  tabIndex={-1}
+                />
+                <i
+                  aria-checked={false}
+                  aria-posinset={2}
+                  aria-setsize={5}
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseEnter={[Function]}
+                  role="radio"
+                  tabIndex={-1}
+                />
+                <i
+                  aria-checked={false}
+                  aria-posinset={3}
+                  aria-setsize={5}
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseEnter={[Function]}
+                  role="radio"
+                  tabIndex={-1}
+                />
+                <i
+                  aria-checked={false}
+                  aria-posinset={4}
+                  aria-setsize={5}
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseEnter={[Function]}
+                  role="radio"
+                  tabIndex={-1}
+                />
+                <i
+                  aria-checked={false}
+                  aria-posinset={5}
+                  aria-setsize={5}
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseEnter={[Function]}
+                  role="radio"
+                  tabIndex={-1}
+                />
+              </div>
+            </span>
           </div>
         </div>
       </a>
@@ -795,6 +943,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         }
         key="0"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -807,6 +956,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         }
         key="1"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -819,6 +969,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         }
         key="2"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -831,6 +982,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         }
         key="3"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -843,6 +995,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         }
         key="4"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -855,6 +1008,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         }
         key="5"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -867,6 +1021,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         }
         key="6"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -879,6 +1034,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         }
         key="7"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -891,6 +1047,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         }
         key="8"
         onClick={[Function]}
+        selected={false}
       />
       <PickerItem
         item={
@@ -903,6 +1060,7 @@ exports[`Picker should render multiple items with pagination 1`] = `
         }
         key="9"
         onClick={[Function]}
+        selected={false}
       />
     </ItemGroup>
   </div>

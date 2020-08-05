@@ -116,6 +116,10 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
             .map((item) => (
               <PickerItem
                 item={item}
+                selected={
+                  selectedQueue.all().find(({ id }) => item.id === id) !==
+                  undefined
+                }
                 onClick={() => handleSelection(item)}
                 key={item.id}
               />
