@@ -1,6 +1,51 @@
 import Queue from "../../Datastructures/queue/queue";
 
 /**
+ * The recursive algorithm will call this algorithm to try to get the videos with the best ratings
+ * The goal is to get a playlist which has rating as close to 5/5 as possible
+ * @param list array of object
+ * @param maxLength number
+ * @param index number
+ */
+const recursiveKnapsackRating = (
+  list: Queue,
+  maxLength: number,
+  index: number
+): Queue => {
+  if (index === -1) {
+    return new Queue();
+  }
+
+  const currentVideo = list.at(index);
+  const nextVideoWithSameLength = recursiveKnapsackRating(
+    list,
+    maxLength,
+    index - 1
+  );
+
+  if (maxLength < currentVideo.seconds) {
+    return nextVideoWithSameLength;
+  }
+
+  const nextVideoWithSmallerLength = recursiveKnapsackRating(
+    list,
+    maxLength - currentVideo.seconds,
+    index - 1
+  );
+
+  nextVideoWithSmallerLength.enqueue(currentVideo);
+
+  if (
+    nextVideoWithSameLength.averageRating() >
+    nextVideoWithSmallerLength.averageRating()
+  ) {
+    return nextVideoWithSameLength;
+  }
+
+  return nextVideoWithSmallerLength;
+};
+
+/**
  * The actual recursive implementation of the algorithm
  * @param list array of object
  * @param maxLength number
@@ -16,17 +61,23 @@ const recursiveKnapsack = (
   }
 
   const currentVideo = list.at(index);
-  const nextVideoWithSameLength = recursiveKnapsack(list, maxLength, index - 1);
+  const nextVideoWithSameLength = recursiveKnapsackRating(
+    list,
+    maxLength,
+    index - 1
+  );
 
   if (maxLength < currentVideo.seconds) {
     return nextVideoWithSameLength;
   }
 
-  const nextVideoWithSmallerLength = recursiveKnapsack(
+  const nextVideoWithSmallerLength = recursiveKnapsackRating(
     list,
     maxLength - currentVideo.seconds,
     index - 1
   );
+
+  nextVideoWithSmallerLength.enqueue(currentVideo);
 
   if (
     nextVideoWithSameLength.seconds() > nextVideoWithSmallerLength.seconds()
@@ -34,7 +85,6 @@ const recursiveKnapsack = (
     return nextVideoWithSameLength;
   }
 
-  nextVideoWithSmallerLength.enqueue(currentVideo);
   return nextVideoWithSmallerLength;
 };
 
