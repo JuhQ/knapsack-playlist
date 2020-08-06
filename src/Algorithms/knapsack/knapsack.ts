@@ -56,10 +56,6 @@ const recursiveKnapsack = (
   maxLength: number,
   index: number
 ): Queue => {
-  if (index === -1) {
-    return new Queue();
-  }
-
   const currentVideo = list.at(index);
   const nextVideoWithSameLength = recursiveKnapsackRating(
     list,
