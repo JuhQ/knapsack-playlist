@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596622438281" clover="3.2.0">
-  <project timestamp="1596622438281" name="All files">
-    <metrics statements="278" coveredstatements="278" conditionals="80" coveredconditionals="80" methods="78" coveredmethods="78" elements="436" coveredelements="436" complexity="0" loc="278" ncloc="278" packages="20" files="22" classes="22"/>
+<coverage generated="1596737786717" clover="3.2.0">
+  <project timestamp="1596737786717" name="All files">
+    <metrics statements="288" coveredstatements="288" conditionals="84" coveredconditionals="84" methods="79" coveredmethods="79" elements="451" coveredelements="451" complexity="0" loc="288" ncloc="288" packages="20" files="22" classes="22"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="types.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/types.ts">
@@ -9,31 +9,41 @@
       </file>
     </package>
     <package name="src.Algorithms.knapsack">
-      <metrics statements="22" coveredstatements="22" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+      <metrics statements="32" coveredstatements="32" conditionals="16" coveredconditionals="16" methods="3" coveredmethods="3"/>
       <file name="knapsack.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Algorithms/knapsack/knapsack.ts">
-        <metrics statements="22" coveredstatements="22" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="14" count="9040680" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="4344452" type="stmt"/>
-        <line num="18" count="4696228" type="stmt"/>
-        <line num="19" count="4696228" type="stmt"/>
-        <line num="21" count="4696228" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="351784" type="stmt"/>
-        <line num="25" count="4344444" type="stmt"/>
-        <line num="31" count="4344444" type="cond" truecount="2" falsecount="0"/>
-        <line num="34" count="427593" type="stmt"/>
-        <line num="37" count="3916851" type="stmt"/>
-        <line num="38" count="3916851" type="stmt"/>
-        <line num="47" count="2" type="stmt"/>
-        <line num="48" count="29" type="stmt"/>
-        <line num="49" count="29" type="stmt"/>
-        <line num="52" count="29" type="cond" truecount="4" falsecount="0"/>
-        <line num="53" count="8" type="stmt"/>
-        <line num="57" count="21" type="cond" truecount="2" falsecount="0"/>
-        <line num="59" count="13" type="stmt"/>
-        <line num="60" count="137" type="stmt"/>
-        <line num="63" count="13" type="stmt"/>
-        <line num="66" count="8" type="stmt"/>
+        <metrics statements="32" coveredstatements="32" conditionals="16" coveredconditionals="16" methods="3" coveredmethods="3"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="15" count="221999782" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="4907081" type="stmt"/>
+        <line num="19" count="217092701" type="stmt"/>
+        <line num="20" count="217092701" type="stmt"/>
+        <line num="26" count="217092701" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="212185641" type="stmt"/>
+        <line num="30" count="4907060" type="stmt"/>
+        <line num="36" count="4907060" type="stmt"/>
+        <line num="38" count="4907060" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1318476" type="stmt"/>
+        <line num="45" count="3588584" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="59" count="12" type="stmt"/>
+        <line num="60" count="12" type="stmt"/>
+        <line num="66" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="70" count="9" type="stmt"/>
+        <line num="76" count="9" type="stmt"/>
+        <line num="78" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="84" count="8" type="stmt"/>
+        <line num="93" count="2" type="stmt"/>
+        <line num="94" count="33" type="stmt"/>
+        <line num="95" count="33" type="stmt"/>
+        <line num="98" count="33" type="cond" truecount="4" falsecount="0"/>
+        <line num="99" count="8" type="stmt"/>
+        <line num="103" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="13" type="stmt"/>
+        <line num="106" count="137" type="stmt"/>
+        <line num="109" count="13" type="stmt"/>
+        <line num="112" count="12" type="stmt"/>
       </file>
     </package>
     <package name="src.Algorithms.quicksort">
@@ -41,29 +51,29 @@
       <file name="quicksort.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Algorithms/quicksort/quicksort.ts">
         <metrics statements="30" coveredstatements="30" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
         <line num="9" count="3" type="stmt"/>
-        <line num="10" count="5571" type="stmt"/>
-        <line num="11" count="5571" type="stmt"/>
-        <line num="12" count="5571" type="stmt"/>
+        <line num="10" count="5351" type="stmt"/>
+        <line num="11" count="5351" type="stmt"/>
+        <line num="12" count="5351" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
-        <line num="17" count="91" type="stmt"/>
-        <line num="18" count="91" type="stmt"/>
-        <line num="19" count="91" type="stmt"/>
-        <line num="21" count="91" type="stmt"/>
-        <line num="22" count="5571" type="stmt"/>
-        <line num="23" count="1983" type="stmt"/>
-        <line num="26" count="5571" type="stmt"/>
-        <line num="27" count="1775" type="stmt"/>
-        <line num="32" count="5571" type="stmt"/>
-        <line num="33" count="5571" type="stmt"/>
-        <line num="34" count="5571" type="stmt"/>
-        <line num="37" count="91" type="stmt"/>
+        <line num="17" count="94" type="stmt"/>
+        <line num="18" count="94" type="stmt"/>
+        <line num="19" count="94" type="stmt"/>
+        <line num="21" count="94" type="stmt"/>
+        <line num="22" count="5351" type="stmt"/>
+        <line num="23" count="2204" type="stmt"/>
+        <line num="26" count="5351" type="stmt"/>
+        <line num="27" count="2339" type="stmt"/>
+        <line num="32" count="5351" type="stmt"/>
+        <line num="33" count="5351" type="stmt"/>
+        <line num="34" count="5351" type="stmt"/>
+        <line num="37" count="94" type="stmt"/>
         <line num="46" count="3" type="stmt"/>
-        <line num="51" count="92" type="cond" truecount="2" falsecount="0"/>
-        <line num="52" count="91" type="stmt"/>
-        <line num="53" count="91" type="cond" truecount="2" falsecount="0"/>
-        <line num="54" count="74" type="stmt"/>
-        <line num="57" count="17" type="cond" truecount="2" falsecount="0"/>
-        <line num="58" count="5" type="stmt"/>
+        <line num="51" count="95" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="94" type="stmt"/>
+        <line num="53" count="94" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="76" type="stmt"/>
+        <line num="57" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="6" type="stmt"/>
         <line num="62" count="13" type="stmt"/>
         <line num="71" count="3" type="stmt"/>
         <line num="74" count="13" type="stmt"/>
@@ -294,17 +304,17 @@
       <metrics statements="42" coveredstatements="42" conditionals="8" coveredconditionals="8" methods="13" coveredmethods="13"/>
       <file name="ArrayList.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Datastructures/ArrayList/ArrayList.ts">
         <metrics statements="42" coveredstatements="42" conditionals="8" coveredconditionals="8" methods="13" coveredmethods="13"/>
-        <line num="10" count="4344940" type="stmt"/>
-        <line num="11" count="4344940" type="stmt"/>
-        <line num="16" count="3965918" type="stmt"/>
-        <line num="23" count="2090153" type="stmt"/>
-        <line num="25" count="2090153" type="stmt"/>
+        <line num="10" count="4907573" type="stmt"/>
+        <line num="11" count="4907573" type="stmt"/>
+        <line num="16" count="4956136" type="stmt"/>
+        <line num="23" count="2641277" type="stmt"/>
+        <line num="25" count="2641277" type="stmt"/>
         <line num="26" count="28602" type="stmt"/>
-        <line num="29" count="2090153" type="stmt"/>
-        <line num="34" count="3965918" type="cond" truecount="2" falsecount="0"/>
-        <line num="35" count="2090153" type="stmt"/>
-        <line num="38" count="3965918" type="stmt"/>
-        <line num="39" count="3965918" type="stmt"/>
+        <line num="29" count="2641277" type="stmt"/>
+        <line num="34" count="4956136" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="2641277" type="stmt"/>
+        <line num="38" count="4956136" type="stmt"/>
+        <line num="39" count="4956136" type="stmt"/>
         <line num="45" count="46" type="stmt"/>
         <line num="47" count="46" type="stmt"/>
         <line num="49" count="46" type="stmt"/>
@@ -328,32 +338,32 @@
         <line num="97" count="12" type="cond" truecount="2" falsecount="0"/>
         <line num="98" count="5" type="stmt"/>
         <line num="102" count="103" type="stmt"/>
-        <line num="107" count="4224488" type="stmt"/>
-        <line num="112" count="4737601" type="stmt"/>
-        <line num="117" count="11143" type="stmt"/>
-        <line num="128" count="8689439" type="stmt"/>
-        <line num="129" count="8689439" type="stmt"/>
-        <line num="130" count="12734537" type="cond" truecount="2" falsecount="0"/>
-        <line num="131" count="8344740" type="stmt"/>
-        <line num="135" count="8689439" type="stmt"/>
+        <line num="107" count="5326743" type="stmt"/>
+        <line num="112" count="217133994" type="stmt"/>
+        <line num="117" count="10703" type="stmt"/>
+        <line num="128" count="9814726" type="stmt"/>
+        <line num="129" count="9814726" type="stmt"/>
+        <line num="130" count="14504021" type="cond" truecount="2" falsecount="0"/>
+        <line num="131" count="12192505" type="stmt"/>
+        <line num="135" count="9814726" type="stmt"/>
       </file>
     </package>
     <package name="src.Datastructures.queue">
       <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
       <file name="queue.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Datastructures/queue/queue.ts">
         <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
-        <line num="9" count="4344683" type="stmt"/>
+        <line num="9" count="4907316" type="stmt"/>
         <line num="14" count="192" type="stmt"/>
-        <line num="19" count="147" type="stmt"/>
-        <line num="25" count="8689030" type="stmt"/>
-        <line num="31" count="32" type="stmt"/>
-        <line num="37" count="4696391" type="stmt"/>
+        <line num="19" count="151" type="stmt"/>
+        <line num="25" count="176" type="stmt"/>
+        <line num="31" count="9814173" type="stmt"/>
+        <line num="37" count="217092876" type="stmt"/>
         <line num="43" count="13" type="stmt"/>
         <line num="49" count="62" type="cond" truecount="2" falsecount="0"/>
         <line num="51" count="62" type="stmt"/>
         <line num="52" count="3443" type="stmt"/>
-        <line num="59" count="4344683" type="stmt"/>
-        <line num="60" count="3932990" type="stmt"/>
+        <line num="59" count="4907316" type="stmt"/>
+        <line num="60" count="4923208" type="stmt"/>
         <line num="66" count="10" type="stmt"/>
       </file>
     </package>
@@ -372,9 +382,9 @@
       <metrics statements="26" coveredstatements="26" conditionals="5" coveredconditionals="5" methods="9" coveredmethods="9"/>
       <file name="math.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Utils/math.ts">
         <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
-        <line num="5" count="8304162" type="stmt"/>
+        <line num="5" count="39419" type="stmt"/>
         <line num="7" count="13" type="stmt"/>
-        <line num="8" count="8689034" type="stmt"/>
+        <line num="8" count="180" type="stmt"/>
         <line num="12" count="13" type="stmt"/>
         <line num="13" count="6560" type="stmt"/>
         <line num="15" count="6560" type="stmt"/>
@@ -384,12 +394,12 @@
         <line num="23" count="6560" type="stmt"/>
         <line num="25" count="6560" type="stmt"/>
         <line num="28" count="13" type="stmt"/>
-        <line num="29" count="39" type="cond" truecount="2" falsecount="0"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="33" count="37" type="stmt"/>
-        <line num="34" count="37" type="stmt"/>
-        <line num="35" count="69" type="stmt"/>
-        <line num="38" count="37" type="stmt"/>
+        <line num="29" count="9814180" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="2266164" type="stmt"/>
+        <line num="33" count="7548016" type="stmt"/>
+        <line num="34" count="7548016" type="stmt"/>
+        <line num="35" count="12112584" type="stmt"/>
+        <line num="38" count="7548016" type="stmt"/>
       </file>
       <file name="testHelpers.ts" path="/home/runner/work/knapsack-playlist/knapsack-playlist/src/Utils/testHelpers.ts">
         <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>

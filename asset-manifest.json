@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/knapsack-playlist/static/css/main.5446aa4f.chunk.css",
-    "main.js": "/knapsack-playlist/static/js/main.200c2578.chunk.js",
-    "main.js.map": "/knapsack-playlist/static/js/main.200c2578.chunk.js.map",
+    "main.js": "/knapsack-playlist/static/js/main.f3081b5c.chunk.js",
+    "main.js.map": "/knapsack-playlist/static/js/main.f3081b5c.chunk.js.map",
     "runtime-main.js": "/knapsack-playlist/static/js/runtime-main.7d9f4440.js",
     "runtime-main.js.map": "/knapsack-playlist/static/js/runtime-main.7d9f4440.js.map",
     "static/css/2.30dca90c.chunk.css": "/knapsack-playlist/static/css/2.30dca90c.chunk.css",
     "static/js/2.cb3c59df.chunk.js": "/knapsack-playlist/static/js/2.cb3c59df.chunk.js",
     "static/js/2.cb3c59df.chunk.js.map": "/knapsack-playlist/static/js/2.cb3c59df.chunk.js.map",
     "index.html": "/knapsack-playlist/index.html",
-    "precache-manifest.094b973c671969f73266aedb0bd1e8a9.js": "/knapsack-playlist/precache-manifest.094b973c671969f73266aedb0bd1e8a9.js",
+    "precache-manifest.719291796be6e769fb205a1ae4072a51.js": "/knapsack-playlist/precache-manifest.719291796be6e769fb205a1ae4072a51.js",
     "service-worker.js": "/knapsack-playlist/service-worker.js",
     "static/css/2.30dca90c.chunk.css.map": "/knapsack-playlist/static/css/2.30dca90c.chunk.css.map",
     "static/css/main.5446aa4f.chunk.css.map": "/knapsack-playlist/static/css/main.5446aa4f.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.30dca90c.chunk.css",
     "static/js/2.cb3c59df.chunk.js",
     "static/css/main.5446aa4f.chunk.css",
-    "static/js/main.200c2578.chunk.js"
+    "static/js/main.f3081b5c.chunk.js"
   ]
 }
