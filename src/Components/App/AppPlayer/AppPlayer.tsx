@@ -18,6 +18,18 @@ const AppPlayer: React.FC<Props> = ({
   playlist,
 }: Props) => (
   <Container>
+    <h2>The playlist will be generated here.</h2>
+    <p>
+      Either select randomised sample data with the buttons above, or select
+      music to your playlist on the left.
+    </p>
+    <p>
+      In either case, the knapsack algorithm will try to generate a playlist
+      which of the highest quality and as close as possible with the given
+      length. But be aware, quality will override length in determine the
+      playlist content, and therefore the playlist might not be as long as you
+      hoped.
+    </p>
     {playlistLength === 0 && (
       <>Select dataset size and desired playlist length</>
     )}

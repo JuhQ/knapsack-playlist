@@ -47,6 +47,7 @@ const Generator: React.FC<Props> = ({
           onSubmit({ dataSetSize, playlistLength });
         }}
       >
+        <h2>Option 1:</h2>
         <h3>Generate randomized dataset</h3>
         <Grid verticalAlign="bottom">
           <Grid.Column computer={8} mobile={16}>

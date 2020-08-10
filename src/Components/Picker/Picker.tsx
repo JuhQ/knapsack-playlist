@@ -64,7 +64,13 @@ const Picker: React.FC<Props> = ({ list, onSubmit }: Props) => {
         onSubmit({ list: selectedQueue, length: playlistLength });
       }}
     >
+      <h2>Option 2:</h2>
       <h3>Define desired playlist length and pick your music</h3>
+      <small>
+        Playlist will be generated from the sample of music you picked. The
+        algorithm will try generate the highest quality playlist, which will not
+        exceed the given length.
+      </small>
       <Input
         size="large"
         type="number"

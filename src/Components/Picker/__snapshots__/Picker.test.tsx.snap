@@ -4,9 +4,15 @@ exports[`Picker should be able change page 1`] = `
 <form
   onSubmit={[Function]}
 >
+  <h2>
+    Option 2:
+  </h2>
   <h3>
     Define desired playlist length and pick your music
   </h3>
+  <small>
+    Playlist will be generated from the sample of music you picked. The algorithm will try generate the highest quality playlist, which will not exceed the given length.
+  </small>
   <Input
     label={
       Object {
@@ -221,9 +227,15 @@ exports[`Picker should be able to call filter list 1`] = `
 <form
   onSubmit={[Function]}
 >
+  <h2>
+    Option 2:
+  </h2>
   <h3>
     Define desired playlist length and pick your music
   </h3>
+  <small>
+    Playlist will be generated from the sample of music you picked. The algorithm will try generate the highest quality playlist, which will not exceed the given length.
+  </small>
   <Input
     label={
       Object {
@@ -307,9 +319,15 @@ exports[`Picker should be able to call onSubmit function and return a list of se
 <form
   onSubmit={[Function]}
 >
+  <h2>
+    Option 2:
+  </h2>
   <h3>
     Define desired playlist length and pick your music
   </h3>
+  <small>
+    Playlist will be generated from the sample of music you picked. The algorithm will try generate the highest quality playlist, which will not exceed the given length.
+  </small>
   <Input
     label={
       Object {
@@ -420,9 +438,15 @@ exports[`Picker should be able to call onSubmit function and return an empty lis
 <form
   onSubmit={[Function]}
 >
+  <h2>
+    Option 2:
+  </h2>
   <h3>
     Define desired playlist length and pick your music
   </h3>
+  <small>
+    Playlist will be generated from the sample of music you picked. The algorithm will try generate the highest quality playlist, which will not exceed the given length.
+  </small>
   <Input
     label={
       Object {
@@ -533,9 +557,15 @@ exports[`Picker should render 1`] = `
 <form
   onSubmit={[Function]}
 >
+  <h2>
+    Option 2:
+  </h2>
   <h3>
     Define desired playlist length and pick your music
   </h3>
+  <small>
+    Playlist will be generated from the sample of music you picked. The algorithm will try generate the highest quality playlist, which will not exceed the given length.
+  </small>
   <div
     className="ui large right labeled input"
   >
@@ -854,9 +884,15 @@ exports[`Picker should render multiple items with pagination 1`] = `
 <form
   onSubmit={[Function]}
 >
+  <h2>
+    Option 2:
+  </h2>
   <h3>
     Define desired playlist length and pick your music
   </h3>
+  <small>
+    Playlist will be generated from the sample of music you picked. The algorithm will try generate the highest quality playlist, which will not exceed the given length.
+  </small>
   <Input
     label={
       Object {

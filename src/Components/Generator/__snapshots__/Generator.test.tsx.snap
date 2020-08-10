@@ -8,6 +8,9 @@ exports[`Generator should render 1`] = `
     className="ui form"
     onSubmit={[Function]}
   >
+    <h2>
+      Option 1:
+    </h2>
     <h3>
       Generate randomized dataset
     </h3>

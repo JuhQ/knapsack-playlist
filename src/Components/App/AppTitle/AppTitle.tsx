@@ -10,6 +10,18 @@ const AppTitle: React.FC = () => (
     <span className="App-logo" role="img" aria-label="rock on!">
       🤘
     </span>
+    <br />
+    <small>
+      Select either{" "}
+      <code>
+        <strong>Option 1</strong>
+      </code>{" "}
+      or{" "}
+      <code>
+        <strong>Option 2</strong>
+      </code>
+      .
+    </small>
   </Container>
 );
 

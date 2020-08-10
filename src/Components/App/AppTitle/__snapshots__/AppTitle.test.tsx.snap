@@ -23,5 +23,24 @@ exports[`AppTitle should render 1`] = `
   >
     🤘
   </span>
+  <br />
+  <small>
+    Select either
+     
+    <code>
+      <strong>
+        Option 1
+      </strong>
+    </code>
+     
+    or
+     
+    <code>
+      <strong>
+        Option 2
+      </strong>
+    </code>
+    .
+  </small>
 </div>
 `;

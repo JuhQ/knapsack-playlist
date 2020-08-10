@@ -29,6 +29,25 @@ exports[`App initial values should render notice about no playlist generated 1`]
       >
         🤘
       </span>
+      <br />
+      <small>
+        Select either
+         
+        <code>
+          <strong>
+            Option 1
+          </strong>
+        </code>
+         
+        or
+         
+        <code>
+          <strong>
+            Option 2
+          </strong>
+        </code>
+        .
+      </small>
     </div>
   </div>
   <div
@@ -41,6 +60,9 @@ exports[`App initial values should render notice about no playlist generated 1`]
         className="ui form"
         onSubmit={[Function]}
       >
+        <h2>
+          Option 1:
+        </h2>
         <h3>
           Generate randomized dataset
         </h3>
@@ -204,9 +226,15 @@ exports[`App initial values should render notice about no playlist generated 1`]
         <form
           onSubmit={[Function]}
         >
+          <h2>
+            Option 2:
+          </h2>
           <h3>
             Define desired playlist length and pick your music
           </h3>
+          <small>
+            Playlist will be generated from the sample of music you picked. The algorithm will try generate the highest quality playlist, which will not exceed the given length.
+          </small>
           <div
             className="ui large right labeled input"
           >
@@ -1357,7 +1385,17 @@ exports[`App initial values should render notice about no playlist generated 1`]
       >
         <div
           className="ui container"
-        />
+        >
+          <h2>
+            The playlist will be generated here.
+          </h2>
+          <p>
+            Either select randomised sample data with the buttons above, or select music to your playlist on the left.
+          </p>
+          <p>
+            In either case, the knapsack algorithm will try to generate a playlist which of the highest quality and as close as possible with the given length. But be aware, quality will override length in determine the playlist content, and therefore the playlist might not be as long as you hoped.
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -20716,6 +20754,25 @@ exports[`App should render 1`] = `
       >
         🤘
       </span>
+      <br />
+      <small>
+        Select either
+         
+        <code>
+          <strong>
+            Option 1
+          </strong>
+        </code>
+         
+        or
+         
+        <code>
+          <strong>
+            Option 2
+          </strong>
+        </code>
+        .
+      </small>
     </div>
   </div>
   <div
@@ -20728,6 +20785,9 @@ exports[`App should render 1`] = `
         className="ui form"
         onSubmit={[Function]}
       >
+        <h2>
+          Option 1:
+        </h2>
         <h3>
           Generate randomized dataset
         </h3>
@@ -20891,9 +20951,15 @@ exports[`App should render 1`] = `
         <form
           onSubmit={[Function]}
         >
+          <h2>
+            Option 2:
+          </h2>
           <h3>
             Define desired playlist length and pick your music
           </h3>
+          <small>
+            Playlist will be generated from the sample of music you picked. The algorithm will try generate the highest quality playlist, which will not exceed the given length.
+          </small>
           <div
             className="ui large right labeled input"
           >
@@ -22045,6 +22111,15 @@ exports[`App should render 1`] = `
         <div
           className="ui container"
         >
+          <h2>
+            The playlist will be generated here.
+          </h2>
+          <p>
+            Either select randomised sample data with the buttons above, or select music to your playlist on the left.
+          </p>
+          <p>
+            In either case, the knapsack algorithm will try to generate a playlist which of the highest quality and as close as possible with the given length. But be aware, quality will override length in determine the playlist content, and therefore the playlist might not be as long as you hoped.
+          </p>
           Select dataset size and desired playlist length
         </div>
       </div>
@@ -22091,6 +22166,25 @@ exports[`App should render second tab 1`] = `
       >
         🤘
       </span>
+      <br />
+      <small>
+        Select either
+         
+        <code>
+          <strong>
+            Option 1
+          </strong>
+        </code>
+         
+        or
+         
+        <code>
+          <strong>
+            Option 2
+          </strong>
+        </code>
+        .
+      </small>
     </div>
   </div>
   <div
@@ -22103,6 +22197,9 @@ exports[`App should render second tab 1`] = `
         className="ui form"
         onSubmit={[Function]}
       >
+        <h2>
+          Option 1:
+        </h2>
         <h3>
           Generate randomized dataset
         </h3>
@@ -22266,9 +22363,15 @@ exports[`App should render second tab 1`] = `
         <form
           onSubmit={[Function]}
         >
+          <h2>
+            Option 2:
+          </h2>
           <h3>
             Define desired playlist length and pick your music
           </h3>
+          <small>
+            Playlist will be generated from the sample of music you picked. The algorithm will try generate the highest quality playlist, which will not exceed the given length.
+          </small>
           <div
             className="ui large right labeled input"
           >
@@ -23420,6 +23523,15 @@ exports[`App should render second tab 1`] = `
         <div
           className="ui container"
         >
+          <h2>
+            The playlist will be generated here.
+          </h2>
+          <p>
+            Either select randomised sample data with the buttons above, or select music to your playlist on the left.
+          </p>
+          <p>
+            In either case, the knapsack algorithm will try to generate a playlist which of the highest quality and as close as possible with the given length. But be aware, quality will override length in determine the playlist content, and therefore the playlist might not be as long as you hoped.
+          </p>
           Select dataset size and desired playlist length
         </div>
       </div>
@@ -23466,6 +23578,25 @@ exports[`App should render third tab 1`] = `
       >
         🤘
       </span>
+      <br />
+      <small>
+        Select either
+         
+        <code>
+          <strong>
+            Option 1
+          </strong>
+        </code>
+         
+        or
+         
+        <code>
+          <strong>
+            Option 2
+          </strong>
+        </code>
+        .
+      </small>
     </div>
   </div>
   <div
@@ -23478,6 +23609,9 @@ exports[`App should render third tab 1`] = `
         className="ui form"
         onSubmit={[Function]}
       >
+        <h2>
+          Option 1:
+        </h2>
         <h3>
           Generate randomized dataset
         </h3>
@@ -23641,9 +23775,15 @@ exports[`App should render third tab 1`] = `
         <form
           onSubmit={[Function]}
         >
+          <h2>
+            Option 2:
+          </h2>
           <h3>
             Define desired playlist length and pick your music
           </h3>
+          <small>
+            Playlist will be generated from the sample of music you picked. The algorithm will try generate the highest quality playlist, which will not exceed the given length.
+          </small>
           <div
             className="ui large right labeled input"
           >
@@ -24795,6 +24935,15 @@ exports[`App should render third tab 1`] = `
         <div
           className="ui container"
         >
+          <h2>
+            The playlist will be generated here.
+          </h2>
+          <p>
+            Either select randomised sample data with the buttons above, or select music to your playlist on the left.
+          </p>
+          <p>
+            In either case, the knapsack algorithm will try to generate a playlist which of the highest quality and as close as possible with the given length. But be aware, quality will override length in determine the playlist content, and therefore the playlist might not be as long as you hoped.
+          </p>
           Select dataset size and desired playlist length
         </div>
       </div>
