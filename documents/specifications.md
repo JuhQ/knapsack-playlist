@@ -19,6 +19,10 @@ Ohjelma kehitetään web-sovelluksena, käyttäen React kirjastoa ja Typescript 
 
 Koska algoritmi on NP-täydellinen ongelma, on se laskennallisesti vaativa ongelma. Tästä johtuen tutkin mahdollisuuksia performanssitestien kirjoittamiseen sekä teen graafin joka kuvastaa suoritusajan kasvua syötteen kasvun myötä.
 
+![Kasvukäyrä](graphs/growth-graph.png)<br />
+*Graafi josta selviää miten `O(nW)` kasvaa erilaisilla `n` ja `W` arvoilla.*
+
+
 ## Lähteet
 - [1] https://en.wikipedia.org/wiki/Knapsack_problem Knapsack problem - Ladattu 20.7.2020
 - [2] http://www.es.ele.tue.nl/education/5MC10/Solutions/knapsack.pdf Lecture 13: The Knapsack Problem - Ladattu 20.7.2020
