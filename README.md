@@ -22,3 +22,6 @@ Projekti on TKT:n kurssille [`TKT20010, Aineopintojen harjoitustyö: Tietorakent
 
 ### Viikko 3
 - [Viikkoraportti 3](/documents/week3.md)
+
+### Viikko 4
+- [Viikkoraportti 4](/documents/week4.md)
