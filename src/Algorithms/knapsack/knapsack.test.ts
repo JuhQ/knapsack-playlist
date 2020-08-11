@@ -4,7 +4,7 @@ import generateTestData from "../../Utils/testHelpers";
 import knapsack from "./knapsack";
 
 describe("knapsack algorithm", () => {
-  it("should return empty list when given weight is zero", () => {
+  it("should return empty list when given list is empty and weight is zero", () => {
     const result = knapsack(new Queue(), 0);
     expect(result.all().getAsArray()).toEqual([]);
     expect(result.seconds()).toBe(0);
@@ -13,13 +13,6 @@ describe("knapsack algorithm", () => {
 
   it("should return empty list when given list is empty", () => {
     const result = knapsack(new Queue(), 1000);
-    expect(result.all().getAsArray()).toEqual([]);
-    expect(result.seconds()).toBe(0);
-    expect(result.averageRating()).toBe(0);
-  });
-
-  it("should return empty list when given list is empty and weight is zero", () => {
-    const result = knapsack(new Queue(), 0);
     expect(result.all().getAsArray()).toEqual([]);
     expect(result.seconds()).toBe(0);
     expect(result.averageRating()).toBe(0);
