@@ -6,6 +6,7 @@ import Queue from "../../Datastructures/queue/queue";
  * @param list array of object
  * @param maxLength number
  * @param index number
+ * @returns Queue
  */
 const recursiveKnapsackRating = (
   list: Queue,
