@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/benchmark": "^1.0.33",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/jest": "^24.0.0",
@@ -15,6 +16,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/react-test-renderer": "^16.9.2",
     "@types/react-youtube": "^7.6.2",
+    "benchmark": "^2.1.4",
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -32,7 +34,8 @@
     "test-coverage": "rm -rf coverage && CI=true npm test -- --coverage",
     "test-coverage-open": "npm run test-coverage && open ./coverage/lcov-report/index.html",
     "eject": "react-scripts eject",
-    "copy-coverage-to-build": "cp -R coverage build/coverage"
+    "copy-coverage-to-build": "cp -R coverage build/coverage",
+    "performance-test": "tsc --p tsconfig.algo.json && node benchmark-build/benchmark.js"
   },
   "jest": {
     "collectCoverageFrom": [
