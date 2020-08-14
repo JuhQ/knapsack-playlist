@@ -1,5 +1,4 @@
 import ArrayList from "../../Datastructures/ArrayList/ArrayList";
-import YoutubeMusic from "../../Models/Youtube/Youtube";
 import { YoutubeItem } from "../../types";
 import knapsackDynamic from "./knapsack-dynamic";
 
@@ -28,6 +27,16 @@ describe("knapsack algorithm", () => {
   });
 
   it("should return the only item if only one item in the list and the item fits", () => {
+    const list = new ArrayList<YoutubeItem>(1);
+    list.push({ title: "test", seconds: 123, id: "test", rating: 1 });
+    list.push({ title: "test 2", seconds: 123, id: "test2", rating: 5 });
+    const result = knapsackDynamic(list, 123);
+    expect(result.all().getAsArray()).toEqual([
+      { title: "test 2", seconds: 123, id: "test2", rating: 5 },
+    ]);
+  });
+
+  it("should return the only item which fits the given length", () => {
     const list = new ArrayList<YoutubeItem>(1);
     list.push({ id: "1", title: "test1", seconds: 70, rating: 5 });
     list.push({ id: "2", title: "test2", seconds: 80, rating: 4 });
