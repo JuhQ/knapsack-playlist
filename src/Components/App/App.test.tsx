@@ -29,9 +29,11 @@ describe("App", () => {
 
   it("should submit empty dataset size and playlist length", () => {
     const wrapper = shallow(<App />);
-    wrapper
-      .find("Generator")
-      .simulate("submit", { dataSetSize: 0, playlistLength: 0 });
+    wrapper.find("Generator").simulate("submit", {
+      dataSetSize: 0,
+      playlistLength: 0,
+      music: new Queue().all(),
+    });
 
     act(() => {
       expect(shallowToJson(wrapper)).toMatchSnapshot();
@@ -40,9 +42,11 @@ describe("App", () => {
 
   it("should submit only length", () => {
     const wrapper = shallow(<App />);
-    wrapper
-      .find("Generator")
-      .simulate("submit", { dataSetSize: 0, playlistLength: 10 });
+    wrapper.find("Generator").simulate("submit", {
+      dataSetSize: 0,
+      playlistLength: 10,
+      music: new Queue().all(),
+    });
 
     act(() => {
       expect(shallowToJson(wrapper)).toMatchSnapshot();
@@ -51,9 +55,11 @@ describe("App", () => {
 
   it("should submit only dataset size", () => {
     const wrapper = shallow(<App />);
-    wrapper
-      .find("Generator")
-      .simulate("submit", { dataSetSize: 10, playlistLength: 0 });
+    wrapper.find("Generator").simulate("submit", {
+      dataSetSize: 10,
+      playlistLength: 0,
+      music: new Queue().all(),
+    });
 
     act(() => {
       expect(shallowToJson(wrapper)).toMatchSnapshot();
@@ -62,9 +68,11 @@ describe("App", () => {
 
   it("should submit proper dataset size and playlist length", () => {
     const wrapper = shallow(<App />);
-    wrapper
-      .find("Generator")
-      .simulate("submit", { dataSetSize: 5, playlistLength: 3600 });
+    wrapper.find("Generator").simulate("submit", {
+      dataSetSize: 5,
+      playlistLength: 3600,
+      music: new ArrayList(0),
+    });
 
     act(() => {
       expect(shallowToJson(wrapper)).toMatchSnapshot();
@@ -109,9 +117,11 @@ describe("App", () => {
           initialCreating
         />
       );
-      wrapper
-        .find("Generator")
-        .simulate("submit", { dataSetSize: 0, playlistLength: 10 });
+      wrapper.find("Generator").simulate("submit", {
+        dataSetSize: 0,
+        playlistLength: 10,
+        music: list,
+      });
 
       act(() => {
         expect(shallowToJson(wrapper)).toMatchSnapshot();
@@ -131,9 +141,11 @@ describe("App", () => {
           initialCreating
         />
       );
-      wrapper
-        .find("Generator")
-        .simulate("submit", { dataSetSize: 10, playlistLength: 0 });
+      wrapper.find("Generator").simulate("submit", {
+        dataSetSize: 10,
+        playlistLength: 0,
+        music: list,
+      });
 
       act(() => {
         expect(shallowToJson(wrapper)).toMatchSnapshot();
@@ -154,7 +166,9 @@ describe("App", () => {
         />
       );
       wrapper.find("Generator").simulate("submit", {
-        value: { dataSetSize: 5, playlistLength: 3600 },
+        dataSetSize: 5,
+        playlistLength: 3600,
+        music: list,
       });
 
       act(() => {

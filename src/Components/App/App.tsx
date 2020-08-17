@@ -7,7 +7,6 @@ import { Grid } from "semantic-ui-react";
 import knapsack from "../../Algorithms/knapsack/knapsack";
 import Queue from "../../Datastructures/queue/queue";
 import YoutubeMusic from "../../Models/Youtube/Youtube";
-import sample from "../../Utils/utils";
 import Generator from "../Generator/Generator";
 import Picker from "../Picker/Picker";
 import AppPlayer from "./AppPlayer/AppPlayer";
@@ -55,13 +54,14 @@ const App: React.FC<Props> = ({
       </Grid.Column>
       <Grid.Column width={16}>
         <Generator
+          music={music}
           totalLength={music.seconds()}
           totalDataset={music.length()}
           onSubmit={(value) => {
             setCreating(true);
             setPlaylistLength(value.playlistLength);
 
-            const sampledList = sample(music.all(), value.dataSetSize);
+            const sampledList = value.music;
             const sampledQueue = new Queue();
             sampledQueue.merge(sampledList);
 
