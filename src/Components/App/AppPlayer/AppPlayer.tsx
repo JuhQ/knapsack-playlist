@@ -41,8 +41,9 @@ const AppPlayer: React.FC<Props> = ({
 
     {creating && (
       <>
-        Generating playlist. Depending on input size and desired playlist
-        length, this might take a while.
+        <h2>Generating playlist.</h2>
+        Depending on input size and desired playlist length, this might take a
+        while.
       </>
     )}
     {playlistLength > 0 && playlist && playlist.length() > 0 && (
