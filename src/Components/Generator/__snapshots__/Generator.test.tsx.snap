@@ -108,63 +108,63 @@ exports[`Generator should render 1`] = `
         </small>
         <br />
         <button
-          className="preset dataset "
+          className="preset dataset random "
           onClick={[Function]}
           type="button"
         >
           10
         </button>
         <button
-          className="preset dataset "
+          className="preset dataset random "
           onClick={[Function]}
           type="button"
         >
           15
         </button>
         <button
-          className="preset dataset "
+          className="preset dataset random "
           onClick={[Function]}
           type="button"
         >
           20
         </button>
         <button
-          className="preset dataset "
+          className="preset dataset random "
           onClick={[Function]}
           type="button"
         >
           25
         </button>
         <button
-          className="preset dataset "
+          className="preset dataset random "
           onClick={[Function]}
           type="button"
         >
           30
         </button>
         <button
-          className="preset dataset "
+          className="preset dataset random "
           onClick={[Function]}
           type="button"
         >
           35
         </button>
         <button
-          className="preset dataset "
+          className="preset dataset random "
           onClick={[Function]}
           type="button"
         >
           40
         </button>
         <button
-          className="preset dataset "
+          className="preset dataset random "
           onClick={[Function]}
           type="button"
         >
           50
         </button>
         <button
-          className="preset dataset "
+          className="preset dataset random "
           onClick={[Function]}
           type="button"
         >

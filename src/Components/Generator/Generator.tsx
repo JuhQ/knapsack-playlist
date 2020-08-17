@@ -117,7 +117,7 @@ const Generator: React.FC<Props> = ({
                 <button
                   key={size}
                   type="button"
-                  className={`preset dataset ${
+                  className={`preset dataset random ${
                     size === dataSetSize ? "selected" : ""
                   }`}
                   onClick={() => {
