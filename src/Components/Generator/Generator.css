@@ -5,3 +5,7 @@ button.preset {
 button.preset.selected {
   background: #f96dce;
 }
+
+button.preset.slice.selected {
+  background: #c111f7bd;
+}

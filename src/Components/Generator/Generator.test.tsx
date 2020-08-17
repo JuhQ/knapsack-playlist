@@ -2,12 +2,14 @@ import { shallow } from "enzyme";
 import React from "react";
 import renderer from "react-test-renderer";
 
+import Queue from "../../Datastructures/queue/queue";
 import Generator from "./Generator";
 
 describe("Generator", () => {
   it("should render", () => {
     const component = renderer.create(
       <Generator
+        music={new Queue()}
         totalDataset={1200}
         totalLength={100000}
         onSubmit={() => null}
@@ -21,6 +23,7 @@ describe("Generator", () => {
     const handleSubmit = jest.fn();
     const wrapper = shallow(
       <Generator
+        music={new Queue()}
         totalDataset={1200}
         totalLength={100000}
         onSubmit={handleSubmit}
@@ -32,6 +35,10 @@ describe("Generator", () => {
     expect(handleSubmit).toHaveBeenCalledWith({
       dataSetSize: 0,
       playlistLength: 0,
+      music: {
+        index: 0,
+        list: [undefined],
+      },
     });
   });
 
@@ -40,6 +47,7 @@ describe("Generator", () => {
       const handleSubmit = jest.fn();
       const wrapper = shallow(
         <Generator
+          music={new Queue()}
           totalDataset={1200}
           totalLength={100000}
           onSubmit={handleSubmit}
@@ -53,6 +61,10 @@ describe("Generator", () => {
       expect(handleSubmit).toHaveBeenCalledWith({
         dataSetSize: 1200,
         playlistLength: 0,
+        music: {
+          index: 0,
+          list: [undefined],
+        },
       });
     });
 
@@ -60,6 +72,7 @@ describe("Generator", () => {
       const handleSubmit = jest.fn();
       const wrapper = shallow(
         <Generator
+          music={new Queue()}
           totalDataset={1200}
           totalLength={100000}
           onSubmit={handleSubmit}
@@ -73,6 +86,10 @@ describe("Generator", () => {
       expect(handleSubmit).toHaveBeenCalledWith({
         dataSetSize: 0,
         playlistLength: 100000,
+        music: {
+          index: 0,
+          list: [undefined],
+        },
       });
     });
   });

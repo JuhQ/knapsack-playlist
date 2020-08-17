@@ -18,11 +18,90 @@ exports[`Generator should render 1`] = `
       className="ui bottom aligned grid"
     >
       <div
+        className="sixteen wide computer sixteen wide mobile column"
+      >
+        <h2>
+          Option 1.1: Preselected dataset
+        </h2>
+        <small>
+          Select n-amount of preselected songs from the beginning of the list. You can see the list on the bottom left side of the page.
+          <br />
+          These buttons should always result in the same playlist with the same selected playlist length. For example if you choose 20 songs and 3600 seconds, you should always get same playlist.
+        </small>
+        <br />
+        <button
+          className="preset dataset slice "
+          onClick={[Function]}
+          type="button"
+        >
+          10
+        </button>
+        <button
+          className="preset dataset slice "
+          onClick={[Function]}
+          type="button"
+        >
+          15
+        </button>
+        <button
+          className="preset dataset slice "
+          onClick={[Function]}
+          type="button"
+        >
+          20
+        </button>
+        <button
+          className="preset dataset slice "
+          onClick={[Function]}
+          type="button"
+        >
+          25
+        </button>
+        <button
+          className="preset dataset slice "
+          onClick={[Function]}
+          type="button"
+        >
+          30
+        </button>
+        <button
+          className="preset dataset slice "
+          onClick={[Function]}
+          type="button"
+        >
+          35
+        </button>
+        <button
+          className="preset dataset slice "
+          onClick={[Function]}
+          type="button"
+        >
+          40
+        </button>
+        <button
+          className="preset dataset slice "
+          onClick={[Function]}
+          type="button"
+        >
+          50
+        </button>
+        <button
+          className="preset dataset slice "
+          onClick={[Function]}
+          type="button"
+        >
+          1200
+        </button>
+      </div>
+      <div
         className="eight wide computer sixteen wide mobile column"
       >
-        Select dataset size
-        <br />
+        <h2>
+          Option 1.2: Random dataset
+        </h2>
         <small>
+          Select n-amount of random songs.
+          <br />
           This is the amount of random songs to be selected from the database for the knapsack algorithm.
           <br />
           Select randomized sample of songs. Last button selects all songs and may result in a long playlist generation time.
@@ -95,8 +174,9 @@ exports[`Generator should render 1`] = `
       <div
         className="eight wide computer sixteen wide mobile column"
       >
-        Select desired playlist length
-        <br />
+        <h2>
+          Select the desired playlist length in seconds
+        </h2>
         <small>
           Last button selects the maximum length of the music catalog and may result in a long playlist generation time.
         </small>
