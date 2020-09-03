@@ -75,14 +75,6 @@ npm run performance-test  4426.54s user 24.69s system 99% cpu 1:14:12.28 total
 
 Ylläoleva kuvaaja on piirretty performanssitestien tuloksista. Se on sortattu niin että ensimmäisenä vasemmalta löytyy nopeimmat datasetit ja oikealle mentäessä algoritmin suoritus hidastuu. Nopein datasetti toteuttamalleni algoritmille on 15 videota ja neljän tunnin soittolista. Hitain taasen on 30 videota ja tunnin soittolista.
 
-#### Kuinka tätä voisi jatkokehittää?
-
-Ongelmalle pitäisi ehdottomasti kehittää dynaamista ohjelmointia hyödyntäen versio, joka pitää muistissa generoituja soittolistoja ja valitsee taulukon alaoikealta viimeisen listan. Omien aikataulupaineiden vuoksi en saanut tuota kyseistä versiota valmiiksi käyttämälläni tietorakenteella.
-
-Jatkokehitystä ajatellen tulisi myös tämä hypoteettinen dynaamisella ohjelmoinnilla toteutettu versio performanssitestata samalla datasetillä, ja näitä kahta implementaatiota tulisikin vertailla keskenään.
-
-Mikäli tätä jatkokehitettäisiin tätä kurssia pidemmälle, tulisi tietorakennettakin varmasti parantaa joillain tavoin. En esimerkiksi ole kovinkaan tyytyväinen valitsemaani `seconds` avaimeen listojen alkioissa, kuvaavampi nimi voisi olla esimerkiksi `length` tai `lengthInSeconds`.
-
 
 ### Viikko 1
 
